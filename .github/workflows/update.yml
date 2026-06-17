@@ -1,0 +1,39 @@
+name: Update office league scores
+
+# Runs on GitHub's servers — no laptop needed.
+on:
+  schedule:
+    # 3x daily at ~08:00 / 16:00 / 00:00 Bangkok time (ICT = UTC+7)
+    # => 01:07 / 09:07 / 17:07 UTC. Minute 7 dodges the on-the-hour backlog.
+    - cron: "7 1,9,17 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-scores
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate data.json
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: python3 update_scores.py
+
+      - name: Commit & push if the scores changed
+        run: |
+          if [ -n "$(git status --porcelain data.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data.json
+            git commit -m "chore: update office league scores [skip ci]"
+            git push
+          else
+            echo "No score changes."
+          fi

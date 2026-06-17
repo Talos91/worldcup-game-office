@@ -1,0 +1,9 @@
+# Local secret — never commit
+apikey.txt
+
+# Local scratch
+_resolve_test.py
+
+# Python
+__pycache__/
+*.pyc

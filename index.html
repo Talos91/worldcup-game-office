@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Office World Cup League 2026</title>
+<meta name="theme-color" content="#0a0e1a" />
+<meta property="og:title" content="Office World Cup League 2026 🏆" />
+<meta property="og:description" content="12 managers, 4 teams each, all 48 World Cup teams. +3 win / +1 draw / −1 loss. Who's on top?" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://talos91.github.io/worldcup-game-office/" />
+<meta property="og:image" content="https://talos91.github.io/worldcup-game-office/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Office World Cup League 2026 🏆" />
+<meta name="twitter:description" content="12 managers, all 48 World Cup teams. Who's on top?" />
+<meta name="twitter:image" content="https://talos91.github.io/worldcup-game-office/og.png" />
+<style>
+  :root {
+    --bg:#0a0e1a; --bg2:#0f1830; --card:rgba(255,255,255,.04); --card-line:rgba(255,255,255,.09);
+    --text:#eef2ff; --muted:#93a0c4; --win:#2ecc71; --draw:#f5c451; --loss:#ff5c5c;
+    --shadow:0 10px 40px rgba(0,0,0,.45);
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; font-family:"Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    color:var(--text); min-height:100vh; -webkit-font-smoothing:antialiased; background-attachment:fixed;
+    background:
+      radial-gradient(1200px 600px at 12% -10%, rgba(61,165,255,.16), transparent 60%),
+      radial-gradient(1000px 600px at 88% 0%, rgba(46,224,106,.14), transparent 55%),
+      linear-gradient(160deg, var(--bg2), var(--bg));
+  }
+  .wrap { max-width:1080px; margin:0 auto; padding:28px 18px 64px; }
+  header.top { text-align:center; margin-bottom:20px; }
+  header.top .kicker { letter-spacing:.26em; text-transform:uppercase; font-size:12px; color:var(--muted); font-weight:700; }
+  header.top h1 { margin:6px 0 0; font-size:clamp(24px,5vw,38px); font-weight:800; }
+  .live-pill { display:none; align-items:center; gap:7px; margin:12px auto 0; width:fit-content; padding:5px 13px;
+    border-radius:999px; background:rgba(255,92,92,.14); color:#ff8a8a; font-weight:700; font-size:13px; border:1px solid rgba(255,92,92,.4); }
+  .live-pill.show { display:flex; }
+  .live-pill .dot { width:8px; height:8px; border-radius:50%; background:#ff5c5c; animation:pulse 1.2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.25} }
+
+  /* Leaderboard hero */
+  .lb { background:var(--card); border:1px solid var(--card-line); border-radius:20px; padding:10px 16px; box-shadow:var(--shadow); }
+  .lb-row { display:grid; grid-template-columns:28px 120px 1fr 46px; align-items:center; gap:12px; padding:8px 0; border-top:1px solid rgba(255,255,255,.05); }
+  .lb-row:first-child { border-top:none; }
+  .lb-row.lead { }
+  .lb-rank { text-align:center; font-weight:800; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .lb-row.lead .lb-rank { color:var(--draw); }
+  .lb-name { font-weight:800; font-size:15px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .lb-bar { height:13px; border-radius:999px; background:rgba(255,255,255,.06); overflow:hidden; }
+  .lb-fill { display:block; height:100%; border-radius:999px; transition:width .6s ease; }
+  .lb-pts { text-align:right; font-weight:900; font-variant-numeric:tabular-nums; font-size:16px; }
+  .vibe { text-align:center; color:var(--text); font-weight:700; font-size:15px; margin:16px 0 14px; }
+
+  .rules-strip { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:0 auto 8px; }
+  .rule { display:flex; align-items:center; gap:7px; padding:6px 14px; border-radius:999px; background:var(--card);
+    border:1px solid var(--card-line); font-weight:700; font-size:13px; color:var(--muted); }
+  .rule b { font-size:14px; color:var(--text); }
+  .rule.win b{color:var(--win)} .rule.draw b{color:var(--draw)} .rule.loss b{color:var(--loss)}
+  .countdown { max-width:560px; margin:14px auto 4px; background:var(--card); border:1px solid var(--card-line); border-radius:16px; padding:13px 18px; text-align:center; }
+  .cd-k { font-size:11px; letter-spacing:.15em; text-transform:uppercase; color:var(--muted); font-weight:800; }
+  .cd-m { font-weight:800; font-size:15px; margin-top:3px; }
+  .cd-t { font-size:25px; font-weight:900; font-variant-numeric:tabular-nums; margin-top:2px; }
+
+  section.block { margin-top:30px; }
+  h2.sec { display:flex; align-items:center; gap:9px; margin:0 0 14px; font-size:18px; font-weight:800; }
+  h2.sec .ico { font-size:20px; }
+  h2.sec .sub { margin-left:auto; color:var(--muted); font-weight:600; font-size:13px; }
+  .legend { color:var(--muted); font-size:12px; margin-top:11px; text-align:center; }
+
+  /* League table */
+  .ltable { background:var(--card); border:1px solid var(--card-line); border-radius:16px; overflow:hidden; }
+  .lt-row { display:grid; grid-template-columns:30px 1fr 30px 26px 26px 26px 40px 44px; align-items:center; gap:6px; padding:9px 14px; border-top:1px solid rgba(255,255,255,.05); font-size:13.5px; }
+  .lt-row:first-child { border-top:none; }
+  .lt-head { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.04em; font-weight:700; }
+  .lt-rank { text-align:center; font-weight:800; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .lt-row.lead .lt-rank { color:var(--draw); }
+  .lt-name { font-weight:700; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .lt-n { text-align:center; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .lt-pts { text-align:center; font-weight:800; font-variant-numeric:tabular-nums; }
+
+  /* Manager cards */
+  .mgrwrap { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px; }
+  .mgr { background:var(--card); border:1px solid var(--card-line); border-radius:16px; padding:12px 14px; }
+  .mgr-head { display:flex; align-items:center; gap:9px; padding-bottom:9px; margin-bottom:6px; border-bottom:1px solid rgba(255,255,255,.07); }
+  .mgr-rank { color:var(--muted); font-weight:800; font-size:12px; }
+  .mgr-name { font-weight:800; font-size:16px; flex:1; }
+  .mgr-tot { font-weight:900; font-variant-numeric:tabular-nums; }
+  .mt-row { display:flex; align-items:center; gap:9px; padding:6px 0; }
+  .mt-row img { width:20px; height:20px; object-fit:contain; border-radius:3px; background:rgba(255,255,255,.85); flex:none; }
+  .mt-row .txt { width:20px; height:20px; }
+  .mt-name { flex:1; min-width:0; font-size:13.5px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .mt-chips { display:flex; gap:4px; flex:none; }
+  .mt-pts { font-weight:800; font-size:13px; font-variant-numeric:tabular-nums; width:30px; text-align:right; flex:none; }
+  .mt-pts.pos{color:var(--win)} .mt-pts.neg{color:var(--loss)} .mt-pts.zero{color:var(--muted)}
+  .rchip { font-size:11px; font-weight:800; padding:2px 6px; border-radius:5px; font-variant-numeric:tabular-nums; }
+  .rchip.W{color:var(--win);background:rgba(46,204,113,.16)} .rchip.D{color:var(--draw);background:rgba(245,196,81,.16)}
+  .rchip.L{color:var(--loss);background:rgba(255,92,92,.16)} .rchip.none{color:var(--muted);background:rgba(255,255,255,.06)}
+
+  /* Lead chart */
+  .chartbox { background:var(--card); border:1px solid var(--card-line); border-radius:16px; padding:16px; }
+  .chart { width:100%; height:auto; display:block; }
+  .chart .axis { stroke:rgba(255,255,255,.16); stroke-width:1; stroke-dasharray:4 4; }
+  .chart-legend { display:flex; flex-wrap:wrap; gap:10px 16px; justify-content:center; margin-top:12px; font-size:12px; font-weight:700; }
+  .chart-legend span { display:inline-flex; align-items:center; gap:5px; }
+  .chart-legend i { width:9px; height:9px; border-radius:50%; display:inline-block; }
+
+  /* Group tables */
+  .gwrap { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .gcard { background:var(--card); border:1px solid var(--card-line); border-radius:14px; overflow:hidden; }
+  .ghead { display:grid; grid-template-columns:20px 22px 1fr 28px 32px 30px; gap:8px; align-items:center; padding:9px 12px; border-bottom:1px solid rgba(255,255,255,.08); }
+  .ghead .gttl { grid-column:1 / 4; font-weight:800; font-size:13.5px; }
+  .ghead .hc { text-align:center; color:var(--muted); font-size:10px; font-weight:700; text-transform:uppercase; }
+  .grow { display:grid; grid-template-columns:20px 22px 1fr 28px 32px 30px; gap:8px; align-items:center; padding:7px 12px; border-top:1px solid rgba(255,255,255,.05); font-size:13px; }
+  .grow.qual { box-shadow:inset 3px 0 0 var(--win); }
+  .grow img { width:18px; height:18px; object-fit:contain; border-radius:3px; background:rgba(255,255,255,.85); }
+  .grow .txt { width:18px; height:18px; }
+  .gpos { color:var(--muted); font-weight:800; text-align:center; font-size:12px; }
+  .gname { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .gnum { text-align:center; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .gpts { text-align:center; font-weight:800; font-variant-numeric:tabular-nums; }
+  .odot { display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:6px; vertical-align:middle; }
+
+  /* Feeds */
+  .feedbox { background:var(--card); border:1px solid var(--card-line); border-radius:16px; overflow:hidden; }
+  ul.feed { list-style:none; margin:0; padding:0; }
+  .feed.collapsed .frow:nth-child(n+8) { display:none; }
+  .frow { display:grid; grid-template-columns:80px 1fr auto; align-items:center; gap:10px; padding:11px 13px; border-top:1px solid rgba(255,255,255,.06); }
+  .frow:first-child { border-top:none; }
+  .f-date { color:var(--muted); font-size:11.5px; line-height:1.3; }
+  .f-stage { display:block; opacity:.65; font-size:9.5px; text-transform:uppercase; letter-spacing:.04em; margin-top:1px; }
+  .matchup { display:flex; align-items:center; gap:8px; min-width:0; }
+  .tside { display:flex; align-items:center; gap:7px; min-width:0; flex:1; }
+  .tside.right { justify-content:flex-end; }
+  .tside img { width:20px; height:20px; object-fit:contain; border-radius:3px; background:rgba(255,255,255,.85); flex:none; }
+  .tside .txt { width:20px; height:20px; }
+  .tside .nm { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:13.5px; }
+  .tside.ours .nm { font-weight:800; }
+  .tside.ours .nm::before { content:''; display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--c); margin-right:6px; vertical-align:middle; }
+  .f-score { font-variant-numeric:tabular-nums; font-weight:800; font-size:15px; min-width:46px; text-align:center; flex:none; }
+  .f-score.live { color:#ff8a8a; }
+  .f-score .sub2 { display:block; font-size:9px; color:var(--muted); font-weight:600; margin-top:1px; }
+  .f-time { color:var(--muted); font-weight:700; font-size:12.5px; min-width:46px; text-align:center; flex:none; }
+  .stakes { display:flex; gap:6px; flex:none; }
+  .stake { display:inline-flex; align-items:center; gap:4px; padding:3px 8px; border-radius:999px; font-size:11.5px; font-weight:800; }
+  .stake b { font-weight:900; }
+  .toggle-more { display:block; width:100%; padding:11px; background:transparent; border:none; border-top:1px solid rgba(255,255,255,.06);
+    color:#3da5ff; font-weight:700; font-size:13px; cursor:pointer; font-family:inherit; }
+  .toggle-more:hover { background:rgba(255,255,255,.03); color:var(--text); }
+  .empty { padding:24px; text-align:center; color:var(--muted); font-size:13px; }
+
+  /* Golden Boot */
+  .scorers { background:var(--card); border:1px solid var(--card-line); border-radius:16px; overflow:hidden; }
+  .srow { display:grid; grid-template-columns:24px 22px 1fr auto; align-items:center; gap:10px; padding:9px 13px; border-top:1px solid rgba(255,255,255,.06); }
+  .srow:first-child { border-top:none; }
+  .srow .rank { color:var(--muted); font-weight:800; font-size:13px; text-align:center; }
+  .srow img { width:20px; height:20px; object-fit:contain; border-radius:3px; background:rgba(255,255,255,.85); }
+  .srow .txt { width:20px; height:20px; }
+  .srow .who { min-width:0; display:flex; flex-direction:column; }
+  .srow .pl { font-weight:700; font-size:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .srow .tm { color:var(--muted); font-size:11px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .srow .g { font-weight:800; font-size:15px; font-variant-numeric:tabular-nums; }
+
+  /* Curiosities */
+  .stat-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; }
+  .stat { background:var(--card); border:1px solid var(--card-line); border-radius:14px; padding:14px; }
+  .stat .si { font-size:20px; } .stat .sv { font-size:16px; font-weight:800; margin-top:7px; }
+  .stat .sl { color:var(--muted); font-size:12px; margin-top:2px; font-weight:600; }
+  .trivia { margin-top:14px; display:flex; gap:13px; align-items:flex-start; padding:16px 18px; border-radius:16px;
+    background:linear-gradient(120deg, rgba(245,196,81,.10), rgba(46,224,106,.08)); border:1px solid var(--card-line); }
+  .trivia .ti { font-size:22px; flex:none; }
+  .trivia .tk { font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); font-weight:800; }
+  .trivia .tt { margin-top:4px; font-size:14.5px; line-height:1.5; transition:opacity .3s; }
+
+  footer { margin-top:34px; text-align:center; color:var(--muted); font-size:12.5px; line-height:1.7; }
+  .state { text-align:center; padding:60px 20px; color:var(--muted); }
+
+  @media (max-width:720px) {
+    .gwrap { grid-template-columns:1fr; }
+    .lb-row { grid-template-columns:24px 92px 1fr 40px; gap:9px; }
+    .lt-row { grid-template-columns:26px 1fr 26px 36px 40px; }
+    .lt-n.wdl { display:none; }
+    .frow { grid-template-columns:64px 1fr auto; gap:7px; }
+    .tside .nm { font-size:12px; }
+    .stake { padding:2px 6px; font-size:11px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="kicker">FIFA World Cup 2026 · Office League</div>
+      <h1>🏆 Office World Cup League</h1>
+      <div class="live-pill" id="livePill"><span class="dot"></span> Match in play</div>
+    </header>
+    <div id="app"><div class="state">Loading the league…</div></div>
+    <footer>
+      <div id="updated"></div>
+      <div>Data: football-data.org · refreshes automatically</div>
+    </footer>
+  </div>
+
+<script>
+const FACTS = [
+  "2026 is the first 48-team World Cup — and the first hosted by three nations: the USA, Canada and Mexico.",
+  "Brazil are the only side to have played in every World Cup, and hold the most titles with five.",
+  "Just Fontaine's 13 goals at the 1958 World Cup is still the most ever in a single tournament.",
+  "Miroslav Klose is the all-time top World Cup scorer with 16 goals across four tournaments.",
+  "The fastest World Cup goal was scored by Hakan Şükür for Turkey in 2002 — after just 11 seconds.",
+  "Germany 7–1 Brazil at the 2014 semi-final is the most lopsided result that late in a World Cup.",
+  "The highest-scoring World Cup match was Austria 7–5 Switzerland in 1954 — twelve goals.",
+  "Only eight different nations have ever won the World Cup.",
+  "The trophy is solid 18-carat gold and weighs a little over 6 kilograms.",
+  "With all 48 teams owned, every single match in this league is a duel between two managers.",
+];
+
+function fmtParts(iso){ if(!iso) return {wd:"",dm:"",tm:""}; const d=new Date(iso);
+  return { wd:d.toLocaleDateString(undefined,{weekday:"short"}), dm:d.toLocaleDateString(undefined,{day:"numeric",month:"short"}), tm:d.toLocaleTimeString(undefined,{hour:"2-digit",minute:"2-digit"}) }; }
+function crestImg(url,tla,cls){ if(url) return `<img class="${cls}" src="${url}" alt="${tla||''}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'${cls} txt',textContent:'${tla||''}'}))">`;
+  return `<span class="${cls} txt">${tla||""}</span>`; }
+function prettyStage(stage,group){ if(group) return group.replace("GROUP_","Group ");
+  const map={LAST_32:"Round of 32",LAST_16:"Round of 16",ROUND_OF_16:"Round of 16",QUARTER_FINALS:"Quarter-final",SEMI_FINALS:"Semi-final",THIRD_PLACE:"3rd place",FINAL:"Final"};
+  if(!stage) return ""; return map[stage]||stage.replace(/_/g," ").toLowerCase().replace(/\b\w/g,c=>c.toUpperCase()); }
+function ordinal(n){ if(n==null) return ""; const s=["th","st","nd","rd"],v=n%100; return n+(s[(v-20)%10]||s[v]||s[0]); }
+function byRank(players){ return [...players].sort((a,b)=>a.rank-b.rank); }
+
+/* Leaderboard + vibe */
+function leaderboard(players){
+  const s=byRank(players), maxT=Math.max(1,...s.map(p=>p.total));
+  return `<div class="lb">${s.map(p=>{
+    const w=p.total>0?(p.total/maxT*100):0;
+    return `<div class="lb-row ${p.rank===1?"lead":""}">
+      <span class="lb-rank">${p.rank}</span>
+      <span class="lb-name" style="color:${p.color}">${p.rank===1?"👑 ":""}${p.name}</span>
+      <span class="lb-bar"><span class="lb-fill" style="width:${w.toFixed(1)}%;background:${p.color}"></span></span>
+      <span class="lb-pts">${p.total>0?"+":""}${p.total}</span>
+    </div>`; }).join("")}</div>`;
+}
+function leagueVibe(players){
+  const s=byRank(players), lead=s[0], second=s[1];
+  const tiedTop=s.filter(p=>p.total===lead.total).length;
+  if(tiedTop>1) return `🔥 ${tiedTop}-way tie at the top on ${lead.total>0?"+":""}${lead.total} pts!`;
+  const gap=lead.total-second.total;
+  return `👑 <b>${lead.name}</b> leads on ${lead.total>0?"+":""}${lead.total} pts${gap>0?` — ${gap} clear of ${second.name}`:""}`;
+}
+
+/* League table */
+function leagueTable(players){
+  const s=byRank(players);
+  const rows=s.map(p=>{ const a=p.agg, gd=a.gf-a.ga;
+    return `<div class="lt-row ${p.rank===1?"lead":""}">
+      <span class="lt-rank">${p.rank}</span><span class="lt-name" style="color:${p.color}">${p.name}</span>
+      <span class="lt-n">${a.played}</span><span class="lt-n wdl">${a.w}</span><span class="lt-n wdl">${a.d}</span><span class="lt-n wdl">${a.l}</span>
+      <span class="lt-n">${gd>0?"+":""}${gd}</span><span class="lt-pts">${p.total>0?"+":""}${p.total}</span>
+    </div>`; }).join("");
+  return `<section class="block"><h2 class="sec"><span class="ico">📊</span> League table</h2>
+    <div class="ltable"><div class="lt-row lt-head"><span class="lt-rank">#</span><span class="lt-name">Manager</span>
+      <span class="lt-n">P</span><span class="lt-n wdl">W</span><span class="lt-n wdl">D</span><span class="lt-n wdl">L</span><span class="lt-n">GD</span><span class="lt-pts">Pts</span></div>
+      ${rows}</div></section>`;
+}
+
+/* Manager cards */
+function resultChips(t){
+  const played=(t.matches||[]).filter(m=>m.counted);
+  if(!played.length) return `<span class="rchip none">—</span>`;
+  return played.map(m=>{ const word=m.result==="W"?"Won":m.result==="D"?"Drew":"Lost";
+    return `<span class="rchip ${m.result}" title="${word} ${m.goalsFor}–${m.goalsAgainst} vs ${m.opponent}">${m.goalsFor}-${m.goalsAgainst}</span>`; }).join("");
+}
+function mgrTeamRow(t){
+  const cls=t.points>0?"pos":(t.points<0?"neg":"zero");
+  return `<div class="mt-row">${crestImg(t.crest,t.tla,"")}<span class="mt-name">${t.name}</span>
+    <span class="mt-chips">${resultChips(t)}</span><span class="mt-pts ${cls}">${t.points>0?"+":""}${t.points}</span></div>`;
+}
+function mgrCard(p){
+  return `<div class="mgr"><div class="mgr-head"><span class="mgr-rank">#${p.rank}</span>
+    <span class="mgr-name" style="color:${p.color}">${p.name}</span><span class="mgr-tot">${p.total>0?"+":""}${p.total}</span></div>
+    ${p.teams.map(mgrTeamRow).join("")}</div>`;
+}
+function squadsSection(players){
+  return `<section class="block"><h2 class="sec"><span class="ico">👥</span> Managers &amp; teams<span class="sub">${players.length} managers · 4 teams each</span></h2>
+    <div class="mgrwrap">${byRank(players).map(mgrCard).join("")}</div></section>`;
+}
+
+/* Lead tracker (one line per manager) */
+function leadChart(tl, players){
+  if(!tl || tl.length<2) return "";
+  const W=820,H=240,pad=28;
+  const vals=tl.flatMap(pt=>Object.values(pt.totals));
+  const maxV=Math.max(1,...vals), minV=Math.min(0,...vals);
+  const X=i=>pad+(i/(tl.length-1))*(W-2*pad);
+  const Y=v=>pad+(1-(v-minV)/(maxV-minV))*(H-2*pad);
+  const lines=players.map(p=>{
+    const d=tl.map((pt,i)=>`${i?"L":"M"}${X(i).toFixed(1)} ${Y(pt.totals[p.name]||0).toFixed(1)}`).join(" ");
+    return `<path d="${d}" fill="none" stroke="${p.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="${p.rank===1?1:.85}"/>`;
+  }).join("");
+  const legend=byRank(players).map(p=>`<span><i style="background:${p.color}"></i>${p.name}</span>`).join("");
+  return `<section class="block"><h2 class="sec"><span class="ico">📈</span> Lead tracker<span class="sub">points over the tournament</span></h2>
+    <div class="chartbox"><svg viewBox="0 0 ${W} ${H}" class="chart" role="img" aria-label="Points over time">
+      <line x1="${pad}" y1="${Y(0).toFixed(1)}" x2="${W-pad}" y2="${Y(0).toFixed(1)}" class="axis"/>${lines}</svg>
+      <div class="chart-legend">${legend}</div></div></section>`;
+}
+
+/* Group tables */
+function groupRow(r,i){
+  const owned=!!r.owner, style=owned?` style="background:${r.color}14"`:"";
+  const dot=owned?`<span class="odot" style="background:${r.color}"></span>`:"";
+  const gd=r.gd>0?"+"+r.gd:r.gd;
+  return `<div class="grow ${i<2?"qual":""}"${style}><span class="gpos">${r.position}</span>${crestImg(r.crest,r.tla,"")}
+    <span class="gname">${dot}${r.name}</span><span class="gnum">${r.played}</span><span class="gnum">${gd}</span><span class="gpts">${r.points}</span></div>`;
+}
+function groupCard(g){
+  return `<div class="gcard"><div class="ghead"><span class="gttl">${g.group}</span><span class="hc">P</span><span class="hc">GD</span><span class="hc">Pts</span></div>
+    ${g.table.map(groupRow).join("")}</div>`;
+}
+function groupsSection(groups){
+  if(!groups||!groups.length) return "";
+  return `<section class="block"><h2 class="sec"><span class="ico">🗂️</span> Group tables<span class="sub">all 12 · coloured by manager</span></h2>
+    <div class="gwrap">${groups.map(groupCard).join("")}</div>
+    <div class="legend">Green bar = top 2 (advance). Each row is tinted in its manager's colour.</div></section>`;
+}
+
+/* Feeds */
+function tsideHtml(team,stake,right){
+  const ours=!!stake, styl=ours?` style="--c:${stake.color}"`:"";
+  const crest=crestImg(team.crest,team.tla,""), nm=`<span class="nm">${team.name}</span>`;
+  return `<span class="tside ${right?"right":""} ${ours?"ours":""}"${styl}>${right?nm+crest:crest+nm}</span>`;
+}
+function stakeChip(s,live){
+  const c=s.color, val=live?"":` ${s.points>0?"+":""}${s.points}`;
+  return `<span class="stake" style="color:${c};border:1px solid ${c}66;background:${c}1f" title="${s.player} — ${s.team}"><b>${s.player.slice(0,3)}</b>${val}</span>`;
+}
+function recentRow(e){
+  const p=fmtParts(e.utcDate), live=e.status==="IN_PLAY"||e.status==="PAUSED";
+  const hs=e.stakes.find(s=>s.isHome), as=e.stakes.find(s=>!s.isHome);
+  const score=(e.scoreHome==null||e.scoreAway==null)?"–":`${e.scoreHome}–${e.scoreAway}`;
+  let extra="";
+  if(e.duration==="PENALTY_SHOOTOUT"&&e.penHome!=null) extra=`pens ${e.penHome}–${e.penAway}`;
+  else if(e.duration==="EXTRA_TIME") extra="a.e.t.";
+  else if(e.htHome!=null&&!live) extra=`HT ${e.htHome}–${e.htAway}`;
+  const refTip=e.referee&&e.referee.name?` title="Referee: ${e.referee.name}${e.referee.nationality?" ("+e.referee.nationality+")":""}"`:"";
+  return `<li class="frow"${refTip}><span class="f-date">${p.wd} ${p.dm}<span class="f-stage">${prettyStage(e.stage,e.group)}</span></span>
+    <span class="matchup">${tsideHtml(e.home,hs,false)}<span class="f-score ${live?"live":""}">${score}${extra?`<span class="sub2">${extra}</span>`:""}</span>${tsideHtml(e.away,as,true)}</span>
+    <span class="stakes">${e.stakes.map(s=>stakeChip(s,live)).join("")}</span></li>`;
+}
+function upcomingRow(e){
+  const p=fmtParts(e.utcDate);
+  const hs=e.stakes.find(s=>s.isHome), as=e.stakes.find(s=>!s.isHome);
+  return `<li class="frow"><span class="f-date">${p.wd} ${p.dm}<span class="f-stage">${prettyStage(e.stage,e.group)}</span></span>
+    <span class="matchup">${tsideHtml(e.home,hs,false)}<span class="f-time">${p.tm}</span>${tsideHtml(e.away,as,true)}</span>
+    <span class="stakes">${e.stakes.map(s=>`<span class="stake" style="color:${s.color};border:1px solid ${s.color}66;background:${s.color}1f" title="${s.player} — ${s.team}"><b>${s.player.slice(0,3)}</b></span>`).join("")}</span></li>`;
+}
+function toggleMore(id,btn){ const f=document.getElementById(id); const c=f.classList.toggle("collapsed");
+  btn.textContent=c?`Show all ${f.querySelectorAll(".frow").length} ▾`:"Show fewer ▴"; }
+function feedSection(title,icon,items,rowFn,emptyMsg,id){
+  if(!items.length) return `<section class="block"><h2 class="sec"><span class="ico">${icon}</span> ${title}</h2><div class="feedbox"><div class="empty">${emptyMsg}</div></div></section>`;
+  const exp=items.length>7;
+  const btn=exp?`<button class="toggle-more" onclick="toggleMore('${id}', this)">Show all ${items.length} ▾</button>`:"";
+  return `<section class="block"><h2 class="sec"><span class="ico">${icon}</span> ${title}<span class="sub">${items.length}</span></h2>
+    <div class="feedbox"><ul class="feed ${exp?"collapsed":""}" id="${id}">${items.map(rowFn).join("")}</ul>${btn}</div></section>`;
+}
+
+/* Golden Boot */
+function scorerRow(s,i){
+  const owned=!!s.owner, style=owned?` style="background:${s.color}14"`:"";
+  const dot=owned?`<span class="odot" style="background:${s.color}"></span>`:"";
+  return `<div class="srow"${style}><span class="rank">${i+1}</span>${crestImg(s.teamCrest,s.teamTla,"")}
+    <span class="who"><span class="pl">${dot}${s.name||""}</span><span class="tm">${s.team||""}${owned?" · "+s.owner:""}</span></span><span class="g">${s.goals}</span></div>`;
+}
+function scorersSection(scorers){
+  if(!scorers||!scorers.length) return "";
+  return `<section class="block"><h2 class="sec"><span class="ico">👟</span> Golden Boot race<span class="sub">coloured by manager</span></h2>
+    <div class="scorers">${scorers.slice(0,15).map(scorerRow).join("")}</div></section>`;
+}
+
+/* Countdown + confetti + trivia */
+function startCountdown(m){
+  const el=document.getElementById("cd"); if(!el||!m||!m.utcDate) return;
+  const target=new Date(m.utcDate).getTime();
+  function tick(){ const diff=target-Date.now(); let t;
+    if(diff<=0) t="kicking off…";
+    else { const d=Math.floor(diff/86400000),h=Math.floor(diff/3600000)%24,mi=Math.floor(diff/60000)%60,s=Math.floor(diff/1000)%60;
+      t=(d>0?d+"d ":"")+String(h).padStart(2,"0")+":"+String(mi).padStart(2,"0")+":"+String(s).padStart(2,"0"); }
+    el.innerHTML=`<div class="cd-k">⏱️ Next match</div><div class="cd-m">${m.home.name} vs ${m.away.name}</div><div class="cd-t">${t}</div>`; }
+  tick(); if(window._cd) clearInterval(window._cd); window._cd=setInterval(tick,1000);
+}
+function confetti(color){
+  const c=document.createElement("canvas"); c.style.cssText="position:fixed;inset:0;pointer-events:none;z-index:9999";
+  c.width=innerWidth; c.height=innerHeight; document.body.appendChild(c);
+  const ctx=c.getContext("2d"), cols=[color,"#ffffff","#f5c451"];
+  const P=Array.from({length:150},(_,i)=>({x:Math.random()*c.width,y:-20-Math.random()*c.height*0.6,vx:(Math.random()-0.5)*2.4,vy:2+Math.random()*4,r:4+Math.random()*5,rot:Math.random()*6,vr:(Math.random()-0.5)*0.3,col:cols[i%cols.length]}));
+  let frame=0;
+  (function anim(){ ctx.clearRect(0,0,c.width,c.height);
+    for(const p of P){ p.x+=p.vx; p.y+=p.vy; p.vy+=0.05; p.rot+=p.vr;
+      ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.rot); ctx.fillStyle=p.col; ctx.globalAlpha=Math.max(0,1-frame/230);
+      ctx.fillRect(-p.r/2,-p.r/2,p.r,p.r*0.6); ctx.restore(); }
+    if(++frame<240) requestAnimationFrame(anim); else c.remove(); })();
+}
+let triviaTimer=null;
+function startTrivia(){ const el=document.getElementById("triviaText"); if(!el) return;
+  if(triviaTimer) clearInterval(triviaTimer);
+  let i=Math.floor(Date.now()/9000)%FACTS.length; el.textContent=FACTS[i];
+  triviaTimer=setInterval(()=>{ i=(i+1)%FACTS.length; el.style.opacity=0; setTimeout(()=>{el.textContent=FACTS[i]; el.style.opacity=1;},300); },9000); }
+
+function render(data){
+  const players=data.players||[];
+  const next=(data.upcoming||[])[0];
+  const lead=byRank(players)[0];
+
+  const hero=`${leaderboard(players)}
+    <div class="vibe">${leagueVibe(players)}</div>
+    <div class="rules-strip"><span class="rule win">Win <b>+3</b></span><span class="rule draw">Draw <b>+1</b></span><span class="rule loss">Loss <b>−1</b></span></div>
+    ${next?`<div class="countdown" id="cd"></div>`:""}`;
+
+  const cur=data.curiosities||[];
+  const stats=cur.map(c=>`<div class="stat"><div class="si">${c.icon}</div><div class="sv">${c.value}</div><div class="sl">${c.label}</div></div>`).join("");
+  const curiosities=`<section class="block"><h2 class="sec"><span class="ico">🎉</span> World Cup curiosities</h2>
+    ${stats?`<div class="stat-grid">${stats}</div>`:""}
+    <div class="trivia"><div class="ti">💡</div><div><div class="tk">Did you know?</div><div class="tt" id="triviaText">…</div></div></div></section>`;
+
+  document.getElementById("app").innerHTML =
+    hero + leagueTable(players) + leadChart(data.timeline||[], players) + squadsSection(players)
+    + groupsSection(data.groups||[])
+    + feedSection("Recent results","✅",data.recent||[],recentRow,"No results yet — kickoff soon!","recentFeed")
+    + feedSection("Upcoming matches","📅",data.upcoming||[],upcomingRow,"No upcoming fixtures.","upcomingFeed")
+    + scorersSection(data.scorers||[]) + curiosities;
+
+  const anyLive=(data.recent||[]).some(e=>e.status==="IN_PLAY"||e.status==="PAUSED");
+  document.getElementById("livePill").classList.toggle("show",anyLive);
+  const u=new Date(data.updatedAt);
+  document.getElementById("updated").textContent="Updated "+u.toLocaleString(undefined,{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
+
+  startCountdown(next); startTrivia();
+  if(lead && !window._confettiDone){ window._confettiDone=true; setTimeout(()=>confetti(lead.color||"#ffffff"),350); }
+}
+
+async function load(){
+  try{ const res=await fetch("./data.json?t="+Date.now()); if(!res.ok) throw new Error(res.status); render(await res.json()); }
+  catch(e){ document.getElementById("app").innerHTML=`<div class="state">Couldn't load the league yet (${e.message}).<br>The updater may not have run for the first time.</div>`; }
+}
+load();
+setInterval(load, 5*60*1000);
+</script>
+</body>
+</html>
