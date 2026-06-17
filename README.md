@@ -4,7 +4,7 @@ An auto-updating World Cup sweepstake for the whole office. **12 managers** draf
 **4 teams each** — all 48 World Cup teams are owned, so every single match is a
 duel between two managers.
 
-**Scoring (per team):** win = **+3**, draw = **+1**, loss = **−1**.
+**Scoring (per team):** win = **+3**, draw = **+1**, loss = **0**.
 
 ## Managers
 Daniele · Herlyn · Htoo · Jack · Jeff · Kate · Ken · Marco · Max · Nisha · Seth · Will

@@ -6,7 +6,7 @@ players to **12 managers**.
 
 ## What this is
 12 managers, 4 teams each, **all 48 World Cup teams owned**. Scoring +3 win /
-+1 draw / −1 loss per team, summed per manager. Because every team is owned,
++1 draw / **0 loss** per team (office rule — a loss does NOT subtract), summed per manager. Because every team is owned,
 **every match is a two-manager duel** (feeds always show both owners).
 
 ## Architecture

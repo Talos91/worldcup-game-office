@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-17T09:48:50Z",
+  "updatedAt": "2026-06-17T10:02:37Z",
   "competition": "FIFA World Cup 2026",
   "rules": {
     "win": 3,
     "draw": 1,
-    "loss": -1
+    "loss": 0
   },
   "players": [
     {
       "name": "Daniele",
       "color": "#2ee06a",
-      "total": 4,
+      "total": 5,
       "agg": {
         "played": 4,
         "w": 1,
@@ -98,7 +98,7 @@
           "name": "Curaçao",
           "tla": "CUW",
           "crest": "https://crests.football-data.org/curacao.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -131,7 +131,7 @@
               "goalsFor": 1,
               "goalsAgainst": 7,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -318,7 +318,7 @@
     {
       "name": "Herlyn",
       "color": "#ff5d8f",
-      "total": 6,
+      "total": 7,
       "agg": {
         "played": 4,
         "w": 2,
@@ -371,7 +371,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
               "status": "TIMED",
@@ -406,7 +406,7 @@
           "name": "Czechia",
           "tla": "CZE",
           "crest": "https://crests.football-data.org/798.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -439,7 +439,7 @@
               "goalsFor": 1,
               "goalsAgainst": 2,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -883,7 +883,7 @@
           "matches": [
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-15T22:00:00Z",
               "status": "FINISHED",
@@ -929,12 +929,12 @@
           ]
         }
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Jack",
       "color": "#ff9f1c",
-      "total": 2,
+      "total": 3,
       "agg": {
         "played": 4,
         "w": 0,
@@ -949,7 +949,7 @@
           "name": "Haiti",
           "tla": "HAI",
           "crest": "https://crests.football-data.org/haiti.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -982,7 +982,7 @@
               "goalsFor": 0,
               "goalsAgainst": 1,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -1242,7 +1242,7 @@
     {
       "name": "Jeff",
       "color": "#a06bff",
-      "total": 0,
+      "total": 1,
       "agg": {
         "played": 2,
         "w": 0,
@@ -1476,7 +1476,7 @@
           "name": "Tunisia",
           "tla": "TUN",
           "crest": "https://crests.football-data.org/tunisia.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -1509,7 +1509,7 @@
               "goalsFor": 1,
               "goalsAgainst": 5,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -1545,12 +1545,12 @@
           ]
         }
       ],
-      "rank": 12
+      "rank": 11
     },
     {
       "name": "Kate",
       "color": "#ff6fc8",
-      "total": 2,
+      "total": 3,
       "agg": {
         "played": 4,
         "w": 0,
@@ -1711,7 +1711,7 @@
           "name": "Iraq",
           "tla": "IRQ",
           "crest": "https://crests.football-data.org/iraq.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -1744,7 +1744,7 @@
               "goalsFor": 1,
               "goalsAgainst": 4,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -1782,7 +1782,7 @@
         {
           "id": 758,
           "name": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg",
           "points": 1,
           "w": 0,
@@ -2161,12 +2161,12 @@
           ]
         }
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "name": "Marco",
       "color": "#18c6b8",
-      "total": 2,
+      "total": 3,
       "agg": {
         "played": 2,
         "w": 1,
@@ -2327,7 +2327,7 @@
           "name": "Paraguay",
           "tla": "PAR",
           "crest": "https://crests.football-data.org/761.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -2360,7 +2360,7 @@
               "goalsFor": 1,
               "goalsAgainst": 4,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -2474,7 +2474,7 @@
     {
       "name": "Max",
       "color": "#6c8cff",
-      "total": 4,
+      "total": 6,
       "agg": {
         "played": 4,
         "w": 2,
@@ -2562,7 +2562,7 @@
           "name": "Senegal",
           "tla": "SEN",
           "crest": "https://crests.football-data.org/senegal.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -2592,7 +2592,7 @@
               "goalsFor": 1,
               "goalsAgainst": 3,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -2632,7 +2632,7 @@
           "name": "Turkey",
           "tla": "TUR",
           "crest": "https://crests.football-data.org/803.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -2665,7 +2665,7 @@
               "goalsFor": 0,
               "goalsAgainst": 2,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -2774,12 +2774,12 @@
           ]
         }
       ],
-      "rank": 6
+      "rank": 4
     },
     {
       "name": "Nisha",
       "color": "#ff7a3d",
-      "total": 6,
+      "total": 7,
       "agg": {
         "played": 4,
         "w": 2,
@@ -2867,7 +2867,7 @@
           "name": "Ecuador",
           "tla": "ECU",
           "crest": "https://crests.football-data.org/791.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -2900,7 +2900,7 @@
               "goalsFor": 0,
               "goalsAgainst": 1,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -3087,7 +3087,7 @@
     {
       "name": "Seth",
       "color": "#b5e853",
-      "total": 6,
+      "total": 7,
       "agg": {
         "played": 4,
         "w": 2,
@@ -3102,7 +3102,7 @@
           "name": "Algeria",
           "tla": "ALG",
           "crest": "https://crests.football-data.org/algeria.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -3135,7 +3135,7 @@
               "goalsFor": 0,
               "goalsAgainst": 3,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -3301,7 +3301,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -3395,7 +3395,7 @@
     {
       "name": "Will",
       "color": "#4fd0e1",
-      "total": 2,
+      "total": 4,
       "agg": {
         "played": 4,
         "w": 1,
@@ -3556,7 +3556,7 @@
           "name": "Jordan",
           "tla": "JOR",
           "crest": "https://crests.football-data.org/8049.png",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -3586,7 +3586,7 @@
               "goalsFor": 1,
               "goalsAgainst": 3,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -3626,7 +3626,7 @@
           "name": "South Africa",
           "tla": "RSA",
           "crest": "https://crests.football-data.org/9396.svg",
-          "points": -1,
+          "points": 0,
           "w": 0,
           "d": 0,
           "l": 1,
@@ -3659,7 +3659,7 @@
               "goalsFor": 0,
               "goalsAgainst": 2,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -4572,14 +4572,14 @@
         "Max": 0,
         "Nisha": 3,
         "Seth": 0,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-12T02:00:00Z",
       "totals": {
         "Daniele": 0,
-        "Herlyn": 2,
+        "Herlyn": 3,
         "Htoo": 0,
         "Jack": 0,
         "Jeff": 0,
@@ -4589,14 +4589,14 @@
         "Max": 0,
         "Nisha": 3,
         "Seth": 0,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-12T19:00:00Z",
       "totals": {
         "Daniele": 0,
-        "Herlyn": 2,
+        "Herlyn": 3,
         "Htoo": 0,
         "Jack": 0,
         "Jeff": 1,
@@ -4606,296 +4606,296 @@
         "Max": 0,
         "Nisha": 3,
         "Seth": 0,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-13T01:00:00Z",
       "totals": {
         "Daniele": 0,
-        "Herlyn": 2,
+        "Herlyn": 3,
         "Htoo": 0,
         "Jack": 0,
         "Jeff": 1,
         "Kate": 0,
         "Ken": 1,
-        "Marco": -1,
+        "Marco": 0,
         "Max": 3,
         "Nisha": 3,
         "Seth": 0,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-13T19:00:00Z",
       "totals": {
         "Daniele": 0,
-        "Herlyn": 2,
+        "Herlyn": 3,
         "Htoo": 0,
         "Jack": 1,
         "Jeff": 1,
         "Kate": 0,
         "Ken": 2,
-        "Marco": -1,
+        "Marco": 0,
         "Max": 3,
         "Nisha": 3,
         "Seth": 0,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-13T22:00:00Z",
       "totals": {
         "Daniele": 1,
-        "Herlyn": 2,
+        "Herlyn": 3,
         "Htoo": 0,
         "Jack": 2,
         "Jeff": 1,
         "Kate": 0,
         "Ken": 2,
-        "Marco": -1,
+        "Marco": 0,
         "Max": 3,
         "Nisha": 3,
         "Seth": 0,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-14T01:00:00Z",
       "totals": {
         "Daniele": 1,
-        "Herlyn": 2,
+        "Herlyn": 3,
         "Htoo": 0,
-        "Jack": 1,
+        "Jack": 2,
         "Jeff": 1,
         "Kate": 0,
         "Ken": 2,
-        "Marco": -1,
+        "Marco": 0,
         "Max": 3,
         "Nisha": 3,
         "Seth": 3,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-14T04:00:00Z",
       "totals": {
         "Daniele": 1,
-        "Herlyn": 2,
+        "Herlyn": 3,
         "Htoo": 0,
-        "Jack": 1,
+        "Jack": 2,
         "Jeff": 1,
         "Kate": 0,
         "Ken": 2,
-        "Marco": -1,
-        "Max": 2,
+        "Marco": 0,
+        "Max": 3,
         "Nisha": 6,
         "Seth": 3,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-14T17:00:00Z",
       "totals": {
-        "Daniele": 0,
-        "Herlyn": 5,
+        "Daniele": 1,
+        "Herlyn": 6,
         "Htoo": 0,
-        "Jack": 1,
+        "Jack": 2,
         "Jeff": 1,
         "Kate": 0,
         "Ken": 2,
-        "Marco": -1,
-        "Max": 2,
+        "Marco": 0,
+        "Max": 3,
         "Nisha": 6,
         "Seth": 3,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-14T20:00:00Z",
       "totals": {
-        "Daniele": 0,
-        "Herlyn": 5,
+        "Daniele": 1,
+        "Herlyn": 6,
         "Htoo": 0,
-        "Jack": 2,
+        "Jack": 3,
         "Jeff": 1,
         "Kate": 0,
         "Ken": 2,
-        "Marco": -1,
-        "Max": 2,
+        "Marco": 0,
+        "Max": 3,
         "Nisha": 7,
         "Seth": 3,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-14T23:00:00Z",
       "totals": {
-        "Daniele": 0,
-        "Herlyn": 5,
+        "Daniele": 1,
+        "Herlyn": 6,
         "Htoo": 0,
-        "Jack": 2,
+        "Jack": 3,
         "Jeff": 1,
         "Kate": 0,
         "Ken": 2,
-        "Marco": -1,
-        "Max": 5,
-        "Nisha": 6,
+        "Marco": 0,
+        "Max": 6,
+        "Nisha": 7,
         "Seth": 3,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-15T02:00:00Z",
       "totals": {
-        "Daniele": 0,
-        "Herlyn": 5,
+        "Daniele": 1,
+        "Herlyn": 6,
         "Htoo": 0,
-        "Jack": 2,
-        "Jeff": 0,
+        "Jack": 3,
+        "Jeff": 1,
         "Kate": 0,
         "Ken": 2,
-        "Marco": -1,
-        "Max": 5,
-        "Nisha": 6,
+        "Marco": 0,
+        "Max": 6,
+        "Nisha": 7,
         "Seth": 6,
-        "Will": -1
+        "Will": 0
       }
     },
     {
       "date": "2026-06-15T16:00:00Z",
       "totals": {
-        "Daniele": 0,
-        "Herlyn": 6,
+        "Daniele": 1,
+        "Herlyn": 7,
         "Htoo": 0,
-        "Jack": 2,
-        "Jeff": 0,
+        "Jack": 3,
+        "Jeff": 1,
         "Kate": 0,
         "Ken": 2,
-        "Marco": -1,
-        "Max": 5,
-        "Nisha": 6,
-        "Seth": 7,
-        "Will": -1
-      }
-    },
-    {
-      "date": "2026-06-15T19:00:00Z",
-      "totals": {
-        "Daniele": 0,
-        "Herlyn": 6,
-        "Htoo": 0,
-        "Jack": 2,
-        "Jeff": 0,
-        "Kate": 2,
-        "Ken": 2,
-        "Marco": -1,
-        "Max": 5,
-        "Nisha": 6,
-        "Seth": 7,
-        "Will": -1
-      }
-    },
-    {
-      "date": "2026-06-15T22:00:00Z",
-      "totals": {
-        "Daniele": 0,
-        "Herlyn": 6,
-        "Htoo": 1,
-        "Jack": 2,
-        "Jeff": 0,
-        "Kate": 3,
-        "Ken": 2,
-        "Marco": -1,
-        "Max": 5,
-        "Nisha": 6,
-        "Seth": 7,
-        "Will": -1
-      }
-    },
-    {
-      "date": "2026-06-16T01:00:00Z",
-      "totals": {
-        "Daniele": 1,
-        "Herlyn": 6,
-        "Htoo": 1,
-        "Jack": 2,
-        "Jeff": 0,
-        "Kate": 3,
-        "Ken": 2,
-        "Marco": -1,
-        "Max": 5,
-        "Nisha": 6,
+        "Marco": 0,
+        "Max": 6,
+        "Nisha": 7,
         "Seth": 7,
         "Will": 0
       }
     },
     {
-      "date": "2026-06-16T19:00:00Z",
+      "date": "2026-06-15T19:00:00Z",
       "totals": {
         "Daniele": 1,
-        "Herlyn": 6,
+        "Herlyn": 7,
+        "Htoo": 0,
+        "Jack": 3,
+        "Jeff": 1,
+        "Kate": 2,
+        "Ken": 2,
+        "Marco": 0,
+        "Max": 6,
+        "Nisha": 7,
+        "Seth": 7,
+        "Will": 0
+      }
+    },
+    {
+      "date": "2026-06-15T22:00:00Z",
+      "totals": {
+        "Daniele": 1,
+        "Herlyn": 7,
         "Htoo": 1,
-        "Jack": 2,
-        "Jeff": 0,
+        "Jack": 3,
+        "Jeff": 1,
         "Kate": 3,
         "Ken": 2,
-        "Marco": -1,
-        "Max": 4,
-        "Nisha": 6,
+        "Marco": 0,
+        "Max": 6,
+        "Nisha": 7,
         "Seth": 7,
-        "Will": 3
+        "Will": 0
+      }
+    },
+    {
+      "date": "2026-06-16T01:00:00Z",
+      "totals": {
+        "Daniele": 2,
+        "Herlyn": 7,
+        "Htoo": 1,
+        "Jack": 3,
+        "Jeff": 1,
+        "Kate": 3,
+        "Ken": 2,
+        "Marco": 0,
+        "Max": 6,
+        "Nisha": 7,
+        "Seth": 7,
+        "Will": 1
+      }
+    },
+    {
+      "date": "2026-06-16T19:00:00Z",
+      "totals": {
+        "Daniele": 2,
+        "Herlyn": 7,
+        "Htoo": 1,
+        "Jack": 3,
+        "Jeff": 1,
+        "Kate": 3,
+        "Ken": 2,
+        "Marco": 0,
+        "Max": 6,
+        "Nisha": 7,
+        "Seth": 7,
+        "Will": 4
       }
     },
     {
       "date": "2026-06-16T22:00:00Z",
       "totals": {
-        "Daniele": 4,
-        "Herlyn": 6,
+        "Daniele": 5,
+        "Herlyn": 7,
         "Htoo": 1,
-        "Jack": 2,
-        "Jeff": 0,
-        "Kate": 2,
+        "Jack": 3,
+        "Jeff": 1,
+        "Kate": 3,
         "Ken": 2,
-        "Marco": -1,
-        "Max": 4,
-        "Nisha": 6,
+        "Marco": 0,
+        "Max": 6,
+        "Nisha": 7,
         "Seth": 7,
-        "Will": 3
+        "Will": 4
       }
     },
     {
       "date": "2026-06-17T01:00:00Z",
       "totals": {
-        "Daniele": 4,
-        "Herlyn": 6,
+        "Daniele": 5,
+        "Herlyn": 7,
         "Htoo": 1,
-        "Jack": 2,
-        "Jeff": 0,
-        "Kate": 2,
+        "Jack": 3,
+        "Jeff": 1,
+        "Kate": 3,
         "Ken": 2,
-        "Marco": 2,
-        "Max": 4,
-        "Nisha": 6,
-        "Seth": 6,
-        "Will": 3
+        "Marco": 3,
+        "Max": 6,
+        "Nisha": 7,
+        "Seth": 7,
+        "Will": 4
       }
     },
     {
       "date": "2026-06-17T04:00:00Z",
       "totals": {
-        "Daniele": 4,
-        "Herlyn": 6,
+        "Daniele": 5,
+        "Herlyn": 7,
         "Htoo": 1,
-        "Jack": 2,
-        "Jeff": 0,
-        "Kate": 2,
+        "Jack": 3,
+        "Jeff": 1,
+        "Kate": 3,
         "Ken": 5,
-        "Marco": 2,
-        "Max": 4,
-        "Nisha": 6,
-        "Seth": 6,
-        "Will": 2
+        "Marco": 3,
+        "Max": 6,
+        "Nisha": 7,
+        "Seth": 7,
+        "Will": 4
       }
     }
   ],
@@ -4942,7 +4942,7 @@
           "team": "Jordan",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ]
     },
@@ -4988,7 +4988,7 @@
           "team": "Algeria",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ]
     },
@@ -5026,7 +5026,7 @@
           "team": "Iraq",
           "isHome": true,
           "result": "L",
-          "points": -1
+          "points": 0
         },
         {
           "player": "Daniele",
@@ -5080,7 +5080,7 @@
           "team": "Senegal",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ]
     },
@@ -5143,7 +5143,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "scoreHome": 1,
@@ -5310,7 +5310,7 @@
           "team": "Tunisia",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ]
     },
@@ -5356,7 +5356,7 @@
           "team": "Ecuador",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ]
     },
@@ -5448,7 +5448,7 @@
           "team": "Curaçao",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ]
     },
@@ -5494,7 +5494,7 @@
           "team": "Turkey",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ]
     },
@@ -5532,7 +5532,7 @@
           "team": "Haiti",
           "isHome": true,
           "result": "L",
-          "points": -1
+          "points": 0
         },
         {
           "player": "Seth",
@@ -5678,7 +5678,7 @@
           "team": "Paraguay",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ]
     },
@@ -5770,7 +5770,7 @@
           "team": "Czechia",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ]
     },
@@ -5816,7 +5816,7 @@
           "team": "South Africa",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ]
     }
@@ -6604,7 +6604,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -7636,7 +7636,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -8450,7 +8450,7 @@
     {
       "icon": "👑",
       "label": "Leading manager",
-      "value": "Herlyn (+6)"
+      "value": "Herlyn (+7)"
     },
     {
       "icon": "🎯",

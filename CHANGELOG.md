@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-06-17 — v1.0 corrections
+- Office scoring: a **loss now counts 0** (not −1). Win +3 / Draw +1 / Loss 0.
+- Standings / manager cards show the **W-L-D record** (won-lost-drawn); actual
+  scorelines stay in the Recent results feed.
+- Added **legends** (P / W / D / L / GD / Pts, and the W-L-D record) and a
+  **version number** (v1.0) in the footer.
+
 ## 2026-06-17 — initial build (office league)
 - Adapted the Nicha-vs-Daniele tracker to a **12-manager office league** (all 48
   World Cup teams owned).

@@ -95,6 +95,7 @@
   .mt-chips { display:flex; gap:4px; flex:none; }
   .mt-pts { font-weight:800; font-size:13px; font-variant-numeric:tabular-nums; width:30px; text-align:right; flex:none; }
   .mt-pts.pos{color:var(--win)} .mt-pts.neg{color:var(--loss)} .mt-pts.zero{color:var(--muted)}
+  .mt-rec { font-size:12px; color:var(--muted); font-weight:700; font-variant-numeric:tabular-nums; flex:none; letter-spacing:.03em; }
   .rchip { font-size:11px; font-weight:800; padding:2px 6px; border-radius:5px; font-variant-numeric:tabular-nums; }
   .rchip.W{color:var(--win);background:rgba(46,204,113,.16)} .rchip.D{color:var(--draw);background:rgba(245,196,81,.16)}
   .rchip.L{color:var(--loss);background:rgba(255,92,92,.16)} .rchip.none{color:var(--muted);background:rgba(255,255,255,.06)}
@@ -198,7 +199,7 @@
     <div id="app"><div class="state">Loading the league…</div></div>
     <footer>
       <div id="updated"></div>
-      <div>Data: football-data.org · refreshes automatically</div>
+      <div>v1.0 · Data: football-data.org · refreshes automatically</div>
     </footer>
   </div>
 
@@ -258,7 +259,8 @@ function leagueTable(players){
   return `<section class="block"><h2 class="sec"><span class="ico">📊</span> League table</h2>
     <div class="ltable"><div class="lt-row lt-head"><span class="lt-rank">#</span><span class="lt-name">Manager</span>
       <span class="lt-n">P</span><span class="lt-n wdl">W</span><span class="lt-n wdl">D</span><span class="lt-n wdl">L</span><span class="lt-n">GD</span><span class="lt-pts">Pts</span></div>
-      ${rows}</div></section>`;
+      ${rows}</div>
+    <div class="legend"><b>P</b> played · <b>W</b> won · <b>D</b> drawn · <b>L</b> lost · <b>GD</b> goal difference · <b>Pts</b> points</div></section>`;
 }
 
 /* Manager cards */
@@ -271,7 +273,7 @@ function resultChips(t){
 function mgrTeamRow(t){
   const cls=t.points>0?"pos":(t.points<0?"neg":"zero");
   return `<div class="mt-row">${crestImg(t.crest,t.tla,"")}<span class="mt-name">${t.name}</span>
-    <span class="mt-chips">${resultChips(t)}</span><span class="mt-pts ${cls}">${t.points>0?"+":""}${t.points}</span></div>`;
+    <span class="mt-rec" title="W-L-D: ${t.w} won, ${t.l} lost, ${t.d} drawn">${t.w}-${t.l}-${t.d}</span><span class="mt-pts ${cls}">${t.points>0?"+":""}${t.points}</span></div>`;
 }
 function mgrCard(p){
   return `<div class="mgr"><div class="mgr-head"><span class="mgr-rank">#${p.rank}</span>
@@ -318,7 +320,7 @@ function groupsSection(groups){
   if(!groups||!groups.length) return "";
   return `<section class="block"><h2 class="sec"><span class="ico">🗂️</span> Group tables<span class="sub">all 12 · coloured by manager</span></h2>
     <div class="gwrap">${groups.map(groupCard).join("")}</div>
-    <div class="legend">Green bar = top 2 (advance). Each row is tinted in its manager's colour.</div></section>`;
+    <div class="legend"><b>P</b> played · <b>GD</b> goal difference · <b>Pts</b> points · green bar = top 2 (advance) · each row tinted by manager.</div></section>`;
 }
 
 /* Feeds */
@@ -410,7 +412,7 @@ function render(data){
 
   const hero=`${leaderboard(players)}
     <div class="vibe">${leagueVibe(players)}</div>
-    <div class="rules-strip"><span class="rule win">Win <b>+3</b></span><span class="rule draw">Draw <b>+1</b></span><span class="rule loss">Loss <b>−1</b></span></div>
+    <div class="rules-strip"><span class="rule win">Win <b>+3</b></span><span class="rule draw">Draw <b>+1</b></span><span class="rule loss">Loss <b>0</b></span></div>
     ${next?`<div class="countdown" id="cd"></div>`:""}`;
 
   const cur=data.curiosities||[];

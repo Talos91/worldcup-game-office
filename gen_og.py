@@ -47,7 +47,7 @@ for s, col in segs:
     x += d.textlength(s, font=tf)
 
 center(420, "12 managers · all 48 teams · one champion", font(REG, 38), (210, 218, 245))
-center(498, "Win +3      Draw +1      Loss −1", font(BOLD, 30), (147, 160, 196))
+center(498, "Win +3      Draw +1      Loss 0", font(BOLD, 30), (147, 160, 196))
 
 out = os.path.join(HERE, "og.png")
 img.save(out)
