@@ -39,7 +39,7 @@ def center(y, text, fnt, fill):
 center(150, "F I F A   W O R L D   C U P   2 0 2 6", font(BOLD, 30), (147, 160, 196))
 
 tf = font(BOLD, 116)
-segs = [("Office ", (238, 242, 255)), ("League", (46, 224, 106))]
+segs = [("AIP ", (238, 242, 255)), ("League", (46, 224, 106))]
 total = sum(d.textlength(s, font=tf) for s, _ in segs)
 x, ty = (W - total) / 2, 240
 for s, col in segs:

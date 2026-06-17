@@ -1,4 +1,4 @@
-# CLAUDE.md — Office World Cup League 2026
+# CLAUDE.md — AIP World Cup League 2026 (a.k.a. the office league)
 
 Working notes for Claude sessions. This is the **office** spin-off of the
 Nicha-vs-Daniele tracker (`C:\Users\itisf\worldcup-game`), generalised from 2

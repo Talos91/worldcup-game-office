@@ -1,6 +1,6 @@
-# Office World Cup League 2026 🏆
+# AIP World Cup League 2026 🏆
 
-An auto-updating World Cup sweepstake for the whole office. **12 managers** drafted
+An auto-updating World Cup sweepstake for everyone at AIP. **12 managers** drafted
 **4 teams each** — all 48 World Cup teams are owned, so every single match is a
 duel between two managers.
 

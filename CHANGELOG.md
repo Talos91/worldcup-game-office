@@ -6,6 +6,7 @@
   scorelines stay in the Recent results feed.
 - Added **legends** (P / W / D / L / GD / Pts, and the W-L-D record) and a
   **version number** (v1.0) in the footer.
+- Renamed **Office League → AIP World Cup League** (title, header, link preview).
 
 ## 2026-06-17 — initial build (office league)
 - Adapted the Nicha-vs-Daniele tracker to a **12-manager office league** (all 48
