@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-06-17T10:02:37Z",
+  "updatedAt": "2026-06-17T10:21:42Z",
+  "version": "1.1",
   "competition": "FIFA World Cup 2026",
   "rules": {
     "win": 3,
@@ -371,7 +372,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
               "status": "TIMED",
@@ -883,7 +884,7 @@
           "matches": [
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-15T22:00:00Z",
               "status": "FINISHED",
@@ -1493,7 +1494,7 @@
             "group": "Group F"
           },
           "coach": {
-            "name": "Sabri Lamouchi",
+            "name": "Hervé Renard",
             "nationality": "France"
           },
           "matches": [
@@ -1782,7 +1783,7 @@
         {
           "id": 758,
           "name": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg",
           "points": 1,
           "w": 0,
@@ -3301,7 +3302,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -5143,7 +5144,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "scoreHome": 1,
@@ -6604,7 +6605,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -7636,7 +7637,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {

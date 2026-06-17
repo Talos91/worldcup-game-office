@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-17 — v1.1
+- Expanded "Did you know?" to **101 facts** (100 World Cup + one league fact).
+- **Live version number** in the footer — stamped into data.json and shown as
+  "v1.1 · Updated …" (never cache-stale). Bump `VERSION` in update_scores.py
+  each code push.
+
 ## 2026-06-17 — v1.0 corrections
 - Office scoring: a **loss now counts 0** (not −1). Win +3 / Draw +1 / Loss 0.
 - Standings / manager cards show the **W-L-D record** (won-lost-drawn); actual
