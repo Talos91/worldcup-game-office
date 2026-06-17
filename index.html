@@ -391,13 +391,13 @@ function confetti(color){
   const c=document.createElement("canvas"); c.style.cssText="position:fixed;inset:0;pointer-events:none;z-index:9999";
   c.width=innerWidth; c.height=innerHeight; document.body.appendChild(c);
   const ctx=c.getContext("2d"), cols=[color,"#ffffff","#f5c451"];
-  const P=Array.from({length:150},(_,i)=>({x:Math.random()*c.width,y:-20-Math.random()*c.height*0.6,vx:(Math.random()-0.5)*2.4,vy:2+Math.random()*4,r:4+Math.random()*5,rot:Math.random()*6,vr:(Math.random()-0.5)*0.3,col:cols[i%cols.length]}));
+  const P=Array.from({length:150},(_,i)=>({x:Math.random()*c.width,y:-10-Math.random()*c.height*0.35,vx:(Math.random()-0.5)*1.6,vy:0.7+Math.random()*1.3,r:4+Math.random()*5,rot:Math.random()*6,vr:(Math.random()-0.5)*0.3,col:cols[i%cols.length]}));
   let frame=0;
   (function anim(){ ctx.clearRect(0,0,c.width,c.height);
-    for(const p of P){ p.x+=p.vx; p.y+=p.vy; p.vy+=0.05; p.rot+=p.vr;
-      ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.rot); ctx.fillStyle=p.col; ctx.globalAlpha=Math.max(0,1-frame/230);
+    for(const p of P){ p.x+=p.vx+Math.sin(frame*0.05+p.rot)*0.4; p.y+=p.vy; p.vy=Math.min(p.vy+0.012,2.4); p.rot+=p.vr;
+      ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.rot); ctx.fillStyle=p.col; ctx.globalAlpha=Math.max(0,1-frame/300);
       ctx.fillRect(-p.r/2,-p.r/2,p.r,p.r*0.6); ctx.restore(); }
-    if(++frame<240) requestAnimationFrame(anim); else c.remove(); })();
+    if(++frame<300) requestAnimationFrame(anim); else c.remove(); })();
 }
 let triviaTimer=null;
 function startTrivia(){ const el=document.getElementById("triviaText"); if(!el) return;
