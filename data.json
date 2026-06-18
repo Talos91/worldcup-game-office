@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T13:33:21Z",
+  "updatedAt": "2026-06-18T17:19:20Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -372,7 +372,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
               "status": "TIMED",
@@ -413,14 +413,14 @@
           "l": 1,
           "group": {
             "position": 3,
-            "played": 1,
-            "won": 0,
+            "played": 2,
+            "won": 1,
             "draw": 0,
             "lost": 1,
-            "gf": 1,
+            "gf": 2,
             "ga": 2,
-            "gd": -1,
-            "points": 0,
+            "gd": 0,
+            "points": 3,
             "group": "Group A"
           },
           "coach": {
@@ -448,12 +448,12 @@
               "opponentTla": "RSA",
               "opponentCrest": "https://crests.football-data.org/9396.svg",
               "utcDate": "2026-06-18T16:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_A",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -884,7 +884,7 @@
           "matches": [
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-15T22:00:00Z",
               "status": "FINISHED",
@@ -1783,7 +1783,7 @@
         {
           "id": 758,
           "name": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg",
           "points": 1,
           "w": 0,
@@ -3302,7 +3302,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -3633,13 +3633,13 @@
           "l": 1,
           "group": {
             "position": 4,
-            "played": 1,
+            "played": 2,
             "won": 0,
             "draw": 0,
-            "lost": 1,
+            "lost": 2,
             "gf": 0,
-            "ga": 2,
-            "gd": -2,
+            "ga": 3,
+            "gd": -3,
             "points": 0,
             "group": "Group A"
           },
@@ -3668,12 +3668,12 @@
               "opponentTla": "CZE",
               "opponentCrest": "https://crests.football-data.org/798.svg",
               "utcDate": "2026-06-18T16:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_A",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -3741,14 +3741,14 @@
           "name": "Czechia",
           "tla": "CZE",
           "crest": "https://crests.football-data.org/798.svg",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "draw": 0,
           "lost": 1,
-          "gf": 1,
+          "gf": 2,
           "ga": 2,
-          "gd": -1,
-          "points": 0,
+          "gd": 0,
+          "points": 3,
           "owner": "Herlyn",
           "color": "#ff5d8f"
         },
@@ -3757,13 +3757,13 @@
           "name": "South Africa",
           "tla": "RSA",
           "crest": "https://crests.football-data.org/9396.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 0,
-          "ga": 2,
-          "gd": -2,
+          "ga": 3,
+          "gd": -3,
           "points": 0,
           "owner": "Will",
           "color": "#4fd0e1"
@@ -4970,6 +4970,52 @@
   ],
   "recent": [
     {
+      "id": 537329,
+      "utcDate": "2026-06-18T16:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_A",
+      "home": {
+        "name": "Czechia",
+        "tla": "CZE",
+        "crest": "https://crests.football-data.org/798.svg"
+      },
+      "away": {
+        "name": "South Africa",
+        "tla": "RSA",
+        "crest": "https://crests.football-data.org/9396.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Tori Penso",
+        "nationality": "USA"
+      },
+      "stakes": [
+        {
+          "player": "Herlyn",
+          "color": "#ff5d8f",
+          "team": "Czechia",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Will",
+          "color": "#4fd0e1",
+          "team": "South Africa",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
       "id": 537404,
       "utcDate": "2026-06-18T02:00:00Z",
       "status": "FINISHED",
@@ -5396,7 +5442,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "scoreHome": 1,
@@ -6076,49 +6122,6 @@
   ],
   "upcoming": [
     {
-      "id": 537329,
-      "utcDate": "2026-06-18T16:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_A",
-      "home": {
-        "name": "Czechia",
-        "tla": "CZE",
-        "crest": "https://crests.football-data.org/798.svg"
-      },
-      "away": {
-        "name": "South Africa",
-        "tla": "RSA",
-        "crest": "https://crests.football-data.org/9396.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Herlyn",
-          "color": "#ff5d8f",
-          "team": "Czechia",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Will",
-          "color": "#4fd0e1",
-          "team": "South Africa",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537335,
       "utcDate": "2026-06-18T19:00:00Z",
       "status": "TIMED",
@@ -6141,7 +6144,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "João Pinheiro",
+        "nationality": "Portugal"
+      },
       "stakes": [
         {
           "player": "Jack",
@@ -6685,7 +6691,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -7717,7 +7723,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
