@@ -29,8 +29,8 @@ players to **12 managers**.
   free plan: venue, attendance, odds, per-match goalscorers.
 
 ## Automation
-- **GitHub Actions** `.github/workflows/update.yml`, cron `7 1,9,17 * * *` UTC =
-  **3×/day ~08:00 / 16:00 / 00:00 Bangkok**. Commits `data.json` → Pages redeploys.
+- **GitHub Actions** `.github/workflows/update.yml`, cron `7 */2 * * *` UTC =
+  **every 2 hours**. Commits `data.json` → Pages redeploys.
 - Hosting: GitHub Pages, public repo **github.com/Talos91/worldcup-game-office**.
   Needs repo secret `FOOTBALL_DATA_API_KEY`.
 - `og.png` via `gen_og.py` (Pillow, run once, score-agnostic).
@@ -39,5 +39,5 @@ players to **12 managers**.
 - Never commit `apikey.txt`. Don't hand-edit `data.json`.
 - To change rosters/colours, edit `PLAYERS` in `update_scores.py`.
 - Daniele's colour is green (`#2ee06a`) by request; others are distinct hues.
-- Bump `VERSION` in update_scores.py on every code push (currently 1.1). The
+- Bump `VERSION` in update_scores.py on every code push (currently 1.2). The
   footer reads it from data.json, so it's never cache-stale.

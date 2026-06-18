@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-06-18 — v1.2
+- Auto-update cron switched from 3×/day to **every 2 hours** (`7 */2 * * *`) so
+  scores stay fresh despite GitHub's irregular scheduled-job timing.
+
 ## 2026-06-17 — v1.1
 - Expanded "Did you know?" to **101 facts** (100 World Cup + one league fact).
 - **Live version number** in the footer — stamped into data.json and shown as

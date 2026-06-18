@@ -3,9 +3,9 @@ name: Update office league scores
 # Runs on GitHub's servers — no laptop needed.
 on:
   schedule:
-    # 3x daily at ~08:00 / 16:00 / 00:00 Bangkok time (ICT = UTC+7)
-    # => 01:07 / 09:07 / 17:07 UTC. Minute 7 dodges the on-the-hour backlog.
-    - cron: "7 1,9,17 * * *"
+    # Every 2 hours (minute 7 to dodge the top-of-hour backlog). GitHub runs
+    # scheduled jobs best-effort, so frequent polling keeps scores fresh.
+    - cron: "7 */2 * * *"
   workflow_dispatch: {}
 
 permissions:
