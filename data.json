@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-  "updatedAt": "2026-06-18T08:42:13Z",
+  "updatedAt": "2026-06-18T08:44:16Z",
   "version": "1.2",
-=======
-  "updatedAt": "2026-06-18T06:06:15Z",
-  "version": "1.1",
->>>>>>> origin/main
   "competition": "FIFA World Cup 2026",
   "rules": {
     "win": 3,
@@ -35,7 +30,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 3,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 1,
+            "ga": 1,
+            "gd": 0,
+            "points": 1,
+            "group": "Group C"
+          },
           "coach": {
             "name": "Carlo Ancelotti",
             "nationality": "Italy"
@@ -97,7 +103,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 4,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 1,
+            "ga": 7,
+            "gd": -6,
+            "points": 0,
+            "group": "Group E"
+          },
           "coach": {
             "name": "Dick Advocaat",
             "nationality": "Netherlands"
@@ -159,7 +176,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 2,
+            "ga": 2,
+            "gd": 0,
+            "points": 1,
+            "group": "Group G"
+          },
           "coach": {
             "name": "Darren Bazeley",
             "nationality": "England"
@@ -221,7 +249,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 4,
+            "ga": 1,
+            "gd": 3,
+            "points": 3,
+            "group": "Group I"
+          },
           "coach": {
             "name": "Ståle Solbakken",
             "nationality": "Norway"
@@ -275,11 +314,7 @@
           ]
         }
       ],
-<<<<<<< HEAD
-      "rank": 7
-=======
       "rank": 6
->>>>>>> origin/main
     },
     {
       "name": "Herlyn",
@@ -303,7 +338,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 4,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 0,
+            "ga": 0,
+            "gd": 0,
+            "points": 1,
+            "group": "Group H"
+          },
           "coach": {
             "name": "Bubista",
             "nationality": "Cape Verde Islands"
@@ -365,7 +411,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 3,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 1,
+            "ga": 2,
+            "gd": -1,
+            "points": 0,
+            "group": "Group A"
+          },
           "coach": {
             "name": "Miroslav Koubek",
             "nationality": "Czech Republic"
@@ -427,7 +484,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 7,
+            "ga": 1,
+            "gd": 6,
+            "points": 3,
+            "group": "Group E"
+          },
           "coach": {
             "name": "Julian Nagelsmann",
             "nationality": "Germany"
@@ -489,7 +557,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 2,
+            "ga": 1,
+            "gd": 1,
+            "points": 3,
+            "group": "Group A"
+          },
           "coach": {
             "name": "Hong Myungbo",
             "nationality": "South Korea"
@@ -567,9 +646,6 @@
           "w": 1,
           "d": 0,
           "l": 0,
-<<<<<<< HEAD
-          "group": null,
-=======
           "group": {
             "position": 1,
             "played": 1,
@@ -582,7 +658,6 @@
             "points": 3,
             "group": "Group K"
           },
->>>>>>> origin/main
           "coach": {
             "name": "Néstor Lorenzo",
             "nationality": "Argentina"
@@ -644,9 +719,6 @@
           "w": 0,
           "d": 1,
           "l": 0,
-<<<<<<< HEAD
-          "group": null,
-=======
           "group": {
             "position": 2,
             "played": 1,
@@ -659,7 +731,6 @@
             "points": 1,
             "group": "Group K"
           },
->>>>>>> origin/main
           "coach": {
             "name": "Sébastien Desabre",
             "nationality": "France"
@@ -721,9 +792,6 @@
           "w": 0,
           "d": 1,
           "l": 0,
-<<<<<<< HEAD
-          "group": null,
-=======
           "group": {
             "position": 2,
             "played": 1,
@@ -736,7 +804,6 @@
             "points": 1,
             "group": "Group K"
           },
->>>>>>> origin/main
           "coach": {
             "name": "Roberto Martínez",
             "nationality": "Spain"
@@ -798,7 +865,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 1,
+            "ga": 1,
+            "gd": 0,
+            "points": 1,
+            "group": "Group H"
+          },
           "coach": {
             "name": "Giorgios Donis",
             "nationality": "Greece"
@@ -852,11 +930,7 @@
           ]
         }
       ],
-<<<<<<< HEAD
-      "rank": 5
-=======
       "rank": 4
->>>>>>> origin/main
     },
     {
       "name": "Jack",
@@ -880,7 +954,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 4,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 0,
+            "ga": 1,
+            "gd": -1,
+            "points": 0,
+            "group": "Group C"
+          },
           "coach": {
             "name": "Sébastien Migné",
             "nationality": "France"
@@ -942,7 +1027,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 1,
+            "ga": 1,
+            "gd": 0,
+            "points": 1,
+            "group": "Group C"
+          },
           "coach": {
             "name": "Mohamed Ouahbi",
             "nationality": "Belgium"
@@ -1004,7 +1100,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 2,
+            "ga": 2,
+            "gd": 0,
+            "points": 1,
+            "group": "Group F"
+          },
           "coach": {
             "name": "Ronald Koeman",
             "nationality": "Netherlands"
@@ -1066,7 +1173,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 1,
+            "ga": 1,
+            "gd": 0,
+            "points": 1,
+            "group": "Group B"
+          },
           "coach": {
             "name": "Murat Yakin",
             "nationality": "Switzerland"
@@ -1125,15 +1243,6 @@
     {
       "name": "Jeff",
       "color": "#a06bff",
-<<<<<<< HEAD
-      "total": 7,
-      "agg": {
-        "played": 4,
-        "w": 2,
-        "d": 1,
-        "l": 1,
-        "gf": 7,
-=======
       "total": 4,
       "agg": {
         "played": 3,
@@ -1141,7 +1250,6 @@
         "d": 1,
         "l": 1,
         "gf": 6,
->>>>>>> origin/main
         "ga": 8
       },
       "teams": [
@@ -1154,7 +1262,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 4,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 1,
+            "ga": 1,
+            "gd": 0,
+            "points": 1,
+            "group": "Group B"
+          },
           "coach": {
             "name": "Sergej Barbarez",
             "nationality": "Bosnia-Herzegovina"
@@ -1216,9 +1335,6 @@
           "w": 1,
           "d": 0,
           "l": 0,
-<<<<<<< HEAD
-          "group": null,
-=======
           "group": {
             "position": 1,
             "played": 1,
@@ -1231,7 +1347,6 @@
             "points": 3,
             "group": "Group L"
           },
->>>>>>> origin/main
           "coach": {
             "name": "Thomas Tuchel",
             "nationality": "Germany"
@@ -1289,13 +1404,10 @@
           "name": "Ghana",
           "tla": "GHA",
           "crest": "https://crests.football-data.org/ghana.svg",
-          "points": 3,
-          "w": 1,
+          "points": 0,
+          "w": 0,
           "d": 0,
           "l": 0,
-<<<<<<< HEAD
-          "group": null,
-=======
           "group": {
             "position": 2,
             "played": 1,
@@ -1308,7 +1420,6 @@
             "points": 3,
             "group": "Group L"
           },
->>>>>>> origin/main
           "coach": {
             "name": "Carlos Queiroz",
             "nationality": "Portugal"
@@ -1319,25 +1430,15 @@
               "opponentTla": "PAN",
               "opponentCrest": "https://crests.football-data.org/panama.svg",
               "utcDate": "2026-06-17T23:00:00Z",
-<<<<<<< HEAD
-              "status": "FINISHED",
-=======
               "status": "IN_PLAY",
->>>>>>> origin/main
               "stage": "GROUP_STAGE",
               "group": "GROUP_L",
               "isHome": true,
               "goalsFor": 1,
               "goalsAgainst": 0,
-<<<<<<< HEAD
-              "result": "W",
-              "points": 3,
-              "counted": true
-=======
               "result": null,
               "points": 0,
               "counted": false
->>>>>>> origin/main
             },
             {
               "opponent": "England",
@@ -1380,7 +1481,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 4,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 1,
+            "ga": 5,
+            "gd": -4,
+            "points": 0,
+            "group": "Group F"
+          },
           "coach": {
             "name": "Hervé Renard",
             "nationality": "France"
@@ -1434,11 +1546,7 @@
           ]
         }
       ],
-<<<<<<< HEAD
-      "rank": 2
-=======
       "rank": 8
->>>>>>> origin/main
     },
     {
       "name": "Kate",
@@ -1462,7 +1570,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 3,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 1,
+            "ga": 1,
+            "gd": 0,
+            "points": 1,
+            "group": "Group G"
+          },
           "coach": {
             "name": "Rudi Garcia",
             "nationality": "France"
@@ -1524,7 +1643,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 4,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 1,
+            "ga": 1,
+            "gd": 0,
+            "points": 1,
+            "group": "Group G"
+          },
           "coach": {
             "name": "Hossam Hassan",
             "nationality": "Egypt"
@@ -1586,7 +1716,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 4,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 1,
+            "ga": 4,
+            "gd": -3,
+            "points": 0,
+            "group": "Group I"
+          },
           "coach": {
             "name": "Graham Arnold",
             "nationality": "Australia"
@@ -1648,7 +1789,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 1,
+            "ga": 1,
+            "gd": 0,
+            "points": 1,
+            "group": "Group H"
+          },
           "coach": {
             "name": "Marcelo Bielsa",
             "nationality": "Argentina"
@@ -1726,7 +1878,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 3,
+            "ga": 1,
+            "gd": 2,
+            "points": 3,
+            "group": "Group J"
+          },
           "coach": {
             "name": "Ralf Rangnick",
             "nationality": "Germany"
@@ -1788,7 +1951,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 1,
+            "ga": 1,
+            "gd": 0,
+            "points": 1,
+            "group": "Group B"
+          },
           "coach": {
             "name": "Jesse Marsch",
             "nationality": "USA"
@@ -1850,9 +2024,6 @@
           "w": 0,
           "d": 0,
           "l": 1,
-<<<<<<< HEAD
-          "group": null,
-=======
           "group": {
             "position": 4,
             "played": 1,
@@ -1865,7 +2036,6 @@
             "points": 0,
             "group": "Group L"
           },
->>>>>>> origin/main
           "coach": {
             "name": "Zlatko Dalić",
             "nationality": "Croatia"
@@ -1927,7 +2097,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 3,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 1,
+            "ga": 1,
+            "gd": 0,
+            "points": 1,
+            "group": "Group B"
+          },
           "coach": {
             "name": "Julen Lopetegui",
             "nationality": "Spain"
@@ -1981,32 +2162,19 @@
           ]
         }
       ],
-<<<<<<< HEAD
-      "rank": 8
-=======
       "rank": 7
->>>>>>> origin/main
     },
     {
       "name": "Marco",
       "color": "#18c6b8",
       "total": 3,
       "agg": {
-<<<<<<< HEAD
-        "played": 4,
-        "w": 1,
-        "d": 0,
-        "l": 3,
-        "gf": 5,
-        "ga": 8
-=======
         "played": 3,
         "w": 1,
         "d": 0,
         "l": 2,
         "gf": 5,
         "ga": 7
->>>>>>> origin/main
       },
       "teams": [
         {
@@ -2018,7 +2186,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 3,
+            "ga": 0,
+            "gd": 3,
+            "points": 3,
+            "group": "Group J"
+          },
           "coach": {
             "name": "Lionel Scaloni",
             "nationality": "Argentina"
@@ -2079,10 +2258,6 @@
           "points": 0,
           "w": 0,
           "d": 0,
-<<<<<<< HEAD
-          "l": 1,
-          "group": null,
-=======
           "l": 0,
           "group": {
             "position": 3,
@@ -2096,7 +2271,6 @@
             "points": 0,
             "group": "Group L"
           },
->>>>>>> origin/main
           "coach": {
             "name": "Thomas Christiansen",
             "nationality": "Spain"
@@ -2107,23 +2281,15 @@
               "opponentTla": "GHA",
               "opponentCrest": "https://crests.football-data.org/ghana.svg",
               "utcDate": "2026-06-17T23:00:00Z",
-<<<<<<< HEAD
-              "status": "FINISHED",
-=======
               "status": "IN_PLAY",
->>>>>>> origin/main
               "stage": "GROUP_STAGE",
               "group": "GROUP_L",
               "isHome": false,
               "goalsFor": 0,
               "goalsAgainst": 1,
-<<<<<<< HEAD
-              "result": "L",
-=======
               "result": null,
->>>>>>> origin/main
               "points": 0,
-              "counted": true
+              "counted": false
             },
             {
               "opponent": "Croatia",
@@ -2166,7 +2332,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 4,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 1,
+            "ga": 4,
+            "gd": -3,
+            "points": 0,
+            "group": "Group D"
+          },
           "coach": {
             "name": "Gustavo Alfaro",
             "nationality": "Argentina"
@@ -2228,9 +2405,6 @@
           "w": 0,
           "d": 0,
           "l": 1,
-<<<<<<< HEAD
-          "group": null,
-=======
           "group": {
             "position": 4,
             "played": 1,
@@ -2243,7 +2417,6 @@
             "points": 0,
             "group": "Group K"
           },
->>>>>>> origin/main
           "coach": {
             "name": "Fabio Cannavaro",
             "nationality": "Italy"
@@ -2321,7 +2494,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 1,
+            "ga": 0,
+            "gd": 1,
+            "points": 3,
+            "group": "Group E"
+          },
           "coach": {
             "name": "Emerse Faé",
             "nationality": "Ivory Coast"
@@ -2383,7 +2567,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 3,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 1,
+            "ga": 3,
+            "gd": -2,
+            "points": 0,
+            "group": "Group I"
+          },
           "coach": null,
           "matches": [
             {
@@ -2442,7 +2637,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 3,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 0,
+            "ga": 2,
+            "gd": -2,
+            "points": 0,
+            "group": "Group D"
+          },
           "coach": {
             "name": "Vincenzo Montella",
             "nationality": "Italy"
@@ -2504,7 +2710,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 4,
+            "ga": 1,
+            "gd": 3,
+            "points": 3,
+            "group": "Group D"
+          },
           "coach": {
             "name": "Mauricio Pochettino",
             "nationality": "Argentina"
@@ -2558,11 +2775,7 @@
           ]
         }
       ],
-<<<<<<< HEAD
-      "rank": 6
-=======
       "rank": 5
->>>>>>> origin/main
     },
     {
       "name": "Nisha",
@@ -2586,7 +2799,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 2,
+            "ga": 0,
+            "gd": 2,
+            "points": 3,
+            "group": "Group D"
+          },
           "coach": {
             "name": "Tony Popović",
             "nationality": "Australia"
@@ -2648,7 +2872,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 3,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 0,
+            "ga": 1,
+            "gd": -1,
+            "points": 0,
+            "group": "Group E"
+          },
           "coach": {
             "name": "Sebastián Beccacece",
             "nationality": "Argentina"
@@ -2710,7 +2945,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 2,
+            "ga": 2,
+            "gd": 0,
+            "points": 1,
+            "group": "Group F"
+          },
           "coach": {
             "name": "Hajime Moriyasu",
             "nationality": "Japan"
@@ -2772,7 +3018,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 2,
+            "ga": 0,
+            "gd": 2,
+            "points": 3,
+            "group": "Group A"
+          },
           "coach": {
             "name": "Javier Aguirre",
             "nationality": "Mexico"
@@ -2826,7 +3083,7 @@
           ]
         }
       ],
-      "rank": 3
+      "rank": 2
     },
     {
       "name": "Seth",
@@ -2850,7 +3107,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 4,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 0,
+            "ga": 3,
+            "gd": -3,
+            "points": 0,
+            "group": "Group J"
+          },
           "coach": {
             "name": "Vladimir Petković",
             "nationality": "Switzerland"
@@ -2912,7 +3180,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 1,
+            "ga": 0,
+            "gd": 1,
+            "points": 3,
+            "group": "Group C"
+          },
           "coach": {
             "name": "Steve Clarke",
             "nationality": "Scotland"
@@ -2974,7 +3253,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 3,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 0,
+            "ga": 0,
+            "gd": 0,
+            "points": 1,
+            "group": "Group H"
+          },
           "coach": {
             "name": "Luis de la Fuente",
             "nationality": "Spain"
@@ -3036,7 +3326,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 5,
+            "ga": 1,
+            "gd": 4,
+            "points": 3,
+            "group": "Group F"
+          },
           "coach": {
             "name": "Graham Potter",
             "nationality": "England"
@@ -3090,7 +3391,7 @@
           ]
         }
       ],
-      "rank": 4
+      "rank": 3
     },
     {
       "name": "Will",
@@ -3114,7 +3415,18 @@
           "w": 1,
           "d": 0,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 3,
+            "ga": 1,
+            "gd": 2,
+            "points": 3,
+            "group": "Group I"
+          },
           "coach": {
             "name": "Didier Deschamps",
             "nationality": "France"
@@ -3176,7 +3488,18 @@
           "w": 0,
           "d": 1,
           "l": 0,
-          "group": null,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 2,
+            "ga": 2,
+            "gd": 0,
+            "points": 1,
+            "group": "Group G"
+          },
           "coach": {
             "name": "Amir Ghalenoei",
             "nationality": "Iran"
@@ -3238,7 +3561,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 3,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 1,
+            "ga": 3,
+            "gd": -2,
+            "points": 0,
+            "group": "Group J"
+          },
           "coach": null,
           "matches": [
             {
@@ -3297,7 +3631,18 @@
           "w": 0,
           "d": 0,
           "l": 1,
-          "group": null,
+          "group": {
+            "position": 4,
+            "played": 1,
+            "won": 0,
+            "draw": 0,
+            "lost": 1,
+            "gf": 0,
+            "ga": 2,
+            "gd": -2,
+            "points": 0,
+            "group": "Group A"
+          },
           "coach": {
             "name": "Hugo Broos",
             "nationality": "Belgium"
@@ -3352,8 +3697,6 @@
         }
       ],
       "rank": 9
-<<<<<<< HEAD
-=======
     }
   ],
   "groups": [
@@ -4196,10 +4539,8 @@
           "color": "#ffd23b"
         }
       ]
->>>>>>> origin/main
     }
   ],
-  "groups": [],
   "timeline": [
     {
       "date": null,
@@ -4593,37 +4934,13 @@
       }
     },
     {
-<<<<<<< HEAD
-      "date": "2026-06-17T23:00:00Z",
-      "totals": {
-        "Daniele": 5,
-        "Herlyn": 7,
-        "Htoo": 3,
-        "Jack": 3,
-        "Jeff": 7,
-        "Kate": 3,
-        "Ken": 5,
-        "Marco": 3,
-        "Max": 6,
-        "Nisha": 7,
-        "Seth": 7,
-        "Will": 4
-      }
-    },
-    {
-=======
->>>>>>> origin/main
       "date": "2026-06-18T02:00:00Z",
       "totals": {
         "Daniele": 5,
         "Herlyn": 7,
         "Htoo": 6,
         "Jack": 3,
-<<<<<<< HEAD
-        "Jeff": 7,
-=======
         "Jeff": 4,
->>>>>>> origin/main
         "Kate": 3,
         "Ken": 5,
         "Marco": 3,
@@ -4684,11 +5001,7 @@
     {
       "id": 537410,
       "utcDate": "2026-06-17T23:00:00Z",
-<<<<<<< HEAD
-      "status": "FINISHED",
-=======
       "status": "IN_PLAY",
->>>>>>> origin/main
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
       "home": {
@@ -4718,24 +5031,15 @@
           "color": "#a06bff",
           "team": "Ghana",
           "isHome": true,
-<<<<<<< HEAD
-          "result": "W",
-          "points": 3
-=======
           "result": null,
           "points": 0
->>>>>>> origin/main
         },
         {
           "player": "Marco",
           "color": "#18c6b8",
           "team": "Panama",
           "isHome": false,
-<<<<<<< HEAD
-          "result": "L",
-=======
           "result": null,
->>>>>>> origin/main
           "points": 0
         }
       ]
@@ -8185,11 +8489,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-<<<<<<< HEAD
-      "value": "75 in 24 games"
-=======
       "value": "74 in 23 games"
->>>>>>> origin/main
     },
     {
       "icon": "📊",
