@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T17:19:20Z",
+  "updatedAt": "2026-06-18T20:33:53Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -319,14 +319,14 @@
     {
       "name": "Herlyn",
       "color": "#ff5d8f",
-      "total": 7,
+      "total": 8,
       "agg": {
-        "played": 4,
+        "played": 5,
         "w": 2,
-        "d": 1,
+        "d": 2,
         "l": 1,
-        "gf": 10,
-        "ga": 4
+        "gf": 11,
+        "ga": 5
       },
       "teams": [
         {
@@ -407,20 +407,20 @@
           "name": "Czechia",
           "tla": "CZE",
           "crest": "https://crests.football-data.org/798.svg",
-          "points": 0,
+          "points": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 1,
           "group": {
             "position": 3,
             "played": 2,
-            "won": 1,
-            "draw": 0,
+            "won": 0,
+            "draw": 1,
             "lost": 1,
             "gf": 2,
-            "ga": 2,
-            "gd": 0,
-            "points": 3,
+            "ga": 3,
+            "gd": -1,
+            "points": 1,
             "group": "Group A"
           },
           "coach": {
@@ -448,15 +448,15 @@
               "opponentTla": "RSA",
               "opponentCrest": "https://crests.football-data.org/9396.svg",
               "utcDate": "2026-06-18T16:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_A",
               "isHome": true,
               "goalsFor": 1,
-              "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsAgainst": 1,
+              "result": "D",
+              "points": 1,
+              "counted": true
             },
             {
               "opponent": "Mexico",
@@ -1175,14 +1175,14 @@
           "l": 0,
           "group": {
             "position": 1,
-            "played": 1,
+            "played": 2,
             "won": 0,
-            "draw": 1,
+            "draw": 2,
             "lost": 0,
             "gf": 1,
             "ga": 1,
             "gd": 0,
-            "points": 1,
+            "points": 2,
             "group": "Group B"
           },
           "coach": {
@@ -1210,7 +1210,7 @@
               "opponentTla": "BIH",
               "opponentCrest": "https://crests.football-data.org/bosnia.svg",
               "utcDate": "2026-06-18T19:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_B",
               "isHome": true,
@@ -1263,15 +1263,15 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 4,
-            "played": 1,
+            "position": 2,
+            "played": 2,
             "won": 0,
-            "draw": 1,
+            "draw": 2,
             "lost": 0,
             "gf": 1,
             "ga": 1,
             "gd": 0,
-            "points": 1,
+            "points": 2,
             "group": "Group B"
           },
           "coach": {
@@ -1299,7 +1299,7 @@
               "opponentTla": "SUI",
               "opponentCrest": "https://crests.football-data.org/788.svg",
               "utcDate": "2026-06-18T19:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_B",
               "isHome": false,
@@ -1952,7 +1952,7 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 2,
+            "position": 3,
             "played": 1,
             "won": 0,
             "draw": 1,
@@ -2098,7 +2098,7 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 3,
+            "position": 4,
             "played": 1,
             "won": 0,
             "draw": 1,
@@ -3396,14 +3396,14 @@
     {
       "name": "Will",
       "color": "#4fd0e1",
-      "total": 4,
+      "total": 5,
       "agg": {
-        "played": 4,
+        "played": 5,
         "w": 1,
-        "d": 1,
+        "d": 2,
         "l": 2,
-        "gf": 6,
-        "ga": 8
+        "gf": 7,
+        "ga": 9
       },
       "teams": [
         {
@@ -3627,20 +3627,20 @@
           "name": "South Africa",
           "tla": "RSA",
           "crest": "https://crests.football-data.org/9396.svg",
-          "points": 0,
+          "points": 1,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 1,
           "group": {
             "position": 4,
             "played": 2,
             "won": 0,
-            "draw": 0,
-            "lost": 2,
-            "gf": 0,
+            "draw": 1,
+            "lost": 1,
+            "gf": 1,
             "ga": 3,
-            "gd": -3,
-            "points": 0,
+            "gd": -2,
+            "points": 1,
             "group": "Group A"
           },
           "coach": {
@@ -3668,15 +3668,15 @@
               "opponentTla": "CZE",
               "opponentCrest": "https://crests.football-data.org/798.svg",
               "utcDate": "2026-06-18T16:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_A",
               "isHome": false,
-              "goalsFor": 0,
+              "goalsFor": 1,
               "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "D",
+              "points": 1,
+              "counted": true
             },
             {
               "opponent": "South Korea",
@@ -3742,13 +3742,13 @@
           "tla": "CZE",
           "crest": "https://crests.football-data.org/798.svg",
           "played": 2,
-          "won": 1,
-          "draw": 0,
+          "won": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 3,
+          "ga": 3,
+          "gd": -1,
+          "points": 1,
           "owner": "Herlyn",
           "color": "#ff5d8f"
         },
@@ -3759,12 +3759,12 @@
           "crest": "https://crests.football-data.org/9396.svg",
           "played": 2,
           "won": 0,
-          "draw": 0,
-          "lost": 2,
-          "gf": 0,
+          "draw": 1,
+          "lost": 1,
+          "gf": 1,
           "ga": 3,
-          "gd": -3,
-          "points": 0,
+          "gd": -2,
+          "points": 1,
           "owner": "Will",
           "color": "#4fd0e1"
         }
@@ -3779,19 +3779,35 @@
           "name": "Switzerland",
           "tla": "SUI",
           "crest": "https://crests.football-data.org/788.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "gf": 1,
           "ga": 1,
           "gd": 0,
-          "points": 1,
+          "points": 2,
           "owner": "Jack",
           "color": "#ff9f1c"
         },
         {
           "position": 2,
+          "name": "Bosnia-Herzegovina",
+          "tla": "BIH",
+          "crest": "https://crests.football-data.org/bosnia.svg",
+          "played": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 2,
+          "owner": "Jeff",
+          "color": "#a06bff"
+        },
+        {
+          "position": 3,
           "name": "Canada",
           "tla": "CAN",
           "crest": "https://crests.football-data.org/canada.svg",
@@ -3807,7 +3823,7 @@
           "color": "#ffd23b"
         },
         {
-          "position": 3,
+          "position": 4,
           "name": "Qatar",
           "tla": "QAT",
           "crest": "https://crests.football-data.org/8030.svg",
@@ -3821,22 +3837,6 @@
           "points": 1,
           "owner": "Ken",
           "color": "#ffd23b"
-        },
-        {
-          "position": 4,
-          "name": "Bosnia-Herzegovina",
-          "tla": "BIH",
-          "crest": "https://crests.football-data.org/bosnia.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1,
-          "owner": "Jeff",
-          "color": "#a06bff"
         }
       ]
     },
@@ -4966,13 +4966,76 @@
         "Seth": 7,
         "Will": 4
       }
+    },
+    {
+      "date": "2026-06-18T16:00:00Z",
+      "totals": {
+        "Daniele": 5,
+        "Herlyn": 8,
+        "Htoo": 6,
+        "Jack": 3,
+        "Jeff": 7,
+        "Kate": 3,
+        "Ken": 5,
+        "Marco": 3,
+        "Max": 6,
+        "Nisha": 7,
+        "Seth": 7,
+        "Will": 5
+      }
     }
   ],
   "recent": [
     {
+      "id": 537335,
+      "utcDate": "2026-06-18T19:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_B",
+      "home": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg"
+      },
+      "away": {
+        "name": "Bosnia-Herzegovina",
+        "tla": "BIH",
+        "crest": "https://crests.football-data.org/bosnia.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "João Pinheiro",
+        "nationality": "Portugal"
+      },
+      "stakes": [
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Switzerland",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Jeff",
+          "color": "#a06bff",
+          "team": "Bosnia-Herzegovina",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
       "id": 537329,
       "utcDate": "2026-06-18T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_A",
       "home": {
@@ -4986,7 +5049,7 @@
         "crest": "https://crests.football-data.org/9396.svg"
       },
       "scoreHome": 1,
-      "scoreAway": 0,
+      "scoreAway": 1,
       "htHome": 1,
       "htAway": 0,
       "duration": "REGULAR",
@@ -5002,16 +5065,16 @@
           "color": "#ff5d8f",
           "team": "Czechia",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "D",
+          "points": 1
         },
         {
           "player": "Will",
           "color": "#4fd0e1",
           "team": "South Africa",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "D",
+          "points": 1
         }
       ]
     },
@@ -6121,52 +6184,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": 537335,
-      "utcDate": "2026-06-18T19:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_B",
-      "home": {
-        "name": "Switzerland",
-        "tla": "SUI",
-        "crest": "https://crests.football-data.org/788.svg"
-      },
-      "away": {
-        "name": "Bosnia-Herzegovina",
-        "tla": "BIH",
-        "crest": "https://crests.football-data.org/bosnia.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "João Pinheiro",
-        "nationality": "Portugal"
-      },
-      "stakes": [
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Switzerland",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jeff",
-          "color": "#a06bff",
-          "team": "Bosnia-Herzegovina",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537336,
       "utcDate": "2026-06-18T22:00:00Z",
@@ -8512,7 +8529,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "75 in 24 games"
+      "value": "77 in 25 games"
     },
     {
       "icon": "📊",
@@ -8532,17 +8549,17 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "9"
+      "value": "10"
     },
     {
       "icon": "👑",
       "label": "Leading manager",
-      "value": "Herlyn (+7)"
+      "value": "Herlyn (+8)"
     },
     {
       "icon": "🎯",
       "label": "Most goals (manager)",
-      "value": "Herlyn · 10"
+      "value": "Herlyn · 11"
     },
     {
       "icon": "⭐",
