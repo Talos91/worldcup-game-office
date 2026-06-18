@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T08:44:16Z",
+  "updatedAt": "2026-06-18T13:33:21Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -314,7 +314,7 @@
           ]
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Herlyn",
@@ -930,7 +930,7 @@
           ]
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Jack",
@@ -1243,13 +1243,13 @@
     {
       "name": "Jeff",
       "color": "#a06bff",
-      "total": 4,
+      "total": 7,
       "agg": {
-        "played": 3,
-        "w": 1,
+        "played": 4,
+        "w": 2,
         "d": 1,
         "l": 1,
-        "gf": 6,
+        "gf": 7,
         "ga": 8
       },
       "teams": [
@@ -1404,8 +1404,8 @@
           "name": "Ghana",
           "tla": "GHA",
           "crest": "https://crests.football-data.org/ghana.svg",
-          "points": 0,
-          "w": 0,
+          "points": 3,
+          "w": 1,
           "d": 0,
           "l": 0,
           "group": {
@@ -1430,15 +1430,15 @@
               "opponentTla": "PAN",
               "opponentCrest": "https://crests.football-data.org/panama.svg",
               "utcDate": "2026-06-17T23:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_L",
               "isHome": true,
               "goalsFor": 1,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "England",
@@ -1546,7 +1546,7 @@
           ]
         }
       ],
-      "rank": 8
+      "rank": 2
     },
     {
       "name": "Kate",
@@ -2162,19 +2162,19 @@
           ]
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Marco",
       "color": "#18c6b8",
       "total": 3,
       "agg": {
-        "played": 3,
+        "played": 4,
         "w": 1,
         "d": 0,
-        "l": 2,
+        "l": 3,
         "gf": 5,
-        "ga": 7
+        "ga": 8
       },
       "teams": [
         {
@@ -2258,7 +2258,7 @@
           "points": 0,
           "w": 0,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 3,
             "played": 1,
@@ -2281,15 +2281,15 @@
               "opponentTla": "GHA",
               "opponentCrest": "https://crests.football-data.org/ghana.svg",
               "utcDate": "2026-06-17T23:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_L",
               "isHome": false,
               "goalsFor": 0,
               "goalsAgainst": 1,
-              "result": null,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             },
             {
               "opponent": "Croatia",
@@ -2775,7 +2775,7 @@
           ]
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Nisha",
@@ -3083,7 +3083,7 @@
           ]
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Seth",
@@ -3391,7 +3391,7 @@
           ]
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Will",
@@ -4934,13 +4934,30 @@
       }
     },
     {
+      "date": "2026-06-17T23:00:00Z",
+      "totals": {
+        "Daniele": 5,
+        "Herlyn": 7,
+        "Htoo": 3,
+        "Jack": 3,
+        "Jeff": 7,
+        "Kate": 3,
+        "Ken": 5,
+        "Marco": 3,
+        "Max": 6,
+        "Nisha": 7,
+        "Seth": 7,
+        "Will": 4
+      }
+    },
+    {
       "date": "2026-06-18T02:00:00Z",
       "totals": {
         "Daniele": 5,
         "Herlyn": 7,
         "Htoo": 6,
         "Jack": 3,
-        "Jeff": 4,
+        "Jeff": 7,
         "Kate": 3,
         "Ken": 5,
         "Marco": 3,
@@ -5001,7 +5018,7 @@
     {
       "id": 537410,
       "utcDate": "2026-06-17T23:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_L",
       "home": {
@@ -5031,15 +5048,15 @@
           "color": "#a06bff",
           "team": "Ghana",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Marco",
           "color": "#18c6b8",
           "team": "Panama",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -8489,12 +8506,12 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "74 in 23 games"
+      "value": "75 in 24 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.2"
+      "value": "3.1"
     },
     {
       "icon": "💥",
