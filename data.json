@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T05:02:19Z",
+  "updatedAt": "2026-06-19T18:03:11Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -372,7 +372,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
               "status": "TIMED",
@@ -622,7 +622,7 @@
           ]
         }
       ],
-      "rank": 3
+      "rank": 2
     },
     {
       "name": "Htoo",
@@ -884,7 +884,7 @@
           "matches": [
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-15T22:00:00Z",
               "status": "FINISHED",
@@ -1238,19 +1238,19 @@
           ]
         }
       ],
-      "rank": 6
+      "rank": 5
     },
     {
       "name": "Jeff",
       "color": "#a06bff",
-      "total": 7,
+      "total": 6,
       "agg": {
-        "played": 5,
+        "played": 4,
         "w": 2,
-        "d": 1,
+        "d": 0,
         "l": 2,
-        "gf": 8,
-        "ga": 12
+        "gf": 7,
+        "ga": 11
       },
       "teams": [
         {
@@ -1258,9 +1258,9 @@
           "name": "Bosnia-Herzegovina",
           "tla": "BIH",
           "crest": "https://crests.football-data.org/bosnia.svg",
-          "points": 1,
+          "points": 0,
           "w": 0,
-          "d": 1,
+          "d": 0,
           "l": 1,
           "group": {
             "position": 3,
@@ -1288,11 +1288,11 @@
               "stage": "GROUP_STAGE",
               "group": "GROUP_B",
               "isHome": false,
-              "goalsFor": 1,
-              "goalsAgainst": 1,
-              "result": "D",
-              "points": 1,
-              "counted": true
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             },
             {
               "opponent": "Switzerland",
@@ -1546,7 +1546,7 @@
           ]
         }
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "name": "Kate",
@@ -1783,7 +1783,7 @@
         {
           "id": 758,
           "name": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg",
           "points": 1,
           "w": 0,
@@ -1859,14 +1859,14 @@
     {
       "name": "Ken",
       "color": "#ffd23b",
-      "total": 8,
+      "total": 7,
       "agg": {
-        "played": 6,
+        "played": 5,
         "w": 2,
-        "d": 2,
+        "d": 1,
         "l": 2,
-        "gf": 13,
-        "ga": 13
+        "gf": 12,
+        "ga": 12
       },
       "teams": [
         {
@@ -1947,9 +1947,9 @@
           "name": "Canada",
           "tla": "CAN",
           "crest": "https://crests.football-data.org/canada.svg",
-          "points": 4,
+          "points": 3,
           "w": 1,
-          "d": 1,
+          "d": 0,
           "l": 0,
           "group": {
             "position": 1,
@@ -1977,11 +1977,11 @@
               "stage": "GROUP_STAGE",
               "group": "GROUP_B",
               "isHome": true,
-              "goalsFor": 1,
-              "goalsAgainst": 1,
-              "result": "D",
-              "points": 1,
-              "counted": true
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             },
             {
               "opponent": "Qatar",
@@ -2162,7 +2162,7 @@
           ]
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Marco",
@@ -3302,7 +3302,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -3391,7 +3391,7 @@
           ]
         }
       ],
-      "rank": 5
+      "rank": 4
     },
     {
       "name": "Will",
@@ -4594,32 +4594,15 @@
       }
     },
     {
-      "date": "2026-06-12T19:00:00Z",
-      "totals": {
-        "Daniele": 0,
-        "Herlyn": 3,
-        "Htoo": 0,
-        "Jack": 0,
-        "Jeff": 1,
-        "Kate": 0,
-        "Ken": 1,
-        "Marco": 0,
-        "Max": 0,
-        "Nisha": 3,
-        "Seth": 0,
-        "Will": 0
-      }
-    },
-    {
       "date": "2026-06-13T01:00:00Z",
       "totals": {
         "Daniele": 0,
         "Herlyn": 3,
         "Htoo": 0,
         "Jack": 0,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 0,
-        "Ken": 1,
+        "Ken": 0,
         "Marco": 0,
         "Max": 3,
         "Nisha": 3,
@@ -4634,9 +4617,9 @@
         "Herlyn": 3,
         "Htoo": 0,
         "Jack": 1,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 0,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 3,
         "Nisha": 3,
@@ -4651,9 +4634,9 @@
         "Herlyn": 3,
         "Htoo": 0,
         "Jack": 2,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 0,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 3,
         "Nisha": 3,
@@ -4668,9 +4651,9 @@
         "Herlyn": 3,
         "Htoo": 0,
         "Jack": 2,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 0,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 3,
         "Nisha": 3,
@@ -4685,9 +4668,9 @@
         "Herlyn": 3,
         "Htoo": 0,
         "Jack": 2,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 0,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 3,
         "Nisha": 6,
@@ -4702,9 +4685,9 @@
         "Herlyn": 6,
         "Htoo": 0,
         "Jack": 2,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 0,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 3,
         "Nisha": 6,
@@ -4719,9 +4702,9 @@
         "Herlyn": 6,
         "Htoo": 0,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 0,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 3,
         "Nisha": 7,
@@ -4736,9 +4719,9 @@
         "Herlyn": 6,
         "Htoo": 0,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 0,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 6,
         "Nisha": 7,
@@ -4753,9 +4736,9 @@
         "Herlyn": 6,
         "Htoo": 0,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 0,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 6,
         "Nisha": 7,
@@ -4770,9 +4753,9 @@
         "Herlyn": 7,
         "Htoo": 0,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 0,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 6,
         "Nisha": 7,
@@ -4787,9 +4770,9 @@
         "Herlyn": 7,
         "Htoo": 0,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 2,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 6,
         "Nisha": 7,
@@ -4804,9 +4787,9 @@
         "Herlyn": 7,
         "Htoo": 1,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 3,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 6,
         "Nisha": 7,
@@ -4821,9 +4804,9 @@
         "Herlyn": 7,
         "Htoo": 1,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 3,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 6,
         "Nisha": 7,
@@ -4838,9 +4821,9 @@
         "Herlyn": 7,
         "Htoo": 1,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 3,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 6,
         "Nisha": 7,
@@ -4855,9 +4838,9 @@
         "Herlyn": 7,
         "Htoo": 1,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 3,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 0,
         "Max": 6,
         "Nisha": 7,
@@ -4872,9 +4855,9 @@
         "Herlyn": 7,
         "Htoo": 1,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 3,
-        "Ken": 2,
+        "Ken": 1,
         "Marco": 3,
         "Max": 6,
         "Nisha": 7,
@@ -4889,9 +4872,9 @@
         "Herlyn": 7,
         "Htoo": 1,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 3,
-        "Ken": 5,
+        "Ken": 4,
         "Marco": 3,
         "Max": 6,
         "Nisha": 7,
@@ -4906,9 +4889,9 @@
         "Herlyn": 7,
         "Htoo": 3,
         "Jack": 3,
-        "Jeff": 1,
+        "Jeff": 0,
         "Kate": 3,
-        "Ken": 5,
+        "Ken": 4,
         "Marco": 3,
         "Max": 6,
         "Nisha": 7,
@@ -4923,9 +4906,9 @@
         "Herlyn": 7,
         "Htoo": 3,
         "Jack": 3,
-        "Jeff": 4,
+        "Jeff": 3,
         "Kate": 3,
-        "Ken": 5,
+        "Ken": 4,
         "Marco": 3,
         "Max": 6,
         "Nisha": 7,
@@ -4940,9 +4923,9 @@
         "Herlyn": 7,
         "Htoo": 3,
         "Jack": 3,
-        "Jeff": 7,
+        "Jeff": 6,
         "Kate": 3,
-        "Ken": 5,
+        "Ken": 4,
         "Marco": 3,
         "Max": 6,
         "Nisha": 7,
@@ -4957,9 +4940,9 @@
         "Herlyn": 7,
         "Htoo": 6,
         "Jack": 3,
-        "Jeff": 7,
+        "Jeff": 6,
         "Kate": 3,
-        "Ken": 5,
+        "Ken": 4,
         "Marco": 3,
         "Max": 6,
         "Nisha": 7,
@@ -4974,9 +4957,9 @@
         "Herlyn": 8,
         "Htoo": 6,
         "Jack": 3,
-        "Jeff": 7,
+        "Jeff": 6,
         "Kate": 3,
-        "Ken": 5,
+        "Ken": 4,
         "Marco": 3,
         "Max": 6,
         "Nisha": 7,
@@ -4991,9 +4974,9 @@
         "Herlyn": 8,
         "Htoo": 6,
         "Jack": 6,
-        "Jeff": 7,
+        "Jeff": 6,
         "Kate": 3,
-        "Ken": 5,
+        "Ken": 4,
         "Marco": 3,
         "Max": 6,
         "Nisha": 7,
@@ -5008,9 +4991,9 @@
         "Herlyn": 8,
         "Htoo": 6,
         "Jack": 6,
-        "Jeff": 7,
+        "Jeff": 6,
         "Kate": 3,
-        "Ken": 8,
+        "Ken": 7,
         "Marco": 3,
         "Max": 6,
         "Nisha": 7,
@@ -5025,9 +5008,9 @@
         "Herlyn": 8,
         "Htoo": 6,
         "Jack": 6,
-        "Jeff": 7,
+        "Jeff": 6,
         "Kate": 3,
-        "Ken": 8,
+        "Ken": 7,
         "Marco": 3,
         "Max": 6,
         "Nisha": 10,
@@ -5648,7 +5631,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "scoreHome": 1,
@@ -6188,52 +6171,6 @@
       ]
     },
     {
-      "id": 537333,
-      "utcDate": "2026-06-12T19:00:00Z",
-      "status": "FINISHED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_B",
-      "home": {
-        "name": "Canada",
-        "tla": "CAN",
-        "crest": "https://crests.football-data.org/canada.svg"
-      },
-      "away": {
-        "name": "Bosnia-Herzegovina",
-        "tla": "BIH",
-        "crest": "https://crests.football-data.org/bosnia.svg"
-      },
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "htHome": 0,
-      "htAway": 1,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Facundo Tello",
-        "nationality": "Argentina"
-      },
-      "stakes": [
-        {
-          "player": "Ken",
-          "color": "#ffd23b",
-          "team": "Canada",
-          "isHome": true,
-          "result": "D",
-          "points": 1
-        },
-        {
-          "player": "Jeff",
-          "color": "#a06bff",
-          "team": "Bosnia-Herzegovina",
-          "isHome": false,
-          "result": "D",
-          "points": 1
-        }
-      ]
-    },
-    {
       "id": 537328,
       "utcDate": "2026-06-12T02:00:00Z",
       "status": "FINISHED",
@@ -6350,7 +6287,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Felix Zwayer",
+        "nationality": "Germany"
+      },
       "stakes": [
         {
           "player": "Max",
@@ -6765,7 +6705,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -7797,7 +7737,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -8586,7 +8526,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "89 in 28 games"
+      "value": "87 in 27 games"
     },
     {
       "icon": "📊",
@@ -8606,7 +8546,7 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "10"
+      "value": "9"
     },
     {
       "icon": "👑",
@@ -8616,7 +8556,7 @@
     {
       "icon": "🎯",
       "label": "Most goals (manager)",
-      "value": "Ken · 13"
+      "value": "Ken · 12"
     },
     {
       "icon": "⭐",
