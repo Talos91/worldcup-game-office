@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T21:14:24Z",
+  "updatedAt": "2026-06-19T23:04:29Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -372,7 +372,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
               "status": "TIMED",
@@ -884,7 +884,7 @@
           "matches": [
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-15T22:00:00Z",
               "status": "FINISHED",
@@ -1028,15 +1028,15 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 2,
-            "played": 1,
-            "won": 0,
+            "position": 1,
+            "played": 2,
+            "won": 1,
             "draw": 1,
             "lost": 0,
-            "gf": 1,
+            "gf": 2,
             "ga": 1,
-            "gd": 0,
-            "points": 1,
+            "gd": 1,
+            "points": 4,
             "group": "Group C"
           },
           "coach": {
@@ -1064,12 +1064,12 @@
               "opponentTla": "SCO",
               "opponentCrest": "https://crests.football-data.org/814.svg",
               "utcDate": "2026-06-19T22:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_C",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -1783,7 +1783,7 @@
         {
           "id": 758,
           "name": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg",
           "points": 1,
           "w": 0,
@@ -3181,14 +3181,14 @@
           "d": 0,
           "l": 0,
           "group": {
-            "position": 1,
-            "played": 1,
+            "position": 2,
+            "played": 2,
             "won": 1,
             "draw": 0,
-            "lost": 0,
+            "lost": 1,
             "gf": 1,
-            "ga": 0,
-            "gd": 1,
+            "ga": 1,
+            "gd": 0,
             "points": 3,
             "group": "Group C"
           },
@@ -3217,12 +3217,12 @@
               "opponentTla": "MAR",
               "opponentCrest": "https://crests.football-data.org/morocco.svg",
               "utcDate": "2026-06-19T22:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_C",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -3302,7 +3302,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -3846,35 +3846,35 @@
       "table": [
         {
           "position": 1,
-          "name": "Scotland",
-          "tla": "SCO",
-          "crest": "https://crests.football-data.org/814.svg",
-          "played": 1,
-          "won": 1,
-          "draw": 0,
-          "lost": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "points": 3,
-          "owner": "Seth",
-          "color": "#b5e853"
-        },
-        {
-          "position": 2,
           "name": "Morocco",
           "tla": "MAR",
           "crest": "https://crests.football-data.org/morocco.svg",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "draw": 1,
           "lost": 0,
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
+          "points": 4,
+          "owner": "Jack",
+          "color": "#ff9f1c"
+        },
+        {
+          "position": 2,
+          "name": "Scotland",
+          "tla": "SCO",
+          "crest": "https://crests.football-data.org/814.svg",
+          "played": 2,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
           "gf": 1,
           "ga": 1,
           "gd": 0,
-          "points": 1,
-          "owner": "Jack",
-          "color": "#ff9f1c"
+          "points": 3,
+          "owner": "Seth",
+          "color": "#b5e853"
         },
         {
           "position": 3,
@@ -5055,6 +5055,52 @@
   ],
   "recent": [
     {
+      "id": 537342,
+      "utcDate": "2026-06-19T22:00:00Z",
+      "status": "PAUSED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_C",
+      "home": {
+        "name": "Scotland",
+        "tla": "SCO",
+        "crest": "https://crests.football-data.org/814.svg"
+      },
+      "away": {
+        "name": "Morocco",
+        "tla": "MAR",
+        "crest": "https://crests.football-data.org/morocco.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Il'giz Tantashev",
+        "nationality": "Uzbekistan"
+      },
+      "stakes": [
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Scotland",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Morocco",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
       "id": 537348,
       "utcDate": "2026-06-19T19:00:00Z",
       "status": "FINISHED",
@@ -5711,7 +5757,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "scoreHome": 1,
@@ -6391,52 +6437,6 @@
   ],
   "upcoming": [
     {
-      "id": 537342,
-      "utcDate": "2026-06-19T22:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_C",
-      "home": {
-        "name": "Scotland",
-        "tla": "SCO",
-        "crest": "https://crests.football-data.org/814.svg"
-      },
-      "away": {
-        "name": "Morocco",
-        "tla": "MAR",
-        "crest": "https://crests.football-data.org/morocco.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Il'giz Tantashev",
-        "nationality": "Uzbekistan"
-      },
-      "stakes": [
-        {
-          "player": "Seth",
-          "color": "#b5e853",
-          "team": "Scotland",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Morocco",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537341,
       "utcDate": "2026-06-20T00:30:00Z",
       "status": "TIMED",
@@ -6459,7 +6459,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Alejandro Hernández Hernández",
+        "nationality": "Spain"
+      },
       "stakes": [
         {
           "player": "Daniele",
@@ -6788,7 +6791,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -7820,7 +7823,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -8281,6 +8284,15 @@
       "color": "#6c8cff"
     },
     {
+      "name": "Ismael Saibari",
+      "goals": 2,
+      "team": "Morocco",
+      "teamTla": "MAR",
+      "teamCrest": "https://crests.football-data.org/morocco.svg",
+      "owner": "Jack",
+      "color": "#ff9f1c"
+    },
+    {
       "name": "Kai Havertz",
       "goals": 2,
       "team": "Germany",
@@ -8432,15 +8444,6 @@
       "teamCrest": "https://crests.football-data.org/8030.svg",
       "owner": "Ken",
       "color": "#ffd23b"
-    },
-    {
-      "name": "Ismael Saibari",
-      "goals": 1,
-      "team": "Morocco",
-      "teamTla": "MAR",
-      "teamCrest": "https://crests.football-data.org/morocco.svg",
-      "owner": "Jack",
-      "color": "#ff9f1c"
     },
     {
       "name": "Vinicius Junior",
