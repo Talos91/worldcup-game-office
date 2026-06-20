@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T21:23:47Z",
+  "updatedAt": "2026-06-20T23:15:58Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -319,14 +319,14 @@
     {
       "name": "Herlyn",
       "color": "#ff5d8f",
-      "total": 8,
+      "total": 11,
       "agg": {
-        "played": 6,
-        "w": 2,
+        "played": 7,
+        "w": 3,
         "d": 2,
         "l": 2,
-        "gf": 11,
-        "ga": 6
+        "gf": 13,
+        "ga": 7
       },
       "teams": [
         {
@@ -480,20 +480,20 @@
           "name": "Germany",
           "tla": "GER",
           "crest": "https://crests.football-data.org/759.svg",
-          "points": 3,
-          "w": 1,
+          "points": 6,
+          "w": 2,
           "d": 0,
           "l": 0,
           "group": {
-            "position": 2,
+            "position": 1,
             "played": 2,
-            "won": 1,
+            "won": 2,
             "draw": 0,
-            "lost": 1,
-            "gf": 7,
+            "lost": 0,
+            "gf": 9,
             "ga": 2,
-            "gd": 5,
-            "points": 3,
+            "gd": 7,
+            "points": 6,
             "group": "Group E"
           },
           "coach": {
@@ -521,15 +521,15 @@
               "opponentTla": "CIV",
               "opponentCrest": "https://crests.football-data.org/787.svg",
               "utcDate": "2026-06-20T20:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_E",
               "isHome": true,
-              "goalsFor": 0,
+              "goalsFor": 2,
               "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Ecuador",
@@ -622,7 +622,7 @@
           ]
         }
       ],
-      "rank": 5
+      "rank": 2
     },
     {
       "name": "Htoo",
@@ -2162,7 +2162,7 @@
           ]
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Marco",
@@ -2477,12 +2477,12 @@
       "color": "#6c8cff",
       "total": 9,
       "agg": {
-        "played": 6,
+        "played": 7,
         "w": 3,
         "d": 0,
-        "l": 3,
-        "gf": 8,
-        "ga": 7
+        "l": 4,
+        "gf": 9,
+        "ga": 9
       },
       "teams": [
         {
@@ -2493,17 +2493,17 @@
           "points": 3,
           "w": 1,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "group": {
-            "position": 1,
+            "position": 2,
             "played": 2,
-            "won": 2,
+            "won": 1,
             "draw": 0,
-            "lost": 0,
+            "lost": 1,
             "gf": 2,
-            "ga": 0,
-            "gd": 2,
-            "points": 6,
+            "ga": 2,
+            "gd": 0,
+            "points": 3,
             "group": "Group E"
           },
           "coach": {
@@ -2531,15 +2531,15 @@
               "opponentTla": "GER",
               "opponentCrest": "https://crests.football-data.org/759.svg",
               "utcDate": "2026-06-20T20:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_E",
               "isHome": false,
               "goalsFor": 1,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             },
             {
               "opponent": "Curaçao",
@@ -2775,7 +2775,7 @@
           ]
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Nisha",
@@ -3083,7 +3083,7 @@
           ]
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Seth",
@@ -3986,35 +3986,35 @@
       "table": [
         {
           "position": 1,
-          "name": "Ivory Coast",
-          "tla": "CIV",
-          "crest": "https://crests.football-data.org/787.svg",
-          "played": 2,
-          "won": 2,
-          "draw": 0,
-          "lost": 0,
-          "gf": 2,
-          "ga": 0,
-          "gd": 2,
-          "points": 6,
-          "owner": "Max",
-          "color": "#6c8cff"
-        },
-        {
-          "position": 2,
           "name": "Germany",
           "tla": "GER",
           "crest": "https://crests.football-data.org/759.svg",
           "played": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "gf": 9,
+          "ga": 2,
+          "gd": 7,
+          "points": 6,
+          "owner": "Herlyn",
+          "color": "#ff5d8f"
+        },
+        {
+          "position": 2,
+          "name": "Ivory Coast",
+          "tla": "CIV",
+          "crest": "https://crests.football-data.org/787.svg",
+          "played": 2,
           "won": 1,
           "draw": 0,
           "lost": 1,
-          "gf": 7,
+          "gf": 2,
           "ga": 2,
-          "gd": 5,
+          "gd": 0,
           "points": 3,
-          "owner": "Herlyn",
-          "color": "#ff5d8f"
+          "owner": "Max",
+          "color": "#6c8cff"
         },
         {
           "position": 3,
@@ -5119,13 +5119,30 @@
         "Seth": 7,
         "Will": 5
       }
+    },
+    {
+      "date": "2026-06-20T20:00:00Z",
+      "totals": {
+        "Daniele": 8,
+        "Herlyn": 11,
+        "Htoo": 6,
+        "Jack": 12,
+        "Jeff": 7,
+        "Kate": 3,
+        "Ken": 8,
+        "Marco": 6,
+        "Max": 9,
+        "Nisha": 10,
+        "Seth": 7,
+        "Will": 5
+      }
     }
   ],
   "recent": [
     {
       "id": 537353,
       "utcDate": "2026-06-20T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "home": {
@@ -5138,7 +5155,7 @@
         "tla": "CIV",
         "crest": "https://crests.football-data.org/787.svg"
       },
-      "scoreHome": 0,
+      "scoreHome": 2,
       "scoreAway": 1,
       "htHome": 0,
       "htAway": 1,
@@ -5155,15 +5172,15 @@
           "color": "#ff5d8f",
           "team": "Germany",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Max",
           "color": "#6c8cff",
           "team": "Ivory Coast",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -6711,7 +6728,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Ning Ma",
+        "nationality": "China PR"
+      },
       "stakes": [
         {
           "player": "Nisha",
@@ -8325,6 +8345,15 @@
   ],
   "scorers": [
     {
+      "name": "Deniz Undav",
+      "goals": 3,
+      "team": "Germany",
+      "teamTla": "GER",
+      "teamCrest": "https://crests.football-data.org/759.svg",
+      "owner": "Herlyn",
+      "color": "#ff5d8f"
+    },
+    {
       "name": "Lionel Messi",
       "goals": 3,
       "team": "Argentina",
@@ -8631,15 +8660,6 @@
       "color": "#ff5d8f"
     },
     {
-      "name": "Deniz Undav",
-      "goals": 1,
-      "team": "Germany",
-      "teamTla": "GER",
-      "teamCrest": "https://crests.football-data.org/759.svg",
-      "owner": "Herlyn",
-      "color": "#ff5d8f"
-    },
-    {
       "name": "Virgil van Dijk",
       "goals": 1,
       "team": "Netherlands",
@@ -8689,7 +8709,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "102 in 33 games"
+      "value": "105 in 34 games"
     },
     {
       "icon": "📊",
@@ -8724,7 +8744,7 @@
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "United States (Max, +6)"
+      "value": "Germany (Herlyn, +6)"
     }
   ]
 }
