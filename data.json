@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T14:22:12Z",
+  "updatedAt": "2026-06-20T17:40:21Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -372,7 +372,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
               "status": "TIMED",
@@ -884,7 +884,7 @@
           "matches": [
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-15T22:00:00Z",
               "status": "FINISHED",
@@ -1101,15 +1101,15 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 2,
-            "played": 1,
-            "won": 0,
+            "position": 1,
+            "played": 2,
+            "won": 1,
             "draw": 1,
             "lost": 0,
-            "gf": 2,
+            "gf": 4,
             "ga": 2,
-            "gd": 0,
-            "points": 1,
+            "gd": 2,
+            "points": 4,
             "group": "Group F"
           },
           "coach": {
@@ -1137,12 +1137,12 @@
               "opponentTla": "SWE",
               "opponentCrest": "https://crests.football-data.org/792.svg",
               "utcDate": "2026-06-20T17:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_F",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 2,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -1783,7 +1783,7 @@
         {
           "id": 758,
           "name": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg",
           "points": 1,
           "w": 0,
@@ -2946,7 +2946,7 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 2,
+            "position": 3,
             "played": 1,
             "won": 0,
             "draw": 1,
@@ -3302,7 +3302,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -3327,14 +3327,14 @@
           "d": 0,
           "l": 0,
           "group": {
-            "position": 1,
-            "played": 1,
+            "position": 2,
+            "played": 2,
             "won": 1,
             "draw": 0,
-            "lost": 0,
+            "lost": 1,
             "gf": 5,
-            "ga": 1,
-            "gd": 4,
+            "ga": 3,
+            "gd": 2,
             "points": 3,
             "group": "Group F"
           },
@@ -3363,12 +3363,12 @@
               "opponentTla": "NED",
               "opponentCrest": "https://crests.football-data.org/8601.svg",
               "utcDate": "2026-06-20T17:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_F",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 2,
               "result": null,
               "points": 0,
               "counted": false
@@ -4056,22 +4056,38 @@
       "table": [
         {
           "position": 1,
+          "name": "Netherlands",
+          "tla": "NED",
+          "crest": "https://crests.football-data.org/8601.svg",
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 2,
+          "gd": 2,
+          "points": 4,
+          "owner": "Jack",
+          "color": "#ff9f1c"
+        },
+        {
+          "position": 2,
           "name": "Sweden",
           "tla": "SWE",
           "crest": "https://crests.football-data.org/792.svg",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 5,
-          "ga": 1,
-          "gd": 4,
+          "ga": 3,
+          "gd": 2,
           "points": 3,
           "owner": "Seth",
           "color": "#b5e853"
         },
         {
-          "position": 2,
+          "position": 3,
           "name": "Japan",
           "tla": "JPN",
           "crest": "https://crests.football-data.org/766.svg",
@@ -4085,22 +4101,6 @@
           "points": 1,
           "owner": "Nisha",
           "color": "#ff7a3d"
-        },
-        {
-          "position": 2,
-          "name": "Netherlands",
-          "tla": "NED",
-          "crest": "https://crests.football-data.org/8601.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1,
-          "owner": "Jack",
-          "color": "#ff9f1c"
         },
         {
           "position": 4,
@@ -5106,6 +5106,52 @@
   ],
   "recent": [
     {
+      "id": 537359,
+      "utcDate": "2026-06-20T17:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_F",
+      "home": {
+        "name": "Netherlands",
+        "tla": "NED",
+        "crest": "https://crests.football-data.org/8601.svg"
+      },
+      "away": {
+        "name": "Sweden",
+        "tla": "SWE",
+        "crest": "https://crests.football-data.org/792.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Michael Oliver",
+        "nationality": "England"
+      },
+      "stakes": [
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Netherlands",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Sweden",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
       "id": 537347,
       "utcDate": "2026-06-20T03:00:00Z",
       "status": "FINISHED",
@@ -5900,7 +5946,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "scoreHome": 1,
@@ -6580,49 +6626,6 @@
   ],
   "upcoming": [
     {
-      "id": 537359,
-      "utcDate": "2026-06-20T17:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_F",
-      "home": {
-        "name": "Netherlands",
-        "tla": "NED",
-        "crest": "https://crests.football-data.org/8601.svg"
-      },
-      "away": {
-        "name": "Sweden",
-        "tla": "SWE",
-        "crest": "https://crests.football-data.org/792.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Netherlands",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Seth",
-          "color": "#b5e853",
-          "team": "Sweden",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537353,
       "utcDate": "2026-06-20T20:00:00Z",
       "status": "TIMED",
@@ -6845,7 +6848,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -7877,7 +7880,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -8428,6 +8431,15 @@
       "color": "#2ee06a"
     },
     {
+      "name": "Brian Brobbey",
+      "goals": 2,
+      "team": "Netherlands",
+      "teamTla": "NED",
+      "teamCrest": "https://crests.football-data.org/8601.svg",
+      "owner": "Jack",
+      "color": "#ff9f1c"
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 1,
       "team": "Mexico",
@@ -8651,15 +8663,6 @@
       "teamCrest": "https://crests.football-data.org/792.svg",
       "owner": "Seth",
       "color": "#b5e853"
-    },
-    {
-      "name": "Omar Rekik",
-      "goals": 1,
-      "team": "Tunisia",
-      "teamTla": "TUN",
-      "teamCrest": "https://crests.football-data.org/tunisia.svg",
-      "owner": "Jeff",
-      "color": "#a06bff"
     }
   ],
   "curiosities": [
