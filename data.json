@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T23:04:29Z",
+  "updatedAt": "2026-06-20T04:15:25Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,13 +11,13 @@
     {
       "name": "Daniele",
       "color": "#2ee06a",
-      "total": 5,
+      "total": 8,
       "agg": {
-        "played": 4,
-        "w": 1,
+        "played": 5,
+        "w": 2,
         "d": 2,
         "l": 1,
-        "gf": 8,
+        "gf": 11,
         "ga": 11
       },
       "teams": [
@@ -26,20 +26,20 @@
           "name": "Brazil",
           "tla": "BRA",
           "crest": "https://crests.football-data.org/764.svg",
-          "points": 1,
-          "w": 0,
+          "points": 4,
+          "w": 1,
           "d": 1,
           "l": 0,
           "group": {
-            "position": 3,
-            "played": 1,
-            "won": 0,
+            "position": 1,
+            "played": 2,
+            "won": 1,
             "draw": 1,
             "lost": 0,
-            "gf": 1,
+            "gf": 4,
             "ga": 1,
-            "gd": 0,
-            "points": 1,
+            "gd": 3,
+            "points": 4,
             "group": "Group C"
           },
           "coach": {
@@ -67,15 +67,15 @@
               "opponentTla": "HAI",
               "opponentCrest": "https://crests.football-data.org/haiti.svg",
               "utcDate": "2026-06-20T00:30:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_C",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 3,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Scotland",
@@ -314,7 +314,7 @@
           ]
         }
       ],
-      "rank": 9
+      "rank": 6
     },
     {
       "name": "Herlyn",
@@ -622,7 +622,7 @@
           ]
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Htoo",
@@ -930,19 +930,19 @@
           ]
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Jack",
       "color": "#ff9f1c",
-      "total": 6,
+      "total": 9,
       "agg": {
-        "played": 5,
-        "w": 1,
+        "played": 7,
+        "w": 2,
         "d": 3,
-        "l": 1,
-        "gf": 8,
-        "ga": 6
+        "l": 2,
+        "gf": 9,
+        "ga": 9
       },
       "teams": [
         {
@@ -953,16 +953,16 @@
           "points": 0,
           "w": 0,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 4,
-            "played": 1,
+            "played": 2,
             "won": 0,
             "draw": 0,
-            "lost": 1,
+            "lost": 2,
             "gf": 0,
-            "ga": 1,
-            "gd": -1,
+            "ga": 4,
+            "gd": -4,
             "points": 0,
             "group": "Group C"
           },
@@ -991,15 +991,15 @@
               "opponentTla": "BRA",
               "opponentCrest": "https://crests.football-data.org/764.svg",
               "utcDate": "2026-06-20T00:30:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_C",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 0,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             },
             {
               "opponent": "Morocco",
@@ -1023,12 +1023,12 @@
           "name": "Morocco",
           "tla": "MAR",
           "crest": "https://crests.football-data.org/morocco.svg",
-          "points": 1,
-          "w": 0,
+          "points": 4,
+          "w": 1,
           "d": 1,
           "l": 0,
           "group": {
-            "position": 1,
+            "position": 2,
             "played": 2,
             "won": 1,
             "draw": 1,
@@ -1064,15 +1064,15 @@
               "opponentTla": "SCO",
               "opponentCrest": "https://crests.football-data.org/814.svg",
               "utcDate": "2026-06-19T22:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_C",
               "isHome": false,
               "goalsFor": 1,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Haiti",
@@ -1238,7 +1238,7 @@
           ]
         }
       ],
-      "rank": 7
+      "rank": 2
     },
     {
       "name": "Jeff",
@@ -1546,7 +1546,7 @@
           ]
         }
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "name": "Kate",
@@ -2162,7 +2162,7 @@
           ]
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Marco",
@@ -2333,15 +2333,15 @@
           "d": 0,
           "l": 1,
           "group": {
-            "position": 4,
-            "played": 1,
-            "won": 0,
+            "position": 3,
+            "played": 2,
+            "won": 1,
             "draw": 0,
             "lost": 1,
-            "gf": 1,
+            "gf": 2,
             "ga": 4,
-            "gd": -3,
-            "points": 0,
+            "gd": -2,
+            "points": 3,
             "group": "Group D"
           },
           "coach": {
@@ -2369,12 +2369,12 @@
               "opponentTla": "TUR",
               "opponentCrest": "https://crests.football-data.org/803.svg",
               "utcDate": "2026-06-20T03:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_D",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -2638,14 +2638,14 @@
           "d": 0,
           "l": 1,
           "group": {
-            "position": 3,
-            "played": 1,
+            "position": 4,
+            "played": 2,
             "won": 0,
             "draw": 0,
-            "lost": 1,
+            "lost": 2,
             "gf": 0,
-            "ga": 2,
-            "gd": -2,
+            "ga": 3,
+            "gd": -3,
             "points": 0,
             "group": "Group D"
           },
@@ -2674,12 +2674,12 @@
               "opponentTla": "PAR",
               "opponentCrest": "https://crests.football-data.org/761.svg",
               "utcDate": "2026-06-20T03:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_D",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -2775,7 +2775,7 @@
           ]
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Nisha",
@@ -3090,12 +3090,12 @@
       "color": "#b5e853",
       "total": 7,
       "agg": {
-        "played": 4,
+        "played": 5,
         "w": 2,
         "d": 1,
-        "l": 1,
+        "l": 2,
         "gf": 6,
-        "ga": 4
+        "ga": 5
       },
       "teams": [
         {
@@ -3179,9 +3179,9 @@
           "points": 3,
           "w": 1,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "group": {
-            "position": 2,
+            "position": 3,
             "played": 2,
             "won": 1,
             "draw": 0,
@@ -3217,15 +3217,15 @@
               "opponentTla": "MAR",
               "opponentCrest": "https://crests.football-data.org/morocco.svg",
               "utcDate": "2026-06-19T22:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_C",
               "isHome": true,
               "goalsFor": 0,
               "goalsAgainst": 1,
-              "result": null,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             },
             {
               "opponent": "Brazil",
@@ -3391,7 +3391,7 @@
           ]
         }
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "name": "Will",
@@ -3846,6 +3846,22 @@
       "table": [
         {
           "position": 1,
+          "name": "Brazil",
+          "tla": "BRA",
+          "crest": "https://crests.football-data.org/764.svg",
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "points": 4,
+          "owner": "Daniele",
+          "color": "#2ee06a"
+        },
+        {
+          "position": 2,
           "name": "Morocco",
           "tla": "MAR",
           "crest": "https://crests.football-data.org/morocco.svg",
@@ -3861,7 +3877,7 @@
           "color": "#ff9f1c"
         },
         {
-          "position": 2,
+          "position": 3,
           "name": "Scotland",
           "tla": "SCO",
           "crest": "https://crests.football-data.org/814.svg",
@@ -3877,33 +3893,17 @@
           "color": "#b5e853"
         },
         {
-          "position": 3,
-          "name": "Brazil",
-          "tla": "BRA",
-          "crest": "https://crests.football-data.org/764.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1,
-          "owner": "Daniele",
-          "color": "#2ee06a"
-        },
-        {
           "position": 4,
           "name": "Haiti",
           "tla": "HAI",
           "crest": "https://crests.football-data.org/haiti.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 0,
-          "ga": 1,
-          "gd": -1,
+          "ga": 4,
+          "gd": -4,
           "points": 0,
           "owner": "Jack",
           "color": "#ff9f1c"
@@ -3948,35 +3948,35 @@
         },
         {
           "position": 3,
-          "name": "Turkey",
-          "tla": "TUR",
-          "crest": "https://crests.football-data.org/803.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 0,
-          "lost": 1,
-          "gf": 0,
-          "ga": 2,
-          "gd": -2,
-          "points": 0,
-          "owner": "Max",
-          "color": "#6c8cff"
-        },
-        {
-          "position": 4,
           "name": "Paraguay",
           "tla": "PAR",
           "crest": "https://crests.football-data.org/761.svg",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "draw": 0,
           "lost": 1,
-          "gf": 1,
+          "gf": 2,
           "ga": 4,
-          "gd": -3,
-          "points": 0,
+          "gd": -2,
+          "points": 3,
           "owner": "Marco",
           "color": "#18c6b8"
+        },
+        {
+          "position": 4,
+          "name": "Turkey",
+          "tla": "TUR",
+          "crest": "https://crests.football-data.org/803.svg",
+          "played": 2,
+          "won": 0,
+          "draw": 0,
+          "lost": 2,
+          "gf": 0,
+          "ga": 3,
+          "gd": -3,
+          "points": 0,
+          "owner": "Max",
+          "color": "#6c8cff"
         }
       ]
     },
@@ -5051,13 +5051,139 @@
         "Seth": 7,
         "Will": 5
       }
+    },
+    {
+      "date": "2026-06-19T22:00:00Z",
+      "totals": {
+        "Daniele": 5,
+        "Herlyn": 8,
+        "Htoo": 6,
+        "Jack": 9,
+        "Jeff": 7,
+        "Kate": 3,
+        "Ken": 8,
+        "Marco": 3,
+        "Max": 9,
+        "Nisha": 10,
+        "Seth": 7,
+        "Will": 5
+      }
+    },
+    {
+      "date": "2026-06-20T00:30:00Z",
+      "totals": {
+        "Daniele": 8,
+        "Herlyn": 8,
+        "Htoo": 6,
+        "Jack": 9,
+        "Jeff": 7,
+        "Kate": 3,
+        "Ken": 8,
+        "Marco": 3,
+        "Max": 9,
+        "Nisha": 10,
+        "Seth": 7,
+        "Will": 5
+      }
     }
   ],
   "recent": [
     {
+      "id": 537347,
+      "utcDate": "2026-06-20T03:00:00Z",
+      "status": "PAUSED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "home": {
+        "name": "Turkey",
+        "tla": "TUR",
+        "crest": "https://crests.football-data.org/803.svg"
+      },
+      "away": {
+        "name": "Paraguay",
+        "tla": "PAR",
+        "crest": "https://crests.football-data.org/761.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Ivan Barton",
+        "nationality": null
+      },
+      "stakes": [
+        {
+          "player": "Max",
+          "color": "#6c8cff",
+          "team": "Turkey",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Marco",
+          "color": "#18c6b8",
+          "team": "Paraguay",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537341,
+      "utcDate": "2026-06-20T00:30:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_C",
+      "home": {
+        "name": "Brazil",
+        "tla": "BRA",
+        "crest": "https://crests.football-data.org/764.svg"
+      },
+      "away": {
+        "name": "Haiti",
+        "tla": "HAI",
+        "crest": "https://crests.football-data.org/haiti.svg"
+      },
+      "scoreHome": 3,
+      "scoreAway": 0,
+      "htHome": 3,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Alejandro Hernández Hernández",
+        "nationality": "Spain"
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#2ee06a",
+          "team": "Brazil",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        },
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Haiti",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ]
+    },
+    {
       "id": 537342,
       "utcDate": "2026-06-19T22:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_C",
       "home": {
@@ -5087,7 +5213,7 @@
           "color": "#b5e853",
           "team": "Scotland",
           "isHome": true,
-          "result": null,
+          "result": "L",
           "points": 0
         },
         {
@@ -5095,8 +5221,8 @@
           "color": "#ff9f1c",
           "team": "Morocco",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ]
     },
@@ -6436,95 +6562,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": 537341,
-      "utcDate": "2026-06-20T00:30:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_C",
-      "home": {
-        "name": "Brazil",
-        "tla": "BRA",
-        "crest": "https://crests.football-data.org/764.svg"
-      },
-      "away": {
-        "name": "Haiti",
-        "tla": "HAI",
-        "crest": "https://crests.football-data.org/haiti.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Alejandro Hernández Hernández",
-        "nationality": "Spain"
-      },
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#2ee06a",
-          "team": "Brazil",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Haiti",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537347,
-      "utcDate": "2026-06-20T03:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_D",
-      "home": {
-        "name": "Turkey",
-        "tla": "TUR",
-        "crest": "https://crests.football-data.org/803.svg"
-      },
-      "away": {
-        "name": "Paraguay",
-        "tla": "PAR",
-        "crest": "https://crests.football-data.org/761.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Max",
-          "color": "#6c8cff",
-          "team": "Turkey",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Paraguay",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537359,
       "utcDate": "2026-06-20T17:00:00Z",
@@ -8293,6 +8330,15 @@
       "color": "#ff9f1c"
     },
     {
+      "name": "Vinicius Junior",
+      "goals": 2,
+      "team": "Brazil",
+      "teamTla": "BRA",
+      "teamCrest": "https://crests.football-data.org/764.svg",
+      "owner": "Daniele",
+      "color": "#2ee06a"
+    },
+    {
       "name": "Kai Havertz",
       "goals": 2,
       "team": "Germany",
@@ -8354,6 +8400,15 @@
       "teamCrest": "https://crests.football-data.org/788.svg",
       "owner": "Jack",
       "color": "#ff9f1c"
+    },
+    {
+      "name": "Matheus Cunha",
+      "goals": 2,
+      "team": "Brazil",
+      "teamTla": "BRA",
+      "teamCrest": "https://crests.football-data.org/764.svg",
+      "owner": "Daniele",
+      "color": "#2ee06a"
     },
     {
       "name": "Julián Quiñones",
@@ -8444,15 +8499,6 @@
       "teamCrest": "https://crests.football-data.org/8030.svg",
       "owner": "Ken",
       "color": "#ffd23b"
-    },
-    {
-      "name": "Vinicius Junior",
-      "goals": 1,
-      "team": "Brazil",
-      "teamTla": "BRA",
-      "teamCrest": "https://crests.football-data.org/764.svg",
-      "owner": "Daniele",
-      "color": "#2ee06a"
     },
     {
       "name": "John McGinn",
@@ -8597,22 +8643,13 @@
       "teamCrest": "https://crests.football-data.org/tunisia.svg",
       "owner": "Jeff",
       "color": "#a06bff"
-    },
-    {
-      "name": "Viktor Gyökeres",
-      "goals": 1,
-      "team": "Sweden",
-      "teamTla": "SWE",
-      "teamCrest": "https://crests.football-data.org/792.svg",
-      "owner": "Seth",
-      "color": "#b5e853"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "91 in 29 games"
+      "value": "95 in 31 games"
     },
     {
       "icon": "📊",
