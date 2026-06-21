@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T15:58:55Z",
+  "updatedAt": "2026-06-21T17:44:39Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -372,7 +372,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
               "status": "TIMED",
@@ -866,14 +866,14 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 2,
-            "played": 1,
+            "position": 3,
+            "played": 2,
             "won": 0,
             "draw": 1,
-            "lost": 0,
+            "lost": 1,
             "gf": 1,
-            "ga": 1,
-            "gd": 0,
+            "ga": 5,
+            "gd": -4,
             "points": 1,
             "group": "Group H"
           },
@@ -884,7 +884,7 @@
           "matches": [
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-15T22:00:00Z",
               "status": "FINISHED",
@@ -902,12 +902,12 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-06-21T16:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 4,
               "result": null,
               "points": 0,
               "counted": false
@@ -1783,14 +1783,14 @@
         {
           "id": 758,
           "name": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg",
           "points": 1,
           "w": 0,
           "d": 1,
           "l": 0,
           "group": {
-            "position": 1,
+            "position": 2,
             "played": 1,
             "won": 0,
             "draw": 1,
@@ -3254,15 +3254,15 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 3,
-            "played": 1,
-            "won": 0,
+            "position": 1,
+            "played": 2,
+            "won": 1,
             "draw": 1,
             "lost": 0,
-            "gf": 0,
+            "gf": 4,
             "ga": 0,
-            "gd": 0,
-            "points": 1,
+            "gd": 4,
+            "points": 4,
             "group": "Group H"
           },
           "coach": {
@@ -3290,19 +3290,19 @@
               "opponentTla": "KSA",
               "opponentCrest": "https://crests.football-data.org/saudi_arabia.svg",
               "utcDate": "2026-06-21T16:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 4,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -4196,6 +4196,22 @@
       "table": [
         {
           "position": 1,
+          "name": "Spain",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/760.svg",
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 0,
+          "gd": 4,
+          "points": 4,
+          "owner": "Seth",
+          "color": "#b5e853"
+        },
+        {
+          "position": 2,
           "name": "Uruguay",
           "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg",
@@ -4211,36 +4227,20 @@
           "color": "#ff6fc8"
         },
         {
-          "position": 2,
+          "position": 3,
           "name": "Saudi Arabia",
           "tla": "KSA",
           "crest": "https://crests.football-data.org/saudi_arabia.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "ga": 5,
+          "gd": -4,
           "points": 1,
           "owner": "Htoo",
           "color": "#3da5ff"
-        },
-        {
-          "position": 3,
-          "name": "Spain",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/760.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "points": 1,
-          "owner": "Seth",
-          "color": "#b5e853"
         },
         {
           "position": 4,
@@ -5173,6 +5173,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537371,
+      "utcDate": "2026-06-21T16:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_H",
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "tla": "KSA",
+        "crest": "https://crests.football-data.org/saudi_arabia.svg"
+      },
+      "scoreHome": 4,
+      "scoreAway": 0,
+      "htHome": 3,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Raphael Claus",
+        "nationality": "Brazil"
+      },
+      "stakes": [
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Spain",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Htoo",
+          "color": "#3da5ff",
+          "team": "Saudi Arabia",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537360,
       "utcDate": "2026-06-21T04:00:00Z",
@@ -6152,7 +6198,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "scoreHome": 1,
@@ -6832,52 +6878,6 @@
   ],
   "upcoming": [
     {
-      "id": 537371,
-      "utcDate": "2026-06-21T16:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_H",
-      "home": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "tla": "KSA",
-        "crest": "https://crests.football-data.org/saudi_arabia.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Raphael Claus",
-        "nationality": "Brazil"
-      },
-      "stakes": [
-        {
-          "player": "Seth",
-          "color": "#b5e853",
-          "team": "Spain",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Htoo",
-          "color": "#3da5ff",
-          "team": "Saudi Arabia",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537365,
       "utcDate": "2026-06-21T19:00:00Z",
       "status": "TIMED",
@@ -6900,7 +6900,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Darío Herrera",
+        "nationality": "Argentina"
+      },
       "stakes": [
         {
           "player": "Kate",
@@ -6928,7 +6931,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -7960,7 +7963,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -8556,6 +8559,15 @@
       "color": "#ff7a3d"
     },
     {
+      "name": "Mikel Oyarzabal",
+      "goals": 2,
+      "team": "Spain",
+      "teamTla": "ESP",
+      "teamCrest": "https://crests.football-data.org/760.svg",
+      "owner": "Seth",
+      "color": "#b5e853"
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 1,
       "team": "Mexico",
@@ -8734,15 +8746,6 @@
       "teamCrest": "https://crests.football-data.org/766.svg",
       "owner": "Nisha",
       "color": "#ff7a3d"
-    },
-    {
-      "name": "Crysencio Summerville",
-      "goals": 1,
-      "team": "Netherlands",
-      "teamTla": "NED",
-      "teamCrest": "https://crests.football-data.org/8601.svg",
-      "owner": "Jack",
-      "color": "#ff9f1c"
     }
   ],
   "curiosities": [
