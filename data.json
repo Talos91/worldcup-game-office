@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T21:21:17Z",
+  "updatedAt": "2026-06-21T23:21:42Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -340,13 +340,13 @@
           "l": 0,
           "group": {
             "position": 4,
-            "played": 1,
+            "played": 2,
             "won": 0,
             "draw": 1,
-            "lost": 0,
-            "gf": 0,
-            "ga": 0,
-            "gd": 0,
+            "lost": 1,
+            "gf": 1,
+            "ga": 2,
+            "gd": -1,
             "points": 1,
             "group": "Group H"
           },
@@ -375,12 +375,12 @@
               "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 2,
               "result": null,
               "points": 0,
               "counted": false
@@ -1790,15 +1790,15 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 2,
-            "played": 1,
-            "won": 0,
+            "position": 1,
+            "played": 2,
+            "won": 1,
             "draw": 1,
             "lost": 0,
-            "gf": 1,
-            "ga": 1,
-            "gd": 0,
-            "points": 1,
+            "gf": 3,
+            "ga": 2,
+            "gd": 1,
+            "points": 4,
             "group": "Group H"
           },
           "coach": {
@@ -1826,12 +1826,12 @@
               "opponentTla": "CPV",
               "opponentCrest": "https://crests.football-data.org/cape_verde.svg",
               "utcDate": "2026-06-21T22:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 2,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -3254,7 +3254,7 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 1,
+            "position": 2,
             "played": 2,
             "won": 1,
             "draw": 1,
@@ -4196,6 +4196,22 @@
       "table": [
         {
           "position": 1,
+          "name": "Uruguay",
+          "tla": "URU",
+          "crest": "https://crests.football-data.org/758.svg",
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 3,
+          "ga": 2,
+          "gd": 1,
+          "points": 4,
+          "owner": "Kate",
+          "color": "#ff6fc8"
+        },
+        {
+          "position": 2,
           "name": "Spain",
           "tla": "ESP",
           "crest": "https://crests.football-data.org/760.svg",
@@ -4209,22 +4225,6 @@
           "points": 4,
           "owner": "Seth",
           "color": "#b5e853"
-        },
-        {
-          "position": 2,
-          "name": "Uruguay",
-          "tla": "URU",
-          "crest": "https://crests.football-data.org/758.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1,
-          "owner": "Kate",
-          "color": "#ff6fc8"
         },
         {
           "position": 3,
@@ -4247,13 +4247,13 @@
           "name": "Cape Verde Islands",
           "tla": "CPV",
           "crest": "https://crests.football-data.org/cape_verde.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 2,
+          "gd": -1,
           "points": 1,
           "owner": "Herlyn",
           "color": "#ff5d8f"
@@ -5207,6 +5207,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537372,
+      "utcDate": "2026-06-21T22:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_H",
+      "home": {
+        "name": "Uruguay",
+        "tla": "URY",
+        "crest": "https://crests.football-data.org/758.svg"
+      },
+      "away": {
+        "name": "Cape Verde Islands",
+        "tla": "CPV",
+        "crest": "https://crests.football-data.org/cape_verde.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "htHome": 2,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Espen Eskås",
+        "nationality": "Norway"
+      },
+      "stakes": [
+        {
+          "player": "Kate",
+          "color": "#ff6fc8",
+          "team": "Uruguay",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Herlyn",
+          "color": "#ff5d8f",
+          "team": "Cape Verde Islands",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537365,
       "utcDate": "2026-06-21T19:00:00Z",
@@ -6958,52 +7004,6 @@
   ],
   "upcoming": [
     {
-      "id": 537372,
-      "utcDate": "2026-06-21T22:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_H",
-      "home": {
-        "name": "Uruguay",
-        "tla": "URY",
-        "crest": "https://crests.football-data.org/758.svg"
-      },
-      "away": {
-        "name": "Cape Verde Islands",
-        "tla": "CPV",
-        "crest": "https://crests.football-data.org/cape_verde.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Espen Eskås",
-        "nationality": "Norway"
-      },
-      "stakes": [
-        {
-          "player": "Kate",
-          "color": "#ff6fc8",
-          "team": "Uruguay",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Herlyn",
-          "color": "#ff5d8f",
-          "team": "Cape Verde Islands",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537366,
       "utcDate": "2026-06-22T01:00:00Z",
       "status": "TIMED",
@@ -7026,7 +7026,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Omar Mohamed Al Ali",
+        "nationality": "United Arab Emirates"
+      },
       "stakes": [
         {
           "player": "Daniele",
@@ -8515,6 +8518,15 @@
       "color": "#b5e853"
     },
     {
+      "name": "Maximiliano Araújo",
+      "goals": 2,
+      "team": "Uruguay",
+      "teamTla": "URU",
+      "teamCrest": "https://crests.football-data.org/758.svg",
+      "owner": "Kate",
+      "color": "#ff6fc8"
+    },
+    {
       "name": "Elijah Just",
       "goals": 2,
       "team": "New Zealand",
@@ -8774,15 +8786,6 @@
       "teamCrest": "https://crests.football-data.org/8601.svg",
       "owner": "Jack",
       "color": "#ff9f1c"
-    },
-    {
-      "name": "Keito Nakamura",
-      "goals": 1,
-      "team": "Japan",
-      "teamTla": "JPN",
-      "teamCrest": "https://crests.football-data.org/766.svg",
-      "owner": "Nisha",
-      "color": "#ff7a3d"
     }
   ],
   "curiosities": [
