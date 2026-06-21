@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T19:52:38Z",
+  "updatedAt": "2026-06-21T21:21:17Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -97,7 +97,7 @@
         {
           "id": 9460,
           "name": "Curaçao",
-          "tla": "CUR",
+          "tla": "CUW",
           "crest": "https://crests.football-data.org/curacao.svg",
           "points": 1,
           "w": 0,
@@ -503,7 +503,7 @@
           "matches": [
             {
               "opponent": "Curaçao",
-              "opponentTla": "CUR",
+              "opponentTla": "CUW",
               "opponentCrest": "https://crests.football-data.org/curacao.svg",
               "utcDate": "2026-06-14T17:00:00Z",
               "status": "FINISHED",
@@ -634,7 +634,7 @@
         "d": 3,
         "l": 1,
         "gf": 6,
-        "ga": 9
+        "ga": 8
       },
       "teams": [
         {
@@ -907,7 +907,7 @@
               "group": "GROUP_H",
               "isHome": false,
               "goalsFor": 0,
-              "goalsAgainst": 5,
+              "goalsAgainst": 4,
               "result": "L",
               "points": 0,
               "counted": true
@@ -1551,11 +1551,11 @@
     {
       "name": "Kate",
       "color": "#ff6fc8",
-      "total": 3,
+      "total": 4,
       "agg": {
-        "played": 4,
+        "played": 5,
         "w": 0,
-        "d": 3,
+        "d": 4,
         "l": 1,
         "gf": 4,
         "ga": 7
@@ -1566,9 +1566,9 @@
           "name": "Belgium",
           "tla": "BEL",
           "crest": "https://crests.football-data.org/805.svg",
-          "points": 1,
+          "points": 2,
           "w": 0,
-          "d": 1,
+          "d": 2,
           "l": 0,
           "group": {
             "position": 2,
@@ -1607,15 +1607,15 @@
               "opponentTla": "IRN",
               "opponentCrest": "https://crests.football-data.org/iran.svg",
               "utcDate": "2026-06-21T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": true,
               "goalsFor": 0,
-              "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsAgainst": 0,
+              "result": "D",
+              "points": 1,
+              "counted": true
             },
             {
               "opponent": "New Zealand",
@@ -2470,7 +2470,7 @@
           ]
         }
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "name": "Max",
@@ -2543,7 +2543,7 @@
             },
             {
               "opponent": "Curaçao",
-              "opponentTla": "CUR",
+              "opponentTla": "CUW",
               "opponentCrest": "https://crests.football-data.org/curacao.svg",
               "utcDate": "2026-06-25T20:00:00Z",
               "status": "TIMED",
@@ -2906,7 +2906,7 @@
             },
             {
               "opponent": "Curaçao",
-              "opponentTla": "CUR",
+              "opponentTla": "CUW",
               "opponentCrest": "https://crests.football-data.org/curacao.svg",
               "utcDate": "2026-06-21T00:00:00Z",
               "status": "FINISHED",
@@ -3094,7 +3094,7 @@
         "w": 3,
         "d": 1,
         "l": 3,
-        "gf": 12,
+        "gf": 11,
         "ga": 10
       },
       "teams": [
@@ -3294,7 +3294,7 @@
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": true,
-              "goalsFor": 5,
+              "goalsFor": 4,
               "goalsAgainst": 0,
               "result": "W",
               "points": 3,
@@ -3396,11 +3396,11 @@
     {
       "name": "Will",
       "color": "#4fd0e1",
-      "total": 5,
+      "total": 6,
       "agg": {
-        "played": 5,
+        "played": 6,
         "w": 1,
-        "d": 2,
+        "d": 3,
         "l": 2,
         "gf": 7,
         "ga": 9
@@ -3484,9 +3484,9 @@
           "name": "Iran",
           "tla": "IRN",
           "crest": "https://crests.football-data.org/iran.svg",
-          "points": 1,
+          "points": 2,
           "w": 0,
-          "d": 1,
+          "d": 2,
           "l": 0,
           "group": {
             "position": 1,
@@ -3525,15 +3525,15 @@
               "opponentTla": "BEL",
               "opponentCrest": "https://crests.football-data.org/805.svg",
               "utcDate": "2026-06-21T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": false,
-              "goalsFor": 1,
+              "goalsFor": 0,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "D",
+              "points": 1,
+              "counted": true
             },
             {
               "opponent": "Egypt",
@@ -3696,7 +3696,7 @@
           ]
         }
       ],
-      "rank": 11
+      "rank": 9
     }
   ],
   "groups": [
@@ -5187,13 +5187,30 @@
         "Seth": 10,
         "Will": 5
       }
+    },
+    {
+      "date": "2026-06-21T19:00:00Z",
+      "totals": {
+        "Daniele": 9,
+        "Herlyn": 11,
+        "Htoo": 6,
+        "Jack": 12,
+        "Jeff": 7,
+        "Kate": 4,
+        "Ken": 8,
+        "Marco": 6,
+        "Max": 9,
+        "Nisha": 14,
+        "Seth": 10,
+        "Will": 6
+      }
     }
   ],
   "recent": [
     {
       "id": 537365,
       "utcDate": "2026-06-21T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "home": {
@@ -5207,9 +5224,9 @@
         "crest": "https://crests.football-data.org/iran.svg"
       },
       "scoreHome": 0,
-      "scoreAway": 1,
-      "htHome": null,
-      "htAway": null,
+      "scoreAway": 0,
+      "htHome": 0,
+      "htAway": 0,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -5223,16 +5240,16 @@
           "color": "#ff6fc8",
           "team": "Belgium",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "D",
+          "points": 1
         },
         {
           "player": "Will",
           "color": "#4fd0e1",
           "team": "Iran",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "D",
+          "points": 1
         }
       ]
     },
@@ -5252,7 +5269,7 @@
         "tla": "KSA",
         "crest": "https://crests.football-data.org/saudi_arabia.svg"
       },
-      "scoreHome": 5,
+      "scoreHome": 4,
       "scoreAway": 0,
       "htHome": 3,
       "htAway": 0,
@@ -5341,7 +5358,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg"
       },
       "scoreHome": 0,
@@ -6537,7 +6554,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg"
       },
       "scoreHome": 7,
@@ -6963,7 +6980,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Espen Eskås",
+        "nationality": "Norway"
+      },
       "stakes": [
         {
           "player": "Kate",
@@ -7679,7 +7699,7 @@
       "group": "GROUP_E",
       "home": {
         "name": "Curaçao",
-        "tla": "CUR",
+        "tla": "CUW",
         "crest": "https://crests.football-data.org/curacao.svg"
       },
       "away": {
@@ -8769,27 +8789,27 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "114 in 37 games"
+      "value": "113 in 38 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.1"
+      "value": "3.0"
     },
     {
       "icon": "💥",
       "label": "Biggest win",
-      "value": "GER 7–1 CUR"
+      "value": "GER 7–1 CUW"
     },
     {
       "icon": "🔥",
       "label": "Wildest game",
-      "value": "GER 7–1 CUR"
+      "value": "GER 7–1 CUW"
     },
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "11"
+      "value": "12"
     },
     {
       "icon": "👑",
