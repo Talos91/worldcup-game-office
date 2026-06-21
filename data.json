@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T04:59:11Z",
+  "updatedAt": "2026-06-21T09:58:48Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -622,7 +622,7 @@
           ]
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Htoo",
@@ -1238,19 +1238,19 @@
           ]
         }
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "name": "Jeff",
       "color": "#a06bff",
       "total": 7,
       "agg": {
-        "played": 5,
+        "played": 6,
         "w": 2,
         "d": 1,
-        "l": 2,
+        "l": 3,
         "gf": 8,
-        "ga": 12
+        "ga": 16
       },
       "teams": [
         {
@@ -1480,7 +1480,7 @@
           "points": 0,
           "w": 0,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 4,
             "played": 2,
@@ -1488,8 +1488,8 @@
             "draw": 0,
             "lost": 2,
             "gf": 1,
-            "ga": 6,
-            "gd": -5,
+            "ga": 9,
+            "gd": -8,
             "points": 0,
             "group": "Group F"
           },
@@ -1518,15 +1518,15 @@
               "opponentTla": "JPN",
               "opponentCrest": "https://crests.football-data.org/766.svg",
               "utcDate": "2026-06-21T04:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_F",
               "isHome": true,
               "goalsFor": 0,
-              "goalsAgainst": 2,
-              "result": null,
+              "goalsAgainst": 4,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             },
             {
               "opponent": "Netherlands",
@@ -2780,13 +2780,13 @@
     {
       "name": "Nisha",
       "color": "#ff7a3d",
-      "total": 11,
+      "total": 14,
       "agg": {
-        "played": 7,
-        "w": 3,
+        "played": 8,
+        "w": 4,
         "d": 2,
         "l": 2,
-        "gf": 7,
+        "gf": 11,
         "ga": 5
       },
       "teams": [
@@ -2941,8 +2941,8 @@
           "name": "Japan",
           "tla": "JPN",
           "crest": "https://crests.football-data.org/766.svg",
-          "points": 1,
-          "w": 0,
+          "points": 4,
+          "w": 1,
           "d": 1,
           "l": 0,
           "group": {
@@ -2951,9 +2951,9 @@
             "won": 1,
             "draw": 1,
             "lost": 0,
-            "gf": 3,
+            "gf": 6,
             "ga": 2,
-            "gd": 1,
+            "gd": 4,
             "points": 4,
             "group": "Group F"
           },
@@ -2982,15 +2982,15 @@
               "opponentTla": "TUN",
               "opponentCrest": "https://crests.football-data.org/tunisia.svg",
               "utcDate": "2026-06-21T04:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_F",
               "isHome": false,
-              "goalsFor": 2,
+              "goalsFor": 4,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Sweden",
@@ -3083,7 +3083,7 @@
           ]
         }
       ],
-      "rank": 3
+      "rank": 1
     },
     {
       "name": "Seth",
@@ -4079,9 +4079,9 @@
           "won": 1,
           "draw": 1,
           "lost": 0,
-          "gf": 3,
+          "gf": 6,
           "ga": 2,
-          "gd": 1,
+          "gd": 4,
           "points": 4,
           "owner": "Nisha",
           "color": "#ff7a3d"
@@ -4112,8 +4112,8 @@
           "draw": 0,
           "lost": 2,
           "gf": 1,
-          "ga": 6,
-          "gd": -5,
+          "ga": 9,
+          "gd": -8,
           "points": 0,
           "owner": "Jeff",
           "color": "#a06bff"
@@ -5153,13 +5153,30 @@
         "Seth": 7,
         "Will": 5
       }
+    },
+    {
+      "date": "2026-06-21T04:00:00Z",
+      "totals": {
+        "Daniele": 9,
+        "Herlyn": 11,
+        "Htoo": 6,
+        "Jack": 12,
+        "Jeff": 7,
+        "Kate": 3,
+        "Ken": 8,
+        "Marco": 6,
+        "Max": 9,
+        "Nisha": 14,
+        "Seth": 7,
+        "Will": 5
+      }
     }
   ],
   "recent": [
     {
       "id": 537360,
       "utcDate": "2026-06-21T04:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "home": {
@@ -5173,7 +5190,7 @@
         "crest": "https://crests.football-data.org/766.svg"
       },
       "scoreHome": 0,
-      "scoreAway": 2,
+      "scoreAway": 4,
       "htHome": 0,
       "htAway": 2,
       "duration": "REGULAR",
@@ -5189,7 +5206,7 @@
           "color": "#a06bff",
           "team": "Tunisia",
           "isHome": true,
-          "result": null,
+          "result": "L",
           "points": 0
         },
         {
@@ -5197,8 +5214,8 @@
           "color": "#ff7a3d",
           "team": "Japan",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ]
     },
@@ -8527,6 +8544,15 @@
       "color": "#ff9f1c"
     },
     {
+      "name": "Ayase Ueda",
+      "goals": 2,
+      "team": "Japan",
+      "teamTla": "JPN",
+      "teamCrest": "https://crests.football-data.org/766.svg",
+      "owner": "Nisha",
+      "color": "#ff7a3d"
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 1,
       "team": "Mexico",
@@ -8714,22 +8740,13 @@
       "teamCrest": "https://crests.football-data.org/8601.svg",
       "owner": "Jack",
       "color": "#ff9f1c"
-    },
-    {
-      "name": "Amad Diallo",
-      "goals": 1,
-      "team": "Ivory Coast",
-      "teamTla": "CIV",
-      "teamCrest": "https://crests.football-data.org/787.svg",
-      "owner": "Max",
-      "color": "#6c8cff"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "105 in 35 games"
+      "value": "109 in 36 games"
     },
     {
       "icon": "📊",
@@ -8754,7 +8771,7 @@
     {
       "icon": "👑",
       "label": "Leading manager",
-      "value": "Jack (+12)"
+      "value": "Nisha (+14)"
     },
     {
       "icon": "🎯",
