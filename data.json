@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T17:44:39Z",
+  "updatedAt": "2026-06-21T19:52:38Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -97,7 +97,7 @@
         {
           "id": 9460,
           "name": "Curaçao",
-          "tla": "CUW",
+          "tla": "CUR",
           "crest": "https://crests.football-data.org/curacao.svg",
           "points": 1,
           "w": 0,
@@ -177,7 +177,7 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 1,
+            "position": 3,
             "played": 1,
             "won": 0,
             "draw": 1,
@@ -314,7 +314,7 @@
           ]
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Herlyn",
@@ -372,7 +372,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
               "status": "TIMED",
@@ -503,7 +503,7 @@
           "matches": [
             {
               "opponent": "Curaçao",
-              "opponentTla": "CUW",
+              "opponentTla": "CUR",
               "opponentCrest": "https://crests.football-data.org/curacao.svg",
               "utcDate": "2026-06-14T17:00:00Z",
               "status": "FINISHED",
@@ -629,12 +629,12 @@
       "color": "#3da5ff",
       "total": 6,
       "agg": {
-        "played": 4,
+        "played": 5,
         "w": 1,
         "d": 3,
-        "l": 0,
+        "l": 1,
         "gf": 6,
-        "ga": 4
+        "ga": 9
       },
       "teams": [
         {
@@ -864,7 +864,7 @@
           "points": 1,
           "w": 0,
           "d": 1,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 3,
             "played": 2,
@@ -884,7 +884,7 @@
           "matches": [
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-15T22:00:00Z",
               "status": "FINISHED",
@@ -902,15 +902,15 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-06-21T16:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": false,
               "goalsFor": 0,
-              "goalsAgainst": 4,
-              "result": null,
+              "goalsAgainst": 5,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             },
             {
               "opponent": "Cape Verde Islands",
@@ -930,7 +930,7 @@
           ]
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Jack",
@@ -1546,7 +1546,7 @@
           ]
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Kate",
@@ -1571,15 +1571,15 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 3,
-            "played": 1,
+            "position": 2,
+            "played": 2,
             "won": 0,
-            "draw": 1,
+            "draw": 2,
             "lost": 0,
             "gf": 1,
             "ga": 1,
             "gd": 0,
-            "points": 1,
+            "points": 2,
             "group": "Group G"
           },
           "coach": {
@@ -1607,12 +1607,12 @@
               "opponentTla": "IRN",
               "opponentCrest": "https://crests.football-data.org/iran.svg",
               "utcDate": "2026-06-21T19:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -1783,7 +1783,7 @@
         {
           "id": 758,
           "name": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg",
           "points": 1,
           "w": 0,
@@ -2162,7 +2162,7 @@
           ]
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Marco",
@@ -2470,7 +2470,7 @@
           ]
         }
       ],
-      "rank": 10
+      "rank": 9
     },
     {
       "name": "Max",
@@ -2543,7 +2543,7 @@
             },
             {
               "opponent": "Curaçao",
-              "opponentTla": "CUW",
+              "opponentTla": "CUR",
               "opponentCrest": "https://crests.football-data.org/curacao.svg",
               "utcDate": "2026-06-25T20:00:00Z",
               "status": "TIMED",
@@ -2775,7 +2775,7 @@
           ]
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Nisha",
@@ -2906,7 +2906,7 @@
             },
             {
               "opponent": "Curaçao",
-              "opponentTla": "CUW",
+              "opponentTla": "CUR",
               "opponentCrest": "https://crests.football-data.org/curacao.svg",
               "utcDate": "2026-06-21T00:00:00Z",
               "status": "FINISHED",
@@ -3088,13 +3088,13 @@
     {
       "name": "Seth",
       "color": "#b5e853",
-      "total": 7,
+      "total": 10,
       "agg": {
-        "played": 6,
-        "w": 2,
+        "played": 7,
+        "w": 3,
         "d": 1,
         "l": 3,
-        "gf": 7,
+        "gf": 12,
         "ga": 10
       },
       "teams": [
@@ -3249,8 +3249,8 @@
           "name": "Spain",
           "tla": "ESP",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 1,
-          "w": 0,
+          "points": 4,
+          "w": 1,
           "d": 1,
           "l": 0,
           "group": {
@@ -3290,19 +3290,19 @@
               "opponentTla": "KSA",
               "opponentCrest": "https://crests.football-data.org/saudi_arabia.svg",
               "utcDate": "2026-06-21T16:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": true,
-              "goalsFor": 4,
+              "goalsFor": 5,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -3391,7 +3391,7 @@
           ]
         }
       ],
-      "rank": 8
+      "rank": 4
     },
     {
       "name": "Will",
@@ -3489,15 +3489,15 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 2,
-            "played": 1,
+            "position": 1,
+            "played": 2,
             "won": 0,
-            "draw": 1,
+            "draw": 2,
             "lost": 0,
             "gf": 2,
             "ga": 2,
             "gd": 0,
-            "points": 1,
+            "points": 2,
             "group": "Group G"
           },
           "coach": {
@@ -3525,12 +3525,12 @@
               "opponentTla": "BEL",
               "opponentCrest": "https://crests.football-data.org/805.svg",
               "utcDate": "2026-06-21T19:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -4126,6 +4126,38 @@
       "table": [
         {
           "position": 1,
+          "name": "Iran",
+          "tla": "IRN",
+          "crest": "https://crests.football-data.org/iran.svg",
+          "played": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 2,
+          "owner": "Will",
+          "color": "#4fd0e1"
+        },
+        {
+          "position": 2,
+          "name": "Belgium",
+          "tla": "BEL",
+          "crest": "https://crests.football-data.org/805.svg",
+          "played": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 2,
+          "owner": "Kate",
+          "color": "#ff6fc8"
+        },
+        {
+          "position": 3,
           "name": "New Zealand",
           "tla": "NZL",
           "crest": "https://crests.football-data.org/783.svg",
@@ -4139,38 +4171,6 @@
           "points": 1,
           "owner": "Daniele",
           "color": "#2ee06a"
-        },
-        {
-          "position": 2,
-          "name": "Iran",
-          "tla": "IRN",
-          "crest": "https://crests.football-data.org/iran.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1,
-          "owner": "Will",
-          "color": "#4fd0e1"
-        },
-        {
-          "position": 3,
-          "name": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1,
-          "owner": "Kate",
-          "color": "#ff6fc8"
         },
         {
           "position": 4,
@@ -5170,13 +5170,76 @@
         "Seth": 7,
         "Will": 5
       }
+    },
+    {
+      "date": "2026-06-21T16:00:00Z",
+      "totals": {
+        "Daniele": 9,
+        "Herlyn": 11,
+        "Htoo": 6,
+        "Jack": 12,
+        "Jeff": 7,
+        "Kate": 3,
+        "Ken": 8,
+        "Marco": 6,
+        "Max": 9,
+        "Nisha": 14,
+        "Seth": 10,
+        "Will": 5
+      }
     }
   ],
   "recent": [
     {
+      "id": 537365,
+      "utcDate": "2026-06-21T19:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_G",
+      "home": {
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg"
+      },
+      "away": {
+        "name": "Iran",
+        "tla": "IRN",
+        "crest": "https://crests.football-data.org/iran.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Darío Herrera",
+        "nationality": "Argentina"
+      },
+      "stakes": [
+        {
+          "player": "Kate",
+          "color": "#ff6fc8",
+          "team": "Belgium",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Will",
+          "color": "#4fd0e1",
+          "team": "Iran",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
       "id": 537371,
       "utcDate": "2026-06-21T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_H",
       "home": {
@@ -5189,7 +5252,7 @@
         "tla": "KSA",
         "crest": "https://crests.football-data.org/saudi_arabia.svg"
       },
-      "scoreHome": 4,
+      "scoreHome": 5,
       "scoreAway": 0,
       "htHome": 3,
       "htAway": 0,
@@ -5206,15 +5269,15 @@
           "color": "#b5e853",
           "team": "Spain",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Htoo",
           "color": "#3da5ff",
           "team": "Saudi Arabia",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -5278,7 +5341,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg"
       },
       "scoreHome": 0,
@@ -6198,7 +6261,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "scoreHome": 1,
@@ -6474,7 +6537,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg"
       },
       "scoreHome": 7,
@@ -6878,52 +6941,6 @@
   ],
   "upcoming": [
     {
-      "id": 537365,
-      "utcDate": "2026-06-21T19:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_G",
-      "home": {
-        "name": "Belgium",
-        "tla": "BEL",
-        "crest": "https://crests.football-data.org/805.svg"
-      },
-      "away": {
-        "name": "Iran",
-        "tla": "IRN",
-        "crest": "https://crests.football-data.org/iran.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Darío Herrera",
-        "nationality": "Argentina"
-      },
-      "stakes": [
-        {
-          "player": "Kate",
-          "color": "#ff6fc8",
-          "team": "Belgium",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Will",
-          "color": "#4fd0e1",
-          "team": "Iran",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537372,
       "utcDate": "2026-06-21T22:00:00Z",
       "status": "TIMED",
@@ -6931,7 +6948,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -7662,7 +7679,7 @@
       "group": "GROUP_E",
       "home": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg"
       },
       "away": {
@@ -7963,7 +7980,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -8752,22 +8769,22 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "109 in 36 games"
+      "value": "114 in 37 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.0"
+      "value": "3.1"
     },
     {
       "icon": "💥",
       "label": "Biggest win",
-      "value": "GER 7–1 CUW"
+      "value": "GER 7–1 CUR"
     },
     {
       "icon": "🔥",
       "label": "Wildest game",
-      "value": "GER 7–1 CUW"
+      "value": "GER 7–1 CUR"
     },
     {
       "icon": "🤝",
