@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T12:17:19Z",
+  "updatedAt": "2026-06-22T18:14:58Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1880,13 +1880,13 @@
           "l": 0,
           "group": {
             "position": 2,
-            "played": 1,
+            "played": 2,
             "won": 1,
             "draw": 0,
-            "lost": 0,
+            "lost": 1,
             "gf": 3,
-            "ga": 1,
-            "gd": 2,
+            "ga": 2,
+            "gd": 1,
             "points": 3,
             "group": "Group J"
           },
@@ -1915,12 +1915,12 @@
               "opponentTla": "ARG",
               "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-06-22T17:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_J",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -2188,14 +2188,14 @@
           "l": 0,
           "group": {
             "position": 1,
-            "played": 1,
-            "won": 1,
+            "played": 2,
+            "won": 2,
             "draw": 0,
             "lost": 0,
-            "gf": 3,
+            "gf": 4,
             "ga": 0,
-            "gd": 3,
-            "points": 3,
+            "gd": 4,
+            "points": 6,
             "group": "Group J"
           },
           "coach": {
@@ -2223,12 +2223,12 @@
               "opponentTla": "AUT",
               "opponentCrest": "https://crests.football-data.org/816.svg",
               "utcDate": "2026-06-22T17:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_J",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -4339,14 +4339,14 @@
           "name": "Argentina",
           "tla": "ARG",
           "crest": "https://crests.football-data.org/762.png",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "draw": 0,
           "lost": 0,
-          "gf": 3,
+          "gf": 4,
           "ga": 0,
-          "gd": 3,
-          "points": 3,
+          "gd": 4,
+          "points": 6,
           "owner": "Marco",
           "color": "#18c6b8"
         },
@@ -4355,13 +4355,13 @@
           "name": "Austria",
           "tla": "AUT",
           "crest": "https://crests.football-data.org/816.svg",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 3,
-          "ga": 1,
-          "gd": 2,
+          "ga": 2,
+          "gd": 1,
           "points": 3,
           "owner": "Ken",
           "color": "#ffd23b"
@@ -5241,6 +5241,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537399,
+      "utcDate": "2026-06-22T17:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_J",
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Austria",
+        "tla": "AUT",
+        "crest": "https://crests.football-data.org/816.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Amin Omar",
+        "nationality": "Egypt"
+      },
+      "stakes": [
+        {
+          "player": "Marco",
+          "color": "#18c6b8",
+          "team": "Argentina",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Ken",
+          "color": "#ffd23b",
+          "team": "Austria",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537366,
       "utcDate": "2026-06-22T01:00:00Z",
@@ -7084,49 +7130,6 @@
   ],
   "upcoming": [
     {
-      "id": 537399,
-      "utcDate": "2026-06-22T17:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_J",
-      "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png"
-      },
-      "away": {
-        "name": "Austria",
-        "tla": "AUT",
-        "crest": "https://crests.football-data.org/816.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Argentina",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Ken",
-          "color": "#ffd23b",
-          "team": "Austria",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537393,
       "utcDate": "2026-06-22T21:00:00Z",
       "status": "TIMED",
@@ -8462,6 +8465,15 @@
   ],
   "scorers": [
     {
+      "name": "Lionel Messi",
+      "goals": 4,
+      "team": "Argentina",
+      "teamTla": "ARG",
+      "teamCrest": "https://crests.football-data.org/762.png",
+      "owner": "Marco",
+      "color": "#18c6b8"
+    },
+    {
       "name": "Deniz Undav",
       "goals": 3,
       "team": "Germany",
@@ -8469,15 +8481,6 @@
       "teamCrest": "https://crests.football-data.org/759.svg",
       "owner": "Herlyn",
       "color": "#ff5d8f"
-    },
-    {
-      "name": "Lionel Messi",
-      "goals": 3,
-      "team": "Argentina",
-      "teamTla": "ARG",
-      "teamCrest": "https://crests.football-data.org/762.png",
-      "owner": "Marco",
-      "color": "#18c6b8"
     },
     {
       "name": "Jonathan David",
