@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T05:06:41Z",
+  "updatedAt": "2026-06-22T12:17:19Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -372,7 +372,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
               "status": "FINISHED",
@@ -884,7 +884,7 @@
           "matches": [
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-15T22:00:00Z",
               "status": "FINISHED",
@@ -1783,7 +1783,7 @@
         {
           "id": 758,
           "name": "Uruguay",
-          "tla": "URY",
+          "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg",
           "points": 2,
           "w": 0,
@@ -3302,7 +3302,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -5295,7 +5295,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -6404,7 +6404,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "scoreHome": 1,
@@ -8037,7 +8037,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
