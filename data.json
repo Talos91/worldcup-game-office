@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T04:05:04Z",
+  "updatedAt": "2026-06-23T07:56:05Z",
   "version": "1.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -314,7 +314,7 @@
           ]
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Herlyn",
@@ -637,7 +637,7 @@
           ]
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Htoo",
@@ -1253,7 +1253,7 @@
           ]
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Jeff",
@@ -2805,7 +2805,7 @@
           ]
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Nisha",
@@ -3133,14 +3133,14 @@
     {
       "name": "Seth",
       "color": "#b5e853",
-      "total": 10,
+      "total": 13,
       "agg": {
-        "played": 7,
-        "w": 3,
+        "played": 8,
+        "w": 4,
         "d": 1,
         "l": 3,
-        "gf": 11,
-        "ga": 10
+        "gf": 13,
+        "ga": 11
       },
       "teams": [
         {
@@ -3148,20 +3148,20 @@
           "name": "Algeria",
           "tla": "ALG",
           "crest": "https://crests.football-data.org/algeria.svg",
-          "points": 0,
-          "w": 0,
+          "points": 3,
+          "w": 1,
           "d": 0,
           "l": 1,
           "group": {
-            "position": 4,
+            "position": 3,
             "played": 2,
-            "won": 0,
+            "won": 1,
             "draw": 0,
-            "lost": 2,
-            "gf": 0,
+            "lost": 1,
+            "gf": 2,
             "ga": 4,
-            "gd": -4,
-            "points": 0,
+            "gd": -2,
+            "points": 3,
             "group": "Group J"
           },
           "coach": {
@@ -3189,15 +3189,15 @@
               "opponentTla": "JOR",
               "opponentCrest": "https://crests.football-data.org/8049.png",
               "utcDate": "2026-06-23T03:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_J",
               "isHome": false,
-              "goalsFor": 0,
+              "goalsFor": 2,
               "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Austria",
@@ -3436,19 +3436,19 @@
           ]
         }
       ],
-      "rank": 5
+      "rank": 2
     },
     {
       "name": "Will",
       "color": "#4fd0e1",
       "total": 9,
       "agg": {
-        "played": 7,
+        "played": 8,
         "w": 2,
         "d": 3,
-        "l": 2,
-        "gf": 10,
-        "ga": 9
+        "l": 3,
+        "gf": 11,
+        "ga": 11
       },
       "teams": [
         {
@@ -3605,17 +3605,17 @@
           "points": 0,
           "w": 0,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "group": {
-            "position": 3,
+            "position": 4,
             "played": 2,
-            "won": 1,
+            "won": 0,
             "draw": 0,
-            "lost": 1,
+            "lost": 2,
             "gf": 2,
-            "ga": 3,
-            "gd": -1,
-            "points": 3,
+            "ga": 5,
+            "gd": -3,
+            "points": 0,
             "group": "Group J"
           },
           "coach": null,
@@ -3640,15 +3640,15 @@
               "opponentTla": "ALG",
               "opponentCrest": "https://crests.football-data.org/algeria.svg",
               "utcDate": "2026-06-23T03:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_J",
               "isHome": true,
               "goalsFor": 1,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             },
             {
               "opponent": "Argentina",
@@ -3741,7 +3741,7 @@
           ]
         }
       ],
-      "rank": 7
+      "rank": 6
     }
   ],
   "groups": [
@@ -4413,35 +4413,35 @@
         },
         {
           "position": 3,
-          "name": "Jordan",
-          "tla": "JOR",
-          "crest": "https://crests.football-data.org/8049.png",
+          "name": "Algeria",
+          "tla": "ALG",
+          "crest": "https://crests.football-data.org/algeria.svg",
           "played": 2,
           "won": 1,
           "draw": 0,
           "lost": 1,
           "gf": 2,
-          "ga": 3,
-          "gd": -1,
+          "ga": 4,
+          "gd": -2,
           "points": 3,
-          "owner": "Will",
-          "color": "#4fd0e1"
+          "owner": "Seth",
+          "color": "#b5e853"
         },
         {
           "position": 4,
-          "name": "Algeria",
-          "tla": "ALG",
-          "crest": "https://crests.football-data.org/algeria.svg",
+          "name": "Jordan",
+          "tla": "JOR",
+          "crest": "https://crests.football-data.org/8049.png",
           "played": 2,
           "won": 0,
           "draw": 0,
           "lost": 2,
-          "gf": 0,
-          "ga": 4,
-          "gd": -4,
+          "gf": 2,
+          "ga": 5,
+          "gd": -3,
           "points": 0,
-          "owner": "Seth",
-          "color": "#b5e853"
+          "owner": "Will",
+          "color": "#4fd0e1"
         }
       ]
     },
@@ -5334,13 +5334,30 @@
         "Seth": 10,
         "Will": 9
       }
+    },
+    {
+      "date": "2026-06-23T03:00:00Z",
+      "totals": {
+        "Daniele": 12,
+        "Herlyn": 12,
+        "Htoo": 6,
+        "Jack": 12,
+        "Jeff": 7,
+        "Kate": 8,
+        "Ken": 8,
+        "Marco": 9,
+        "Max": 9,
+        "Nisha": 14,
+        "Seth": 13,
+        "Will": 9
+      }
     }
   ],
   "recent": [
     {
       "id": 537400,
       "utcDate": "2026-06-23T03:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "home": {
@@ -5354,7 +5371,7 @@
         "crest": "https://crests.football-data.org/algeria.svg"
       },
       "scoreHome": 1,
-      "scoreAway": 0,
+      "scoreAway": 2,
       "htHome": 1,
       "htAway": 0,
       "duration": "REGULAR",
@@ -5370,7 +5387,7 @@
           "color": "#4fd0e1",
           "team": "Jordan",
           "isHome": true,
-          "result": null,
+          "result": "L",
           "points": 0
         },
         {
@@ -5378,8 +5395,8 @@
           "color": "#b5e853",
           "team": "Algeria",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ]
     },
@@ -9039,7 +9056,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "131 in 43 games"
+      "value": "134 in 44 games"
     },
     {
       "icon": "📊",
