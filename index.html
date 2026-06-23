@@ -96,6 +96,10 @@
   .mt-pts { font-weight:800; font-size:13px; font-variant-numeric:tabular-nums; width:30px; text-align:right; flex:none; }
   .mt-pts.pos{color:var(--win)} .mt-pts.neg{color:var(--loss)} .mt-pts.zero{color:var(--muted)}
   .mt-rec { font-size:12px; color:var(--muted); font-weight:700; font-variant-numeric:tabular-nums; flex:none; letter-spacing:.03em; }
+  .mt-row.elim { opacity:.45; }
+  .tag-out { font-size:9.5px; font-weight:800; color:var(--loss); background:rgba(255,92,92,.16); padding:2px 6px; border-radius:5px; flex:none; }
+  .tag-champ { font-size:12px; flex:none; }
+  .mgr-alive { font-size:10.5px; color:var(--muted); font-weight:700; }
   .rchip { font-size:11px; font-weight:800; padding:2px 6px; border-radius:5px; font-variant-numeric:tabular-nums; }
   .rchip.W{color:var(--win);background:rgba(46,204,113,.16)} .rchip.D{color:var(--draw);background:rgba(245,196,81,.16)}
   .rchip.L{color:var(--loss);background:rgba(255,92,92,.16)} .rchip.none{color:var(--muted);background:rgba(255,255,255,.06)}
@@ -361,14 +365,20 @@ function resultChips(t){
   return played.map(m=>{ const word=m.result==="W"?"Won":m.result==="D"?"Drew":"Lost";
     return `<span class="rchip ${m.result}" title="${word} ${m.goalsFor}–${m.goalsAgainst} vs ${m.opponent}">${m.goalsFor}-${m.goalsAgainst}</span>`; }).join("");
 }
+function statusTag(t){
+  if(t.status==="out") return `<span class="tag-out">OUT</span>`;
+  if(t.status==="champion") return `<span class="tag-champ" title="Champion">🏆</span>`;
+  return "";
+}
 function mgrTeamRow(t){
   const cls=t.points>0?"pos":(t.points<0?"neg":"zero");
-  return `<div class="mt-row">${crestImg(t.crest,t.tla,"")}<span class="mt-name">${t.name}</span>
+  return `<div class="mt-row${t.status==="out"?" elim":""}">${crestImg(t.crest,t.tla,"")}<span class="mt-name">${t.name}</span>${statusTag(t)}
     <span class="mt-rec" title="W-L-D: ${t.w} won, ${t.l} lost, ${t.d} drawn">${t.w}-${t.l}-${t.d}</span><span class="mt-pts ${cls}">${t.points>0?"+":""}${t.points}</span></div>`;
 }
 function mgrCard(p){
+  const alive = (p.alive != null && p.alive < p.teams.length) ? `<span class="mgr-alive">${p.alive}/${p.teams.length} alive</span>` : "";
   return `<div class="mgr"><div class="mgr-head"><span class="mgr-rank">#${p.rank}</span>
-    <span class="mgr-name" style="color:${p.color}">${p.name}</span><span class="mgr-tot">${p.total>0?"+":""}${p.total}</span></div>
+    <span class="mgr-name" style="color:${p.color}">${p.name}</span>${alive}<span class="mgr-tot">${p.total>0?"+":""}${p.total}</span></div>
     ${p.teams.map(mgrTeamRow).join("")}</div>`;
 }
 function squadsSection(players){

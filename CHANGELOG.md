@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-18 — v1.3
+- **Elimination visuals:** knocked-out teams dim out with an **OUT** tag, the
+  champion gets a 🏆, and each manager card shows **teams alive** once any of
+  theirs is out. Status inferred from fixtures + group tables (eliminated teams'
+  points just freeze — no penalty).
+
 ## 2026-06-18 — v1.2
 - Auto-update cron switched from 3×/day to **every 2 hours** (`7 */2 * * *`) so
   scores stay fresh despite GitHub's irregular scheduled-job timing.

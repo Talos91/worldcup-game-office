@@ -17,7 +17,7 @@ COMPETITION = "WC"
 API_BASE = "https://api.football-data.org/v4"
 API_URL = f"{API_BASE}/competitions/{COMPETITION}/matches"
 WIN, DRAW, LOSS = 3, 1, 0  # office rule: a loss counts 0 (not -1)
-VERSION = "1.2"  # bump on every code push; shown in the page footer (via data.json)
+VERSION = "1.3"  # bump on every code push; shown in the page footer (via data.json)
 COUNTED_STATUSES = ("FINISHED", "AWARDED")
 
 # Each manager picked 4 teams (by name). Colours chosen to read on the dark theme.
@@ -347,6 +347,31 @@ def build_curiosities(matches, players_out):
     return cur
 
 
+KNOCKOUT_STAGES = {"LAST_32", "LAST_16", "ROUND_OF_16", "QUARTER_FINALS",
+                   "SEMI_FINALS", "THIRD_PLACE", "FINAL"}
+
+
+def team_status(team, knockout_started):
+    """'champion' | 'out' (eliminated) | 'in' (still alive). Inferred from
+    fixtures + group standings, erring toward 'in' to avoid false eliminations."""
+    recs = team.get("matches", [])
+    has_upcoming = any(r["status"] in ("SCHEDULED", "TIMED", "IN_PLAY", "PAUSED") for r in recs)
+    finished = [r for r in recs if r["counted"]]
+    if any(r.get("stage") == "FINAL" and r.get("result") == "W" for r in finished):
+        return "champion"
+    if has_upcoming or not finished:
+        return "in"
+    last = finished[-1]                       # most recent finished match
+    if last.get("stage") in KNOCKOUT_STAGES:
+        return "out"                          # knockout run ended, no next fixture
+    g = team.get("group") or {}
+    if g.get("position") and g.get("played", 0) >= 3 and g["position"] >= 4:
+        return "out"                          # bottom of a completed group
+    if knockout_started:
+        return "out"                          # group team not in the started knockouts
+    return "in"
+
+
 def build():
     matches = fetch_matches()
     teams, by_norm, by_tok = index_teams(matches)
@@ -389,6 +414,12 @@ def build():
         for t in p["teams"]:
             t["group"] = standings_by_team.get(t["id"])
             t["coach"] = coaches.get(t["id"])
+
+    knockout_started = any(m.get("stage") in KNOCKOUT_STAGES and m.get("status") in COUNTED_STATUSES for m in matches)
+    for p in players_out:
+        for t in p["teams"]:
+            t["status"] = team_status(t, knockout_started)
+        p["alive"] = sum(1 for t in p["teams"] if t["status"] != "out")
 
     ranked = sorted(players_out, key=lambda x: (-x["total"], -x["agg"]["gf"], x["agg"]["ga"], x["name"]))
     for i, p in enumerate(ranked):
