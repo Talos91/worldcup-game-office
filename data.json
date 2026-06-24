@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T19:55:30Z",
+  "updatedAt": "2026-06-24T21:27:32Z",
   "version": "1.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -319,7 +319,7 @@
         }
       ],
       "alive": 4,
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Herlyn",
@@ -552,21 +552,6 @@
               "result": null,
               "points": 0,
               "counted": false
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-06-29T20:30:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -647,7 +632,7 @@
         }
       ],
       "alive": 4,
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Htoo",
@@ -965,14 +950,14 @@
     {
       "name": "Jack",
       "color": "#ff9f1c",
-      "total": 12,
+      "total": 15,
       "agg": {
-        "played": 8,
-        "w": 3,
+        "played": 9,
+        "w": 4,
         "d": 3,
         "l": 2,
-        "gf": 14,
-        "ga": 10
+        "gf": 16,
+        "ga": 11
       },
       "teams": [
         {
@@ -1202,20 +1187,20 @@
           "name": "Switzerland",
           "tla": "SUI",
           "crest": "https://crests.football-data.org/788.svg",
-          "points": 4,
-          "w": 1,
+          "points": 7,
+          "w": 2,
           "d": 1,
           "l": 0,
           "group": {
-            "position": 2,
+            "position": 1,
             "played": 3,
-            "won": 1,
-            "draw": 2,
+            "won": 2,
+            "draw": 1,
             "lost": 0,
-            "gf": 5,
-            "ga": 2,
-            "gd": 3,
-            "points": 5,
+            "gf": 7,
+            "ga": 3,
+            "gd": 4,
+            "points": 7,
             "group": "Group B"
           },
           "coach": {
@@ -1258,34 +1243,34 @@
               "opponentTla": "CAN",
               "opponentCrest": "https://crests.football-data.org/canada.svg",
               "utcDate": "2026-06-24T19:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_B",
               "isHome": true,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 2,
+              "goalsAgainst": 1,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
         }
       ],
       "alive": 4,
-      "rank": 5
+      "rank": 1
     },
     {
       "name": "Jeff",
       "color": "#a06bff",
-      "total": 9,
+      "total": 12,
       "agg": {
-        "played": 8,
-        "w": 2,
+        "played": 9,
+        "w": 3,
         "d": 3,
         "l": 3,
-        "gf": 8,
-        "ga": 16
+        "gf": 11,
+        "ga": 17
       },
       "teams": [
         {
@@ -1293,8 +1278,8 @@
           "name": "Bosnia-Herzegovina",
           "tla": "BIH",
           "crest": "https://crests.football-data.org/bosnia.svg",
-          "points": 1,
-          "w": 0,
+          "points": 4,
+          "w": 1,
           "d": 1,
           "l": 1,
           "group": {
@@ -1303,9 +1288,9 @@
             "won": 1,
             "draw": 1,
             "lost": 1,
-            "gf": 3,
-            "ga": 5,
-            "gd": -2,
+            "gf": 5,
+            "ga": 6,
+            "gd": -1,
             "points": 4,
             "group": "Group B"
           },
@@ -1349,15 +1334,15 @@
               "opponentTla": "QAT",
               "opponentCrest": "https://crests.football-data.org/8030.svg",
               "utcDate": "2026-06-24T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_B",
               "isHome": true,
-              "goalsFor": 2,
+              "goalsFor": 3,
               "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1586,7 +1571,7 @@
         }
       ],
       "alive": 4,
-      "rank": 11
+      "rank": 7
     },
     {
       "name": "Kate",
@@ -1906,12 +1891,12 @@
       "color": "#ffd23b",
       "total": 11,
       "agg": {
-        "played": 8,
+        "played": 10,
         "w": 3,
         "d": 2,
-        "l": 3,
-        "gf": 14,
-        "ga": 15
+        "l": 5,
+        "gf": 16,
+        "ga": 20
       },
       "teams": [
         {
@@ -1996,17 +1981,17 @@
           "points": 4,
           "w": 1,
           "d": 1,
-          "l": 0,
+          "l": 1,
           "group": {
-            "position": 1,
+            "position": 2,
             "played": 3,
             "won": 1,
-            "draw": 2,
-            "lost": 0,
-            "gf": 7,
-            "ga": 1,
-            "gd": 6,
-            "points": 5,
+            "draw": 1,
+            "lost": 1,
+            "gf": 8,
+            "ga": 3,
+            "gd": 5,
+            "points": 4,
             "group": "Group B"
           },
           "coach": {
@@ -2049,15 +2034,15 @@
               "opponentTla": "SUI",
               "opponentCrest": "https://crests.football-data.org/788.svg",
               "utcDate": "2026-06-24T19:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_B",
               "isHome": false,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsFor": 1,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
           "status": "in"
@@ -2144,16 +2129,16 @@
           "points": 1,
           "w": 0,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 4,
             "played": 3,
             "won": 0,
             "draw": 1,
             "lost": 2,
-            "gf": 1,
-            "ga": 8,
-            "gd": -7,
+            "gf": 2,
+            "ga": 10,
+            "gd": -8,
             "points": 1,
             "group": "Group B"
           },
@@ -2197,22 +2182,22 @@
               "opponentTla": "BIH",
               "opponentCrest": "https://crests.football-data.org/bosnia.svg",
               "utcDate": "2026-06-24T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_B",
               "isHome": false,
               "goalsFor": 1,
-              "goalsAgainst": 2,
-              "result": null,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 4,
-      "rank": 7
+      "alive": 3,
+      "rank": 8
     },
     {
       "name": "Marco",
@@ -2292,21 +2277,6 @@
               "stage": "GROUP_STAGE",
               "group": "GROUP_J",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-07-03T22:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
               "goalsFor": null,
               "goalsAgainst": null,
               "result": null,
@@ -2540,7 +2510,7 @@
         }
       ],
       "alive": 4,
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Max",
@@ -2844,28 +2814,13 @@
               "result": null,
               "points": 0,
               "counted": false
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-07-02T00:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
         }
       ],
       "alive": 4,
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Nisha",
@@ -3172,28 +3127,13 @@
               "result": null,
               "points": 0,
               "counted": false
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-07-01T01:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
         }
       ],
       "alive": 4,
-      "rank": 1
+      "rank": 2
     },
     {
       "name": "Seth",
@@ -3506,7 +3446,7 @@
         }
       ],
       "alive": 4,
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Will",
@@ -3816,7 +3756,7 @@
         }
       ],
       "alive": 4,
-      "rank": 8
+      "rank": 9
     }
   ],
   "groups": [
@@ -3896,35 +3836,35 @@
       "table": [
         {
           "position": 1,
+          "name": "Switzerland",
+          "tla": "SUI",
+          "crest": "https://crests.football-data.org/788.svg",
+          "played": 3,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "gf": 7,
+          "ga": 3,
+          "gd": 4,
+          "points": 7,
+          "owner": "Jack",
+          "color": "#ff9f1c"
+        },
+        {
+          "position": 2,
           "name": "Canada",
           "tla": "CAN",
           "crest": "https://crests.football-data.org/canada.svg",
           "played": 3,
           "won": 1,
-          "draw": 2,
-          "lost": 0,
-          "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "points": 5,
+          "draw": 1,
+          "lost": 1,
+          "gf": 8,
+          "ga": 3,
+          "gd": 5,
+          "points": 4,
           "owner": "Ken",
           "color": "#ffd23b"
-        },
-        {
-          "position": 2,
-          "name": "Switzerland",
-          "tla": "SUI",
-          "crest": "https://crests.football-data.org/788.svg",
-          "played": 3,
-          "won": 1,
-          "draw": 2,
-          "lost": 0,
-          "gf": 5,
-          "ga": 2,
-          "gd": 3,
-          "points": 5,
-          "owner": "Jack",
-          "color": "#ff9f1c"
         },
         {
           "position": 3,
@@ -3935,9 +3875,9 @@
           "won": 1,
           "draw": 1,
           "lost": 1,
-          "gf": 3,
-          "ga": 5,
-          "gd": -2,
+          "gf": 5,
+          "ga": 6,
+          "gd": -1,
           "points": 4,
           "owner": "Jeff",
           "color": "#a06bff"
@@ -3951,9 +3891,9 @@
           "won": 0,
           "draw": 1,
           "lost": 2,
-          "gf": 1,
-          "ga": 8,
-          "gd": -7,
+          "gf": 2,
+          "ga": 10,
+          "gd": -8,
           "points": 1,
           "owner": "Ken",
           "color": "#ffd23b"
@@ -5494,13 +5434,47 @@
         "Seth": 13,
         "Will": 9
       }
+    },
+    {
+      "date": "2026-06-24T19:00:00Z",
+      "totals": {
+        "Daniele": 12,
+        "Herlyn": 12,
+        "Htoo": 12,
+        "Jack": 15,
+        "Jeff": 9,
+        "Kate": 8,
+        "Ken": 11,
+        "Marco": 9,
+        "Max": 9,
+        "Nisha": 14,
+        "Seth": 13,
+        "Will": 9
+      }
+    },
+    {
+      "date": "2026-06-24T19:00:00Z",
+      "totals": {
+        "Daniele": 12,
+        "Herlyn": 12,
+        "Htoo": 12,
+        "Jack": 15,
+        "Jeff": 12,
+        "Kate": 8,
+        "Ken": 11,
+        "Marco": 9,
+        "Max": 9,
+        "Nisha": 14,
+        "Seth": 13,
+        "Will": 9
+      }
     }
   ],
   "recent": [
     {
       "id": 537337,
       "utcDate": "2026-06-24T19:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "home": {
@@ -5513,8 +5487,8 @@
         "tla": "CAN",
         "crest": "https://crests.football-data.org/canada.svg"
       },
-      "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreHome": 2,
+      "scoreAway": 1,
       "htHome": 0,
       "htAway": 0,
       "duration": "REGULAR",
@@ -5530,15 +5504,15 @@
           "color": "#ff9f1c",
           "team": "Switzerland",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Ken",
           "color": "#ffd23b",
           "team": "Canada",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -5546,7 +5520,7 @@
     {
       "id": 537338,
       "utcDate": "2026-06-24T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_B",
       "home": {
@@ -5559,10 +5533,10 @@
         "tla": "QAT",
         "crest": "https://crests.football-data.org/8030.svg"
       },
-      "scoreHome": 2,
+      "scoreHome": 3,
       "scoreAway": 1,
-      "htHome": null,
-      "htAway": null,
+      "htHome": 2,
+      "htAway": 1,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -5576,15 +5550,15 @@
           "color": "#a06bff",
           "team": "Bosnia-Herzegovina",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Ken",
           "color": "#ffd23b",
           "team": "Qatar",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -7816,7 +7790,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Danny Makkelie",
+        "nationality": "Netherlands"
+      },
       "stakes": [
         {
           "player": "Jack",
@@ -7859,7 +7836,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "César Ramos",
+        "nationality": "Mexico"
+      },
       "stakes": [
         {
           "player": "Seth",
@@ -8738,146 +8718,6 @@
           "points": 0
         }
       ]
-    },
-    {
-      "id": 537415,
-      "utcDate": "2026-06-29T20:30:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Germany",
-        "tla": "GER",
-        "crest": "https://crests.football-data.org/759.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Herlyn",
-          "color": "#ff5d8f",
-          "team": "Germany",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537425,
-      "utcDate": "2026-07-01T01:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Nisha",
-          "color": "#ff7a3d",
-          "team": "Mexico",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537421,
-      "utcDate": "2026-07-02T00:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Max",
-          "color": "#6c8cff",
-          "team": "United States",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537427,
-      "utcDate": "2026-07-03T22:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Argentina",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
     }
   ],
   "scorers": [
@@ -8916,6 +8756,15 @@
       "teamCrest": "https://crests.football-data.org/759.svg",
       "owner": "Herlyn",
       "color": "#ff5d8f"
+    },
+    {
+      "name": "Johan Manzambi",
+      "goals": 3,
+      "team": "Switzerland",
+      "teamTla": "SUI",
+      "teamCrest": "https://crests.football-data.org/788.svg",
+      "owner": "Jack",
+      "color": "#ff9f1c"
     },
     {
       "name": "Jonathan David",
@@ -9035,13 +8884,22 @@
       "color": "#3da5ff"
     },
     {
-      "name": "Johan Manzambi",
+      "name": "Ruben Vargas",
       "goals": 2,
       "team": "Switzerland",
       "teamTla": "SUI",
       "teamCrest": "https://crests.football-data.org/788.svg",
       "owner": "Jack",
       "color": "#ff9f1c"
+    },
+    {
+      "name": "Ermin Mahmic",
+      "goals": 2,
+      "team": "Bosnia-Herzegovina",
+      "teamTla": "BIH",
+      "teamCrest": "https://crests.football-data.org/bosnia.svg",
+      "owner": "Jeff",
+      "color": "#a06bff"
     },
     {
       "name": "Matheus Cunha",
@@ -9222,36 +9080,18 @@
       "teamCrest": "https://crests.football-data.org/779.svg",
       "owner": "Nisha",
       "color": "#ff7a3d"
-    },
-    {
-      "name": "Felix Kalu Nmecha",
-      "goals": 1,
-      "team": "Germany",
-      "teamTla": "GER",
-      "teamCrest": "https://crests.football-data.org/759.svg",
-      "owner": "Herlyn",
-      "color": "#ff5d8f"
-    },
-    {
-      "name": "Livano Comenencia",
-      "goals": 1,
-      "team": "Curaçao",
-      "teamTla": "CUW",
-      "teamCrest": "https://crests.football-data.org/curacao.svg",
-      "owner": "Daniele",
-      "color": "#2ee06a"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "141 in 48 games"
+      "value": "148 in 50 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "2.9"
+      "value": "3.0"
     },
     {
       "icon": "💥",
@@ -9271,17 +9111,17 @@
     {
       "icon": "👑",
       "label": "Leading manager",
-      "value": "Nisha (+14)"
+      "value": "Jack (+15)"
     },
     {
       "icon": "🎯",
       "label": "Most goals (manager)",
-      "value": "Daniele · 15"
+      "value": "Jack · 16"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Germany (Herlyn, +6)"
+      "value": "Switzerland (Jack, +7)"
     }
   ]
 }
