@@ -377,7 +377,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-21T22:00:00Z",
               "status": "FINISHED",
@@ -547,21 +547,6 @@
               "stage": "GROUP_STAGE",
               "group": "GROUP_E",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-06-29T20:30:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
               "goalsFor": null,
               "goalsAgainst": null,
               "result": null,
@@ -912,7 +897,7 @@
           "matches": [
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-15T22:00:00Z",
               "status": "FINISHED",
@@ -1826,7 +1811,7 @@
         {
           "id": 758,
           "name": "Uruguay",
-          "tla": "URU",
+          "tla": "URY",
           "crest": "https://crests.football-data.org/758.svg",
           "points": 2,
           "w": 0,
@@ -2292,21 +2277,6 @@
               "stage": "GROUP_STAGE",
               "group": "GROUP_J",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-07-03T22:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
               "goalsFor": null,
               "goalsAgainst": null,
               "result": null,
@@ -2844,21 +2814,6 @@
               "result": null,
               "points": 0,
               "counted": false
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-07-02T00:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -3172,21 +3127,6 @@
               "result": "W",
               "points": 3,
               "counted": true
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-07-01T01:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -3414,7 +3354,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -5657,11 +5597,11 @@
       "utcDate": "2026-06-29T20:30:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Germany",
-        "tla": "GER",
-        "crest": "https://crests.football-data.org/759.svg",
-        "owner": "Herlyn",
-        "color": "#ff5d8f",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
@@ -5761,11 +5701,11 @@
       "utcDate": "2026-07-01T01:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg",
-        "owner": "Nisha",
-        "color": "#ff7a3d",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
@@ -5839,11 +5779,11 @@
       "utcDate": "2026-07-02T00:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg",
-        "owner": "Max",
-        "color": "#6c8cff",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
@@ -5969,11 +5909,11 @@
       "utcDate": "2026-07-03T22:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png",
-        "owner": "Marco",
-        "color": "#18c6b8",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
@@ -7125,7 +7065,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -8234,7 +8174,7 @@
       },
       "away": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "scoreHome": 1,
@@ -9265,7 +9205,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -9682,146 +9622,6 @@
           "color": "#ffd23b",
           "team": "Austria",
           "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537415,
-      "utcDate": "2026-06-29T20:30:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Germany",
-        "tla": "GER",
-        "crest": "https://crests.football-data.org/759.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Herlyn",
-          "color": "#ff5d8f",
-          "team": "Germany",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537425,
-      "utcDate": "2026-07-01T01:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Nisha",
-          "color": "#ff7a3d",
-          "team": "Mexico",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537421,
-      "utcDate": "2026-07-02T00:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Max",
-          "color": "#6c8cff",
-          "team": "United States",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537427,
-      "utcDate": "2026-07-03T22:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Argentina",
-          "isHome": true,
           "result": null,
           "points": 0
         }
