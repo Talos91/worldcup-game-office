@@ -17,7 +17,7 @@ COMPETITION = "WC"
 API_BASE = "https://api.football-data.org/v4"
 API_URL = f"{API_BASE}/competitions/{COMPETITION}/matches"
 WIN, DRAW, LOSS = 3, 1, 0  # office rule: a loss counts 0 (not -1)
-VERSION = "1.3"  # bump on every code push; shown in the page footer (via data.json)
+VERSION = "1.4"  # bump on every code push; shown in the page footer (via data.json)
 COUNTED_STATUSES = ("FINISHED", "AWARDED")
 
 # Each manager picked 4 teams (by name). Colours chosen to read on the dark theme.
@@ -372,6 +372,42 @@ def team_status(team, knockout_started):
     return "in"
 
 
+def build_knockout(matches, tracked):
+    """All knockout matches (R32 -> final) with owner tags + scores. Teams are
+    empty until the draw is made; the page shows a provisional R32 field from the
+    group tables until then, then this real bracket."""
+    order = {"LAST_32": 1, "LAST_16": 2, "ROUND_OF_16": 2, "QUARTER_FINALS": 3,
+             "SEMI_FINALS": 4, "THIRD_PLACE": 5, "FINAL": 6}
+    out = []
+    for m in matches:
+        st = m.get("stage")
+        if st not in KNOCKOUT_STAGES:
+            continue
+        sc = m.get("score", {})
+        ft = sc.get("fullTime", {})
+        pen = sc.get("penalties") or {}
+        winner = sc.get("winner")
+        counted = m.get("status") in COUNTED_STATUSES and winner is not None
+
+        def side(team, is_home):
+            info = tracked.get(team.get("id"))
+            res = None
+            if counted:
+                res = "D" if winner == "DRAW" else ("W" if (winner == "HOME_TEAM") == is_home else "L")
+            return {"name": team.get("name"), "tla": team.get("tla"), "crest": team.get("crest"),
+                    "owner": info["player"] if info else None,
+                    "color": info["color"] if info else None, "result": res}
+
+        out.append({
+            "stage": st, "order": order.get(st, 9), "utcDate": m.get("utcDate"),
+            "status": m.get("status"), "home": side(m["homeTeam"], True), "away": side(m["awayTeam"], False),
+            "scoreHome": ft.get("home"), "scoreAway": ft.get("away"),
+            "penHome": pen.get("home"), "penAway": pen.get("away"),
+        })
+    out.sort(key=lambda e: (e["order"], e["utcDate"] or ""))
+    return out
+
+
 def build():
     matches = fetch_matches()
     teams, by_norm, by_tok = index_teams(matches)
@@ -428,6 +464,7 @@ def build():
     recent, upcoming = build_feeds(matches, tracked)
     scorers = fetch_scorers(tracked)
     timeline = build_timeline(matches, tracked)
+    knockout = build_knockout(matches, tracked)
     curiosities = build_curiosities(matches, players_out)
 
     return {
@@ -438,6 +475,7 @@ def build():
         "players": players_out,
         "groups": groups,
         "timeline": timeline,
+        "knockout": knockout,
         "recent": recent,
         "upcoming": upcoming,
         "scorers": scorers,

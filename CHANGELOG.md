@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-25 — v1.4
+- New **Knockout board**: provisional "Round of 32 — as it stands" (group
+  winners, runners-up, and the live race for the 8 best 3rd-placed spots, all
+  manager-coloured), auto-swapping to the live bracket (R32 → final) once the
+  draw lands; group tables step aside then.
+
 ## 2026-06-18 — v1.3
 - **Elimination visuals:** knocked-out teams dim out with an **OUT** tag, the
   champion gets a 🏆, and each manager card shows **teams alive** once any of

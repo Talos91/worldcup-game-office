@@ -179,6 +179,41 @@
   .trivia .tk { font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); font-weight:800; }
   .trivia .tt { margin-top:4px; font-size:14.5px; line-height:1.5; transition:opacity .3s; }
 
+  /* Knockout */
+  .ko-note { color:var(--muted); font-size:12.5px; margin-bottom:14px; }
+  .qcol { margin-bottom:16px; }
+  .qcol h4 { margin:0 0 9px; font-size:12px; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; }
+  .qchips { display:flex; flex-wrap:wrap; gap:7px; }
+  .qchip { display:inline-flex; align-items:center; gap:6px; padding:4px 10px; border-radius:999px; background:var(--card); border:1px solid var(--card-line); font-size:12.5px; font-weight:700; }
+  .qchip img { width:16px; height:16px; object-fit:contain; border-radius:3px; background:rgba(255,255,255,.85); }
+  .qchip .txt { width:16px; height:16px; }
+  .qdot { width:7px; height:7px; border-radius:50%; flex:none; display:inline-block; }
+  .thirds { background:var(--card); border:1px solid var(--card-line); border-radius:14px; overflow:hidden; }
+  .third-row { display:grid; grid-template-columns:24px 18px 1fr auto 42px; gap:9px; align-items:center; padding:7px 12px; border-top:1px solid rgba(255,255,255,.05); font-size:13px; }
+  .third-row:first-child { border-top:none; }
+  .third-row.in { box-shadow:inset 3px 0 0 var(--win); }
+  .third-row.outz { opacity:.5; }
+  .third-row img { width:18px; height:18px; object-fit:contain; border-radius:3px; background:rgba(255,255,255,.85); }
+  .third-row .txt { width:18px; height:18px; }
+  .third-rank { color:var(--muted); font-weight:800; text-align:center; font-size:12px; }
+  .third-nm { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .third-meta { color:var(--muted); font-size:11px; font-variant-numeric:tabular-nums; }
+  .third-tag { font-size:9.5px; font-weight:800; padding:2px 6px; border-radius:5px; text-align:center; }
+  .third-tag.yes { color:var(--win); background:rgba(46,204,113,.15); }
+  .third-tag.no { color:var(--muted); background:rgba(255,255,255,.06); }
+  .ko-wrap { display:flex; gap:14px; overflow-x:auto; padding-bottom:10px; }
+  .ko-col { flex:0 0 auto; width:205px; }
+  .ko-col-h { font-size:12px; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin-bottom:9px; text-align:center; }
+  .ko-match { background:var(--card); border:1px solid var(--card-line); border-radius:10px; padding:7px 10px; margin-bottom:10px; }
+  .ko-team { display:flex; align-items:center; gap:7px; padding:3px 0; font-size:13px; }
+  .ko-team img { width:17px; height:17px; object-fit:contain; border-radius:3px; background:rgba(255,255,255,.85); }
+  .ko-team .txt { width:17px; height:17px; }
+  .ko-team.tbd { color:var(--muted); }
+  .ko-nm { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .ko-team.win .ko-nm { font-weight:800; }
+  .ko-sc { font-weight:800; font-variant-numeric:tabular-nums; }
+  .ko-pens { text-align:right; color:var(--muted); font-size:10px; margin-top:3px; }
+
   footer { margin-top:34px; text-align:center; color:var(--muted); font-size:12.5px; line-height:1.7; }
   .state { text-align:center; padding:60px 20px; color:var(--muted); }
 
@@ -506,10 +541,57 @@ function startTrivia(){ const el=document.getElementById("triviaText"); if(!el) 
   let i=Math.floor(Date.now()/9000)%FACTS.length; el.textContent=FACTS[i];
   triviaTimer=setInterval(()=>{ i=(i+1)%FACTS.length; el.style.opacity=0; setTimeout(()=>{el.textContent=FACTS[i]; el.style.opacity=1;},300); },9000); }
 
+function qChip(t) {
+  const dot = t.owner ? `<span class="qdot" style="background:${t.color}"></span>` : "";
+  return `<span class="qchip" title="${t.owner ? t.owner + " · " : ""}${t.group || ""}">${crestImg(t.crest, t.tla, "")}${dot}${t.name}</span>`;
+}
+function thirdRow(t, i, inZone) {
+  const dot = t.owner ? `<span class="qdot" style="background:${t.color}"></span>` : "";
+  return `<div class="third-row ${inZone ? "in" : "outz"}">
+    <span class="third-rank">${i + 1}</span>${crestImg(t.crest, t.tla, "")}
+    <span class="third-nm">${dot}${t.name} <span class="third-meta">(${t.group})</span></span>
+    <span class="third-meta">${t.points}pts · ${t.gd > 0 ? "+" : ""}${t.gd}</span>
+    <span class="third-tag ${inZone ? "yes" : "no"}">${inZone ? "IN" : "OUT"}</span>
+  </div>`;
+}
+function provisionalR32(groups) {
+  if (!groups || !groups.length) return `<div class="ko-note">Group tables aren't available yet — check back after the first group games.</div>`;
+  const tag = (g, i) => g.table[i] ? Object.assign({}, g.table[i], { group: g.group }) : null;
+  const winners = groups.map(g => tag(g, 0)).filter(Boolean);
+  const runners = groups.map(g => tag(g, 1)).filter(Boolean);
+  const thirds = groups.map(g => tag(g, 2)).filter(Boolean).sort((a, b) => b.points - a.points || b.gd - a.gd || b.gf - a.gf);
+  const note = `<div class="ko-note">Provisional — as it stands. Top 2 of each group qualify; the 8 best 3rd-placed teams join them. Final spots &amp; exact matchups lock when the group stage ends.</div>`;
+  const w = `<div class="qcol"><h4>Group winners (${winners.length})</h4><div class="qchips">${winners.map(qChip).join("")}</div></div>`;
+  const r = `<div class="qcol"><h4>Runners-up (${runners.length})</h4><div class="qchips">${runners.map(qChip).join("")}</div></div>`;
+  const th = `<div class="qcol"><h4>Best 3rd-placed — 8 of ${thirds.length} go through</h4><div class="thirds">${thirds.map((x, i) => thirdRow(x, i, i < 8)).join("")}</div></div>`;
+  return note + w + r + th;
+}
+function koMatch(e) {
+  function side(s, score, win) {
+    const dot = s.owner ? `<span class="qdot" style="background:${s.color}"></span>` : "";
+    return `<div class="ko-team ${win ? "win" : ""} ${s.name ? "" : "tbd"}">${s.name ? crestImg(s.crest, s.tla, "") : ""}${dot}<span class="ko-nm">${s.name || "TBD"}</span><span class="ko-sc">${score != null ? score : ""}</span></div>`;
+  }
+  const pens = (e.penHome != null && e.penAway != null) ? `<div class="ko-pens">pens ${e.penHome}–${e.penAway}</div>` : "";
+  return `<div class="ko-match">${side(e.home, e.scoreHome, e.home.result === "W")}${side(e.away, e.scoreAway, e.away.result === "W")}${pens}</div>`;
+}
+function bracketHtml(ko) {
+  const by = {};
+  ko.forEach(e => { const s = e.stage === "ROUND_OF_16" ? "LAST_16" : e.stage; (by[s] = by[s] || []).push(e); });
+  const cols = [["LAST_32", "Round of 32"], ["LAST_16", "Round of 16"], ["QUARTER_FINALS", "Quarter-finals"], ["SEMI_FINALS", "Semi-finals"], ["FINAL", "Final"], ["THIRD_PLACE", "3rd place"]];
+  return `<div class="ko-wrap">${cols.map(([st, label]) => (by[st] && by[st].length) ? `<div class="ko-col"><div class="ko-col-h">${label}</div>${by[st].map(koMatch).join("")}</div>` : "").join("")}</div>`;
+}
+function knockoutSection(data) {
+  const ko = data.knockout || [];
+  const koReady = ko.some(e => e.stage === "LAST_32" && (e.home.name || e.away.name));
+  const title = koReady ? "Knockout bracket" : "Round of 32 — as it stands";
+  return `<section class="block"><h2 class="sec"><span class="ico">🗝️</span> ${title}</h2>${koReady ? bracketHtml(ko) : provisionalR32(data.groups || [])}</section>`;
+}
+
 function render(data){
   const players=data.players||[];
   const next=(data.upcoming||[])[0];
   const lead=byRank(players)[0];
+  const koReady=(data.knockout||[]).some(e=>e.stage==="LAST_32" && (e.home.name||e.away.name));
 
   const hero=`${leaderboard(players)}
     <div class="vibe">${leagueVibe(players)}</div>
@@ -524,7 +606,7 @@ function render(data){
 
   document.getElementById("app").innerHTML =
     hero + leagueTable(players) + leadChart(data.timeline||[], players) + squadsSection(players)
-    + groupsSection(data.groups||[])
+    + knockoutSection(data) + (koReady ? "" : groupsSection(data.groups||[]))
     + feedSection("Recent results","✅",data.recent||[],recentRow,"No results yet — kickoff soon!","recentFeed")
     + feedSection("Upcoming matches","📅",data.upcoming||[],upcomingRow,"No upcoming fixtures.","upcomingFeed")
     + scorersSection(data.scorers||[]) + curiosities;
