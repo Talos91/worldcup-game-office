@@ -31,7 +31,7 @@
       radial-gradient(1000px 600px at 88% 0%, rgba(46,224,106,.14), transparent 55%),
       linear-gradient(160deg, var(--bg2), var(--bg));
   }
-  .wrap { max-width:1080px; margin:0 auto; padding:28px 18px 64px; }
+  .wrap { max-width:1180px; margin:0 auto; padding:28px 18px 64px; }
   header.top { text-align:center; margin-bottom:20px; }
   header.top .kicker { letter-spacing:.26em; text-transform:uppercase; font-size:12px; color:var(--muted); font-weight:700; }
   header.top h1 { margin:6px 0 0; font-size:clamp(24px,5vw,38px); font-weight:800; }
@@ -203,8 +203,8 @@
   .third-tag { font-size:9.5px; font-weight:800; padding:2px 6px; border-radius:5px; text-align:center; }
   .third-tag.yes { color:var(--win); background:rgba(46,204,113,.15); }
   .third-tag.no { color:var(--muted); background:rgba(255,255,255,.06); }
-  .ko-wrap { display:flex; gap:14px; overflow-x:auto; padding-bottom:10px; }
-  .ko-col { flex:0 0 auto; width:205px; }
+  .ko-wrap { display:flex; gap:12px; overflow-x:auto; padding-bottom:10px; }
+  .ko-col { flex:0 0 auto; width:174px; }
   .ko-col-h { font-size:12px; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin-bottom:9px; text-align:center; }
   .ko-match { background:var(--card); border:1px solid var(--card-line); border-radius:10px; padding:7px 10px; margin-bottom:10px; }
   .ko-team { display:flex; align-items:center; gap:7px; padding:3px 0; font-size:13px; }
@@ -217,6 +217,11 @@
   .ko-pens { text-align:right; color:var(--muted); font-size:10px; margin-top:3px; }
   .ko-sub { font-size:12px; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin:20px 0 11px; }
   .ko-date { color:var(--muted); font-size:10px; margin-bottom:4px; }
+
+  /* Office report */
+  .report { background:var(--card); border:1px solid var(--card-line); border-radius:16px; padding:6px 18px; }
+  .report p { margin:0; padding:11px 0; border-top:1px solid rgba(255,255,255,.06); font-size:14px; line-height:1.55; }
+  .report p:first-child { border-top:none; }
 
   footer { margin-top:34px; text-align:center; color:var(--muted); font-size:12.5px; line-height:1.7; }
   .state { text-align:center; padding:60px 20px; color:var(--muted); }
@@ -600,6 +605,35 @@ function knockoutSection(data) {
   return `<section class="block"><h2 class="sec"><span class="ico">🗝️</span> Round of 32 — as it stands</h2>${provisionalR32(data.groups || [])}<div class="ko-sub">The bracket — slots fill with real teams once the group stage ends &amp; the draw is set (~28 Jun)</div>${bracketHtml(ko)}</section>`;
 }
 
+function mgrSpan(p){ return `<b style="color:${p.color}">${p.name}</b>`; }
+function reportSection(data){
+  const players = data.players || [];
+  if (!players.length) return "";
+  const s = byRank(players), lead = s[0], second = s[1];
+  const lines = [];
+  const tied = s.filter(p => p.total === lead.total);
+  if (tied.length > 1) lines.push(`🔥 ${tied.map(mgrSpan).join(" & ")} are locked together at the top on <b>${lead.total}</b> pts — nobody's blinking.`);
+  else lines.push(`👑 ${mgrSpan(lead)} sits top of the office on <b>${lead.total}</b> pts${second ? `, <b>${lead.total - second.total}</b> clear of ${mgrSpan(second)}` : ""}.`);
+  const seg = st => `<b style="color:${st.color}">${st.player}</b>`;
+  const fin = (data.recent || []).filter(e => (e.status === "FINISHED" || e.status === "AWARDED") && e.scoreHome != null && e.stakes && e.stakes.length >= 2).slice(0, 5);
+  fin.forEach(e => {
+    const hs = e.stakes.find(x => x.isHome), as = e.stakes.find(x => !x.isHome);
+    if (!hs || !as) return;
+    const gh = e.scoreHome, ga = e.scoreAway, m = Math.abs(gh - ga);
+    if (gh === ga) { lines.push(`🤝 ${seg(hs)}'s ${e.home.name} and ${seg(as)}'s ${e.away.name} couldn't be separated, ${gh}–${ga}.`); return; }
+    const w = gh > ga ? hs : as, l = gh > ga ? as : hs;
+    const wt = gh > ga ? e.home.name : e.away.name, lt = gh > ga ? e.away.name : e.home.name;
+    const verb = m >= 4 ? "absolutely battered" : m >= 3 ? "hammered" : m >= 2 ? "saw off" : "edged";
+    const emo = m >= 3 ? "💥" : (m >= 2 ? "⚽" : "😬");
+    lines.push(`${emo} ${seg(w)}'s ${wt} ${verb} ${seg(l)}'s ${lt} ${Math.max(gh, ga)}–${Math.min(gh, ga)}.`);
+  });
+  const outs = [];
+  players.forEach(p => p.teams.forEach(t => { if (t.status === "out") outs.push(`${mgrSpan(p)}'s ${t.name}`); }));
+  if (outs.length) lines.push(`❌ Knocked out: ${outs.join(", ")}. Better luck next time.`);
+  if (s.length > 1) lines.push(`🪣 Spare a thought for ${mgrSpan(s[s.length - 1])}, propping up the table on <b>${s[s.length - 1].total}</b> — comeback szn?`);
+  return `<section class="block"><h2 class="sec"><span class="ico">📰</span> The office report<span class="sub">fresh every update</span></h2><div class="report">${lines.map(l => `<p>${l}</p>`).join("")}</div></section>`;
+}
+
 function render(data){
   const players=data.players||[];
   const next=(data.upcoming||[])[0];
@@ -618,7 +652,7 @@ function render(data){
     <div class="trivia"><div class="ti">💡</div><div><div class="tk">Did you know?</div><div class="tt" id="triviaText">…</div></div></div></section>`;
 
   document.getElementById("app").innerHTML =
-    hero + leagueTable(players) + leadChart(data.timeline||[], players) + squadsSection(players)
+    hero + reportSection(data) + leagueTable(players) + leadChart(data.timeline||[], players) + squadsSection(players)
     + knockoutSection(data) + (koReady ? "" : groupsSection(data.groups||[]))
     + feedSection("Recent results","✅",data.recent||[],recentRow,"No results yet — kickoff soon!","recentFeed")
     + feedSection("Upcoming matches","📅",data.upcoming||[],upcomingRow,"No upcoming fixtures.","upcomingFeed")

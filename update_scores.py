@@ -17,7 +17,7 @@ COMPETITION = "WC"
 API_BASE = "https://api.football-data.org/v4"
 API_URL = f"{API_BASE}/competitions/{COMPETITION}/matches"
 WIN, DRAW, LOSS = 3, 1, 0  # office rule: a loss counts 0 (not -1)
-VERSION = "1.7"  # bump on every code push; shown in the page footer (via data.json)
+VERSION = "1.8"  # bump on every code push; shown in the page footer (via data.json)
 COUNTED_STATUSES = ("FINISHED", "AWARDED")
 
 # Each manager picked 4 teams (by name). Colours chosen to read on the dark theme.

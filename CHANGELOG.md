@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-06-26 — v1.8
+- New **"The office report"** at the top: an auto-generated, fun commentary on
+  the league (leader, standout results with manager names highlighted in their
+  colours, who's been knocked out, who's bottom) — refreshed on every update.
+- Slightly wider page (max-width 1180) + narrower bracket columns so the bracket
+  fits without a horizontal scrollbar on desktop.
+
 ## 2026-06-25 — v1.7
 - Confirmed qualifiers carry a **✓** in the "as it stands" board; the bracket
   fills progressively as the API assigns R32 slots, and only switches to the
