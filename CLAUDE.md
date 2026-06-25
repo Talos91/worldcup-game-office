@@ -39,5 +39,5 @@ players to **12 managers**.
 - Never commit `apikey.txt`. Don't hand-edit `data.json`.
 - To change rosters/colours, edit `PLAYERS` in `update_scores.py`.
 - Daniele's colour is green (`#2ee06a`) by request; others are distinct hues.
-- Bump `VERSION` in update_scores.py on every code push (currently 1.4). The
+- Bump `VERSION` in update_scores.py on every code push (currently 1.5). The
   footer reads it from data.json, so it's never cache-stale.

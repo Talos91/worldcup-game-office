@@ -213,6 +213,8 @@
   .ko-team.win .ko-nm { font-weight:800; }
   .ko-sc { font-weight:800; font-variant-numeric:tabular-nums; }
   .ko-pens { text-align:right; color:var(--muted); font-size:10px; margin-top:3px; }
+  .ko-sub { font-size:12px; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin:20px 0 11px; }
+  .ko-date { color:var(--muted); font-size:10px; margin-bottom:4px; }
 
   footer { margin-top:34px; text-align:center; color:var(--muted); font-size:12.5px; line-height:1.7; }
   .state { text-align:center; padding:60px 20px; color:var(--muted); }
@@ -567,12 +569,14 @@ function provisionalR32(groups) {
   return note + w + r + th;
 }
 function koMatch(e) {
+  const p = fmtParts(e.utcDate);
+  const played = e.scoreHome != null && e.scoreAway != null;
   function side(s, score, win) {
     const dot = s.owner ? `<span class="qdot" style="background:${s.color}"></span>` : "";
     return `<div class="ko-team ${win ? "win" : ""} ${s.name ? "" : "tbd"}">${s.name ? crestImg(s.crest, s.tla, "") : ""}${dot}<span class="ko-nm">${s.name || "TBD"}</span><span class="ko-sc">${score != null ? score : ""}</span></div>`;
   }
   const pens = (e.penHome != null && e.penAway != null) ? `<div class="ko-pens">pens ${e.penHome}–${e.penAway}</div>` : "";
-  return `<div class="ko-match">${side(e.home, e.scoreHome, e.home.result === "W")}${side(e.away, e.scoreAway, e.away.result === "W")}${pens}</div>`;
+  return `<div class="ko-match"><div class="ko-date">${p.wd} ${p.dm}${played ? "" : " · " + p.tm}</div>${side(e.home, e.scoreHome, e.home.result === "W")}${side(e.away, e.scoreAway, e.away.result === "W")}${pens}</div>`;
 }
 function bracketHtml(ko) {
   const by = {};
@@ -583,8 +587,10 @@ function bracketHtml(ko) {
 function knockoutSection(data) {
   const ko = data.knockout || [];
   const koReady = ko.some(e => e.stage === "LAST_32" && (e.home.name || e.away.name));
-  const title = koReady ? "Knockout bracket" : "Round of 32 — as it stands";
-  return `<section class="block"><h2 class="sec"><span class="ico">🗝️</span> ${title}</h2>${koReady ? bracketHtml(ko) : provisionalR32(data.groups || [])}</section>`;
+  if (koReady) {
+    return `<section class="block"><h2 class="sec"><span class="ico">🗝️</span> Knockout bracket</h2>${bracketHtml(ko)}</section>`;
+  }
+  return `<section class="block"><h2 class="sec"><span class="ico">🗝️</span> Round of 32 — as it stands</h2>${provisionalR32(data.groups || [])}<div class="ko-sub">The bracket — fills in once the draw is made</div>${bracketHtml(ko)}</section>`;
 }
 
 function render(data){
