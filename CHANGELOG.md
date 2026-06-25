@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-06-25 — v1.7
+- Confirmed qualifiers carry a **✓** in the "as it stands" board; the bracket
+  fills progressively as the API assigns R32 slots, and only switches to the
+  bracket-only view once the full draw is set (all 16 ties).
+
 ## 2026-06-25 — v1.5
 - Knockout section now shows **both** during the group stage: the "Round of 32 —
   as it stands" qualifier board **and** the bracket tree (R32 → final, with

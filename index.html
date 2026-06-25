@@ -188,6 +188,8 @@
   .qchip img { width:16px; height:16px; object-fit:contain; border-radius:3px; background:rgba(255,255,255,.85); }
   .qchip .txt { width:16px; height:16px; }
   .qdot { width:7px; height:7px; border-radius:50%; flex:none; display:inline-block; }
+  .qok { color:var(--win); font-weight:900; font-size:12px; margin-left:1px; }
+  .qchip.q-in { border-color:rgba(46,204,113,.5); }
   .thirds { background:var(--card); border:1px solid var(--card-line); border-radius:14px; overflow:hidden; }
   .third-row { display:grid; grid-template-columns:24px 18px 1fr auto 42px; gap:9px; align-items:center; padding:7px 12px; border-top:1px solid rgba(255,255,255,.05); font-size:13px; }
   .third-row:first-child { border-top:none; }
@@ -545,7 +547,8 @@ function startTrivia(){ const el=document.getElementById("triviaText"); if(!el) 
 
 function qChip(t) {
   const dot = t.owner ? `<span class="qdot" style="background:${t.color}"></span>` : "";
-  return `<span class="qchip" title="${t.owner ? t.owner + " · " : ""}${t.group || ""}">${crestImg(t.crest, t.tla, "")}${dot}${t.name}</span>`;
+  const through = t.played >= 3 && t.position <= 2;
+  return `<span class="qchip${through ? " q-in" : ""}" title="${t.owner ? t.owner + " · " : ""}${t.group || ""}${through ? " · qualified" : " · provisional"}">${crestImg(t.crest, t.tla, "")}${dot}${t.name}${through ? `<span class="qok" title="Qualified for the Round of 32">✓</span>` : ""}</span>`;
 }
 function thirdRow(t, i, inZone) {
   const dot = t.owner ? `<span class="qdot" style="background:${t.color}"></span>` : "";
@@ -562,7 +565,7 @@ function provisionalR32(groups) {
   const winners = groups.map(g => tag(g, 0)).filter(Boolean);
   const runners = groups.map(g => tag(g, 1)).filter(Boolean);
   const thirds = groups.map(g => tag(g, 2)).filter(Boolean).sort((a, b) => b.points - a.points || b.gd - a.gd || b.gf - a.gf);
-  const note = `<div class="ko-note">Provisional — as it stands. Top 2 of each group qualify; the 8 best 3rd-placed teams join them. Final spots &amp; exact matchups lock when the group stage ends.</div>`;
+  const note = `<div class="ko-note">As it stands. Top 2 of each group qualify; the 8 best 3rd-placed teams join them. <b style="color:var(--win)">✓</b> = already mathematically through; the rest are provisional until the group stage ends.</div>`;
   const w = `<div class="qcol"><h4>Group winners (${winners.length})</h4><div class="qchips">${winners.map(qChip).join("")}</div></div>`;
   const r = `<div class="qcol"><h4>Runners-up (${runners.length})</h4><div class="qchips">${runners.map(qChip).join("")}</div></div>`;
   const th = `<div class="qcol"><h4>Best 3rd-placed — 8 of ${thirds.length} go through</h4><div class="thirds">${thirds.map((x, i) => thirdRow(x, i, i < 8)).join("")}</div></div>`;
@@ -584,20 +587,24 @@ function bracketHtml(ko) {
   const cols = [["LAST_32", "Round of 32"], ["LAST_16", "Round of 16"], ["QUARTER_FINALS", "Quarter-finals"], ["SEMI_FINALS", "Semi-finals"], ["FINAL", "Final"], ["THIRD_PLACE", "3rd place"]];
   return `<div class="ko-wrap">${cols.map(([st, label]) => (by[st] && by[st].length) ? `<div class="ko-col"><div class="ko-col-h">${label}</div>${by[st].map(koMatch).join("")}</div>` : "").join("")}</div>`;
 }
+function bracketDrawn(ko) {
+  const r32 = (ko || []).filter(e => e.stage === "LAST_32");
+  return r32.length > 0 && r32.every(e => e.home.name && e.away.name);
+}
 function knockoutSection(data) {
   const ko = data.knockout || [];
-  const koReady = ko.some(e => e.stage === "LAST_32" && (e.home.name || e.away.name));
+  const koReady = bracketDrawn(ko);
   if (koReady) {
     return `<section class="block"><h2 class="sec"><span class="ico">🗝️</span> Knockout bracket</h2>${bracketHtml(ko)}</section>`;
   }
-  return `<section class="block"><h2 class="sec"><span class="ico">🗝️</span> Round of 32 — as it stands</h2>${provisionalR32(data.groups || [])}<div class="ko-sub">The bracket — fills in once the draw is made</div>${bracketHtml(ko)}</section>`;
+  return `<section class="block"><h2 class="sec"><span class="ico">🗝️</span> Round of 32 — as it stands</h2>${provisionalR32(data.groups || [])}<div class="ko-sub">The bracket — slots fill with real teams once the group stage ends &amp; the draw is set (~28 Jun)</div>${bracketHtml(ko)}</section>`;
 }
 
 function render(data){
   const players=data.players||[];
   const next=(data.upcoming||[])[0];
   const lead=byRank(players)[0];
-  const koReady=(data.knockout||[]).some(e=>e.stage==="LAST_32" && (e.home.name||e.away.name));
+  const koReady=bracketDrawn(data.knockout||[]);
 
   const hero=`${leaderboard(players)}
     <div class="vibe">${leagueVibe(players)}</div>
