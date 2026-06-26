@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T21:23:48Z",
+  "updatedAt": "2026-06-26T23:14:16Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -9575,7 +9575,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Ismail Elfath",
+        "nationality": "United States"
+      },
       "stakes": [
         {
           "player": "Kate",
@@ -9618,7 +9621,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "François Letexier",
+        "nationality": "France"
+      },
       "stakes": [
         {
           "player": "Herlyn",
