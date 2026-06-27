@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T04:01:11Z",
+  "updatedAt": "2026-06-27T07:21:52Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -13,12 +13,12 @@
       "color": "#2ee06a",
       "total": 15,
       "agg": {
-        "played": 11,
+        "played": 12,
         "w": 4,
         "d": 3,
-        "l": 4,
-        "gf": 19,
-        "ga": 22
+        "l": 5,
+        "gf": 20,
+        "ga": 27
       },
       "teams": [
         {
@@ -192,16 +192,16 @@
           "points": 1,
           "w": 0,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 4,
             "played": 3,
             "won": 0,
             "draw": 1,
             "lost": 2,
-            "gf": 3,
-            "ga": 6,
-            "gd": -3,
+            "gf": 4,
+            "ga": 10,
+            "gd": -6,
             "points": 1,
             "group": "Group G"
           },
@@ -245,18 +245,18 @@
               "opponentTla": "BEL",
               "opponentCrest": "https://crests.football-data.org/805.svg",
               "utcDate": "2026-06-27T03:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": true,
-              "goalsFor": 0,
-              "goalsAgainst": 1,
-              "result": null,
+              "goalsFor": 1,
+              "goalsAgainst": 5,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 8872,
@@ -333,8 +333,8 @@
           "status": "in"
         }
       ],
-      "alive": 3,
-      "rank": 5
+      "alive": 2,
+      "rank": 6
     },
     {
       "name": "Herlyn",
@@ -1661,19 +1661,19 @@
         }
       ],
       "alive": 3,
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Kate",
       "color": "#ff6fc8",
-      "total": 8,
+      "total": 12,
       "agg": {
-        "played": 10,
-        "w": 1,
-        "d": 5,
+        "played": 12,
+        "w": 2,
+        "d": 6,
         "l": 4,
-        "gf": 9,
-        "ga": 19
+        "gf": 15,
+        "ga": 21
       },
       "teams": [
         {
@@ -1681,8 +1681,8 @@
           "name": "Belgium",
           "tla": "BEL",
           "crest": "https://crests.football-data.org/805.svg",
-          "points": 2,
-          "w": 0,
+          "points": 5,
+          "w": 1,
           "d": 2,
           "l": 0,
           "group": {
@@ -1691,9 +1691,9 @@
             "won": 1,
             "draw": 2,
             "lost": 0,
-            "gf": 2,
-            "ga": 1,
-            "gd": 1,
+            "gf": 6,
+            "ga": 2,
+            "gd": 4,
             "points": 5,
             "group": "Group G"
           },
@@ -1737,15 +1737,15 @@
               "opponentTla": "NZL",
               "opponentCrest": "https://crests.football-data.org/783.svg",
               "utcDate": "2026-06-27T03:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": false,
-              "goalsFor": 1,
-              "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 5,
+              "goalsAgainst": 1,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1755,9 +1755,9 @@
           "name": "Egypt",
           "tla": "EGY",
           "crest": "https://crests.football-data.org/825.svg",
-          "points": 4,
+          "points": 5,
           "w": 1,
-          "d": 1,
+          "d": 2,
           "l": 0,
           "group": {
             "position": 2,
@@ -1811,15 +1811,15 @@
               "opponentTla": "IRN",
               "opponentCrest": "https://crests.football-data.org/iran.svg",
               "utcDate": "2026-06-27T03:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": true,
               "goalsFor": 1,
               "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "D",
+              "points": 1,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1974,7 +1974,7 @@
         }
       ],
       "alive": 3,
-      "rank": 12
+      "rank": 9
     },
     {
       "name": "Ken",
@@ -2302,7 +2302,7 @@
         }
       ],
       "alive": 3,
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Marco",
@@ -2630,7 +2630,7 @@
         }
       ],
       "alive": 4,
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Max",
@@ -2715,6 +2715,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": null,
+              "opponentTla": null,
+              "opponentCrest": null,
+              "utcDate": "2026-06-30T17:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_32",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -3631,14 +3646,14 @@
     {
       "name": "Will",
       "color": "#4fd0e1",
-      "total": 15,
+      "total": 16,
       "agg": {
-        "played": 10,
+        "played": 11,
         "w": 4,
-        "d": 3,
+        "d": 4,
         "l": 3,
-        "gf": 16,
-        "ga": 12
+        "gf": 17,
+        "ga": 13
       },
       "teams": [
         {
@@ -3720,9 +3735,9 @@
           "name": "Iran",
           "tla": "IRN",
           "crest": "https://crests.football-data.org/iran.svg",
-          "points": 2,
+          "points": 3,
           "w": 0,
-          "d": 2,
+          "d": 3,
           "l": 0,
           "group": {
             "position": 3,
@@ -3776,15 +3791,15 @@
               "opponentTla": "EGY",
               "opponentCrest": "https://crests.football-data.org/825.svg",
               "utcDate": "2026-06-27T03:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": false,
               "goalsFor": 1,
               "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "D",
+              "points": 1,
+              "counted": true
             }
           ],
           "status": "in"
@@ -3951,7 +3966,7 @@
         }
       ],
       "alive": 4,
-      "rank": 6
+      "rank": 5
     }
   ],
   "groups": [
@@ -4388,9 +4403,9 @@
           "won": 1,
           "draw": 2,
           "lost": 0,
-          "gf": 2,
-          "ga": 1,
-          "gd": 1,
+          "gf": 6,
+          "ga": 2,
+          "gd": 4,
           "points": 5,
           "owner": "Kate",
           "color": "#ff6fc8"
@@ -4436,9 +4451,9 @@
           "won": 0,
           "draw": 1,
           "lost": 2,
-          "gf": 3,
-          "ga": 6,
-          "gd": -3,
+          "gf": 4,
+          "ga": 10,
+          "gd": -6,
           "points": 1,
           "owner": "Daniele",
           "color": "#2ee06a"
@@ -5901,6 +5916,40 @@
         "Seth": 17,
         "Will": 15
       }
+    },
+    {
+      "date": "2026-06-27T03:00:00Z",
+      "totals": {
+        "Daniele": 15,
+        "Herlyn": 13,
+        "Htoo": 13,
+        "Jack": 21,
+        "Jeff": 12,
+        "Kate": 11,
+        "Ken": 11,
+        "Marco": 10,
+        "Max": 18,
+        "Nisha": 22,
+        "Seth": 17,
+        "Will": 15
+      }
+    },
+    {
+      "date": "2026-06-27T03:00:00Z",
+      "totals": {
+        "Daniele": 15,
+        "Herlyn": 13,
+        "Htoo": 13,
+        "Jack": 21,
+        "Jeff": 12,
+        "Kate": 12,
+        "Ken": 11,
+        "Marco": 10,
+        "Max": 18,
+        "Nisha": 22,
+        "Seth": 17,
+        "Will": 16
+      }
     }
   ],
   "knockout": [
@@ -6014,11 +6063,11 @@
       "utcDate": "2026-06-30T17:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Ivory Coast",
+        "tla": "CIV",
+        "crest": "https://crests.football-data.org/787.svg",
+        "owner": "Max",
+        "color": "#6c8cff",
         "result": null
       },
       "away": {
@@ -6741,7 +6790,7 @@
     {
       "id": 537367,
       "utcDate": "2026-06-27T03:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "home": {
@@ -6754,8 +6803,8 @@
         "tla": "BEL",
         "crest": "https://crests.football-data.org/805.svg"
       },
-      "scoreHome": 0,
-      "scoreAway": 1,
+      "scoreHome": 1,
+      "scoreAway": 5,
       "htHome": 0,
       "htAway": 1,
       "duration": "REGULAR",
@@ -6771,7 +6820,7 @@
           "color": "#2ee06a",
           "team": "New Zealand",
           "isHome": true,
-          "result": null,
+          "result": "L",
           "points": 0
         },
         {
@@ -6779,15 +6828,15 @@
           "color": "#ff6fc8",
           "team": "Belgium",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ]
     },
     {
       "id": 537368,
       "utcDate": "2026-06-27T03:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_G",
       "home": {
@@ -6817,16 +6866,16 @@
           "color": "#ff6fc8",
           "team": "Egypt",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "D",
+          "points": 1
         },
         {
           "player": "Will",
           "color": "#4fd0e1",
           "team": "Iran",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "D",
+          "points": 1
         }
       ]
     },
@@ -10193,6 +10242,41 @@
       ]
     },
     {
+      "id": 537424,
+      "utcDate": "2026-06-30T17:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Ivory Coast",
+        "tla": "CIV",
+        "crest": "https://crests.football-data.org/787.svg"
+      },
+      "away": {
+        "name": null,
+        "tla": null,
+        "crest": null
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Max",
+          "color": "#6c8cff",
+          "team": "Ivory Coast",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
       "id": 537425,
       "utcDate": "2026-07-01T01:00:00Z",
       "status": "TIMED",
@@ -10441,6 +10525,15 @@
       "color": "#ff5d8f"
     },
     {
+      "name": "Elijah Just",
+      "goals": 3,
+      "team": "New Zealand",
+      "teamTla": "NZL",
+      "teamCrest": "https://crests.football-data.org/783.svg",
+      "owner": "Daniele",
+      "color": "#2ee06a"
+    },
+    {
       "name": "Johan Manzambi",
       "goals": 3,
       "team": "Switzerland",
@@ -10558,15 +10651,6 @@
       "color": "#ff6fc8"
     },
     {
-      "name": "Elijah Just",
-      "goals": 2,
-      "team": "New Zealand",
-      "teamTla": "NZL",
-      "teamCrest": "https://crests.football-data.org/783.svg",
-      "owner": "Daniele",
-      "color": "#2ee06a"
-    },
-    {
       "name": "Ramin Rezaeian",
       "goals": 2,
       "team": "Iran",
@@ -10675,6 +10759,15 @@
       "color": "#6c8cff"
     },
     {
+      "name": "Leandro Trossard",
+      "goals": 2,
+      "team": "Belgium",
+      "teamTla": "BEL",
+      "teamCrest": "https://crests.football-data.org/805.svg",
+      "owner": "Kate",
+      "color": "#ff6fc8"
+    },
+    {
       "name": "Raúl Jiménez",
       "goals": 1,
       "team": "Mexico",
@@ -10727,27 +10820,18 @@
       "teamCrest": "https://crests.football-data.org/761.svg",
       "owner": "Marco",
       "color": "#18c6b8"
-    },
-    {
-      "name": "Gio Reyna",
-      "goals": 1,
-      "team": "United States",
-      "teamTla": "USA",
-      "teamCrest": "https://crests.football-data.org/usa.svg",
-      "owner": "Max",
-      "color": "#6c8cff"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "188 in 64 games"
+      "value": "196 in 66 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "2.9"
+      "value": "3.0"
     },
     {
       "icon": "💥",
@@ -10762,7 +10846,7 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "17"
+      "value": "18"
     },
     {
       "icon": "👑",
