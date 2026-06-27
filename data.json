@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T19:37:48Z",
+  "updatedAt": "2026-06-27T21:11:40Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1448,14 +1448,14 @@
           "l": 0,
           "group": {
             "position": 1,
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "draw": 1,
+            "draw": 2,
             "lost": 0,
             "gf": 4,
             "ga": 2,
             "gd": 2,
-            "points": 4,
+            "points": 5,
             "group": "Group L"
           },
           "coach": {
@@ -1498,12 +1498,12 @@
               "opponentTla": "PAN",
               "opponentCrest": "https://crests.football-data.org/panama.svg",
               "utcDate": "2026-06-27T21:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_L",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -1522,14 +1522,14 @@
           "l": 0,
           "group": {
             "position": 2,
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "draw": 1,
+            "draw": 2,
             "lost": 0,
             "gf": 1,
             "ga": 0,
             "gd": 1,
-            "points": 4,
+            "points": 5,
             "group": "Group L"
           },
           "coach": {
@@ -1572,12 +1572,12 @@
               "opponentTla": "CRO",
               "opponentCrest": "https://crests.football-data.org/799.svg",
               "utcDate": "2026-06-27T21:00:00Z",
-              "status": "TIMED",
+              "status": "LIVE",
               "stage": "GROUP_STAGE",
               "group": "GROUP_L",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -2163,14 +2163,14 @@
           "l": 1,
           "group": {
             "position": 3,
-            "played": 2,
+            "played": 3,
             "won": 1,
-            "draw": 0,
+            "draw": 1,
             "lost": 1,
             "gf": 3,
             "ga": 4,
             "gd": -1,
-            "points": 3,
+            "points": 4,
             "group": "Group L"
           },
           "coach": {
@@ -2213,12 +2213,12 @@
               "opponentTla": "GHA",
               "opponentCrest": "https://crests.football-data.org/ghana.svg",
               "utcDate": "2026-06-27T21:00:00Z",
-              "status": "TIMED",
+              "status": "LIVE",
               "stage": "GROUP_STAGE",
               "group": "GROUP_L",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -2417,14 +2417,14 @@
           "l": 2,
           "group": {
             "position": 4,
-            "played": 2,
+            "played": 3,
             "won": 0,
-            "draw": 0,
+            "draw": 1,
             "lost": 2,
             "gf": 0,
             "ga": 2,
             "gd": -2,
-            "points": 0,
+            "points": 1,
             "group": "Group L"
           },
           "coach": {
@@ -2467,12 +2467,12 @@
               "opponentTla": "ENG",
               "opponentCrest": "https://crests.football-data.org/770.svg",
               "utcDate": "2026-06-27T21:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_L",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -4749,14 +4749,14 @@
           "name": "England",
           "tla": "ENG",
           "crest": "https://crests.football-data.org/770.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "gf": 4,
           "ga": 2,
           "gd": 2,
-          "points": 4,
+          "points": 5,
           "owner": "Jeff",
           "color": "#a06bff"
         },
@@ -4765,14 +4765,14 @@
           "name": "Ghana",
           "tla": "GHA",
           "crest": "https://crests.football-data.org/ghana.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "gf": 1,
           "ga": 0,
           "gd": 1,
-          "points": 4,
+          "points": 5,
           "owner": "Jeff",
           "color": "#a06bff"
         },
@@ -4781,14 +4781,14 @@
           "name": "Croatia",
           "tla": "CRO",
           "crest": "https://crests.football-data.org/799.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 3,
           "ga": 4,
           "gd": -1,
-          "points": 3,
+          "points": 4,
           "owner": "Ken",
           "color": "#ffd23b"
         },
@@ -4797,14 +4797,14 @@
           "name": "Panama",
           "tla": "PAN",
           "crest": "https://crests.football-data.org/panama.svg",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
           "gf": 0,
           "ga": 2,
           "gd": -2,
-          "points": 0,
+          "points": 1,
           "owner": "Marco",
           "color": "#18c6b8"
         }
@@ -6787,6 +6787,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537413,
+      "utcDate": "2026-06-27T21:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_L",
+      "home": {
+        "name": "Panama",
+        "tla": "PAN",
+        "crest": "https://crests.football-data.org/panama.svg"
+      },
+      "away": {
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Abdulrahman Al Jassim",
+        "nationality": "Qatar"
+      },
+      "stakes": [
+        {
+          "player": "Marco",
+          "color": "#18c6b8",
+          "team": "Panama",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Jeff",
+          "color": "#a06bff",
+          "team": "England",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537367,
       "utcDate": "2026-06-27T03:00:00Z",
@@ -9819,98 +9865,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": 537413,
-      "utcDate": "2026-06-27T21:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_L",
-      "home": {
-        "name": "Panama",
-        "tla": "PAN",
-        "crest": "https://crests.football-data.org/panama.svg"
-      },
-      "away": {
-        "name": "England",
-        "tla": "ENG",
-        "crest": "https://crests.football-data.org/770.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Abdulrahman Al Jassim",
-        "nationality": "Qatar"
-      },
-      "stakes": [
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Panama",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jeff",
-          "color": "#a06bff",
-          "team": "England",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537414,
-      "utcDate": "2026-06-27T21:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_L",
-      "home": {
-        "name": "Croatia",
-        "tla": "CRO",
-        "crest": "https://crests.football-data.org/799.svg"
-      },
-      "away": {
-        "name": "Ghana",
-        "tla": "GHA",
-        "crest": "https://crests.football-data.org/ghana.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Drew Fischer",
-        "nationality": "Canada"
-      },
-      "stakes": [
-        {
-          "player": "Ken",
-          "color": "#ffd23b",
-          "team": "Croatia",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jeff",
-          "color": "#a06bff",
-          "team": "Ghana",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537407,
       "utcDate": "2026-06-27T23:30:00Z",
