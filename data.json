@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T23:14:16Z",
+  "updatedAt": "2026-06-27T04:01:11Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -195,13 +195,13 @@
           "l": 1,
           "group": {
             "position": 4,
-            "played": 2,
+            "played": 3,
             "won": 0,
             "draw": 1,
-            "lost": 1,
+            "lost": 2,
             "gf": 3,
-            "ga": 5,
-            "gd": -2,
+            "ga": 6,
+            "gd": -3,
             "points": 1,
             "group": "Group G"
           },
@@ -245,12 +245,12 @@
               "opponentTla": "BEL",
               "opponentCrest": "https://crests.football-data.org/805.svg",
               "utcDate": "2026-06-27T03:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -334,16 +334,16 @@
         }
       ],
       "alive": 3,
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Herlyn",
       "color": "#ff5d8f",
-      "total": 12,
+      "total": 13,
       "agg": {
-        "played": 11,
+        "played": 12,
         "w": 3,
-        "d": 3,
+        "d": 4,
         "l": 5,
         "gf": 16,
         "ga": 15
@@ -354,20 +354,20 @@
           "name": "Cape Verde Islands",
           "tla": "CPV",
           "crest": "https://crests.football-data.org/cape_verde.svg",
-          "points": 2,
+          "points": 3,
           "w": 0,
-          "d": 2,
+          "d": 3,
           "l": 0,
           "group": {
-            "position": 3,
-            "played": 2,
+            "position": 2,
+            "played": 3,
             "won": 0,
-            "draw": 2,
+            "draw": 3,
             "lost": 0,
             "gf": 2,
             "ga": 2,
             "gd": 0,
-            "points": 2,
+            "points": 3,
             "group": "Group H"
           },
           "coach": {
@@ -410,15 +410,15 @@
               "opponentTla": "KSA",
               "opponentCrest": "https://crests.football-data.org/saudi_arabia.svg",
               "utcDate": "2026-06-27T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "result": "D",
+              "points": 1,
+              "counted": true
             }
           ],
           "status": "in"
@@ -667,11 +667,11 @@
     {
       "name": "Htoo",
       "color": "#3da5ff",
-      "total": 12,
+      "total": 13,
       "agg": {
-        "played": 8,
+        "played": 9,
         "w": 3,
-        "d": 3,
+        "d": 4,
         "l": 2,
         "gf": 12,
         "ga": 9
@@ -904,20 +904,20 @@
           "name": "Saudi Arabia",
           "tla": "KSA",
           "crest": "https://crests.football-data.org/saudi_arabia.svg",
-          "points": 1,
+          "points": 2,
           "w": 0,
-          "d": 1,
+          "d": 2,
           "l": 1,
           "group": {
             "position": 4,
-            "played": 2,
+            "played": 3,
             "won": 0,
-            "draw": 1,
+            "draw": 2,
             "lost": 1,
             "gf": 1,
             "ga": 5,
             "gd": -4,
-            "points": 1,
+            "points": 2,
             "group": "Group H"
           },
           "coach": {
@@ -960,21 +960,21 @@
               "opponentTla": "CPV",
               "opponentCrest": "https://crests.football-data.org/cape_verde.svg",
               "utcDate": "2026-06-27T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "result": "D",
+              "points": 1,
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 4,
+      "alive": 3,
       "rank": 8
     },
     {
@@ -1668,12 +1668,12 @@
       "color": "#ff6fc8",
       "total": 8,
       "agg": {
-        "played": 9,
+        "played": 10,
         "w": 1,
         "d": 5,
-        "l": 3,
+        "l": 4,
         "gf": 9,
-        "ga": 18
+        "ga": 19
       },
       "teams": [
         {
@@ -1686,15 +1686,15 @@
           "d": 2,
           "l": 0,
           "group": {
-            "position": 3,
-            "played": 2,
-            "won": 0,
+            "position": 1,
+            "played": 3,
+            "won": 1,
             "draw": 2,
             "lost": 0,
-            "gf": 1,
+            "gf": 2,
             "ga": 1,
-            "gd": 0,
-            "points": 2,
+            "gd": 1,
+            "points": 5,
             "group": "Group G"
           },
           "coach": {
@@ -1737,12 +1737,12 @@
               "opponentTla": "NZL",
               "opponentCrest": "https://crests.football-data.org/783.svg",
               "utcDate": "2026-06-27T03:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -1760,15 +1760,15 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 1,
-            "played": 2,
+            "position": 2,
+            "played": 3,
             "won": 1,
-            "draw": 1,
+            "draw": 2,
             "lost": 0,
-            "gf": 4,
-            "ga": 2,
+            "gf": 5,
+            "ga": 3,
             "gd": 2,
-            "points": 4,
+            "points": 5,
             "group": "Group G"
           },
           "coach": {
@@ -1811,12 +1811,12 @@
               "opponentTla": "IRN",
               "opponentCrest": "https://crests.football-data.org/iran.svg",
               "utcDate": "2026-06-27T03:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -1906,16 +1906,16 @@
           "points": 2,
           "w": 0,
           "d": 2,
-          "l": 0,
+          "l": 1,
           "group": {
-            "position": 2,
-            "played": 2,
+            "position": 3,
+            "played": 3,
             "won": 0,
             "draw": 2,
-            "lost": 0,
+            "lost": 1,
             "gf": 3,
-            "ga": 3,
-            "gd": 0,
+            "ga": 4,
+            "gd": -1,
             "points": 2,
             "group": "Group H"
           },
@@ -1959,15 +1959,15 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-06-27T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
           "status": "in"
@@ -3318,13 +3318,13 @@
     {
       "name": "Seth",
       "color": "#b5e853",
-      "total": 14,
+      "total": 17,
       "agg": {
-        "played": 10,
-        "w": 4,
+        "played": 11,
+        "w": 5,
         "d": 2,
         "l": 4,
-        "gf": 14,
+        "gf": 15,
         "ga": 15
       },
       "teams": [
@@ -3481,20 +3481,20 @@
           "name": "Spain",
           "tla": "ESP",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 4,
-          "w": 1,
+          "points": 7,
+          "w": 2,
           "d": 1,
           "l": 0,
           "group": {
             "position": 1,
-            "played": 2,
-            "won": 1,
+            "played": 3,
+            "won": 2,
             "draw": 1,
             "lost": 0,
-            "gf": 4,
+            "gf": 5,
             "ga": 0,
-            "gd": 4,
-            "points": 4,
+            "gd": 5,
+            "points": 7,
             "group": "Group H"
           },
           "coach": {
@@ -3537,15 +3537,15 @@
               "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -3626,7 +3626,7 @@
         }
       ],
       "alive": 4,
-      "rank": 6
+      "rank": 4
     },
     {
       "name": "Will",
@@ -3725,15 +3725,15 @@
           "d": 2,
           "l": 0,
           "group": {
-            "position": 2,
-            "played": 2,
+            "position": 3,
+            "played": 3,
             "won": 0,
-            "draw": 2,
+            "draw": 3,
             "lost": 0,
-            "gf": 2,
-            "ga": 2,
+            "gf": 3,
+            "ga": 3,
             "gd": 0,
-            "points": 2,
+            "points": 3,
             "group": "Group G"
           },
           "coach": {
@@ -3776,12 +3776,12 @@
               "opponentTla": "EGY",
               "opponentCrest": "https://crests.football-data.org/825.svg",
               "utcDate": "2026-06-27T03:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_G",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -3951,7 +3951,7 @@
         }
       ],
       "alive": 4,
-      "rank": 5
+      "rank": 6
     }
   ],
   "groups": [
@@ -4381,64 +4381,64 @@
       "table": [
         {
           "position": 1,
-          "name": "Egypt",
-          "tla": "EGY",
-          "crest": "https://crests.football-data.org/825.svg",
-          "played": 2,
+          "name": "Belgium",
+          "tla": "BEL",
+          "crest": "https://crests.football-data.org/805.svg",
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "gf": 4,
-          "ga": 2,
-          "gd": 2,
-          "points": 4,
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
+          "points": 5,
           "owner": "Kate",
           "color": "#ff6fc8"
         },
         {
           "position": 2,
-          "name": "Iran",
-          "tla": "IRN",
-          "crest": "https://crests.football-data.org/iran.svg",
-          "played": 2,
-          "won": 0,
+          "name": "Egypt",
+          "tla": "EGY",
+          "crest": "https://crests.football-data.org/825.svg",
+          "played": 3,
+          "won": 1,
           "draw": 2,
           "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 2,
-          "owner": "Will",
-          "color": "#4fd0e1"
+          "gf": 5,
+          "ga": 3,
+          "gd": 2,
+          "points": 5,
+          "owner": "Kate",
+          "color": "#ff6fc8"
         },
         {
           "position": 3,
-          "name": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg",
-          "played": 2,
+          "name": "Iran",
+          "tla": "IRN",
+          "crest": "https://crests.football-data.org/iran.svg",
+          "played": 3,
           "won": 0,
-          "draw": 2,
+          "draw": 3,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
+          "gf": 3,
+          "ga": 3,
           "gd": 0,
-          "points": 2,
-          "owner": "Kate",
-          "color": "#ff6fc8"
+          "points": 3,
+          "owner": "Will",
+          "color": "#4fd0e1"
         },
         {
           "position": 4,
           "name": "New Zealand",
           "tla": "NZL",
           "crest": "https://crests.football-data.org/783.svg",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "draw": 1,
-          "lost": 1,
+          "lost": 2,
           "gf": 3,
-          "ga": 5,
-          "gd": -2,
+          "ga": 6,
+          "gd": -3,
           "points": 1,
           "owner": "Daniele",
           "color": "#2ee06a"
@@ -4454,62 +4454,62 @@
           "name": "Spain",
           "tla": "ESP",
           "crest": "https://crests.football-data.org/760.svg",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "draw": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 5,
           "ga": 0,
-          "gd": 4,
-          "points": 4,
+          "gd": 5,
+          "points": 7,
           "owner": "Seth",
           "color": "#b5e853"
         },
         {
           "position": 2,
-          "name": "Uruguay",
-          "tla": "URU",
-          "crest": "https://crests.football-data.org/758.svg",
-          "played": 2,
-          "won": 0,
-          "draw": 2,
-          "lost": 0,
-          "gf": 3,
-          "ga": 3,
-          "gd": 0,
-          "points": 2,
-          "owner": "Kate",
-          "color": "#ff6fc8"
-        },
-        {
-          "position": 3,
           "name": "Cape Verde Islands",
           "tla": "CPV",
           "crest": "https://crests.football-data.org/cape_verde.svg",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 2,
+          "draw": 3,
           "lost": 0,
           "gf": 2,
           "ga": 2,
           "gd": 0,
-          "points": 2,
+          "points": 3,
           "owner": "Herlyn",
           "color": "#ff5d8f"
+        },
+        {
+          "position": 3,
+          "name": "Uruguay",
+          "tla": "URU",
+          "crest": "https://crests.football-data.org/758.svg",
+          "played": 3,
+          "won": 0,
+          "draw": 2,
+          "lost": 1,
+          "gf": 3,
+          "ga": 4,
+          "gd": -1,
+          "points": 2,
+          "owner": "Kate",
+          "color": "#ff6fc8"
         },
         {
           "position": 4,
           "name": "Saudi Arabia",
           "tla": "KSA",
           "crest": "https://crests.football-data.org/saudi_arabia.svg",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 1,
+          "draw": 2,
           "lost": 1,
           "gf": 1,
           "ga": 5,
           "gd": -4,
-          "points": 1,
+          "points": 2,
           "owner": "Htoo",
           "color": "#3da5ff"
         }
@@ -5867,6 +5867,40 @@
         "Seth": 14,
         "Will": 15
       }
+    },
+    {
+      "date": "2026-06-27T00:00:00Z",
+      "totals": {
+        "Daniele": 15,
+        "Herlyn": 12,
+        "Htoo": 12,
+        "Jack": 21,
+        "Jeff": 12,
+        "Kate": 8,
+        "Ken": 11,
+        "Marco": 10,
+        "Max": 18,
+        "Nisha": 22,
+        "Seth": 17,
+        "Will": 15
+      }
+    },
+    {
+      "date": "2026-06-27T00:00:00Z",
+      "totals": {
+        "Daniele": 15,
+        "Herlyn": 13,
+        "Htoo": 13,
+        "Jack": 21,
+        "Jeff": 12,
+        "Kate": 8,
+        "Ken": 11,
+        "Marco": 10,
+        "Max": 18,
+        "Nisha": 22,
+        "Seth": 17,
+        "Will": 15
+      }
     }
   ],
   "knockout": [
@@ -6704,6 +6738,190 @@
     }
   ],
   "recent": [
+    {
+      "id": 537367,
+      "utcDate": "2026-06-27T03:00:00Z",
+      "status": "PAUSED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_G",
+      "home": {
+        "name": "New Zealand",
+        "tla": "NZL",
+        "crest": "https://crests.football-data.org/783.svg"
+      },
+      "away": {
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Adham Makhadmeh",
+        "nationality": "Jordan"
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#2ee06a",
+          "team": "New Zealand",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Kate",
+          "color": "#ff6fc8",
+          "team": "Belgium",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537368,
+      "utcDate": "2026-06-27T03:00:00Z",
+      "status": "PAUSED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_G",
+      "home": {
+        "name": "Egypt",
+        "tla": "EGY",
+        "crest": "https://crests.football-data.org/825.svg"
+      },
+      "away": {
+        "name": "Iran",
+        "tla": "IRN",
+        "crest": "https://crests.football-data.org/iran.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "htHome": 1,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Szymon Marciniak",
+        "nationality": "Poland"
+      },
+      "stakes": [
+        {
+          "player": "Kate",
+          "color": "#ff6fc8",
+          "team": "Egypt",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Will",
+          "color": "#4fd0e1",
+          "team": "Iran",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537373,
+      "utcDate": "2026-06-27T00:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_H",
+      "home": {
+        "name": "Uruguay",
+        "tla": "URU",
+        "crest": "https://crests.football-data.org/758.svg"
+      },
+      "away": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Ismail Elfath",
+        "nationality": "United States"
+      },
+      "stakes": [
+        {
+          "player": "Kate",
+          "color": "#ff6fc8",
+          "team": "Uruguay",
+          "isHome": true,
+          "result": "L",
+          "points": 0
+        },
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Spain",
+          "isHome": false,
+          "result": "W",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "id": 537374,
+      "utcDate": "2026-06-27T00:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_H",
+      "home": {
+        "name": "Cape Verde Islands",
+        "tla": "CPV",
+        "crest": "https://crests.football-data.org/cape_verde.svg"
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "tla": "KSA",
+        "crest": "https://crests.football-data.org/saudi_arabia.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "François Letexier",
+        "nationality": "France"
+      },
+      "stakes": [
+        {
+          "player": "Herlyn",
+          "color": "#ff5d8f",
+          "team": "Cape Verde Islands",
+          "isHome": true,
+          "result": "D",
+          "points": 1
+        },
+        {
+          "player": "Htoo",
+          "color": "#3da5ff",
+          "team": "Saudi Arabia",
+          "isHome": false,
+          "result": "D",
+          "points": 1
+        }
+      ]
+    },
     {
       "id": 537395,
       "utcDate": "2026-06-26T19:00:00Z",
@@ -9553,184 +9771,6 @@
   ],
   "upcoming": [
     {
-      "id": 537373,
-      "utcDate": "2026-06-27T00:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_H",
-      "home": {
-        "name": "Uruguay",
-        "tla": "URU",
-        "crest": "https://crests.football-data.org/758.svg"
-      },
-      "away": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Ismail Elfath",
-        "nationality": "United States"
-      },
-      "stakes": [
-        {
-          "player": "Kate",
-          "color": "#ff6fc8",
-          "team": "Uruguay",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Seth",
-          "color": "#b5e853",
-          "team": "Spain",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537374,
-      "utcDate": "2026-06-27T00:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_H",
-      "home": {
-        "name": "Cape Verde Islands",
-        "tla": "CPV",
-        "crest": "https://crests.football-data.org/cape_verde.svg"
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "tla": "KSA",
-        "crest": "https://crests.football-data.org/saudi_arabia.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "François Letexier",
-        "nationality": "France"
-      },
-      "stakes": [
-        {
-          "player": "Herlyn",
-          "color": "#ff5d8f",
-          "team": "Cape Verde Islands",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Htoo",
-          "color": "#3da5ff",
-          "team": "Saudi Arabia",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537367,
-      "utcDate": "2026-06-27T03:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_G",
-      "home": {
-        "name": "New Zealand",
-        "tla": "NZL",
-        "crest": "https://crests.football-data.org/783.svg"
-      },
-      "away": {
-        "name": "Belgium",
-        "tla": "BEL",
-        "crest": "https://crests.football-data.org/805.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#2ee06a",
-          "team": "New Zealand",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Kate",
-          "color": "#ff6fc8",
-          "team": "Belgium",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537368,
-      "utcDate": "2026-06-27T03:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_G",
-      "home": {
-        "name": "Egypt",
-        "tla": "EGY",
-        "crest": "https://crests.football-data.org/825.svg"
-      },
-      "away": {
-        "name": "Iran",
-        "tla": "IRN",
-        "crest": "https://crests.football-data.org/iran.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Kate",
-          "color": "#ff6fc8",
-          "team": "Egypt",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Will",
-          "color": "#4fd0e1",
-          "team": "Iran",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537413,
       "utcDate": "2026-06-27T21:00:00Z",
       "status": "TIMED",
@@ -10527,6 +10567,15 @@
       "color": "#2ee06a"
     },
     {
+      "name": "Ramin Rezaeian",
+      "goals": 2,
+      "team": "Iran",
+      "teamTla": "IRN",
+      "teamCrest": "https://crests.football-data.org/iran.svg",
+      "owner": "Will",
+      "color": "#4fd0e1"
+    },
+    {
       "name": "Harry Kane",
       "goals": 2,
       "team": "England",
@@ -10687,27 +10736,18 @@
       "teamCrest": "https://crests.football-data.org/usa.svg",
       "owner": "Max",
       "color": "#6c8cff"
-    },
-    {
-      "name": "Breel Embolo",
-      "goals": 1,
-      "team": "Switzerland",
-      "teamTla": "SUI",
-      "teamCrest": "https://crests.football-data.org/788.svg",
-      "owner": "Jack",
-      "color": "#ff9f1c"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "187 in 62 games"
+      "value": "188 in 64 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.0"
+      "value": "2.9"
     },
     {
       "icon": "💥",
@@ -10722,7 +10762,7 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "16"
+      "value": "17"
     },
     {
       "icon": "👑",
