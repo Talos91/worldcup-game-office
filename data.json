@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T07:21:52Z",
+  "updatedAt": "2026-06-27T10:15:36Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -91,21 +91,6 @@
               "result": "W",
               "points": 3,
               "counted": true
-            },
-            {
-              "opponent": "Japan",
-              "opponentTla": "JPN",
-              "opponentCrest": "https://crests.football-data.org/766.svg",
-              "utcDate": "2026-06-29T17:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -567,21 +552,6 @@
               "result": "L",
               "points": 0,
               "counted": true
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-06-29T20:30:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -1134,21 +1104,6 @@
               "result": "W",
               "points": 3,
               "counted": true
-            },
-            {
-              "opponent": "Netherlands",
-              "opponentTla": "NED",
-              "opponentCrest": "https://crests.football-data.org/8601.svg",
-              "utcDate": "2026-06-30T01:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -1223,21 +1178,6 @@
               "result": "W",
               "points": 3,
               "counted": true
-            },
-            {
-              "opponent": "Morocco",
-              "opponentTla": "MAR",
-              "opponentCrest": "https://crests.football-data.org/morocco.svg",
-              "utcDate": "2026-06-30T01:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -1312,21 +1252,6 @@
               "result": "W",
               "points": 3,
               "counted": true
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-07-03T03:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -1418,21 +1343,6 @@
               "result": "W",
               "points": 3,
               "counted": true
-            },
-            {
-              "opponent": "United States",
-              "opponentTla": "USA",
-              "opponentCrest": "https://crests.football-data.org/usa.svg",
-              "utcDate": "2026-07-02T00:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -2133,21 +2043,6 @@
               "result": "L",
               "points": 0,
               "counted": true
-            },
-            {
-              "opponent": "South Africa",
-              "opponentTla": "RSA",
-              "opponentCrest": "https://crests.football-data.org/9396.svg",
-              "utcDate": "2026-06-28T19:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -2382,21 +2277,6 @@
               "stage": "GROUP_STAGE",
               "group": "GROUP_J",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-07-03T22:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
               "goalsFor": null,
               "goalsAgainst": null,
               "result": null,
@@ -2715,21 +2595,6 @@
               "result": "W",
               "points": 3,
               "counted": true
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-06-30T17:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -2949,21 +2814,6 @@
               "result": "L",
               "points": 0,
               "counted": true
-            },
-            {
-              "opponent": "Bosnia-Herzegovina",
-              "opponentTla": "BIH",
-              "opponentCrest": "https://crests.football-data.org/bosnia.svg",
-              "utcDate": "2026-07-02T00:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -3055,21 +2905,6 @@
               "result": "D",
               "points": 1,
               "counted": true
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-07-03T18:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -3218,21 +3053,6 @@
               "result": "D",
               "points": 1,
               "counted": true
-            },
-            {
-              "opponent": "Brazil",
-              "opponentTla": "BRA",
-              "opponentCrest": "https://crests.football-data.org/764.svg",
-              "utcDate": "2026-06-29T17:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -3307,21 +3127,6 @@
               "result": "W",
               "points": 3,
               "counted": true
-            },
-            {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
-              "utcDate": "2026-07-01T01:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -3945,21 +3750,6 @@
               "result": "W",
               "points": 3,
               "counted": true
-            },
-            {
-              "opponent": "Canada",
-              "opponentTla": "CAN",
-              "opponentCrest": "https://crests.football-data.org/canada.svg",
-              "utcDate": "2026-06-28T19:00:00Z",
-              "status": "TIMED",
-              "stage": "LAST_32",
-              "group": null,
-              "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
             }
           ],
           "status": "in"
@@ -5959,19 +5749,19 @@
       "utcDate": "2026-06-28T19:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "South Africa",
-        "tla": "RSA",
-        "crest": "https://crests.football-data.org/9396.svg",
-        "owner": "Will",
-        "color": "#4fd0e1",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
-        "name": "Canada",
-        "tla": "CAN",
-        "crest": "https://crests.football-data.org/canada.svg",
-        "owner": "Ken",
-        "color": "#ffd23b",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "scoreHome": null,
@@ -5985,19 +5775,19 @@
       "utcDate": "2026-06-29T17:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Brazil",
-        "tla": "BRA",
-        "crest": "https://crests.football-data.org/764.svg",
-        "owner": "Daniele",
-        "color": "#2ee06a",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
-        "name": "Japan",
-        "tla": "JPN",
-        "crest": "https://crests.football-data.org/766.svg",
-        "owner": "Nisha",
-        "color": "#ff7a3d",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "scoreHome": null,
@@ -6011,11 +5801,11 @@
       "utcDate": "2026-06-29T20:30:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Germany",
-        "tla": "GER",
-        "crest": "https://crests.football-data.org/759.svg",
-        "owner": "Herlyn",
-        "color": "#ff5d8f",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
@@ -6037,19 +5827,19 @@
       "utcDate": "2026-06-30T01:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Netherlands",
-        "tla": "NED",
-        "crest": "https://crests.football-data.org/8601.svg",
-        "owner": "Jack",
-        "color": "#ff9f1c",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
-        "name": "Morocco",
-        "tla": "MAR",
-        "crest": "https://crests.football-data.org/morocco.svg",
-        "owner": "Jack",
-        "color": "#ff9f1c",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "scoreHome": null,
@@ -6063,11 +5853,11 @@
       "utcDate": "2026-06-30T17:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Ivory Coast",
-        "tla": "CIV",
-        "crest": "https://crests.football-data.org/787.svg",
-        "owner": "Max",
-        "color": "#6c8cff",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
@@ -6115,11 +5905,11 @@
       "utcDate": "2026-07-01T01:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg",
-        "owner": "Nisha",
-        "color": "#ff7a3d",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
@@ -6193,19 +5983,19 @@
       "utcDate": "2026-07-02T00:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg",
-        "owner": "Max",
-        "color": "#6c8cff",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
-        "name": "Bosnia-Herzegovina",
-        "tla": "BIH",
-        "crest": "https://crests.football-data.org/bosnia.svg",
-        "owner": "Jeff",
-        "color": "#a06bff",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "scoreHome": null,
@@ -6271,11 +6061,11 @@
       "utcDate": "2026-07-03T03:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Switzerland",
-        "tla": "SUI",
-        "crest": "https://crests.football-data.org/788.svg",
-        "owner": "Jack",
-        "color": "#ff9f1c",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
@@ -6297,11 +6087,11 @@
       "utcDate": "2026-07-03T18:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Australia",
-        "tla": "AUS",
-        "crest": "https://crests.football-data.org/779.svg",
-        "owner": "Nisha",
-        "color": "#ff7a3d",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
@@ -6323,11 +6113,11 @@
       "utcDate": "2026-07-03T22:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png",
-        "owner": "Marco",
-        "color": "#18c6b8",
+        "name": null,
+        "tla": null,
+        "crest": null,
+        "owner": null,
+        "color": null,
         "result": null
       },
       "away": {
@@ -10072,388 +9862,6 @@
           "color": "#ffd23b",
           "team": "Austria",
           "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537417,
-      "utcDate": "2026-06-28T19:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "South Africa",
-        "tla": "RSA",
-        "crest": "https://crests.football-data.org/9396.svg"
-      },
-      "away": {
-        "name": "Canada",
-        "tla": "CAN",
-        "crest": "https://crests.football-data.org/canada.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Will",
-          "color": "#4fd0e1",
-          "team": "South Africa",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Ken",
-          "color": "#ffd23b",
-          "team": "Canada",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537423,
-      "utcDate": "2026-06-29T17:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Brazil",
-        "tla": "BRA",
-        "crest": "https://crests.football-data.org/764.svg"
-      },
-      "away": {
-        "name": "Japan",
-        "tla": "JPN",
-        "crest": "https://crests.football-data.org/766.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#2ee06a",
-          "team": "Brazil",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Nisha",
-          "color": "#ff7a3d",
-          "team": "Japan",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537415,
-      "utcDate": "2026-06-29T20:30:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Germany",
-        "tla": "GER",
-        "crest": "https://crests.football-data.org/759.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Herlyn",
-          "color": "#ff5d8f",
-          "team": "Germany",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537418,
-      "utcDate": "2026-06-30T01:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Netherlands",
-        "tla": "NED",
-        "crest": "https://crests.football-data.org/8601.svg"
-      },
-      "away": {
-        "name": "Morocco",
-        "tla": "MAR",
-        "crest": "https://crests.football-data.org/morocco.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Netherlands",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Morocco",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537424,
-      "utcDate": "2026-06-30T17:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Ivory Coast",
-        "tla": "CIV",
-        "crest": "https://crests.football-data.org/787.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Max",
-          "color": "#6c8cff",
-          "team": "Ivory Coast",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537425,
-      "utcDate": "2026-07-01T01:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Nisha",
-          "color": "#ff7a3d",
-          "team": "Mexico",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537421,
-      "utcDate": "2026-07-02T00:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg"
-      },
-      "away": {
-        "name": "Bosnia-Herzegovina",
-        "tla": "BIH",
-        "crest": "https://crests.football-data.org/bosnia.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Max",
-          "color": "#6c8cff",
-          "team": "United States",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jeff",
-          "color": "#a06bff",
-          "team": "Bosnia-Herzegovina",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537429,
-      "utcDate": "2026-07-03T03:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Switzerland",
-        "tla": "SUI",
-        "crest": "https://crests.football-data.org/788.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Switzerland",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537428,
-      "utcDate": "2026-07-03T18:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Australia",
-        "tla": "AUS",
-        "crest": "https://crests.football-data.org/779.svg"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Nisha",
-          "color": "#ff7a3d",
-          "team": "Australia",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537427,
-      "utcDate": "2026-07-03T22:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png"
-      },
-      "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Argentina",
-          "isHome": true,
           "result": null,
           "points": 0
         }
