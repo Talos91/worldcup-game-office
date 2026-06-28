@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T19:39:09Z",
+  "updatedAt": "2026-06-28T21:09:53Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -688,10 +688,10 @@
               "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 3,
+      "alive": 2,
       "rank": 10
     },
     {
@@ -1050,7 +1050,7 @@
         }
       ],
       "alive": 3,
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Jack",
@@ -2105,22 +2105,22 @@
               "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 3,
+      "alive": 2,
       "rank": 12
     },
     {
       "name": "Ken",
       "color": "#ffd23b",
-      "total": 15,
+      "total": 18,
       "agg": {
-        "played": 12,
-        "w": 4,
+        "played": 13,
+        "w": 5,
         "d": 3,
         "l": 5,
-        "gf": 21,
+        "gf": 22,
         "ga": 24
       },
       "teams": [
@@ -2218,8 +2218,8 @@
           "name": "Canada",
           "tla": "CAN",
           "crest": "https://crests.football-data.org/canada.svg",
-          "points": 4,
-          "w": 1,
+          "points": 7,
+          "w": 2,
           "d": 1,
           "l": 1,
           "group": {
@@ -2289,18 +2289,18 @@
               "opponentTla": "RSA",
               "opponentCrest": "https://crests.football-data.org/9396.svg",
               "utcDate": "2026-06-28T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": 0,
+              "goalsFor": 1,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 799,
@@ -2466,8 +2466,8 @@
           "status": "out"
         }
       ],
-      "alive": 3,
-      "rank": 7
+      "alive": 2,
+      "rank": 4
     },
     {
       "name": "Marco",
@@ -3714,7 +3714,7 @@
               "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 760,
@@ -3895,20 +3895,20 @@
           "status": "in"
         }
       ],
-      "alive": 4,
-      "rank": 4
+      "alive": 3,
+      "rank": 5
     },
     {
       "name": "Will",
       "color": "#4fd0e1",
       "total": 16,
       "agg": {
-        "played": 12,
+        "played": 13,
         "w": 4,
         "d": 4,
-        "l": 4,
+        "l": 5,
         "gf": 18,
-        "ga": 16
+        "ga": 17
       },
       "teams": [
         {
@@ -4072,7 +4072,7 @@
               "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 8049,
@@ -4153,7 +4153,7 @@
           "points": 4,
           "w": 1,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 2,
             "played": 3,
@@ -4221,22 +4221,22 @@
               "opponentTla": "CAN",
               "opponentCrest": "https://crests.football-data.org/canada.svg",
               "utcDate": "2026-06-28T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
               "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsAgainst": 1,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 3,
-      "rank": 6
+      "alive": 1,
+      "rank": 7
     }
   ],
   "groups": [
@@ -6322,6 +6322,23 @@
         "Seth": 18,
         "Will": 16
       }
+    },
+    {
+      "date": "2026-06-28T19:00:00Z",
+      "totals": {
+        "Daniele": 15,
+        "Herlyn": 13,
+        "Htoo": 18,
+        "Jack": 21,
+        "Jeff": 15,
+        "Kate": 12,
+        "Ken": 18,
+        "Marco": 13,
+        "Max": 18,
+        "Nisha": 22,
+        "Seth": 18,
+        "Will": 16
+      }
     }
   ],
   "knockout": [
@@ -6329,14 +6346,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-28T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "South Africa",
         "tla": "RSA",
         "crest": "https://crests.football-data.org/9396.svg",
         "owner": "Will",
         "color": "#4fd0e1",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Canada",
@@ -6344,10 +6361,10 @@
         "crest": "https://crests.football-data.org/canada.svg",
         "owner": "Ken",
         "color": "#ffd23b",
-        "result": null
+        "result": "W"
       },
       "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -7162,7 +7179,7 @@
     {
       "id": 537417,
       "utcDate": "2026-06-28T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "home": {
@@ -7176,9 +7193,9 @@
         "crest": "https://crests.football-data.org/canada.svg"
       },
       "scoreHome": 0,
-      "scoreAway": 0,
-      "htHome": null,
-      "htAway": null,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 0,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -7192,7 +7209,7 @@
           "color": "#4fd0e1",
           "team": "South Africa",
           "isHome": true,
-          "result": null,
+          "result": "L",
           "points": 0
         },
         {
@@ -7200,8 +7217,8 @@
           "color": "#ffd23b",
           "team": "Canada",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ]
     },
@@ -11525,7 +11542,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "215 in 72 games"
+      "value": "216 in 73 games"
     },
     {
       "icon": "📊",
