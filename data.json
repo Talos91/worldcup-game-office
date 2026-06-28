@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T09:20:34Z",
+  "updatedAt": "2026-06-28T17:19:59Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -10490,7 +10490,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "João Pinheiro",
+        "nationality": "Portugal"
+      },
       "stakes": [
         {
           "player": "Will",
