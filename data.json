@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T21:09:53Z",
+  "updatedAt": "2026-06-29T11:12:35Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2298,9 +2298,24 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": null,
+              "opponentTla": null,
+              "opponentCrest": null,
+              "utcDate": "2026-07-04T17:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_16",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
-          "status": "out"
+          "status": "in"
         },
         {
           "id": 799,
@@ -2466,7 +2481,7 @@
           "status": "out"
         }
       ],
-      "alive": 2,
+      "alive": 3,
       "rank": 4
     },
     {
@@ -6764,11 +6779,11 @@
       "utcDate": "2026-07-04T17:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Canada",
+        "tla": "CAN",
+        "crest": "https://crests.football-data.org/canada.svg",
+        "owner": "Ken",
+        "color": "#ffd23b",
         "result": null
       },
       "away": {
@@ -11170,6 +11185,41 @@
           "color": "#a06bff",
           "team": "Ghana",
           "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537376,
+      "utcDate": "2026-07-04T17:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Canada",
+        "tla": "CAN",
+        "crest": "https://crests.football-data.org/canada.svg"
+      },
+      "away": {
+        "name": null,
+        "tla": null,
+        "crest": null
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Ken",
+          "color": "#ffd23b",
+          "team": "Canada",
+          "isHome": true,
           "result": null,
           "points": 0
         }
