@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T15:58:15Z",
+  "updatedAt": "2026-06-29T18:12:35Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -97,18 +97,18 @@
               "opponentTla": "JPN",
               "opponentCrest": "https://crests.football-data.org/766.svg",
               "utcDate": "2026-06-29T17:00:00Z",
-              "status": "TIMED",
+              "status": "LIVE",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 9460,
@@ -348,7 +348,7 @@
           "status": "in"
         }
       ],
-      "alive": 2,
+      "alive": 1,
       "rank": 8
     },
     {
@@ -3449,18 +3449,18 @@
               "opponentTla": "BRA",
               "opponentCrest": "https://crests.football-data.org/764.svg",
               "utcDate": "2026-06-29T17:00:00Z",
-              "status": "TIMED",
+              "status": "LIVE",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 769,
@@ -3552,7 +3552,7 @@
           "status": "in"
         }
       ],
-      "alive": 4,
+      "alive": 3,
       "rank": 1
     },
     {
@@ -6387,7 +6387,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-29T17:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "home": {
         "name": "Brazil",
         "tla": "BRA",
@@ -6404,8 +6404,8 @@
         "color": "#ff7a3d",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -10545,52 +10545,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": 537423,
-      "utcDate": "2026-06-29T17:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Brazil",
-        "tla": "BRA",
-        "crest": "https://crests.football-data.org/764.svg"
-      },
-      "away": {
-        "name": "Japan",
-        "tla": "JPN",
-        "crest": "https://crests.football-data.org/766.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Maurizio Mariani",
-        "nationality": "Italy"
-      },
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#2ee06a",
-          "team": "Brazil",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Nisha",
-          "color": "#ff7a3d",
-          "team": "Japan",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537415,
       "utcDate": "2026-06-29T20:30:00Z",
