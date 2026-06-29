@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T11:12:35Z",
+  "updatedAt": "2026-06-29T15:58:15Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -10568,7 +10568,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Maurizio Mariani",
+        "nationality": "Italy"
+      },
       "stakes": [
         {
           "player": "Daniele",
