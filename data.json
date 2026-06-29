@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T21:39:19Z",
+  "updatedAt": "2026-06-29T23:03:53Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -607,7 +607,7 @@
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 0,
+              "goalsFor": 2,
               "goalsAgainst": 1,
               "result": null,
               "points": 0,
@@ -2741,7 +2741,7 @@
               "group": null,
               "isHome": false,
               "goalsFor": 1,
-              "goalsAgainst": 0,
+              "goalsAgainst": 2,
               "result": null,
               "points": 0,
               "counted": false
@@ -6447,7 +6447,7 @@
         "color": "#18c6b8",
         "result": null
       },
-      "scoreHome": 0,
+      "scoreHome": 2,
       "scoreAway": 1,
       "penHome": null,
       "penAway": null
@@ -7224,7 +7224,7 @@
         "tla": "PAR",
         "crest": "https://crests.football-data.org/761.svg"
       },
-      "scoreHome": 0,
+      "scoreHome": 2,
       "scoreAway": 1,
       "htHome": 0,
       "htAway": 1,
@@ -10677,7 +10677,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Wilton Sampaio",
+        "nationality": "Brazil"
+      },
       "stakes": [
         {
           "player": "Jack",
@@ -11305,6 +11308,15 @@
       "color": "#ff9f1c"
     },
     {
+      "name": "Kai Havertz",
+      "goals": 3,
+      "team": "Germany",
+      "teamTla": "GER",
+      "teamCrest": "https://crests.football-data.org/759.svg",
+      "owner": "Herlyn",
+      "color": "#ff5d8f"
+    },
+    {
       "name": "Deniz Undav",
       "goals": 3,
       "team": "Germany",
@@ -11411,15 +11423,6 @@
       "teamCrest": "https://crests.football-data.org/usa.svg",
       "owner": "Max",
       "color": "#6c8cff"
-    },
-    {
-      "name": "Kai Havertz",
-      "goals": 2,
-      "team": "Germany",
-      "teamTla": "GER",
-      "teamCrest": "https://crests.football-data.org/759.svg",
-      "owner": "Herlyn",
-      "color": "#ff5d8f"
     },
     {
       "name": "Crysencio Summerville",
