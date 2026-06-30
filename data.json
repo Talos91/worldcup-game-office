@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T23:03:53Z",
+  "updatedAt": "2026-06-30T04:09:47Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -603,18 +603,18 @@
               "opponentTla": "PAR",
               "opponentCrest": "https://crests.football-data.org/761.svg",
               "utcDate": "2026-06-29T20:30:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 2,
-              "goalsAgainst": 1,
+              "goalsFor": 4,
+              "goalsAgainst": 5,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 772,
@@ -691,7 +691,7 @@
           "status": "out"
         }
       ],
-      "alive": 2,
+      "alive": 1,
       "rank": 10
     },
     {
@@ -1215,18 +1215,18 @@
               "opponentTla": "NED",
               "opponentCrest": "https://crests.football-data.org/8601.svg",
               "utcDate": "2026-06-30T01:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 4,
+              "goalsAgainst": 4,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 8601,
@@ -1304,18 +1304,18 @@
               "opponentTla": "MAR",
               "opponentCrest": "https://crests.football-data.org/morocco.svg",
               "utcDate": "2026-06-30T01:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 4,
+              "goalsAgainst": 4,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 788,
@@ -1407,7 +1407,7 @@
           "status": "in"
         }
       ],
-      "alive": 3,
+      "alive": 1,
       "rank": 2
     },
     {
@@ -2736,18 +2736,18 @@
               "opponentTla": "GER",
               "opponentCrest": "https://crests.football-data.org/759.svg",
               "utcDate": "2026-06-29T20:30:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": 1,
-              "goalsAgainst": 2,
+              "goalsFor": 5,
+              "goalsAgainst": 4,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 8070,
@@ -2824,7 +2824,7 @@
           "status": "out"
         }
       ],
-      "alive": 2,
+      "alive": 1,
       "rank": 11
     },
     {
@@ -6430,7 +6430,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-29T20:30:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "home": {
         "name": "Germany",
         "tla": "GER",
@@ -6447,16 +6447,16 @@
         "color": "#18c6b8",
         "result": null
       },
-      "scoreHome": 2,
-      "scoreAway": 1,
-      "penHome": null,
-      "penAway": null
+      "scoreHome": 4,
+      "scoreAway": 5,
+      "penHome": 4,
+      "penAway": 4
     },
     {
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-30T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Netherlands",
         "tla": "NED",
@@ -6473,10 +6473,10 @@
         "color": "#ff9f1c",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
-      "penHome": null,
-      "penAway": null
+      "scoreHome": 4,
+      "scoreAway": 4,
+      "penHome": 3,
+      "penAway": 3
     },
     {
       "stage": "LAST_32",
@@ -7208,52 +7208,6 @@
     }
   ],
   "recent": [
-    {
-      "id": 537415,
-      "utcDate": "2026-06-29T20:30:00Z",
-      "status": "PAUSED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Germany",
-        "tla": "GER",
-        "crest": "https://crests.football-data.org/759.svg"
-      },
-      "away": {
-        "name": "Paraguay",
-        "tla": "PAR",
-        "crest": "https://crests.football-data.org/761.svg"
-      },
-      "scoreHome": 2,
-      "scoreAway": 1,
-      "htHome": 0,
-      "htAway": 1,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Jalal Jayed",
-        "nationality": "Morocco"
-      },
-      "stakes": [
-        {
-          "player": "Herlyn",
-          "color": "#ff5d8f",
-          "team": "Germany",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Paraguay",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537423,
       "utcDate": "2026-06-29T17:00:00Z",
@@ -10655,52 +10609,6 @@
   ],
   "upcoming": [
     {
-      "id": 537418,
-      "utcDate": "2026-06-30T01:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Netherlands",
-        "tla": "NED",
-        "crest": "https://crests.football-data.org/8601.svg"
-      },
-      "away": {
-        "name": "Morocco",
-        "tla": "MAR",
-        "crest": "https://crests.football-data.org/morocco.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Wilton Sampaio",
-        "nationality": "Brazil"
-      },
-      "stakes": [
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Netherlands",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Morocco",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537424,
       "utcDate": "2026-06-30T17:00:00Z",
       "status": "TIMED",
@@ -11389,6 +11297,15 @@
       "color": "#ff9f1c"
     },
     {
+      "name": "Cody Gakpo",
+      "goals": 3,
+      "team": "Netherlands",
+      "teamTla": "NED",
+      "teamCrest": "https://crests.football-data.org/8601.svg",
+      "owner": "Jack",
+      "color": "#ff9f1c"
+    },
+    {
       "name": "Ismaïla Sarr",
       "goals": 3,
       "team": "Senegal",
@@ -11515,15 +11432,6 @@
       "color": "#a06bff"
     },
     {
-      "name": "Cody Gakpo",
-      "goals": 2,
-      "team": "Netherlands",
-      "teamTla": "NED",
-      "teamCrest": "https://crests.football-data.org/8601.svg",
-      "owner": "Jack",
-      "color": "#ff9f1c"
-    },
-    {
       "name": "Anthony Elanga",
       "goals": 2,
       "team": "Sweden",
@@ -11618,12 +11526,12 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "219 in 74 games"
+      "value": "236 in 76 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.0"
+      "value": "3.1"
     },
     {
       "icon": "💥",
@@ -11633,7 +11541,7 @@
     {
       "icon": "🔥",
       "label": "Wildest game",
-      "value": "GER 7–1 CUW"
+      "value": "GER 4–5 PAR"
     },
     {
       "icon": "🤝",
