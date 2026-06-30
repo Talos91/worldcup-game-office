@@ -17,7 +17,7 @@ COMPETITION = "WC"
 API_BASE = "https://api.football-data.org/v4"
 API_URL = f"{API_BASE}/competitions/{COMPETITION}/matches"
 WIN, DRAW, LOSS = 3, 1, 0  # office rule: a loss counts 0 (not -1)
-VERSION = "1.8"  # bump on every code push; shown in the page footer (via data.json)
+VERSION = "2.0"  # bump on every code push; shown in the page footer (via data.json)
 COUNTED_STATUSES = ("FINISHED", "AWARDED")
 
 # Each manager picked 4 teams (by name). Colours chosen to read on the dark theme.
@@ -363,7 +363,9 @@ def team_status(team, knockout_started):
         return "in"
     last = finished[-1]                       # most recent finished match
     if last.get("stage") in KNOCKOUT_STAGES:
-        return "out"                          # knockout run ended, no next fixture
+        # No next fixture yet: a LOSER is eliminated, but a WINNER is just between
+        # rounds (the API hasn't assigned their next match) — keep them alive.
+        return "out" if last.get("result") == "L" else "in"
     g = team.get("group") or {}
     if g.get("position") and g.get("played", 0) >= 3 and g["position"] >= 4:
         return "out"                          # bottom of a completed group

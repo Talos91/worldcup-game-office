@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-06-30 — v2.0
+- **Fixed: knockout winners no longer flash "out".** A team that *won* its last
+  knockout match (e.g. Brazil after its R32 win) now stays **alive** while the
+  API assigns its next-round fixture — it was briefly mis-flagged as eliminated,
+  which also wrongly listed it under "Knocked out" in The office report.
+- **Group stage tidied away once the knockouts begin.** Group tables and the
+  "Round of 32 — as it stands" predictor now disappear the moment a knockout
+  match is played (or the full draw is set), leaving just the live bracket.
+- Group tables also gained dimmed rows + an "out" tag for eliminated teams (for
+  the brief window they're still shown during the group stage).
+
 ## 2026-06-26 — v1.8
 - New **"The office report"** at the top: an auto-generated, fun commentary on
   the league (leader, standout results with manager names highlighted in their

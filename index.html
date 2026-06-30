@@ -126,6 +126,8 @@
   .gname { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .gnum { text-align:center; color:var(--muted); font-variant-numeric:tabular-nums; }
   .gpts { text-align:center; font-weight:800; font-variant-numeric:tabular-nums; }
+  .grow.gout { opacity:.5; }
+  .gout-tag { font-size:9px; font-weight:800; color:var(--loss); background:rgba(255,92,92,.16); padding:1px 5px; border-radius:4px; }
   .odot { display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:6px; vertical-align:middle; }
 
   /* Feeds */
@@ -454,8 +456,9 @@ function groupRow(r,i){
   const owned=!!r.owner, style=owned?` style="background:${r.color}14"`:"";
   const dot=owned?`<span class="odot" style="background:${r.color}"></span>`:"";
   const gd=r.gd>0?"+"+r.gd:r.gd;
-  return `<div class="grow ${i<2?"qual":""}"${style}><span class="gpos">${r.position}</span>${crestImg(r.crest,r.tla,"")}
-    <span class="gname">${dot}${r.name}</span><span class="gnum">${r.played}</span><span class="gnum">${gd}</span><span class="gpts">${r.points}</span></div>`;
+  const out=r.played>=3 && r.position>=4;
+  return `<div class="grow ${i<2?"qual":""} ${out?"gout":""}"${style}><span class="gpos">${r.position}</span>${crestImg(r.crest,r.tla,"")}
+    <span class="gname">${dot}${r.name}${out?` <span class="gout-tag">out</span>`:""}</span><span class="gnum">${r.played}</span><span class="gnum">${gd}</span><span class="gpts">${r.points}</span></div>`;
 }
 function groupCard(g){
   return `<div class="gcard"><div class="ghead"><span class="gttl">${g.group}</span><span class="hc">P</span><span class="hc">GD</span><span class="hc">Pts</span></div>
@@ -596,9 +599,13 @@ function bracketDrawn(ko) {
   const r32 = (ko || []).filter(e => e.stage === "LAST_32");
   return r32.length > 0 && r32.every(e => e.home.name && e.away.name);
 }
+function koStarted(ko) {            // knockouts underway: a KO match has a result, or the draw is fully set
+  const k = ko || [];
+  return k.some(e => e.scoreHome != null) || bracketDrawn(k);
+}
 function knockoutSection(data) {
   const ko = data.knockout || [];
-  const koReady = bracketDrawn(ko);
+  const koReady = koStarted(ko);
   if (koReady) {
     return `<section class="block"><h2 class="sec"><span class="ico">🗝️</span> Knockout bracket</h2>${bracketHtml(ko)}</section>`;
   }
@@ -638,7 +645,7 @@ function render(data){
   const players=data.players||[];
   const next=(data.upcoming||[])[0];
   const lead=byRank(players)[0];
-  const koReady=bracketDrawn(data.knockout||[]);
+  const koReady=koStarted(data.knockout||[]);
 
   const hero=`${leaderboard(players)}
     <div class="vibe">${leagueVibe(players)}</div>
