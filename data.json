@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T07:43:03Z",
+  "updatedAt": "2026-06-30T16:25:08Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -10802,7 +10802,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Jesús Valenzuela",
+        "nationality": "Venezuela"
+      },
       "stakes": [
         {
           "player": "Max",
