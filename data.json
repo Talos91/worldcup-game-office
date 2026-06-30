@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T16:25:08Z",
+  "updatedAt": "2026-06-30T20:06:27Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,14 +11,14 @@
     {
       "name": "Daniele",
       "color": "#2ee06a",
-      "total": 18,
+      "total": 21,
       "agg": {
-        "played": 13,
-        "w": 5,
+        "played": 14,
+        "w": 6,
         "d": 3,
         "l": 5,
-        "gf": 22,
-        "ga": 28
+        "gf": 24,
+        "ga": 29
       },
       "teams": [
         {
@@ -278,8 +278,8 @@
           "name": "Norway",
           "tla": "NOR",
           "crest": "https://crests.football-data.org/813.svg",
-          "points": 6,
-          "w": 2,
+          "points": 9,
+          "w": 3,
           "d": 0,
           "l": 1,
           "group": {
@@ -349,22 +349,22 @@
               "opponentTla": "CIV",
               "opponentCrest": "https://crests.football-data.org/787.svg",
               "utcDate": "2026-06-30T17:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 2,
+              "goalsAgainst": 1,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
         }
       ],
       "alive": 2,
-      "rank": 5
+      "rank": 3
     },
     {
       "name": "Herlyn",
@@ -2512,7 +2512,7 @@
         }
       ],
       "alive": 3,
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Marco",
@@ -2877,12 +2877,12 @@
       "color": "#6c8cff",
       "total": 18,
       "agg": {
-        "played": 12,
+        "played": 13,
         "w": 6,
         "d": 0,
-        "l": 6,
-        "gf": 23,
-        "ga": 17
+        "l": 7,
+        "gf": 24,
+        "ga": 19
       },
       "teams": [
         {
@@ -2893,7 +2893,7 @@
           "points": 6,
           "w": 2,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 2,
             "played": 3,
@@ -2961,18 +2961,18 @@
               "opponentTla": "NOR",
               "opponentCrest": "https://crests.football-data.org/813.svg",
               "utcDate": "2026-06-30T17:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 1,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 804,
@@ -3224,8 +3224,8 @@
           "status": "in"
         }
       ],
-      "alive": 3,
-      "rank": 3
+      "alive": 2,
+      "rank": 4
     },
     {
       "name": "Nisha",
@@ -6450,6 +6450,23 @@
         "Seth": 18,
         "Will": 16
       }
+    },
+    {
+      "date": "2026-06-30T17:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 18,
+        "Jack": 24,
+        "Jeff": 15,
+        "Kate": 12,
+        "Ken": 18,
+        "Marco": 16,
+        "Max": 18,
+        "Nisha": 22,
+        "Seth": 18,
+        "Will": 16
+      }
     }
   ],
   "knockout": [
@@ -6561,14 +6578,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-30T17:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Ivory Coast",
         "tla": "CIV",
         "crest": "https://crests.football-data.org/787.svg",
         "owner": "Max",
         "color": "#6c8cff",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Norway",
@@ -6576,10 +6593,10 @@
         "crest": "https://crests.football-data.org/813.svg",
         "owner": "Daniele",
         "color": "#2ee06a",
-        "result": null
+        "result": "W"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -7287,6 +7304,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537424,
+      "utcDate": "2026-06-30T17:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Ivory Coast",
+        "tla": "CIV",
+        "crest": "https://crests.football-data.org/787.svg"
+      },
+      "away": {
+        "name": "Norway",
+        "tla": "NOR",
+        "crest": "https://crests.football-data.org/813.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 2,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Jesús Valenzuela",
+        "nationality": "Venezuela"
+      },
+      "stakes": [
+        {
+          "player": "Max",
+          "color": "#6c8cff",
+          "team": "Ivory Coast",
+          "isHome": true,
+          "result": "L",
+          "points": 0
+        },
+        {
+          "player": "Daniele",
+          "color": "#2ee06a",
+          "team": "Norway",
+          "isHome": false,
+          "result": "W",
+          "points": 3
+        }
+      ]
+    },
     {
       "id": 537418,
       "utcDate": "2026-06-30T01:00:00Z",
@@ -10780,52 +10843,6 @@
   ],
   "upcoming": [
     {
-      "id": 537424,
-      "utcDate": "2026-06-30T17:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Ivory Coast",
-        "tla": "CIV",
-        "crest": "https://crests.football-data.org/787.svg"
-      },
-      "away": {
-        "name": "Norway",
-        "tla": "NOR",
-        "crest": "https://crests.football-data.org/813.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Jesús Valenzuela",
-        "nationality": "Venezuela"
-      },
-      "stakes": [
-        {
-          "player": "Max",
-          "color": "#6c8cff",
-          "team": "Ivory Coast",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Daniele",
-          "color": "#2ee06a",
-          "team": "Norway",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537416,
       "utcDate": "2026-06-30T21:00:00Z",
       "status": "TIMED",
@@ -10848,7 +10865,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Danny Makkelie",
+        "nationality": "Netherlands"
+      },
       "stakes": [
         {
           "player": "Will",
@@ -11423,6 +11443,15 @@
       "color": "#18c6b8"
     },
     {
+      "name": "Erling Haaland",
+      "goals": 5,
+      "team": "Norway",
+      "teamTla": "NOR",
+      "teamCrest": "https://crests.football-data.org/813.svg",
+      "owner": "Daniele",
+      "color": "#2ee06a"
+    },
+    {
       "name": "Vinicius Junior",
       "goals": 4,
       "team": "Brazil",
@@ -11439,15 +11468,6 @@
       "teamCrest": "https://crests.football-data.org/773.svg",
       "owner": "Will",
       "color": "#4fd0e1"
-    },
-    {
-      "name": "Erling Haaland",
-      "goals": 4,
-      "team": "Norway",
-      "teamTla": "NOR",
-      "teamCrest": "https://crests.football-data.org/813.svg",
-      "owner": "Daniele",
-      "color": "#2ee06a"
     },
     {
       "name": "Ousmane Dembélé",
@@ -11612,6 +11632,15 @@
       "color": "#ff7a3d"
     },
     {
+      "name": "Amad Diallo",
+      "goals": 2,
+      "team": "Ivory Coast",
+      "teamTla": "CIV",
+      "teamCrest": "https://crests.football-data.org/787.svg",
+      "owner": "Max",
+      "color": "#6c8cff"
+    },
+    {
       "name": "Yasin Ayari",
       "goals": 2,
       "team": "Sweden",
@@ -11763,22 +11792,13 @@
       "teamCrest": "https://crests.football-data.org/769.svg",
       "owner": "Nisha",
       "color": "#ff7a3d"
-    },
-    {
-      "name": "Ladislav Krejčí",
-      "goals": 1,
-      "team": "Czechia",
-      "teamTla": "CZE",
-      "teamCrest": "https://crests.football-data.org/798.svg",
-      "owner": "Herlyn",
-      "color": "#ff5d8f"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "235 in 76 games"
+      "value": "238 in 77 games"
     },
     {
       "icon": "📊",
