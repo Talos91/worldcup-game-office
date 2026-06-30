@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T20:06:27Z",
+  "updatedAt": "2026-06-30T21:44:37Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -3941,12 +3941,12 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-06-30T21:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -4047,12 +4047,12 @@
               "opponentTla": "SWE",
               "opponentCrest": "https://crests.football-data.org/792.svg",
               "utcDate": "2026-06-30T21:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -6604,7 +6604,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-30T21:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "France",
         "tla": "FRA",
@@ -6621,8 +6621,8 @@
         "color": "#b5e853",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7304,6 +7304,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537416,
+      "utcDate": "2026-06-30T21:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "name": "Sweden",
+        "tla": "SWE",
+        "crest": "https://crests.football-data.org/792.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Danny Makkelie",
+        "nationality": "Netherlands"
+      },
+      "stakes": [
+        {
+          "player": "Will",
+          "color": "#4fd0e1",
+          "team": "France",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Sweden",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537424,
       "utcDate": "2026-06-30T17:00:00Z",
@@ -10842,52 +10888,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": 537416,
-      "utcDate": "2026-06-30T21:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "France",
-        "tla": "FRA",
-        "crest": "https://crests.football-data.org/773.svg"
-      },
-      "away": {
-        "name": "Sweden",
-        "tla": "SWE",
-        "crest": "https://crests.football-data.org/792.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Danny Makkelie",
-        "nationality": "Netherlands"
-      },
-      "stakes": [
-        {
-          "player": "Will",
-          "color": "#4fd0e1",
-          "team": "France",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Seth",
-          "color": "#b5e853",
-          "team": "Sweden",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537425,
       "utcDate": "2026-07-01T01:00:00Z",
