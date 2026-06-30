@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T21:44:37Z",
+  "updatedAt": "2026-06-30T23:18:29Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1065,7 +1065,7 @@
         }
       ],
       "alive": 3,
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Jack",
@@ -2512,7 +2512,7 @@
         }
       ],
       "alive": 3,
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Marco",
@@ -3225,7 +3225,7 @@
         }
       ],
       "alive": 2,
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Nisha",
@@ -3605,12 +3605,12 @@
       "color": "#b5e853",
       "total": 18,
       "agg": {
-        "played": 12,
+        "played": 13,
         "w": 5,
         "d": 3,
-        "l": 4,
+        "l": 5,
         "gf": 18,
-        "ga": 18
+        "ga": 21
       },
       "teams": [
         {
@@ -3873,7 +3873,7 @@
           "points": 4,
           "w": 1,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 3,
             "played": 3,
@@ -3941,33 +3941,33 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-06-30T21:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
               "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 3,
-      "rank": 6
+      "alive": 2,
+      "rank": 7
     },
     {
       "name": "Will",
       "color": "#4fd0e1",
-      "total": 16,
+      "total": 19,
       "agg": {
-        "played": 13,
-        "w": 4,
+        "played": 14,
+        "w": 5,
         "d": 4,
         "l": 5,
-        "gf": 18,
+        "gf": 21,
         "ga": 17
       },
       "teams": [
@@ -3976,8 +3976,8 @@
           "name": "France",
           "tla": "FRA",
           "crest": "https://crests.football-data.org/773.svg",
-          "points": 9,
-          "w": 3,
+          "points": 12,
+          "w": 4,
           "d": 0,
           "l": 0,
           "group": {
@@ -4047,15 +4047,15 @@
               "opponentTla": "SWE",
               "opponentCrest": "https://crests.football-data.org/792.svg",
               "utcDate": "2026-06-30T21:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 0,
+              "goalsFor": 3,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -4296,7 +4296,7 @@
         }
       ],
       "alive": 1,
-      "rank": 8
+      "rank": 4
     }
   ],
   "groups": [
@@ -6467,6 +6467,23 @@
         "Seth": 18,
         "Will": 16
       }
+    },
+    {
+      "date": "2026-06-30T21:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 18,
+        "Jack": 24,
+        "Jeff": 15,
+        "Kate": 12,
+        "Ken": 18,
+        "Marco": 16,
+        "Max": 18,
+        "Nisha": 22,
+        "Seth": 18,
+        "Will": 19
+      }
     }
   ],
   "knockout": [
@@ -6604,14 +6621,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-30T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg",
         "owner": "Will",
         "color": "#4fd0e1",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Sweden",
@@ -6619,9 +6636,9 @@
         "crest": "https://crests.football-data.org/792.svg",
         "owner": "Seth",
         "color": "#b5e853",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 0,
+      "scoreHome": 3,
       "scoreAway": 0,
       "penHome": null,
       "penAway": null
@@ -7307,7 +7324,7 @@
     {
       "id": 537416,
       "utcDate": "2026-06-30T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "home": {
@@ -7320,10 +7337,10 @@
         "tla": "SWE",
         "crest": "https://crests.football-data.org/792.svg"
       },
-      "scoreHome": 0,
+      "scoreHome": 3,
       "scoreAway": 0,
-      "htHome": null,
-      "htAway": null,
+      "htHome": 1,
+      "htAway": 0,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -7337,15 +7354,15 @@
           "color": "#4fd0e1",
           "team": "France",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Seth",
           "color": "#b5e853",
           "team": "Sweden",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -10911,7 +10928,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Slavko Vinčič",
+        "nationality": "Slovenia"
+      },
       "stakes": [
         {
           "player": "Nisha",
@@ -11434,6 +11454,15 @@
   ],
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "goals": 6,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": "Will",
+      "color": "#4fd0e1"
+    },
+    {
       "name": "Lionel Messi",
       "goals": 6,
       "team": "Argentina",
@@ -11459,15 +11488,6 @@
       "teamCrest": "https://crests.football-data.org/764.svg",
       "owner": "Daniele",
       "color": "#2ee06a"
-    },
-    {
-      "name": "Kylian Mbappé",
-      "goals": 4,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": "Will",
-      "color": "#4fd0e1"
     },
     {
       "name": "Ousmane Dembélé",
@@ -11668,6 +11688,15 @@
       "color": "#4fd0e1"
     },
     {
+      "name": "Bradley Barcola",
+      "goals": 2,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": "Will",
+      "color": "#4fd0e1"
+    },
+    {
       "name": "Marko Arnautovic",
       "goals": 2,
       "team": "Austria",
@@ -11783,22 +11812,13 @@
       "teamCrest": "https://crests.football-data.org/algeria.svg",
       "owner": "Seth",
       "color": "#b5e853"
-    },
-    {
-      "name": "Raúl Jiménez",
-      "goals": 1,
-      "team": "Mexico",
-      "teamTla": "MEX",
-      "teamCrest": "https://crests.football-data.org/769.svg",
-      "owner": "Nisha",
-      "color": "#ff7a3d"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "238 in 77 games"
+      "value": "241 in 78 games"
     },
     {
       "icon": "📊",
@@ -11833,7 +11853,7 @@
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Brazil (Daniele, +10)"
+      "value": "France (Will, +12)"
     }
   ]
 }
