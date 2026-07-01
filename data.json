@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T20:03:58Z",
+  "updatedAt": "2026-07-01T21:43:27Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1902,12 +1902,12 @@
               "opponentTla": "SEN",
               "opponentCrest": "https://crests.football-data.org/senegal.svg",
               "utcDate": "2026-07-01T20:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 2,
               "result": null,
               "points": 0,
               "counted": false
@@ -3062,12 +3062,12 @@
               "opponentTla": "BEL",
               "opponentCrest": "https://crests.football-data.org/805.svg",
               "utcDate": "2026-07-01T20:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 2,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -6763,7 +6763,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-01T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Belgium",
         "tla": "BEL",
@@ -6780,8 +6780,8 @@
         "color": "#6c8cff",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -7385,6 +7385,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537422,
+      "utcDate": "2026-07-01T20:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg"
+      },
+      "away": {
+        "name": "Senegal",
+        "tla": "SEN",
+        "crest": "https://crests.football-data.org/senegal.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 2,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Said Martinez",
+        "nationality": "Honduras"
+      },
+      "stakes": [
+        {
+          "player": "Kate",
+          "color": "#ff6fc8",
+          "team": "Belgium",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Max",
+          "color": "#6c8cff",
+          "team": "Senegal",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537426,
       "utcDate": "2026-07-01T16:00:00Z",
@@ -11062,52 +11108,6 @@
   ],
   "upcoming": [
     {
-      "id": 537422,
-      "utcDate": "2026-07-01T20:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Belgium",
-        "tla": "BEL",
-        "crest": "https://crests.football-data.org/805.svg"
-      },
-      "away": {
-        "name": "Senegal",
-        "tla": "SEN",
-        "crest": "https://crests.football-data.org/senegal.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Said Martinez",
-        "nationality": "Honduras"
-      },
-      "stakes": [
-        {
-          "player": "Kate",
-          "color": "#ff6fc8",
-          "team": "Belgium",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Max",
-          "color": "#6c8cff",
-          "team": "Senegal",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537421,
       "utcDate": "2026-07-02T00:00:00Z",
       "status": "TIMED",
@@ -11594,6 +11594,15 @@
       "color": "#4fd0e1"
     },
     {
+      "name": "Ismaïla Sarr",
+      "goals": 4,
+      "team": "Senegal",
+      "teamTla": "SEN",
+      "teamCrest": "https://crests.football-data.org/senegal.svg",
+      "owner": "Max",
+      "color": "#6c8cff"
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 3,
       "team": "Mexico",
@@ -11691,15 +11700,6 @@
       "teamCrest": "https://crests.football-data.org/8601.svg",
       "owner": "Jack",
       "color": "#ff9f1c"
-    },
-    {
-      "name": "Ismaïla Sarr",
-      "goals": 3,
-      "team": "Senegal",
-      "teamTla": "SEN",
-      "teamCrest": "https://crests.football-data.org/senegal.svg",
-      "owner": "Max",
-      "color": "#6c8cff"
     },
     {
       "name": "Raúl Jiménez",
@@ -11882,7 +11882,7 @@
       "color": "#6c8cff"
     },
     {
-      "name": "Pape Gueye",
+      "name": "Habib Diarra",
       "goals": 2,
       "team": "Senegal",
       "teamTla": "SEN",
@@ -11891,13 +11891,13 @@
       "color": "#6c8cff"
     },
     {
-      "name": "Leandro Trossard",
+      "name": "Pape Gueye",
       "goals": 2,
-      "team": "Belgium",
-      "teamTla": "BEL",
-      "teamCrest": "https://crests.football-data.org/805.svg",
-      "owner": "Kate",
-      "color": "#ff6fc8"
+      "team": "Senegal",
+      "teamTla": "SEN",
+      "teamCrest": "https://crests.football-data.org/senegal.svg",
+      "owner": "Max",
+      "color": "#6c8cff"
     }
   ],
   "curiosities": [
