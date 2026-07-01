@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T21:43:27Z",
+  "updatedAt": "2026-07-01T23:20:53Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -722,7 +722,7 @@
         }
       ],
       "alive": 1,
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Htoo",
@@ -1816,14 +1816,14 @@
     {
       "name": "Kate",
       "color": "#ff6fc8",
-      "total": 12,
+      "total": 15,
       "agg": {
-        "played": 12,
-        "w": 2,
+        "played": 13,
+        "w": 3,
         "d": 6,
         "l": 4,
-        "gf": 15,
-        "ga": 21
+        "gf": 18,
+        "ga": 23
       },
       "teams": [
         {
@@ -1831,8 +1831,8 @@
           "name": "Belgium",
           "tla": "BEL",
           "crest": "https://crests.football-data.org/805.svg",
-          "points": 5,
-          "w": 1,
+          "points": 8,
+          "w": 2,
           "d": 2,
           "l": 0,
           "group": {
@@ -1902,15 +1902,15 @@
               "opponentTla": "SEN",
               "opponentCrest": "https://crests.football-data.org/senegal.svg",
               "utcDate": "2026-07-01T20:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 0,
+              "goalsFor": 3,
               "goalsAgainst": 2,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -2154,7 +2154,7 @@
         }
       ],
       "alive": 2,
-      "rank": 12
+      "rank": 11
     },
     {
       "name": "Ken",
@@ -2892,12 +2892,12 @@
       "color": "#6c8cff",
       "total": 18,
       "agg": {
-        "played": 13,
+        "played": 14,
         "w": 6,
         "d": 0,
-        "l": 7,
-        "gf": 24,
-        "ga": 19
+        "l": 8,
+        "gf": 26,
+        "ga": 22
       },
       "teams": [
         {
@@ -2997,7 +2997,7 @@
           "points": 3,
           "w": 1,
           "d": 0,
-          "l": 2,
+          "l": 3,
           "group": {
             "position": 3,
             "played": 3,
@@ -3062,18 +3062,18 @@
               "opponentTla": "BEL",
               "opponentCrest": "https://crests.football-data.org/805.svg",
               "utcDate": "2026-07-01T20:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
               "goalsFor": 2,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 803,
@@ -3239,7 +3239,7 @@
           "status": "in"
         }
       ],
-      "alive": 2,
+      "alive": 1,
       "rank": 5
     },
     {
@@ -6548,6 +6548,23 @@
         "Seth": 18,
         "Will": 19
       }
+    },
+    {
+      "date": "2026-07-01T20:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 18,
+        "Jack": 24,
+        "Jeff": 18,
+        "Kate": 15,
+        "Ken": 18,
+        "Marco": 16,
+        "Max": 18,
+        "Nisha": 25,
+        "Seth": 18,
+        "Will": 19
+      }
     }
   ],
   "knockout": [
@@ -6763,14 +6780,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-01T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Belgium",
         "tla": "BEL",
         "crest": "https://crests.football-data.org/805.svg",
         "owner": "Kate",
         "color": "#ff6fc8",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Senegal",
@@ -6778,9 +6795,9 @@
         "crest": "https://crests.football-data.org/senegal.svg",
         "owner": "Max",
         "color": "#6c8cff",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 0,
+      "scoreHome": 3,
       "scoreAway": 2,
       "penHome": null,
       "penAway": null
@@ -7388,7 +7405,7 @@
     {
       "id": 537422,
       "utcDate": "2026-07-01T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "home": {
@@ -7401,7 +7418,7 @@
         "tla": "SEN",
         "crest": "https://crests.football-data.org/senegal.svg"
       },
-      "scoreHome": 0,
+      "scoreHome": 3,
       "scoreAway": 2,
       "htHome": 0,
       "htAway": 1,
@@ -7418,15 +7435,15 @@
           "color": "#ff6fc8",
           "team": "Belgium",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Max",
           "color": "#6c8cff",
           "team": "Senegal",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -11130,7 +11147,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Raphael Claus",
+        "nationality": "Brazil"
+      },
       "stakes": [
         {
           "player": "Max",
@@ -11904,7 +11924,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "246 in 80 games"
+      "value": "251 in 81 games"
     },
     {
       "icon": "📊",
