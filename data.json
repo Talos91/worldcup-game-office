@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T10:01:13Z",
+  "updatedAt": "2026-07-01T16:30:24Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -902,18 +902,18 @@
               "opponentTla": "ENG",
               "opponentCrest": "https://crests.football-data.org/770.svg",
               "utcDate": "2026-07-01T16:00:00Z",
-              "status": "TIMED",
+              "status": "LIVE",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 765,
@@ -1079,7 +1079,7 @@
           "status": "out"
         }
       ],
-      "alive": 3,
+      "alive": 2,
       "rank": 8
     },
     {
@@ -1633,18 +1633,18 @@
               "opponentTla": "COD",
               "opponentCrest": "https://crests.football-data.org/congo_dr.svg",
               "utcDate": "2026-07-01T16:00:00Z",
-              "status": "TIMED",
+              "status": "LIVE",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 763,
@@ -1810,7 +1810,7 @@
           "status": "out"
         }
       ],
-      "alive": 3,
+      "alive": 2,
       "rank": 10
     },
     {
@@ -6720,7 +6720,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-01T16:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "home": {
         "name": "England",
         "tla": "ENG",
@@ -6737,8 +6737,8 @@
         "color": "#3da5ff",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -10998,49 +10998,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": 537426,
-      "utcDate": "2026-07-01T16:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "England",
-        "tla": "ENG",
-        "crest": "https://crests.football-data.org/770.svg"
-      },
-      "away": {
-        "name": "Congo DR",
-        "tla": "COD",
-        "crest": "https://crests.football-data.org/congo_dr.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Jeff",
-          "color": "#a06bff",
-          "team": "England",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Htoo",
-          "color": "#3da5ff",
-          "team": "Congo DR",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537422,
       "utcDate": "2026-07-01T20:00:00Z",
