@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T23:18:29Z",
+  "updatedAt": "2026-07-01T04:26:00Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1438,7 +1438,7 @@
         }
       ],
       "alive": 2,
-      "rank": 1
+      "rank": 2
     },
     {
       "name": "Jeff",
@@ -3230,14 +3230,14 @@
     {
       "name": "Nisha",
       "color": "#ff7a3d",
-      "total": 22,
+      "total": 25,
       "agg": {
-        "played": 13,
-        "w": 6,
+        "played": 15,
+        "w": 7,
         "d": 4,
-        "l": 3,
-        "gf": 18,
-        "ga": 9
+        "l": 4,
+        "gf": 20,
+        "ga": 11
       },
       "teams": [
         {
@@ -3337,7 +3337,7 @@
           "points": 4,
           "w": 1,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 3,
             "played": 3,
@@ -3405,18 +3405,18 @@
               "opponentTla": "MEX",
               "opponentCrest": "https://crests.football-data.org/769.svg",
               "utcDate": "2026-07-01T01:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 0,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 766,
@@ -3512,8 +3512,8 @@
           "name": "Mexico",
           "tla": "MEX",
           "crest": "https://crests.football-data.org/769.svg",
-          "points": 9,
-          "w": 3,
+          "points": 12,
+          "w": 4,
           "d": 0,
           "l": 0,
           "group": {
@@ -3583,22 +3583,22 @@
               "opponentTla": "ECU",
               "opponentCrest": "https://crests.football-data.org/791.svg",
               "utcDate": "2026-07-01T01:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
         }
       ],
-      "alive": 3,
-      "rank": 2
+      "alive": 2,
+      "rank": 1
     },
     {
       "name": "Seth",
@@ -6484,6 +6484,23 @@
         "Seth": 18,
         "Will": 19
       }
+    },
+    {
+      "date": "2026-07-01T01:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 18,
+        "Jack": 24,
+        "Jeff": 15,
+        "Kate": 12,
+        "Ken": 18,
+        "Marco": 16,
+        "Max": 18,
+        "Nisha": 25,
+        "Seth": 18,
+        "Will": 19
+      }
     }
   ],
   "knockout": [
@@ -6647,14 +6664,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-01T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Mexico",
         "tla": "MEX",
         "crest": "https://crests.football-data.org/769.svg",
         "owner": "Nisha",
         "color": "#ff7a3d",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Ecuador",
@@ -6662,10 +6679,10 @@
         "crest": "https://crests.football-data.org/791.svg",
         "owner": "Nisha",
         "color": "#ff7a3d",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 2,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7321,6 +7338,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537425,
+      "utcDate": "2026-07-01T01:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "away": {
+        "name": "Ecuador",
+        "tla": "ECU",
+        "crest": "https://crests.football-data.org/791.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "htHome": 2,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Slavko Vinčič",
+        "nationality": "Slovenia"
+      },
+      "stakes": [
+        {
+          "player": "Nisha",
+          "color": "#ff7a3d",
+          "team": "Mexico",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        },
+        {
+          "player": "Nisha",
+          "color": "#ff7a3d",
+          "team": "Ecuador",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537416,
       "utcDate": "2026-06-30T21:00:00Z",
@@ -10906,52 +10969,6 @@
   ],
   "upcoming": [
     {
-      "id": 537425,
-      "utcDate": "2026-07-01T01:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg"
-      },
-      "away": {
-        "name": "Ecuador",
-        "tla": "ECU",
-        "crest": "https://crests.football-data.org/791.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Slavko Vinčič",
-        "nationality": "Slovenia"
-      },
-      "stakes": [
-        {
-          "player": "Nisha",
-          "color": "#ff7a3d",
-          "team": "Mexico",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Nisha",
-          "color": "#ff7a3d",
-          "team": "Ecuador",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537426,
       "utcDate": "2026-07-01T16:00:00Z",
       "status": "TIMED",
@@ -11499,6 +11516,15 @@
       "color": "#4fd0e1"
     },
     {
+      "name": "Julián Quiñones",
+      "goals": 3,
+      "team": "Mexico",
+      "teamTla": "MEX",
+      "teamCrest": "https://crests.football-data.org/769.svg",
+      "owner": "Nisha",
+      "color": "#ff7a3d"
+    },
+    {
       "name": "Ismael Saibari",
       "goals": 3,
       "team": "Morocco",
@@ -11607,7 +11633,7 @@
       "color": "#6c8cff"
     },
     {
-      "name": "Julián Quiñones",
+      "name": "Raúl Jiménez",
       "goals": 2,
       "team": "Mexico",
       "teamTla": "MEX",
@@ -11803,22 +11829,13 @@
       "teamCrest": "https://crests.football-data.org/805.svg",
       "owner": "Kate",
       "color": "#ff6fc8"
-    },
-    {
-      "name": "Riyad Mahrez",
-      "goals": 2,
-      "team": "Algeria",
-      "teamTla": "ALG",
-      "teamCrest": "https://crests.football-data.org/algeria.svg",
-      "owner": "Seth",
-      "color": "#b5e853"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "241 in 78 games"
+      "value": "243 in 79 games"
     },
     {
       "icon": "📊",
@@ -11843,7 +11860,7 @@
     {
       "icon": "👑",
       "label": "Leading manager",
-      "value": "Jack (+24)"
+      "value": "Nisha (+25)"
     },
     {
       "icon": "🎯",
