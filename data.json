@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T16:30:24Z",
+  "updatedAt": "2026-07-01T20:03:58Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -729,12 +729,12 @@
       "color": "#3da5ff",
       "total": 18,
       "agg": {
-        "played": 12,
+        "played": 13,
         "w": 4,
         "d": 6,
-        "l": 2,
-        "gf": 15,
-        "ga": 10
+        "l": 3,
+        "gf": 16,
+        "ga": 12
       },
       "teams": [
         {
@@ -834,7 +834,7 @@
           "points": 4,
           "w": 1,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 3,
             "played": 3,
@@ -902,15 +902,15 @@
               "opponentTla": "ENG",
               "opponentCrest": "https://crests.football-data.org/770.svg",
               "utcDate": "2026-07-01T16:00:00Z",
-              "status": "LIVE",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
               "goalsFor": 1,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
           "status": "out"
@@ -1080,7 +1080,7 @@
         }
       ],
       "alive": 2,
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Jack",
@@ -1458,14 +1458,14 @@
     {
       "name": "Jeff",
       "color": "#a06bff",
-      "total": 15,
+      "total": 18,
       "agg": {
-        "played": 12,
-        "w": 4,
+        "played": 13,
+        "w": 5,
         "d": 3,
         "l": 5,
-        "gf": 15,
-        "ga": 22
+        "gf": 17,
+        "ga": 23
       },
       "teams": [
         {
@@ -1562,8 +1562,8 @@
           "name": "England",
           "tla": "ENG",
           "crest": "https://crests.football-data.org/770.svg",
-          "points": 7,
-          "w": 2,
+          "points": 10,
+          "w": 3,
           "d": 1,
           "l": 0,
           "group": {
@@ -1633,18 +1633,18 @@
               "opponentTla": "COD",
               "opponentCrest": "https://crests.football-data.org/congo_dr.svg",
               "utcDate": "2026-07-01T16:00:00Z",
-              "status": "LIVE",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 0,
+              "goalsFor": 2,
               "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
-          "status": "out"
+          "status": "in"
         },
         {
           "id": 763,
@@ -1810,8 +1810,8 @@
           "status": "out"
         }
       ],
-      "alive": 2,
-      "rank": 10
+      "alive": 3,
+      "rank": 8
     },
     {
       "name": "Kate",
@@ -2885,7 +2885,7 @@
         }
       ],
       "alive": 2,
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Max",
@@ -6531,6 +6531,23 @@
         "Seth": 18,
         "Will": 19
       }
+    },
+    {
+      "date": "2026-07-01T16:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 18,
+        "Jack": 24,
+        "Jeff": 18,
+        "Kate": 12,
+        "Ken": 18,
+        "Marco": 16,
+        "Max": 18,
+        "Nisha": 25,
+        "Seth": 18,
+        "Will": 19
+      }
     }
   ],
   "knockout": [
@@ -6720,14 +6737,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-01T16:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "home": {
         "name": "England",
         "tla": "ENG",
         "crest": "https://crests.football-data.org/770.svg",
         "owner": "Jeff",
         "color": "#a06bff",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Congo DR",
@@ -6735,9 +6752,9 @@
         "crest": "https://crests.football-data.org/congo_dr.svg",
         "owner": "Htoo",
         "color": "#3da5ff",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 0,
+      "scoreHome": 2,
       "scoreAway": 1,
       "penHome": null,
       "penAway": null
@@ -7368,6 +7385,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537426,
+      "utcDate": "2026-07-01T16:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg"
+      },
+      "away": {
+        "name": "Congo DR",
+        "tla": "COD",
+        "crest": "https://crests.football-data.org/congo_dr.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Adham Makhadmeh",
+        "nationality": "Jordan"
+      },
+      "stakes": [
+        {
+          "player": "Jeff",
+          "color": "#a06bff",
+          "team": "England",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        },
+        {
+          "player": "Htoo",
+          "color": "#3da5ff",
+          "team": "Congo DR",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537425,
       "utcDate": "2026-07-01T01:00:00Z",
@@ -11021,7 +11084,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Said Martinez",
+        "nationality": "Honduras"
+      },
       "stakes": [
         {
           "player": "Kate",
@@ -11501,6 +11567,15 @@
       "color": "#2ee06a"
     },
     {
+      "name": "Harry Kane",
+      "goals": 5,
+      "team": "England",
+      "teamTla": "ENG",
+      "teamCrest": "https://crests.football-data.org/770.svg",
+      "owner": "Jeff",
+      "color": "#a06bff"
+    },
+    {
       "name": "Vinicius Junior",
       "goals": 4,
       "team": "Brazil",
@@ -11571,15 +11646,6 @@
       "teamCrest": "https://crests.football-data.org/congo_dr.svg",
       "owner": "Htoo",
       "color": "#3da5ff"
-    },
-    {
-      "name": "Harry Kane",
-      "goals": 3,
-      "team": "England",
-      "teamTla": "ENG",
-      "teamCrest": "https://crests.football-data.org/770.svg",
-      "owner": "Jeff",
-      "color": "#a06bff"
     },
     {
       "name": "Johan Manzambi",
@@ -11838,7 +11904,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "243 in 79 games"
+      "value": "246 in 80 games"
     },
     {
       "icon": "📊",
