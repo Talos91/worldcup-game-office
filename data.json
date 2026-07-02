@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T17:56:39Z",
+  "updatedAt": "2026-07-02T19:41:22Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11897,6 +11897,15 @@
       "color": "#ff9f1c"
     },
     {
+      "name": "Mikel Oyarzabal",
+      "goals": 3,
+      "team": "Spain",
+      "teamTla": "ESP",
+      "teamCrest": "https://crests.football-data.org/760.svg",
+      "owner": "Seth",
+      "color": "#b5e853"
+    },
+    {
       "name": "Raúl Jiménez",
       "goals": 2,
       "team": "Mexico",
@@ -12039,15 +12048,6 @@
       "teamCrest": "https://crests.football-data.org/766.svg",
       "owner": "Nisha",
       "color": "#ff7a3d"
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "goals": 2,
-      "team": "Spain",
-      "teamTla": "ESP",
-      "teamCrest": "https://crests.football-data.org/760.svg",
-      "owner": "Seth",
-      "color": "#b5e853"
     },
     {
       "name": "Cristiano Ronaldo",
