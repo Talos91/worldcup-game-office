@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T07:38:52Z",
+  "updatedAt": "2026-07-02T17:56:39Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11270,7 +11270,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Glenn Nyberg",
+        "nationality": "Sweden"
+      },
       "stakes": [
         {
           "player": "Seth",
