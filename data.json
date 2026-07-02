@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T19:41:22Z",
+  "updatedAt": "2026-07-02T21:15:58Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2191,12 +2191,12 @@
       "color": "#ffd23b",
       "total": 18,
       "agg": {
-        "played": 13,
+        "played": 14,
         "w": 5,
         "d": 3,
-        "l": 5,
+        "l": 6,
         "gf": 22,
-        "ga": 24
+        "ga": 27
       },
       "teams": [
         {
@@ -2207,7 +2207,7 @@
           "points": 4,
           "w": 1,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 2,
             "played": 3,
@@ -2275,18 +2275,18 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-07-02T19:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 0,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 828,
@@ -2556,8 +2556,8 @@
           "status": "out"
         }
       ],
-      "alive": 3,
-      "rank": 6
+      "alive": 2,
+      "rank": 7
     },
     {
       "name": "Marco",
@@ -3678,13 +3678,13 @@
     {
       "name": "Seth",
       "color": "#b5e853",
-      "total": 18,
+      "total": 21,
       "agg": {
-        "played": 13,
-        "w": 5,
+        "played": 14,
+        "w": 6,
         "d": 3,
         "l": 5,
-        "gf": 18,
+        "gf": 21,
         "ga": 21
       },
       "teams": [
@@ -3856,8 +3856,8 @@
           "name": "Spain",
           "tla": "ESP",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 7,
-          "w": 2,
+          "points": 10,
+          "w": 3,
           "d": 1,
           "l": 0,
           "group": {
@@ -3927,15 +3927,15 @@
               "opponentTla": "AUT",
               "opponentCrest": "https://crests.football-data.org/816.svg",
               "utcDate": "2026-07-02T19:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 3,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -4031,7 +4031,7 @@
         }
       ],
       "alive": 2,
-      "rank": 7
+      "rank": 5
     },
     {
       "name": "Will",
@@ -4386,7 +4386,7 @@
         }
       ],
       "alive": 1,
-      "rank": 5
+      "rank": 6
     }
   ],
   "groups": [
@@ -6642,6 +6642,23 @@
         "Seth": 18,
         "Will": 19
       }
+    },
+    {
+      "date": "2026-07-02T19:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 18,
+        "Jack": 24,
+        "Jeff": 18,
+        "Kate": 15,
+        "Ken": 18,
+        "Marco": 16,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 21,
+        "Will": 19
+      }
     }
   ],
   "knockout": [
@@ -6909,14 +6926,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-02T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Spain",
         "tla": "ESP",
         "crest": "https://crests.football-data.org/760.svg",
         "owner": "Seth",
         "color": "#b5e853",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Austria",
@@ -6924,10 +6941,10 @@
         "crest": "https://crests.football-data.org/816.svg",
         "owner": "Ken",
         "color": "#ffd23b",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 3,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7479,6 +7496,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537420,
+      "utcDate": "2026-07-02T19:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": "Austria",
+        "tla": "AUT",
+        "crest": "https://crests.football-data.org/816.svg"
+      },
+      "scoreHome": 3,
+      "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Glenn Nyberg",
+        "nationality": "Sweden"
+      },
+      "stakes": [
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Spain",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        },
+        {
+          "player": "Ken",
+          "color": "#ffd23b",
+          "team": "Austria",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537421,
       "utcDate": "2026-07-02T00:00:00Z",
@@ -11248,52 +11311,6 @@
   ],
   "upcoming": [
     {
-      "id": 537420,
-      "utcDate": "2026-07-02T19:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "away": {
-        "name": "Austria",
-        "tla": "AUT",
-        "crest": "https://crests.football-data.org/816.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Glenn Nyberg",
-        "nationality": "Sweden"
-      },
-      "stakes": [
-        {
-          "player": "Seth",
-          "color": "#b5e853",
-          "team": "Spain",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Ken",
-          "color": "#ffd23b",
-          "team": "Austria",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537419,
       "utcDate": "2026-07-02T23:00:00Z",
       "status": "TIMED",
@@ -11316,7 +11333,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Espen Eskås",
+        "nationality": "Norway"
+      },
       "stakes": [
         {
           "player": "Htoo",
@@ -11771,6 +11791,15 @@
       "color": "#2ee06a"
     },
     {
+      "name": "Mikel Oyarzabal",
+      "goals": 4,
+      "team": "Spain",
+      "teamTla": "ESP",
+      "teamCrest": "https://crests.football-data.org/760.svg",
+      "owner": "Seth",
+      "color": "#b5e853"
+    },
+    {
       "name": "Ousmane Dembélé",
       "goals": 4,
       "team": "France",
@@ -11895,15 +11924,6 @@
       "teamCrest": "https://crests.football-data.org/8601.svg",
       "owner": "Jack",
       "color": "#ff9f1c"
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "goals": 3,
-      "team": "Spain",
-      "teamTla": "ESP",
-      "teamCrest": "https://crests.football-data.org/760.svg",
-      "owner": "Seth",
-      "color": "#b5e853"
     },
     {
       "name": "Raúl Jiménez",
@@ -12090,7 +12110,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "253 in 82 games"
+      "value": "256 in 83 games"
     },
     {
       "icon": "📊",
