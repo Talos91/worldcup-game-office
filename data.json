@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T04:04:58Z",
+  "updatedAt": "2026-07-02T07:38:52Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1642,6 +1642,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Mexico",
+              "opponentTla": "MEX",
+              "opponentCrest": "https://crests.football-data.org/769.svg",
+              "utcDate": "2026-07-06T00:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_16",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -1911,6 +1926,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "United States",
+              "opponentTla": "USA",
+              "opponentCrest": "https://crests.football-data.org/usa.svg",
+              "utcDate": "2026-07-07T00:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_16",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -3234,6 +3264,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Belgium",
+              "opponentTla": "BEL",
+              "opponentCrest": "https://crests.football-data.org/805.svg",
+              "utcDate": "2026-07-07T00:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_16",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -3607,6 +3652,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "England",
+              "opponentTla": "ENG",
+              "opponentCrest": "https://crests.football-data.org/770.svg",
+              "utcDate": "2026-07-06T00:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_16",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -7085,19 +7145,19 @@
       "utcDate": "2026-07-06T00:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg",
+        "owner": "Nisha",
+        "color": "#ff7a3d",
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg",
+        "owner": "Jeff",
+        "color": "#a06bff",
         "result": null
       },
       "scoreHome": null,
@@ -7137,19 +7197,19 @@
       "utcDate": "2026-07-07T00:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg",
+        "owner": "Max",
+        "color": "#6c8cff",
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg",
+        "owner": "Kate",
+        "color": "#ff6fc8",
         "result": null
       },
       "scoreHome": null,
@@ -11568,6 +11628,92 @@
           "player": "Daniele",
           "color": "#2ee06a",
           "team": "Norway",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537378,
+      "utcDate": "2026-07-06T00:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "away": {
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Nisha",
+          "color": "#ff7a3d",
+          "team": "Mexico",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Jeff",
+          "color": "#a06bff",
+          "team": "England",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537380,
+      "utcDate": "2026-07-07T00:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Max",
+          "color": "#6c8cff",
+          "team": "United States",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Kate",
+          "color": "#ff6fc8",
+          "team": "Belgium",
           "isHome": false,
           "result": null,
           "points": 0
