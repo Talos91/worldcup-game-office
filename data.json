@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T23:20:53Z",
+  "updatedAt": "2026-07-02T04:04:58Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -379,7 +379,7 @@
         }
       ],
       "alive": 2,
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Herlyn",
@@ -1460,12 +1460,12 @@
       "color": "#a06bff",
       "total": 18,
       "agg": {
-        "played": 13,
+        "played": 14,
         "w": 5,
         "d": 3,
-        "l": 5,
+        "l": 6,
         "gf": 17,
-        "ga": 23
+        "ga": 25
       },
       "teams": [
         {
@@ -1476,7 +1476,7 @@
           "points": 4,
           "w": 1,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 3,
             "played": 3,
@@ -1544,18 +1544,18 @@
               "opponentTla": "USA",
               "opponentCrest": "https://crests.football-data.org/usa.svg",
               "utcDate": "2026-07-02T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 0,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 770,
@@ -1810,7 +1810,7 @@
           "status": "out"
         }
       ],
-      "alive": 3,
+      "alive": 2,
       "rank": 8
     },
     {
@@ -2890,13 +2890,13 @@
     {
       "name": "Max",
       "color": "#6c8cff",
-      "total": 18,
+      "total": 21,
       "agg": {
-        "played": 14,
-        "w": 6,
+        "played": 15,
+        "w": 7,
         "d": 0,
         "l": 8,
-        "gf": 26,
+        "gf": 28,
         "ga": 22
       },
       "teams": [
@@ -3154,8 +3154,8 @@
           "name": "United States",
           "tla": "USA",
           "crest": "https://crests.football-data.org/usa.svg",
-          "points": 6,
-          "w": 2,
+          "points": 9,
+          "w": 3,
           "d": 0,
           "l": 1,
           "group": {
@@ -3225,22 +3225,22 @@
               "opponentTla": "BIH",
               "opponentCrest": "https://crests.football-data.org/bosnia.svg",
               "utcDate": "2026-07-02T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
         }
       ],
       "alive": 1,
-      "rank": 5
+      "rank": 3
     },
     {
       "name": "Nisha",
@@ -3419,7 +3419,7 @@
               "opponent": "Mexico",
               "opponentTla": "MEX",
               "opponentCrest": "https://crests.football-data.org/769.svg",
-              "utcDate": "2026-07-01T01:00:00Z",
+              "utcDate": "2026-07-01T02:00:00Z",
               "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
@@ -3597,7 +3597,7 @@
               "opponent": "Ecuador",
               "opponentTla": "ECU",
               "opponentCrest": "https://crests.football-data.org/791.svg",
-              "utcDate": "2026-07-01T01:00:00Z",
+              "utcDate": "2026-07-01T02:00:00Z",
               "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
@@ -4326,7 +4326,7 @@
         }
       ],
       "alive": 1,
-      "rank": 4
+      "rank": 5
     }
   ],
   "groups": [
@@ -6516,7 +6516,7 @@
       }
     },
     {
-      "date": "2026-07-01T01:00:00Z",
+      "date": "2026-07-01T02:00:00Z",
       "totals": {
         "Daniele": 21,
         "Herlyn": 13,
@@ -6561,6 +6561,23 @@
         "Ken": 18,
         "Marco": 16,
         "Max": 18,
+        "Nisha": 25,
+        "Seth": 18,
+        "Will": 19
+      }
+    },
+    {
+      "date": "2026-07-02T00:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 18,
+        "Jack": 24,
+        "Jeff": 18,
+        "Kate": 15,
+        "Ken": 18,
+        "Marco": 16,
+        "Max": 21,
         "Nisha": 25,
         "Seth": 18,
         "Will": 19
@@ -6727,7 +6744,7 @@
     {
       "stage": "LAST_32",
       "order": 1,
-      "utcDate": "2026-07-01T01:00:00Z",
+      "utcDate": "2026-07-01T02:00:00Z",
       "status": "FINISHED",
       "home": {
         "name": "Mexico",
@@ -6806,14 +6823,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-02T00:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "United States",
         "tla": "USA",
         "crest": "https://crests.football-data.org/usa.svg",
         "owner": "Max",
         "color": "#6c8cff",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Bosnia-Herzegovina",
@@ -6821,10 +6838,10 @@
         "crest": "https://crests.football-data.org/bosnia.svg",
         "owner": "Jeff",
         "color": "#a06bff",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 2,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7403,6 +7420,52 @@
   ],
   "recent": [
     {
+      "id": 537421,
+      "utcDate": "2026-07-02T00:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "name": "Bosnia-Herzegovina",
+        "tla": "BIH",
+        "crest": "https://crests.football-data.org/bosnia.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Raphael Claus",
+        "nationality": "Brazil"
+      },
+      "stakes": [
+        {
+          "player": "Max",
+          "color": "#6c8cff",
+          "team": "United States",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        },
+        {
+          "player": "Jeff",
+          "color": "#a06bff",
+          "team": "Bosnia-Herzegovina",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ]
+    },
+    {
       "id": 537422,
       "utcDate": "2026-07-01T20:00:00Z",
       "status": "FINISHED",
@@ -7422,7 +7485,7 @@
       "scoreAway": 2,
       "htHome": 0,
       "htAway": 1,
-      "duration": "REGULAR",
+      "duration": "EXTRA_TIME",
       "penHome": null,
       "penAway": null,
       "referee": {
@@ -7496,7 +7559,7 @@
     },
     {
       "id": 537425,
-      "utcDate": "2026-07-01T01:00:00Z",
+      "utcDate": "2026-07-01T02:00:00Z",
       "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
@@ -11125,52 +11188,6 @@
   ],
   "upcoming": [
     {
-      "id": 537421,
-      "utcDate": "2026-07-02T00:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg"
-      },
-      "away": {
-        "name": "Bosnia-Herzegovina",
-        "tla": "BIH",
-        "crest": "https://crests.football-data.org/bosnia.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Raphael Claus",
-        "nationality": "Brazil"
-      },
-      "stakes": [
-        {
-          "player": "Max",
-          "color": "#6c8cff",
-          "team": "United States",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jeff",
-          "color": "#a06bff",
-          "team": "Bosnia-Herzegovina",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537420,
       "utcDate": "2026-07-02T19:00:00Z",
       "status": "TIMED",
@@ -11632,6 +11649,15 @@
       "color": "#ff7a3d"
     },
     {
+      "name": "Folarin Balogun",
+      "goals": 3,
+      "team": "United States",
+      "teamTla": "USA",
+      "teamCrest": "https://crests.football-data.org/usa.svg",
+      "owner": "Max",
+      "color": "#6c8cff"
+    },
+    {
       "name": "Ismael Saibari",
       "goals": 3,
       "team": "Morocco",
@@ -11738,15 +11764,6 @@
       "teamCrest": "https://crests.football-data.org/canada.svg",
       "owner": "Ken",
       "color": "#ffd23b"
-    },
-    {
-      "name": "Folarin Balogun",
-      "goals": 2,
-      "team": "United States",
-      "teamTla": "USA",
-      "teamCrest": "https://crests.football-data.org/usa.svg",
-      "owner": "Max",
-      "color": "#6c8cff"
     },
     {
       "name": "Crysencio Summerville",
@@ -11924,7 +11941,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "251 in 81 games"
+      "value": "253 in 82 games"
     },
     {
       "icon": "📊",
