@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T21:15:58Z",
+  "updatedAt": "2026-07-02T23:14:40Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -991,12 +991,12 @@
               "opponentTla": "CRO",
               "opponentCrest": "https://crests.football-data.org/799.svg",
               "utcDate": "2026-07-02T23:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -2468,12 +2468,12 @@
               "opponentTla": "POR",
               "opponentCrest": "https://crests.football-data.org/765.svg",
               "utcDate": "2026-07-02T23:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -6952,7 +6952,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-02T23:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Portugal",
         "tla": "POR",
@@ -6969,8 +6969,8 @@
         "color": "#ffd23b",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7496,6 +7496,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537419,
+      "utcDate": "2026-07-02T23:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Portugal",
+        "tla": "POR",
+        "crest": "https://crests.football-data.org/765.svg"
+      },
+      "away": {
+        "name": "Croatia",
+        "tla": "CRO",
+        "crest": "https://crests.football-data.org/799.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Espen Eskås",
+        "nationality": "Norway"
+      },
+      "stakes": [
+        {
+          "player": "Htoo",
+          "color": "#3da5ff",
+          "team": "Portugal",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Ken",
+          "color": "#ffd23b",
+          "team": "Croatia",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537420,
       "utcDate": "2026-07-02T19:00:00Z",
@@ -11310,52 +11356,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": 537419,
-      "utcDate": "2026-07-02T23:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Portugal",
-        "tla": "POR",
-        "crest": "https://crests.football-data.org/765.svg"
-      },
-      "away": {
-        "name": "Croatia",
-        "tla": "CRO",
-        "crest": "https://crests.football-data.org/799.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Espen Eskås",
-        "nationality": "Norway"
-      },
-      "stakes": [
-        {
-          "player": "Htoo",
-          "color": "#3da5ff",
-          "team": "Portugal",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Ken",
-          "color": "#ffd23b",
-          "team": "Croatia",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537429,
       "utcDate": "2026-07-03T03:00:00Z",
