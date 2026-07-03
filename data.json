@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T23:14:40Z",
+  "updatedAt": "2026-07-03T03:51:32Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -727,14 +727,14 @@
     {
       "name": "Htoo",
       "color": "#3da5ff",
-      "total": 18,
+      "total": 21,
       "agg": {
-        "played": 13,
-        "w": 4,
+        "played": 14,
+        "w": 5,
         "d": 6,
         "l": 3,
-        "gf": 16,
-        "ga": 12
+        "gf": 18,
+        "ga": 13
       },
       "teams": [
         {
@@ -920,8 +920,8 @@
           "name": "Portugal",
           "tla": "POR",
           "crest": "https://crests.football-data.org/765.svg",
-          "points": 5,
-          "w": 1,
+          "points": 8,
+          "w": 2,
           "d": 2,
           "l": 0,
           "group": {
@@ -991,15 +991,15 @@
               "opponentTla": "CRO",
               "opponentCrest": "https://crests.football-data.org/799.svg",
               "utcDate": "2026-07-02T23:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 2,
+              "goalsAgainst": 1,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1080,7 +1080,7 @@
         }
       ],
       "alive": 2,
-      "rank": 9
+      "rank": 6
     },
     {
       "name": "Jack",
@@ -1438,12 +1438,12 @@
               "opponentTla": "ALG",
               "opponentCrest": "https://crests.football-data.org/algeria.svg",
               "utcDate": "2026-07-03T03:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -1826,7 +1826,7 @@
         }
       ],
       "alive": 2,
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Kate",
@@ -2191,12 +2191,12 @@
       "color": "#ffd23b",
       "total": 18,
       "agg": {
-        "played": 14,
+        "played": 15,
         "w": 5,
         "d": 3,
-        "l": 6,
-        "gf": 22,
-        "ga": 27
+        "l": 7,
+        "gf": 23,
+        "ga": 29
       },
       "teams": [
         {
@@ -2400,7 +2400,7 @@
           "points": 6,
           "w": 2,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 2,
             "played": 3,
@@ -2468,18 +2468,18 @@
               "opponentTla": "POR",
               "opponentCrest": "https://crests.football-data.org/765.svg",
               "utcDate": "2026-07-02T23:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsFor": 1,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 8030,
@@ -2556,8 +2556,8 @@
           "status": "out"
         }
       ],
-      "alive": 2,
-      "rank": 7
+      "alive": 1,
+      "rank": 8
     },
     {
       "name": "Marco",
@@ -3764,12 +3764,12 @@
               "opponentTla": "SUI",
               "opponentCrest": "https://crests.football-data.org/788.svg",
               "utcDate": "2026-07-03T03:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -4386,7 +4386,7 @@
         }
       ],
       "alive": 1,
-      "rank": 6
+      "rank": 7
     }
   ],
   "groups": [
@@ -6659,6 +6659,23 @@
         "Seth": 21,
         "Will": 19
       }
+    },
+    {
+      "date": "2026-07-02T23:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 21,
+        "Jack": 24,
+        "Jeff": 18,
+        "Kate": 15,
+        "Ken": 18,
+        "Marco": 16,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 21,
+        "Will": 19
+      }
     }
   ],
   "knockout": [
@@ -6952,14 +6969,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-02T23:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Portugal",
         "tla": "POR",
         "crest": "https://crests.football-data.org/765.svg",
         "owner": "Htoo",
         "color": "#3da5ff",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Croatia",
@@ -6967,10 +6984,10 @@
         "crest": "https://crests.football-data.org/799.svg",
         "owner": "Ken",
         "color": "#ffd23b",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreHome": 2,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -6978,7 +6995,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Switzerland",
         "tla": "SUI",
@@ -6995,8 +7012,8 @@
         "color": "#b5e853",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7497,9 +7514,55 @@
   ],
   "recent": [
     {
+      "id": 537429,
+      "utcDate": "2026-07-03T03:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg"
+      },
+      "away": {
+        "name": "Algeria",
+        "tla": "ALG",
+        "crest": "https://crests.football-data.org/algeria.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Yael Falcón",
+        "nationality": "Argentina"
+      },
+      "stakes": [
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Switzerland",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Algeria",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
       "id": 537419,
       "utcDate": "2026-07-02T23:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "home": {
@@ -7512,10 +7575,10 @@
         "tla": "CRO",
         "crest": "https://crests.football-data.org/799.svg"
       },
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "htHome": null,
-      "htAway": null,
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 0,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -7529,15 +7592,15 @@
           "color": "#3da5ff",
           "team": "Portugal",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Ken",
           "color": "#ffd23b",
           "team": "Croatia",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -11357,49 +11420,6 @@
   ],
   "upcoming": [
     {
-      "id": 537429,
-      "utcDate": "2026-07-03T03:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Switzerland",
-        "tla": "SUI",
-        "crest": "https://crests.football-data.org/788.svg"
-      },
-      "away": {
-        "name": "Algeria",
-        "tla": "ALG",
-        "crest": "https://crests.football-data.org/algeria.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Switzerland",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Seth",
-          "color": "#b5e853",
-          "team": "Algeria",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537428,
       "utcDate": "2026-07-03T18:00:00Z",
       "status": "TIMED",
@@ -11926,6 +11946,15 @@
       "color": "#ff9f1c"
     },
     {
+      "name": "Cristiano Ronaldo",
+      "goals": 3,
+      "team": "Portugal",
+      "teamTla": "POR",
+      "teamCrest": "https://crests.football-data.org/765.svg",
+      "owner": "Htoo",
+      "color": "#3da5ff"
+    },
+    {
       "name": "Raúl Jiménez",
       "goals": 2,
       "team": "Mexico",
@@ -11942,6 +11971,15 @@
       "teamCrest": "https://crests.football-data.org/canada.svg",
       "owner": "Ken",
       "color": "#ffd23b"
+    },
+    {
+      "name": "Breel Embolo",
+      "goals": 2,
+      "team": "Switzerland",
+      "teamTla": "SUI",
+      "teamCrest": "https://crests.football-data.org/788.svg",
+      "owner": "Jack",
+      "color": "#ff9f1c"
     },
     {
       "name": "Crysencio Summerville",
@@ -12070,15 +12108,6 @@
       "color": "#ff7a3d"
     },
     {
-      "name": "Cristiano Ronaldo",
-      "goals": 2,
-      "team": "Portugal",
-      "teamTla": "POR",
-      "teamCrest": "https://crests.football-data.org/765.svg",
-      "owner": "Htoo",
-      "color": "#3da5ff"
-    },
-    {
       "name": "Nicolas Pépé",
       "goals": 2,
       "team": "Ivory Coast",
@@ -12095,22 +12124,13 @@
       "teamCrest": "https://crests.football-data.org/senegal.svg",
       "owner": "Max",
       "color": "#6c8cff"
-    },
-    {
-      "name": "Pape Gueye",
-      "goals": 2,
-      "team": "Senegal",
-      "teamTla": "SEN",
-      "teamCrest": "https://crests.football-data.org/senegal.svg",
-      "owner": "Max",
-      "color": "#6c8cff"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "256 in 83 games"
+      "value": "259 in 84 games"
     },
     {
       "icon": "📊",
