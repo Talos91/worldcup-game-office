@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T19:38:34Z",
+  "updatedAt": "2026-07-03T21:14:36Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2021,18 +2021,18 @@
               "opponentTla": "AUS",
               "opponentCrest": "https://crests.football-data.org/779.svg",
               "utcDate": "2026-07-03T18:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": 1,
-              "goalsAgainst": 1,
+              "goalsFor": 5,
+              "goalsAgainst": 3,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 8062,
@@ -2183,7 +2183,7 @@
           "status": "out"
         }
       ],
-      "alive": 2,
+      "alive": 1,
       "rank": 11
     },
     {
@@ -3376,18 +3376,18 @@
               "opponentTla": "EGY",
               "opponentCrest": "https://crests.football-data.org/825.svg",
               "utcDate": "2026-07-03T18:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 1,
-              "goalsAgainst": 1,
+              "goalsFor": 3,
+              "goalsAgainst": 5,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 791,
@@ -3672,7 +3672,7 @@
           "status": "in"
         }
       ],
-      "alive": 2,
+      "alive": 1,
       "rank": 2
     },
     {
@@ -7038,7 +7038,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Australia",
         "tla": "AUS",
@@ -7055,10 +7055,10 @@
         "color": "#ff6fc8",
         "result": null
       },
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "penHome": null,
-      "penAway": null
+      "scoreHome": 3,
+      "scoreAway": 5,
+      "penHome": 4,
+      "penAway": 4
     },
     {
       "stage": "LAST_32",
@@ -7530,52 +7530,6 @@
     }
   ],
   "recent": [
-    {
-      "id": 537428,
-      "utcDate": "2026-07-03T18:00:00Z",
-      "status": "IN_PLAY",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Australia",
-        "tla": "AUS",
-        "crest": "https://crests.football-data.org/779.svg"
-      },
-      "away": {
-        "name": "Egypt",
-        "tla": "EGY",
-        "crest": "https://crests.football-data.org/825.svg"
-      },
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "htHome": 0,
-      "htAway": 1,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Gustavo Tejera",
-        "nationality": "Uruguay"
-      },
-      "stakes": [
-        {
-          "player": "Nisha",
-          "color": "#ff7a3d",
-          "team": "Australia",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Kate",
-          "color": "#ff6fc8",
-          "team": "Egypt",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537429,
       "utcDate": "2026-07-03T03:00:00Z",
@@ -11505,7 +11459,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Drew Fischer",
+        "nationality": "Canada"
+      },
       "stakes": [
         {
           "player": "Marco",
@@ -12150,7 +12107,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "261 in 85 games"
+      "value": "269 in 86 games"
     },
     {
       "icon": "📊",
