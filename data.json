@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T03:51:32Z",
+  "updatedAt": "2026-07-03T07:29:24Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1085,13 +1085,13 @@
     {
       "name": "Jack",
       "color": "#ff9f1c",
-      "total": 24,
+      "total": 27,
       "agg": {
-        "played": 14,
-        "w": 7,
+        "played": 15,
+        "w": 8,
         "d": 3,
         "l": 4,
-        "gf": 32,
+        "gf": 34,
         "ga": 25
       },
       "teams": [
@@ -1367,8 +1367,8 @@
           "name": "Switzerland",
           "tla": "SUI",
           "crest": "https://crests.football-data.org/788.svg",
-          "points": 7,
-          "w": 2,
+          "points": 10,
+          "w": 3,
           "d": 1,
           "l": 0,
           "group": {
@@ -1438,22 +1438,22 @@
               "opponentTla": "ALG",
               "opponentCrest": "https://crests.football-data.org/algeria.svg",
               "utcDate": "2026-07-03T03:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 1,
+              "goalsFor": 2,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
         }
       ],
       "alive": 2,
-      "rank": 2
+      "rank": 1
     },
     {
       "name": "Jeff",
@@ -3673,19 +3673,19 @@
         }
       ],
       "alive": 2,
-      "rank": 1
+      "rank": 2
     },
     {
       "name": "Seth",
       "color": "#b5e853",
       "total": 21,
       "agg": {
-        "played": 14,
+        "played": 15,
         "w": 6,
         "d": 3,
-        "l": 5,
+        "l": 6,
         "gf": 21,
-        "ga": 21
+        "ga": 23
       },
       "teams": [
         {
@@ -3696,7 +3696,7 @@
           "points": 4,
           "w": 1,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 3,
             "played": 3,
@@ -3764,18 +3764,18 @@
               "opponentTla": "SUI",
               "opponentCrest": "https://crests.football-data.org/788.svg",
               "utcDate": "2026-07-03T03:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
               "goalsFor": 0,
-              "goalsAgainst": 1,
-              "result": null,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 8873,
@@ -4030,7 +4030,7 @@
           "status": "out"
         }
       ],
-      "alive": 2,
+      "alive": 1,
       "rank": 5
     },
     {
@@ -6676,6 +6676,23 @@
         "Seth": 21,
         "Will": 19
       }
+    },
+    {
+      "date": "2026-07-03T03:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 21,
+        "Jack": 27,
+        "Jeff": 18,
+        "Kate": 15,
+        "Ken": 18,
+        "Marco": 16,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 21,
+        "Will": 19
+      }
     }
   ],
   "knockout": [
@@ -6995,14 +7012,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Switzerland",
         "tla": "SUI",
         "crest": "https://crests.football-data.org/788.svg",
         "owner": "Jack",
         "color": "#ff9f1c",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Algeria",
@@ -7010,9 +7027,9 @@
         "crest": "https://crests.football-data.org/algeria.svg",
         "owner": "Seth",
         "color": "#b5e853",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 1,
+      "scoreHome": 2,
       "scoreAway": 0,
       "penHome": null,
       "penAway": null
@@ -7516,7 +7533,7 @@
     {
       "id": 537429,
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "home": {
@@ -7529,10 +7546,10 @@
         "tla": "ALG",
         "crest": "https://crests.football-data.org/algeria.svg"
       },
-      "scoreHome": 1,
+      "scoreHome": 2,
       "scoreAway": 0,
-      "htHome": null,
-      "htAway": null,
+      "htHome": 1,
+      "htAway": 0,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -7546,15 +7563,15 @@
           "color": "#ff9f1c",
           "team": "Switzerland",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Seth",
           "color": "#b5e853",
           "team": "Algeria",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -12130,7 +12147,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "259 in 84 games"
+      "value": "261 in 85 games"
     },
     {
       "icon": "📊",
@@ -12155,12 +12172,12 @@
     {
       "icon": "👑",
       "label": "Leading manager",
-      "value": "Nisha (+25)"
+      "value": "Jack (+27)"
     },
     {
       "icon": "🎯",
       "label": "Most goals (manager)",
-      "value": "Jack · 32"
+      "value": "Jack · 34"
     },
     {
       "icon": "⭐",
