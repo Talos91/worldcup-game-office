@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T21:14:36Z",
+  "updatedAt": "2026-07-03T23:11:42Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -470,18 +470,18 @@
               "opponentTla": "ARG",
               "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-07-03T22:00:00Z",
-              "status": "TIMED",
+              "status": "LIVE",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 798,
@@ -721,7 +721,7 @@
           "status": "out"
         }
       ],
-      "alive": 1,
+      "alive": 0,
       "rank": 12
     },
     {
@@ -2648,18 +2648,18 @@
               "opponentTla": "CPV",
               "opponentCrest": "https://crests.football-data.org/cape_verde.svg",
               "utcDate": "2026-07-03T22:00:00Z",
-              "status": "TIMED",
+              "status": "LIVE",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 1836,
@@ -2914,7 +2914,7 @@
           "status": "out"
         }
       ],
-      "alive": 2,
+      "alive": 1,
       "rank": 10
     },
     {
@@ -7064,7 +7064,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T22:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "home": {
         "name": "Argentina",
         "tla": "ARG",
@@ -7081,8 +7081,8 @@
         "color": "#ff5d8f",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -11437,52 +11437,6 @@
   ],
   "upcoming": [
     {
-      "id": 537427,
-      "utcDate": "2026-07-03T22:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png"
-      },
-      "away": {
-        "name": "Cape Verde Islands",
-        "tla": "CPV",
-        "crest": "https://crests.football-data.org/cape_verde.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Drew Fischer",
-        "nationality": "Canada"
-      },
-      "stakes": [
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Argentina",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Herlyn",
-          "color": "#ff5d8f",
-          "team": "Cape Verde Islands",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537430,
       "utcDate": "2026-07-04T01:30:00Z",
       "status": "TIMED",
@@ -11743,6 +11697,15 @@
   ],
   "scorers": [
     {
+      "name": "Lionel Messi",
+      "goals": 7,
+      "team": "Argentina",
+      "teamTla": "ARG",
+      "teamCrest": "https://crests.football-data.org/762.png",
+      "owner": "Marco",
+      "color": "#18c6b8"
+    },
+    {
       "name": "Kylian Mbappé",
       "goals": 6,
       "team": "France",
@@ -11750,15 +11713,6 @@
       "teamCrest": "https://crests.football-data.org/773.svg",
       "owner": "Will",
       "color": "#4fd0e1"
-    },
-    {
-      "name": "Lionel Messi",
-      "goals": 6,
-      "team": "Argentina",
-      "teamTla": "ARG",
-      "teamCrest": "https://crests.football-data.org/762.png",
-      "owner": "Marco",
-      "color": "#18c6b8"
     },
     {
       "name": "Erling Haaland",
