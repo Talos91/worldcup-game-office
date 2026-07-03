@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T17:39:38Z",
+  "updatedAt": "2026-07-03T19:38:34Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2021,12 +2021,12 @@
               "opponentTla": "AUS",
               "opponentCrest": "https://crests.football-data.org/779.svg",
               "utcDate": "2026-07-03T18:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -3376,12 +3376,12 @@
               "opponentTla": "EGY",
               "opponentCrest": "https://crests.football-data.org/825.svg",
               "utcDate": "2026-07-03T18:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -7038,7 +7038,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T18:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Australia",
         "tla": "AUS",
@@ -7055,8 +7055,8 @@
         "color": "#ff6fc8",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -7530,6 +7530,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537428,
+      "utcDate": "2026-07-03T18:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Australia",
+        "tla": "AUS",
+        "crest": "https://crests.football-data.org/779.svg"
+      },
+      "away": {
+        "name": "Egypt",
+        "tla": "EGY",
+        "crest": "https://crests.football-data.org/825.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Gustavo Tejera",
+        "nationality": "Uruguay"
+      },
+      "stakes": [
+        {
+          "player": "Nisha",
+          "color": "#ff7a3d",
+          "team": "Australia",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Kate",
+          "color": "#ff6fc8",
+          "team": "Egypt",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537429,
       "utcDate": "2026-07-03T03:00:00Z",
@@ -11437,52 +11483,6 @@
   ],
   "upcoming": [
     {
-      "id": 537428,
-      "utcDate": "2026-07-03T18:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Australia",
-        "tla": "AUS",
-        "crest": "https://crests.football-data.org/779.svg"
-      },
-      "away": {
-        "name": "Egypt",
-        "tla": "EGY",
-        "crest": "https://crests.football-data.org/825.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Gustavo Tejera",
-        "nationality": "Uruguay"
-      },
-      "stakes": [
-        {
-          "player": "Nisha",
-          "color": "#ff7a3d",
-          "team": "Australia",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Kate",
-          "color": "#ff6fc8",
-          "team": "Egypt",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537427,
       "utcDate": "2026-07-03T22:00:00Z",
       "status": "TIMED",
@@ -12038,6 +12038,15 @@
       "color": "#b5e853"
     },
     {
+      "name": "Emam Ashour",
+      "goals": 2,
+      "team": "Egypt",
+      "teamTla": "EGY",
+      "teamCrest": "https://crests.football-data.org/825.svg",
+      "owner": "Kate",
+      "color": "#ff6fc8"
+    },
+    {
       "name": "Maximiliano Araújo",
       "goals": 2,
       "team": "Uruguay",
@@ -12133,15 +12142,6 @@
       "team": "Ivory Coast",
       "teamTla": "CIV",
       "teamCrest": "https://crests.football-data.org/787.svg",
-      "owner": "Max",
-      "color": "#6c8cff"
-    },
-    {
-      "name": "Habib Diarra",
-      "goals": 2,
-      "team": "Senegal",
-      "teamTla": "SEN",
-      "teamCrest": "https://crests.football-data.org/senegal.svg",
       "owner": "Max",
       "color": "#6c8cff"
     }
