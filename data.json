@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T15:12:07Z",
+  "updatedAt": "2026-07-04T17:13:21Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1290,12 +1290,12 @@
               "opponentTla": "CAN",
               "opponentCrest": "https://crests.football-data.org/canada.svg",
               "utcDate": "2026-07-04T17:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -2439,12 +2439,12 @@
               "opponentTla": "MAR",
               "opponentCrest": "https://crests.football-data.org/morocco.svg",
               "utcDate": "2026-07-04T17:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -7257,7 +7257,7 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-04T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Canada",
         "tla": "CAN",
@@ -7274,8 +7274,8 @@
         "color": "#ff9f1c",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7671,6 +7671,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537376,
+      "utcDate": "2026-07-04T17:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Canada",
+        "tla": "CAN",
+        "crest": "https://crests.football-data.org/canada.svg"
+      },
+      "away": {
+        "name": "Morocco",
+        "tla": "MAR",
+        "crest": "https://crests.football-data.org/morocco.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Michael Oliver",
+        "nationality": "England"
+      },
+      "stakes": [
+        {
+          "player": "Ken",
+          "color": "#ffd23b",
+          "team": "Canada",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Morocco",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537430,
       "utcDate": "2026-07-04T01:30:00Z",
@@ -11715,52 +11761,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": 537376,
-      "utcDate": "2026-07-04T17:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "Canada",
-        "tla": "CAN",
-        "crest": "https://crests.football-data.org/canada.svg"
-      },
-      "away": {
-        "name": "Morocco",
-        "tla": "MAR",
-        "crest": "https://crests.football-data.org/morocco.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Michael Oliver",
-        "nationality": "England"
-      },
-      "stakes": [
-        {
-          "player": "Ken",
-          "color": "#ffd23b",
-          "team": "Canada",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Morocco",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537375,
       "utcDate": "2026-07-04T21:00:00Z",
