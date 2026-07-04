@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T19:23:16Z",
+  "updatedAt": "2026-07-04T23:03:13Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2901,12 +2901,12 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-07-04T21:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -4227,12 +4227,12 @@
               "opponentTla": "PAR",
               "opponentCrest": "https://crests.football-data.org/761.svg",
               "utcDate": "2026-07-04T21:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -7300,7 +7300,7 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Paraguay",
         "tla": "PAR",
@@ -7317,8 +7317,8 @@
         "color": "#4fd0e1",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -7688,6 +7688,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537375,
+      "utcDate": "2026-07-04T21:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Paraguay",
+        "tla": "PAR",
+        "crest": "https://crests.football-data.org/761.svg"
+      },
+      "away": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Il'giz Tantashev",
+        "nationality": "Uzbekistan"
+      },
+      "stakes": [
+        {
+          "player": "Marco",
+          "color": "#18c6b8",
+          "team": "Paraguay",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Will",
+          "color": "#4fd0e1",
+          "team": "France",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537376,
       "utcDate": "2026-07-04T17:00:00Z",
@@ -11779,52 +11825,6 @@
   ],
   "upcoming": [
     {
-      "id": 537375,
-      "utcDate": "2026-07-04T21:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "Paraguay",
-        "tla": "PAR",
-        "crest": "https://crests.football-data.org/761.svg"
-      },
-      "away": {
-        "name": "France",
-        "tla": "FRA",
-        "crest": "https://crests.football-data.org/773.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Il'giz Tantashev",
-        "nationality": "Uzbekistan"
-      },
-      "stakes": [
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Paraguay",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Will",
-          "color": "#4fd0e1",
-          "team": "France",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537377,
       "utcDate": "2026-07-05T20:00:00Z",
       "status": "TIMED",
@@ -12085,6 +12085,15 @@
   ],
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "goals": 7,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": "Will",
+      "color": "#4fd0e1"
+    },
+    {
       "name": "Lionel Messi",
       "goals": 7,
       "team": "Argentina",
@@ -12092,15 +12101,6 @@
       "teamCrest": "https://crests.football-data.org/762.png",
       "owner": "Marco",
       "color": "#18c6b8"
-    },
-    {
-      "name": "Kylian Mbappé",
-      "goals": 6,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": "Will",
-      "color": "#4fd0e1"
     },
     {
       "name": "Erling Haaland",
