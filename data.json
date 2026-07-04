@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T17:13:21Z",
+  "updatedAt": "2026-07-04T19:23:16Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1115,13 +1115,13 @@
     {
       "name": "Jack",
       "color": "#ff9f1c",
-      "total": 27,
+      "total": 30,
       "agg": {
-        "played": 15,
-        "w": 8,
+        "played": 16,
+        "w": 9,
         "d": 3,
         "l": 4,
-        "gf": 34,
+        "gf": 37,
         "ga": 25
       },
       "teams": [
@@ -1204,8 +1204,8 @@
           "name": "Morocco",
           "tla": "MAR",
           "crest": "https://crests.football-data.org/morocco.svg",
-          "points": 10,
-          "w": 3,
+          "points": 13,
+          "w": 4,
           "d": 1,
           "l": 0,
           "group": {
@@ -1290,15 +1290,15 @@
               "opponentTla": "CAN",
               "opponentCrest": "https://crests.football-data.org/canada.svg",
               "utcDate": "2026-07-04T17:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": 0,
+              "goalsFor": 3,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -2251,12 +2251,12 @@
       "color": "#ffd23b",
       "total": 18,
       "agg": {
-        "played": 15,
+        "played": 16,
         "w": 5,
         "d": 3,
-        "l": 7,
+        "l": 8,
         "gf": 23,
-        "ga": 29
+        "ga": 32
       },
       "teams": [
         {
@@ -2356,7 +2356,7 @@
           "points": 7,
           "w": 2,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 2,
             "played": 3,
@@ -2439,18 +2439,18 @@
               "opponentTla": "MAR",
               "opponentCrest": "https://crests.football-data.org/morocco.svg",
               "utcDate": "2026-07-04T17:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
               "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 799,
@@ -2616,7 +2616,7 @@
           "status": "out"
         }
       ],
-      "alive": 1,
+      "alive": 0,
       "rank": 10
     },
     {
@@ -6834,6 +6834,23 @@
         "Seth": 21,
         "Will": 19
       }
+    },
+    {
+      "date": "2026-07-04T17:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 30,
+        "Jeff": 18,
+        "Kate": 18,
+        "Ken": 18,
+        "Marco": 19,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 21,
+        "Will": 19
+      }
     }
   ],
   "knockout": [
@@ -7257,14 +7274,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-04T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Canada",
         "tla": "CAN",
         "crest": "https://crests.football-data.org/canada.svg",
         "owner": "Ken",
         "color": "#ffd23b",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Morocco",
@@ -7272,10 +7289,10 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "owner": "Jack",
         "color": "#ff9f1c",
-        "result": null
+        "result": "W"
       },
       "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreAway": 3,
       "penHome": null,
       "penAway": null
     },
@@ -7674,7 +7691,7 @@
     {
       "id": 537376,
       "utcDate": "2026-07-04T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_16",
       "group": null,
       "home": {
@@ -7688,9 +7705,9 @@
         "crest": "https://crests.football-data.org/morocco.svg"
       },
       "scoreHome": 0,
-      "scoreAway": 0,
-      "htHome": null,
-      "htAway": null,
+      "scoreAway": 3,
+      "htHome": 0,
+      "htAway": 0,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -7704,7 +7721,7 @@
           "color": "#ffd23b",
           "team": "Canada",
           "isHome": true,
-          "result": null,
+          "result": "L",
           "points": 0
         },
         {
@@ -7712,8 +7729,8 @@
           "color": "#ff9f1c",
           "team": "Morocco",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ]
     },
@@ -11784,7 +11801,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Il'giz Tantashev",
+        "nationality": "Uzbekistan"
+      },
       "stakes": [
         {
           "player": "Marco",
@@ -12416,20 +12436,20 @@
       "color": "#ff7a3d"
     },
     {
-      "name": "Nicolas Pépé",
+      "name": "Soufiane Rahimi",
       "goals": 2,
-      "team": "Ivory Coast",
-      "teamTla": "CIV",
-      "teamCrest": "https://crests.football-data.org/787.svg",
-      "owner": "Max",
-      "color": "#6c8cff"
+      "team": "Morocco",
+      "teamTla": "MAR",
+      "teamCrest": "https://crests.football-data.org/morocco.svg",
+      "owner": "Jack",
+      "color": "#ff9f1c"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "275 in 88 games"
+      "value": "278 in 89 games"
     },
     {
       "icon": "📊",
@@ -12454,17 +12474,17 @@
     {
       "icon": "👑",
       "label": "Leading manager",
-      "value": "Jack (+27)"
+      "value": "Jack (+30)"
     },
     {
       "icon": "🎯",
       "label": "Most goals (manager)",
-      "value": "Jack · 34"
+      "value": "Jack · 37"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "France (Will, +12)"
+      "value": "Morocco (Jack, +13)"
     }
   ]
 }
