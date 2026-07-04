@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T23:11:42Z",
+  "updatedAt": "2026-07-04T03:43:14Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -379,19 +379,19 @@
         }
       ],
       "alive": 2,
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Herlyn",
       "color": "#ff5d8f",
       "total": 13,
       "agg": {
-        "played": 13,
+        "played": 14,
         "w": 3,
         "d": 4,
-        "l": 6,
-        "gf": 20,
-        "ga": 20
+        "l": 7,
+        "gf": 22,
+        "ga": 23
       },
       "teams": [
         {
@@ -402,7 +402,7 @@
           "points": 3,
           "w": 0,
           "d": 3,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 2,
             "played": 3,
@@ -470,15 +470,15 @@
               "opponentTla": "ARG",
               "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-07-03T22:00:00Z",
-              "status": "LIVE",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": 0,
-              "goalsAgainst": 1,
-              "result": null,
+              "goalsFor": 2,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
           "status": "out"
@@ -727,13 +727,13 @@
     {
       "name": "Htoo",
       "color": "#3da5ff",
-      "total": 21,
+      "total": 24,
       "agg": {
-        "played": 14,
-        "w": 5,
+        "played": 15,
+        "w": 6,
         "d": 6,
         "l": 3,
-        "gf": 18,
+        "gf": 20,
         "ga": 13
       },
       "teams": [
@@ -742,8 +742,8 @@
           "name": "Colombia",
           "tla": "COL",
           "crest": "https://crests.football-data.org/818.svg",
-          "points": 7,
-          "w": 2,
+          "points": 10,
+          "w": 3,
           "d": 1,
           "l": 0,
           "group": {
@@ -813,15 +813,15 @@
               "opponentTla": "GHA",
               "opponentCrest": "https://crests.football-data.org/ghana.svg",
               "utcDate": "2026-07-04T01:30:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1080,7 +1080,7 @@
         }
       ],
       "alive": 2,
-      "rank": 6
+      "rank": 3
     },
     {
       "name": "Jack",
@@ -1460,12 +1460,12 @@
       "color": "#a06bff",
       "total": 18,
       "agg": {
-        "played": 14,
+        "played": 15,
         "w": 5,
         "d": 3,
-        "l": 6,
+        "l": 7,
         "gf": 17,
-        "ga": 25
+        "ga": 27
       },
       "teams": [
         {
@@ -1669,7 +1669,7 @@
           "points": 4,
           "w": 1,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 3,
             "played": 3,
@@ -1737,18 +1737,18 @@
               "opponentTla": "COL",
               "opponentCrest": "https://crests.football-data.org/818.svg",
               "utcDate": "2026-07-04T01:30:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 0,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 802,
@@ -1825,8 +1825,8 @@
           "status": "out"
         }
       ],
-      "alive": 2,
-      "rank": 9
+      "alive": 1,
+      "rank": 10
     },
     {
       "name": "Kate",
@@ -2557,19 +2557,19 @@
         }
       ],
       "alive": 1,
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Marco",
       "color": "#18c6b8",
-      "total": 16,
+      "total": 19,
       "agg": {
-        "played": 13,
-        "w": 5,
+        "played": 14,
+        "w": 6,
         "d": 1,
         "l": 7,
-        "gf": 17,
-        "ga": 24
+        "gf": 20,
+        "ga": 26
       },
       "teams": [
         {
@@ -2577,8 +2577,8 @@
           "name": "Argentina",
           "tla": "ARG",
           "crest": "https://crests.football-data.org/762.png",
-          "points": 9,
-          "w": 3,
+          "points": 12,
+          "w": 4,
           "d": 0,
           "l": 0,
           "group": {
@@ -2648,18 +2648,18 @@
               "opponentTla": "CPV",
               "opponentCrest": "https://crests.football-data.org/cape_verde.svg",
               "utcDate": "2026-07-03T22:00:00Z",
-              "status": "LIVE",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 1,
-              "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 3,
+              "goalsAgainst": 2,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
-          "status": "out"
+          "status": "in"
         },
         {
           "id": 1836,
@@ -2914,8 +2914,8 @@
           "status": "out"
         }
       ],
-      "alive": 1,
-      "rank": 10
+      "alive": 2,
+      "rank": 8
     },
     {
       "name": "Max",
@@ -3285,7 +3285,7 @@
         }
       ],
       "alive": 1,
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Nisha",
@@ -4031,7 +4031,7 @@
         }
       ],
       "alive": 1,
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Will",
@@ -6693,6 +6693,40 @@
         "Seth": 21,
         "Will": 19
       }
+    },
+    {
+      "date": "2026-07-03T22:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 21,
+        "Jack": 27,
+        "Jeff": 18,
+        "Kate": 15,
+        "Ken": 18,
+        "Marco": 19,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 21,
+        "Will": 19
+      }
+    },
+    {
+      "date": "2026-07-04T01:30:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 27,
+        "Jeff": 18,
+        "Kate": 15,
+        "Ken": 18,
+        "Marco": 19,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 21,
+        "Will": 19
+      }
     }
   ],
   "knockout": [
@@ -7064,14 +7098,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T22:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "home": {
         "name": "Argentina",
         "tla": "ARG",
         "crest": "https://crests.football-data.org/762.png",
         "owner": "Marco",
         "color": "#18c6b8",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -7079,10 +7113,10 @@
         "crest": "https://crests.football-data.org/cape_verde.svg",
         "owner": "Herlyn",
         "color": "#ff5d8f",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 1,
-      "scoreAway": 0,
+      "scoreHome": 3,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -7090,14 +7124,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-04T01:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Colombia",
         "tla": "COL",
         "crest": "https://crests.football-data.org/818.svg",
         "owner": "Htoo",
         "color": "#3da5ff",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Ghana",
@@ -7105,10 +7139,10 @@
         "crest": "https://crests.football-data.org/ghana.svg",
         "owner": "Jeff",
         "color": "#a06bff",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 2,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7530,6 +7564,98 @@
     }
   ],
   "recent": [
+    {
+      "id": 537430,
+      "utcDate": "2026-07-04T01:30:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "away": {
+        "name": "Ghana",
+        "tla": "GHA",
+        "crest": "https://crests.football-data.org/ghana.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Clément Turpin",
+        "nationality": "France"
+      },
+      "stakes": [
+        {
+          "player": "Htoo",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        },
+        {
+          "player": "Jeff",
+          "color": "#a06bff",
+          "team": "Ghana",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537427,
+      "utcDate": "2026-07-03T22:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Cape Verde Islands",
+        "tla": "CPV",
+        "crest": "https://crests.football-data.org/cape_verde.svg"
+      },
+      "scoreHome": 3,
+      "scoreAway": 2,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "EXTRA_TIME",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Drew Fischer",
+        "nationality": "Canada"
+      },
+      "stakes": [
+        {
+          "player": "Marco",
+          "color": "#18c6b8",
+          "team": "Argentina",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        },
+        {
+          "player": "Herlyn",
+          "color": "#ff5d8f",
+          "team": "Cape Verde Islands",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537429,
       "utcDate": "2026-07-03T03:00:00Z",
@@ -11437,49 +11563,6 @@
   ],
   "upcoming": [
     {
-      "id": 537430,
-      "utcDate": "2026-07-04T01:30:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Colombia",
-        "tla": "COL",
-        "crest": "https://crests.football-data.org/818.svg"
-      },
-      "away": {
-        "name": "Ghana",
-        "tla": "GHA",
-        "crest": "https://crests.football-data.org/ghana.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Htoo",
-          "color": "#3da5ff",
-          "team": "Colombia",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jeff",
-          "color": "#a06bff",
-          "team": "Ghana",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537376,
       "utcDate": "2026-07-04T17:00:00Z",
       "status": "TIMED",
@@ -12061,7 +12144,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "269 in 86 games"
+      "value": "276 in 88 games"
     },
     {
       "icon": "📊",
