@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T04:02:36Z",
+  "updatedAt": "2026-07-05T07:33:37Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1299,6 +1299,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "France",
+              "opponentTla": "FRA",
+              "opponentCrest": "https://crests.football-data.org/773.svg",
+              "utcDate": "2026-07-09T20:00:00Z",
+              "status": "TIMED",
+              "stage": "QUARTER_FINALS",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -4236,6 +4251,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Morocco",
+              "opponentTla": "MAR",
+              "opponentCrest": "https://crests.football-data.org/morocco.svg",
+              "utcDate": "2026-07-09T20:00:00Z",
+              "status": "TIMED",
+              "stage": "QUARTER_FINALS",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -7501,19 +7531,19 @@
       "utcDate": "2026-07-09T20:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "owner": "Will",
+        "color": "#4fd0e1",
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Morocco",
+        "tla": "MAR",
+        "crest": "https://crests.football-data.org/morocco.svg",
+        "owner": "Jack",
+        "color": "#ff9f1c",
         "result": null
       },
       "scoreHome": null,
@@ -12093,6 +12123,49 @@
           "player": "Htoo",
           "color": "#3da5ff",
           "team": "Colombia",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537383,
+      "utcDate": "2026-07-09T20:00:00Z",
+      "status": "TIMED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "home": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "name": "Morocco",
+        "tla": "MAR",
+        "crest": "https://crests.football-data.org/morocco.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Will",
+          "color": "#4fd0e1",
+          "team": "France",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Morocco",
           "isHome": false,
           "result": null,
           "points": 0
