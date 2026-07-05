@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T07:33:37Z",
+  "updatedAt": "2026-07-05T19:26:40Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11894,7 +11894,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Ismail Elfath",
+        "nationality": "United States"
+      },
       "stakes": [
         {
           "player": "Daniele",
