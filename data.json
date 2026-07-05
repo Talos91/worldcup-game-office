@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T23:03:13Z",
+  "updatedAt": "2026-07-05T04:02:36Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -379,7 +379,7 @@
         }
       ],
       "alive": 2,
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Herlyn",
@@ -2624,12 +2624,12 @@
       "color": "#18c6b8",
       "total": 19,
       "agg": {
-        "played": 14,
+        "played": 15,
         "w": 6,
         "d": 1,
-        "l": 7,
+        "l": 8,
         "gf": 20,
-        "ga": 26
+        "ga": 27
       },
       "teams": [
         {
@@ -2818,7 +2818,7 @@
           "points": 7,
           "w": 2,
           "d": 1,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 3,
             "played": 3,
@@ -2901,18 +2901,18 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-07-04T21:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
               "goalsFor": 0,
               "goalsAgainst": 1,
-              "result": null,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 8070,
@@ -2989,7 +2989,7 @@
           "status": "out"
         }
       ],
-      "alive": 2,
+      "alive": 1,
       "rank": 8
     },
     {
@@ -3360,7 +3360,7 @@
         }
       ],
       "alive": 1,
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Nisha",
@@ -4121,18 +4121,18 @@
         }
       ],
       "alive": 1,
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Will",
       "color": "#4fd0e1",
-      "total": 19,
+      "total": 22,
       "agg": {
-        "played": 14,
-        "w": 5,
+        "played": 15,
+        "w": 6,
         "d": 4,
         "l": 5,
-        "gf": 21,
+        "gf": 22,
         "ga": 17
       },
       "teams": [
@@ -4141,8 +4141,8 @@
           "name": "France",
           "tla": "FRA",
           "crest": "https://crests.football-data.org/773.svg",
-          "points": 12,
-          "w": 4,
+          "points": 15,
+          "w": 5,
           "d": 0,
           "l": 0,
           "group": {
@@ -4227,15 +4227,15 @@
               "opponentTla": "PAR",
               "opponentCrest": "https://crests.football-data.org/761.svg",
               "utcDate": "2026-07-04T21:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
               "goalsFor": 1,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -4476,7 +4476,7 @@
         }
       ],
       "alive": 1,
-      "rank": 7
+      "rank": 4
     }
   ],
   "groups": [
@@ -6851,6 +6851,23 @@
         "Seth": 21,
         "Will": 19
       }
+    },
+    {
+      "date": "2026-07-04T21:00:00Z",
+      "totals": {
+        "Daniele": 21,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 30,
+        "Jeff": 18,
+        "Kate": 18,
+        "Ken": 18,
+        "Marco": 19,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 21,
+        "Will": 22
+      }
     }
   ],
   "knockout": [
@@ -7300,14 +7317,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Paraguay",
         "tla": "PAR",
         "crest": "https://crests.football-data.org/761.svg",
         "owner": "Marco",
         "color": "#18c6b8",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "France",
@@ -7315,7 +7332,7 @@
         "crest": "https://crests.football-data.org/773.svg",
         "owner": "Will",
         "color": "#4fd0e1",
-        "result": null
+        "result": "W"
       },
       "scoreHome": 0,
       "scoreAway": 1,
@@ -7691,7 +7708,7 @@
     {
       "id": 537375,
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_16",
       "group": null,
       "home": {
@@ -7721,7 +7738,7 @@
           "color": "#18c6b8",
           "team": "Paraguay",
           "isHome": true,
-          "result": null,
+          "result": "L",
           "points": 0
         },
         {
@@ -7729,8 +7746,8 @@
           "color": "#4fd0e1",
           "team": "France",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ]
     },
@@ -12449,7 +12466,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "278 in 89 games"
+      "value": "279 in 90 games"
     },
     {
       "icon": "📊",
@@ -12484,7 +12501,7 @@
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Morocco (Jack, +13)"
+      "value": "France (Will, +15)"
     }
   ]
 }
