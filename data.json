@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T19:26:40Z",
+  "updatedAt": "2026-07-05T21:08:59Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -112,12 +112,12 @@
               "opponentTla": "NOR",
               "opponentCrest": "https://crests.football-data.org/813.svg",
               "utcDate": "2026-07-05T20:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -364,12 +364,12 @@
               "opponentTla": "BRA",
               "opponentCrest": "https://crests.football-data.org/764.svg",
               "utcDate": "2026-07-05T20:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -7373,7 +7373,7 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-05T20:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "home": {
         "name": "Brazil",
         "tla": "BRA",
@@ -7390,8 +7390,8 @@
         "color": "#2ee06a",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7735,6 +7735,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537377,
+      "utcDate": "2026-07-05T20:00:00Z",
+      "status": "PAUSED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Brazil",
+        "tla": "BRA",
+        "crest": "https://crests.football-data.org/764.svg"
+      },
+      "away": {
+        "name": "Norway",
+        "tla": "NOR",
+        "crest": "https://crests.football-data.org/813.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Ismail Elfath",
+        "nationality": "United States"
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#2ee06a",
+          "team": "Brazil",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Daniele",
+          "color": "#2ee06a",
+          "team": "Norway",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537375,
       "utcDate": "2026-07-04T21:00:00Z",
@@ -11871,52 +11917,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": 537377,
-      "utcDate": "2026-07-05T20:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "Brazil",
-        "tla": "BRA",
-        "crest": "https://crests.football-data.org/764.svg"
-      },
-      "away": {
-        "name": "Norway",
-        "tla": "NOR",
-        "crest": "https://crests.football-data.org/813.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Ismail Elfath",
-        "nationality": "United States"
-      },
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#2ee06a",
-          "team": "Brazil",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Daniele",
-          "color": "#2ee06a",
-          "team": "Norway",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
     {
       "id": 537378,
       "utcDate": "2026-07-06T00:00:00Z",
