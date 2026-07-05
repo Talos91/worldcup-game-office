@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T21:08:59Z",
+  "updatedAt": "2026-07-05T23:06:38Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,14 +11,14 @@
     {
       "name": "Daniele",
       "color": "#2ee06a",
-      "total": 21,
+      "total": 24,
       "agg": {
-        "played": 14,
-        "w": 6,
+        "played": 16,
+        "w": 7,
         "d": 3,
-        "l": 5,
-        "gf": 24,
-        "ga": 29
+        "l": 6,
+        "gf": 27,
+        "ga": 32
       },
       "teams": [
         {
@@ -29,7 +29,7 @@
           "points": 10,
           "w": 3,
           "d": 1,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 1,
             "played": 3,
@@ -112,18 +112,18 @@
               "opponentTla": "NOR",
               "opponentCrest": "https://crests.football-data.org/813.svg",
               "utcDate": "2026-07-05T20:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsFor": 1,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 9460,
@@ -278,8 +278,8 @@
           "name": "Norway",
           "tla": "NOR",
           "crest": "https://crests.football-data.org/813.svg",
-          "points": 9,
-          "w": 3,
+          "points": 12,
+          "w": 4,
           "d": 0,
           "l": 1,
           "group": {
@@ -364,22 +364,22 @@
               "opponentTla": "BRA",
               "opponentCrest": "https://crests.football-data.org/764.svg",
               "utcDate": "2026-07-05T20:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 2,
+              "goalsAgainst": 1,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
         }
       ],
-      "alive": 2,
-      "rank": 6
+      "alive": 1,
+      "rank": 3
     },
     {
       "name": "Herlyn",
@@ -1110,7 +1110,7 @@
         }
       ],
       "alive": 2,
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Jack",
@@ -3375,7 +3375,7 @@
         }
       ],
       "alive": 1,
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Nisha",
@@ -4506,7 +4506,7 @@
         }
       ],
       "alive": 1,
-      "rank": 4
+      "rank": 5
     }
   ],
   "groups": [
@@ -6898,6 +6898,23 @@
         "Seth": 21,
         "Will": 22
       }
+    },
+    {
+      "date": "2026-07-05T20:00:00Z",
+      "totals": {
+        "Daniele": 24,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 30,
+        "Jeff": 18,
+        "Kate": 18,
+        "Ken": 18,
+        "Marco": 19,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 21,
+        "Will": 22
+      }
     }
   ],
   "knockout": [
@@ -7373,14 +7390,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-05T20:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "home": {
         "name": "Brazil",
         "tla": "BRA",
         "crest": "https://crests.football-data.org/764.svg",
         "owner": "Daniele",
         "color": "#2ee06a",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Norway",
@@ -7388,10 +7405,10 @@
         "crest": "https://crests.football-data.org/813.svg",
         "owner": "Daniele",
         "color": "#2ee06a",
-        "result": null
+        "result": "W"
       },
-      "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreHome": 1,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -7738,7 +7755,7 @@
     {
       "id": 537377,
       "utcDate": "2026-07-05T20:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "LAST_16",
       "group": null,
       "home": {
@@ -7751,8 +7768,8 @@
         "tla": "NOR",
         "crest": "https://crests.football-data.org/813.svg"
       },
-      "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreHome": 1,
+      "scoreAway": 2,
       "htHome": 0,
       "htAway": 0,
       "duration": "REGULAR",
@@ -7768,7 +7785,7 @@
           "color": "#2ee06a",
           "team": "Brazil",
           "isHome": true,
-          "result": null,
+          "result": "L",
           "points": 0
         },
         {
@@ -7776,8 +7793,8 @@
           "color": "#2ee06a",
           "team": "Norway",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ]
     },
@@ -11940,7 +11957,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Alireza Faghani",
+        "nationality": "Iran"
+      },
       "stakes": [
         {
           "player": "Nisha",
@@ -12187,6 +12207,15 @@
       "color": "#4fd0e1"
     },
     {
+      "name": "Erling Haaland",
+      "goals": 7,
+      "team": "Norway",
+      "teamTla": "NOR",
+      "teamCrest": "https://crests.football-data.org/813.svg",
+      "owner": "Daniele",
+      "color": "#2ee06a"
+    },
+    {
       "name": "Lionel Messi",
       "goals": 7,
       "team": "Argentina",
@@ -12194,15 +12223,6 @@
       "teamCrest": "https://crests.football-data.org/762.png",
       "owner": "Marco",
       "color": "#18c6b8"
-    },
-    {
-      "name": "Erling Haaland",
-      "goals": 5,
-      "team": "Norway",
-      "teamTla": "NOR",
-      "teamCrest": "https://crests.football-data.org/813.svg",
-      "owner": "Daniele",
-      "color": "#2ee06a"
     },
     {
       "name": "Harry Kane",
@@ -12542,7 +12562,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "279 in 90 games"
+      "value": "282 in 91 games"
     },
     {
       "icon": "📊",
