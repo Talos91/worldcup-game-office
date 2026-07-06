@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T18:15:39Z",
+  "updatedAt": "2026-07-06T21:41:11Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -744,12 +744,12 @@
       "color": "#3da5ff",
       "total": 24,
       "agg": {
-        "played": 15,
+        "played": 16,
         "w": 6,
         "d": 6,
-        "l": 3,
+        "l": 4,
         "gf": 19,
-        "ga": 13
+        "ga": 14
       },
       "teams": [
         {
@@ -953,7 +953,7 @@
           "points": 8,
           "w": 2,
           "d": 2,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 2,
             "played": 3,
@@ -1036,18 +1036,18 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-07-06T19:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 801,
@@ -1124,8 +1124,8 @@
           "status": "out"
         }
       ],
-      "alive": 2,
-      "rank": 4
+      "alive": 1,
+      "rank": 5
     },
     {
       "name": "Jack",
@@ -3405,7 +3405,7 @@
         }
       ],
       "alive": 1,
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Nisha",
@@ -3798,13 +3798,13 @@
     {
       "name": "Seth",
       "color": "#b5e853",
-      "total": 21,
+      "total": 24,
       "agg": {
-        "played": 15,
-        "w": 6,
+        "played": 16,
+        "w": 7,
         "d": 3,
         "l": 6,
-        "gf": 21,
+        "gf": 22,
         "ga": 23
       },
       "teams": [
@@ -3976,8 +3976,8 @@
           "name": "Spain",
           "tla": "ESP",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 10,
-          "w": 3,
+          "points": 13,
+          "w": 4,
           "d": 1,
           "l": 0,
           "group": {
@@ -4062,15 +4062,15 @@
               "opponentTla": "POR",
               "opponentCrest": "https://crests.football-data.org/765.svg",
               "utcDate": "2026-07-06T19:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -4166,7 +4166,7 @@
         }
       ],
       "alive": 1,
-      "rank": 7
+      "rank": 4
     },
     {
       "name": "Will",
@@ -4536,7 +4536,7 @@
         }
       ],
       "alive": 1,
-      "rank": 5
+      "rank": 6
     }
   ],
   "groups": [
@@ -6962,6 +6962,23 @@
         "Seth": 21,
         "Will": 22
       }
+    },
+    {
+      "date": "2026-07-06T19:00:00Z",
+      "totals": {
+        "Daniele": 24,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 30,
+        "Jeff": 21,
+        "Kate": 18,
+        "Ken": 18,
+        "Marco": 19,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 24,
+        "Will": 22
+      }
     }
   ],
   "knockout": [
@@ -7489,14 +7506,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-06T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Portugal",
         "tla": "POR",
         "crest": "https://crests.football-data.org/765.svg",
         "owner": "Htoo",
         "color": "#3da5ff",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Spain",
@@ -7504,10 +7521,10 @@
         "crest": "https://crests.football-data.org/760.svg",
         "owner": "Seth",
         "color": "#b5e853",
-        "result": null
+        "result": "W"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -7799,6 +7816,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537379,
+      "utcDate": "2026-07-06T19:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Portugal",
+        "tla": "POR",
+        "crest": "https://crests.football-data.org/765.svg"
+      },
+      "away": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Anthony Taylor",
+        "nationality": "England"
+      },
+      "stakes": [
+        {
+          "player": "Htoo",
+          "color": "#3da5ff",
+          "team": "Portugal",
+          "isHome": true,
+          "result": "L",
+          "points": 0
+        },
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Spain",
+          "isHome": false,
+          "result": "W",
+          "points": 3
+        }
+      ]
+    },
     {
       "id": 537378,
       "utcDate": "2026-07-06T01:00:00Z",
@@ -12028,52 +12091,6 @@
   ],
   "upcoming": [
     {
-      "id": 537379,
-      "utcDate": "2026-07-06T19:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "Portugal",
-        "tla": "POR",
-        "crest": "https://crests.football-data.org/765.svg"
-      },
-      "away": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Anthony Taylor",
-        "nationality": "England"
-      },
-      "stakes": [
-        {
-          "player": "Htoo",
-          "color": "#3da5ff",
-          "team": "Portugal",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Seth",
-          "color": "#b5e853",
-          "team": "Spain",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537380,
       "utcDate": "2026-07-07T00:00:00Z",
       "status": "TIMED",
@@ -12655,7 +12672,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "287 in 92 games"
+      "value": "288 in 93 games"
     },
     {
       "icon": "📊",
