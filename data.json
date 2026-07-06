@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T10:51:05Z",
+  "updatedAt": "2026-07-06T18:15:39Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -12050,7 +12050,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Anthony Taylor",
+        "nationality": "England"
+      },
       "stakes": [
         {
           "player": "Htoo",
