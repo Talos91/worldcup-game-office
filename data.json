@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T14:51:16Z",
+  "updatedAt": "2026-07-07T20:08:31Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -843,12 +843,12 @@
               "opponentTla": "SUI",
               "opponentCrest": "https://crests.football-data.org/788.svg",
               "utcDate": "2026-07-07T20:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -1513,12 +1513,12 @@
               "opponentTla": "COL",
               "opponentCrest": "https://crests.football-data.org/818.svg",
               "utcDate": "2026-07-07T20:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -1916,19 +1916,19 @@
         }
       ],
       "alive": 1,
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Kate",
       "color": "#ff6fc8",
       "total": 21,
       "agg": {
-        "played": 15,
+        "played": 16,
         "w": 5,
         "d": 6,
-        "l": 4,
-        "gf": 27,
-        "ga": 27
+        "l": 5,
+        "gf": 29,
+        "ga": 30
       },
       "teams": [
         {
@@ -2058,7 +2058,7 @@
           "points": 8,
           "w": 2,
           "d": 2,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 2,
             "played": 3,
@@ -2141,18 +2141,18 @@
               "opponentTla": "ARG",
               "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-07-07T16:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 2,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 8062,
@@ -2303,8 +2303,8 @@
           "status": "out"
         }
       ],
-      "alive": 2,
-      "rank": 8
+      "alive": 1,
+      "rank": 9
     },
     {
       "name": "Ken",
@@ -2682,14 +2682,14 @@
     {
       "name": "Marco",
       "color": "#18c6b8",
-      "total": 19,
+      "total": 22,
       "agg": {
-        "played": 15,
-        "w": 6,
+        "played": 16,
+        "w": 7,
         "d": 1,
         "l": 8,
-        "gf": 20,
-        "ga": 27
+        "gf": 23,
+        "ga": 29
       },
       "teams": [
         {
@@ -2697,8 +2697,8 @@
           "name": "Argentina",
           "tla": "ARG",
           "crest": "https://crests.football-data.org/762.png",
-          "points": 12,
-          "w": 4,
+          "points": 15,
+          "w": 5,
           "d": 0,
           "l": 0,
           "group": {
@@ -2783,15 +2783,15 @@
               "opponentTla": "EGY",
               "opponentCrest": "https://crests.football-data.org/825.svg",
               "utcDate": "2026-07-07T16:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 3,
+              "goalsAgainst": 2,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -3050,7 +3050,7 @@
         }
       ],
       "alive": 1,
-      "rank": 10
+      "rank": 6
     },
     {
       "name": "Max",
@@ -3420,7 +3420,7 @@
         }
       ],
       "alive": 0,
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Nisha",
@@ -4566,7 +4566,7 @@
         }
       ],
       "alive": 1,
-      "rank": 6
+      "rank": 7
     }
   ],
   "groups": [
@@ -7026,6 +7026,23 @@
         "Seth": 24,
         "Will": 22
       }
+    },
+    {
+      "date": "2026-07-07T16:00:00Z",
+      "totals": {
+        "Daniele": 24,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 30,
+        "Jeff": 21,
+        "Kate": 21,
+        "Ken": 18,
+        "Marco": 22,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 24,
+        "Will": 22
+      }
     }
   ],
   "knockout": [
@@ -7605,14 +7622,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-07T16:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Argentina",
         "tla": "ARG",
         "crest": "https://crests.football-data.org/762.png",
         "owner": "Marco",
         "color": "#18c6b8",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Egypt",
@@ -7620,10 +7637,10 @@
         "crest": "https://crests.football-data.org/825.svg",
         "owner": "Kate",
         "color": "#ff6fc8",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 3,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -7631,7 +7648,7 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Switzerland",
         "tla": "SUI",
@@ -7648,8 +7665,8 @@
         "color": "#3da5ff",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7863,6 +7880,98 @@
     }
   ],
   "recent": [
+    {
+      "id": 537382,
+      "utcDate": "2026-07-07T20:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg"
+      },
+      "away": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Ivan Barton",
+        "nationality": null
+      },
+      "stakes": [
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Switzerland",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Htoo",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537381,
+      "utcDate": "2026-07-07T16:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Egypt",
+        "tla": "EGY",
+        "crest": "https://crests.football-data.org/825.svg"
+      },
+      "scoreHome": 3,
+      "scoreAway": 2,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "François Letexier",
+        "nationality": "France"
+      },
+      "stakes": [
+        {
+          "player": "Marco",
+          "color": "#18c6b8",
+          "team": "Argentina",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        },
+        {
+          "player": "Kate",
+          "color": "#ff6fc8",
+          "team": "Egypt",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537380,
       "utcDate": "2026-07-07T00:00:00Z",
@@ -12184,95 +12293,6 @@
   ],
   "upcoming": [
     {
-      "id": 537381,
-      "utcDate": "2026-07-07T16:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png"
-      },
-      "away": {
-        "name": "Egypt",
-        "tla": "EGY",
-        "crest": "https://crests.football-data.org/825.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "François Letexier",
-        "nationality": "France"
-      },
-      "stakes": [
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Argentina",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Kate",
-          "color": "#ff6fc8",
-          "team": "Egypt",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
-      "id": 537382,
-      "utcDate": "2026-07-07T20:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "Switzerland",
-        "tla": "SUI",
-        "crest": "https://crests.football-data.org/788.svg"
-      },
-      "away": {
-        "name": "Colombia",
-        "tla": "COL",
-        "crest": "https://crests.football-data.org/818.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Switzerland",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Htoo",
-          "color": "#3da5ff",
-          "team": "Colombia",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537383,
       "utcDate": "2026-07-09T20:00:00Z",
       "status": "TIMED",
@@ -12404,6 +12424,15 @@
   ],
   "scorers": [
     {
+      "name": "Lionel Messi",
+      "goals": 8,
+      "team": "Argentina",
+      "teamTla": "ARG",
+      "teamCrest": "https://crests.football-data.org/762.png",
+      "owner": "Marco",
+      "color": "#18c6b8"
+    },
+    {
       "name": "Kylian Mbappé",
       "goals": 7,
       "team": "France",
@@ -12420,15 +12449,6 @@
       "teamCrest": "https://crests.football-data.org/813.svg",
       "owner": "Daniele",
       "color": "#2ee06a"
-    },
-    {
-      "name": "Lionel Messi",
-      "goals": 7,
-      "team": "Argentina",
-      "teamTla": "ARG",
-      "teamCrest": "https://crests.football-data.org/762.png",
-      "owner": "Marco",
-      "color": "#18c6b8"
     },
     {
       "name": "Harry Kane",
@@ -12768,7 +12788,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "293 in 94 games"
+      "value": "298 in 95 games"
     },
     {
       "icon": "📊",
