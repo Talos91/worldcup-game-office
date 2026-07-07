@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T23:13:30Z",
+  "updatedAt": "2026-07-07T03:17:06Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1916,19 +1916,19 @@
         }
       ],
       "alive": 1,
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Kate",
       "color": "#ff6fc8",
-      "total": 18,
+      "total": 21,
       "agg": {
-        "played": 14,
-        "w": 4,
+        "played": 15,
+        "w": 5,
         "d": 6,
         "l": 4,
-        "gf": 23,
-        "ga": 26
+        "gf": 27,
+        "ga": 27
       },
       "teams": [
         {
@@ -1936,8 +1936,8 @@
           "name": "Belgium",
           "tla": "BEL",
           "crest": "https://crests.football-data.org/805.svg",
-          "points": 8,
-          "w": 2,
+          "points": 11,
+          "w": 3,
           "d": 2,
           "l": 0,
           "group": {
@@ -2022,15 +2022,15 @@
               "opponentTla": "USA",
               "opponentCrest": "https://crests.football-data.org/usa.svg",
               "utcDate": "2026-07-07T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 4,
+              "goalsAgainst": 1,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -2289,7 +2289,7 @@
         }
       ],
       "alive": 2,
-      "rank": 10
+      "rank": 8
     },
     {
       "name": "Ken",
@@ -3035,19 +3035,19 @@
         }
       ],
       "alive": 1,
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Max",
       "color": "#6c8cff",
       "total": 21,
       "agg": {
-        "played": 15,
+        "played": 16,
         "w": 7,
         "d": 0,
-        "l": 8,
-        "gf": 28,
-        "ga": 22
+        "l": 9,
+        "gf": 29,
+        "ga": 26
       },
       "teams": [
         {
@@ -3307,7 +3307,7 @@
           "points": 9,
           "w": 3,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 1,
             "played": 3,
@@ -3390,21 +3390,21 @@
               "opponentTla": "BEL",
               "opponentCrest": "https://crests.football-data.org/805.svg",
               "utcDate": "2026-07-07T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 1,
+              "goalsAgainst": 4,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 1,
+      "alive": 0,
       "rank": 7
     },
     {
@@ -6979,6 +6979,23 @@
         "Seth": 24,
         "Will": 22
       }
+    },
+    {
+      "date": "2026-07-07T00:00:00Z",
+      "totals": {
+        "Daniele": 24,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 30,
+        "Jeff": 21,
+        "Kate": 21,
+        "Ken": 18,
+        "Marco": 19,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 24,
+        "Will": 22
+      }
     }
   ],
   "knockout": [
@@ -7532,14 +7549,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-07T00:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "United States",
         "tla": "USA",
         "crest": "https://crests.football-data.org/usa.svg",
         "owner": "Max",
         "color": "#6c8cff",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Belgium",
@@ -7547,10 +7564,10 @@
         "crest": "https://crests.football-data.org/805.svg",
         "owner": "Kate",
         "color": "#ff6fc8",
-        "result": null
+        "result": "W"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 4,
       "penHome": null,
       "penAway": null
     },
@@ -7816,6 +7833,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537380,
+      "utcDate": "2026-07-07T00:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 4,
+      "htHome": 1,
+      "htAway": 2,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Adham Makhadmeh",
+        "nationality": "Jordan"
+      },
+      "stakes": [
+        {
+          "player": "Max",
+          "color": "#6c8cff",
+          "team": "United States",
+          "isHome": true,
+          "result": "L",
+          "points": 0
+        },
+        {
+          "player": "Kate",
+          "color": "#ff6fc8",
+          "team": "Belgium",
+          "isHome": false,
+          "result": "W",
+          "points": 3
+        }
+      ]
+    },
     {
       "id": 537379,
       "utcDate": "2026-07-06T19:00:00Z",
@@ -12091,52 +12154,6 @@
   ],
   "upcoming": [
     {
-      "id": 537380,
-      "utcDate": "2026-07-07T00:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg"
-      },
-      "away": {
-        "name": "Belgium",
-        "tla": "BEL",
-        "crest": "https://crests.football-data.org/805.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Adham Makhadmeh",
-        "nationality": "Jordan"
-      },
-      "stakes": [
-        {
-          "player": "Max",
-          "color": "#6c8cff",
-          "team": "United States",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Kate",
-          "color": "#ff6fc8",
-          "team": "Belgium",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537381,
       "utcDate": "2026-07-07T16:00:00Z",
       "status": "TIMED",
@@ -12518,6 +12535,15 @@
       "color": "#3da5ff"
     },
     {
+      "name": "Romelu Lukaku",
+      "goals": 3,
+      "team": "Belgium",
+      "teamTla": "BEL",
+      "teamCrest": "https://crests.football-data.org/805.svg",
+      "owner": "Kate",
+      "color": "#ff6fc8"
+    },
+    {
       "name": "Cyle Larin",
       "goals": 2,
       "team": "Canada",
@@ -12660,22 +12686,13 @@
       "teamCrest": "https://crests.football-data.org/766.svg",
       "owner": "Nisha",
       "color": "#ff7a3d"
-    },
-    {
-      "name": "Soufiane Rahimi",
-      "goals": 2,
-      "team": "Morocco",
-      "teamTla": "MAR",
-      "teamCrest": "https://crests.football-data.org/morocco.svg",
-      "owner": "Jack",
-      "color": "#ff9f1c"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "288 in 93 games"
+      "value": "293 in 94 games"
     },
     {
       "icon": "📊",
