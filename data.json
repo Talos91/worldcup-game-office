@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T23:07:05Z",
+  "updatedAt": "2026-07-08T06:33:47Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -744,12 +744,12 @@
       "color": "#3da5ff",
       "total": 24,
       "agg": {
-        "played": 16,
+        "played": 17,
         "w": 6,
         "d": 6,
-        "l": 4,
-        "gf": 19,
-        "ga": 14
+        "l": 5,
+        "gf": 22,
+        "ga": 18
       },
       "teams": [
         {
@@ -760,7 +760,7 @@
           "points": 10,
           "w": 3,
           "d": 1,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 1,
             "played": 3,
@@ -849,12 +849,12 @@
               "isHome": false,
               "goalsFor": 3,
               "goalsAgainst": 4,
-              "result": null,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 1934,
@@ -1124,20 +1124,20 @@
           "status": "out"
         }
       ],
-      "alive": 1,
-      "rank": 5
+      "alive": 0,
+      "rank": 4
     },
     {
       "name": "Jack",
       "color": "#ff9f1c",
-      "total": 30,
+      "total": 33,
       "agg": {
-        "played": 16,
-        "w": 9,
+        "played": 17,
+        "w": 10,
         "d": 3,
         "l": 4,
-        "gf": 37,
-        "ga": 25
+        "gf": 41,
+        "ga": 28
       },
       "teams": [
         {
@@ -1427,8 +1427,8 @@
           "name": "Switzerland",
           "tla": "SUI",
           "crest": "https://crests.football-data.org/788.svg",
-          "points": 10,
-          "w": 3,
+          "points": 13,
+          "w": 4,
           "d": 1,
           "l": 0,
           "group": {
@@ -1519,6 +1519,21 @@
               "isHome": true,
               "goalsFor": 4,
               "goalsAgainst": 3,
+              "result": "W",
+              "points": 3,
+              "counted": true
+            },
+            {
+              "opponent": "Argentina",
+              "opponentTla": "ARG",
+              "opponentCrest": "https://crests.football-data.org/762.png",
+              "utcDate": "2026-07-12T01:00:00Z",
+              "status": "TIMED",
+              "stage": "QUARTER_FINALS",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
               "result": null,
               "points": 0,
               "counted": false
@@ -2792,6 +2807,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Switzerland",
+              "opponentTla": "SUI",
+              "opponentCrest": "https://crests.football-data.org/788.svg",
+              "utcDate": "2026-07-12T01:00:00Z",
+              "status": "TIMED",
+              "stage": "QUARTER_FINALS",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -4196,7 +4226,7 @@
         }
       ],
       "alive": 1,
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Will",
@@ -7043,6 +7073,23 @@
         "Seth": 24,
         "Will": 22
       }
+    },
+    {
+      "date": "2026-07-07T20:00:00Z",
+      "totals": {
+        "Daniele": 24,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 33,
+        "Jeff": 21,
+        "Kate": 21,
+        "Ken": 18,
+        "Marco": 22,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 24,
+        "Will": 22
+      }
     }
   ],
   "knockout": [
@@ -7655,7 +7702,7 @@
         "crest": "https://crests.football-data.org/788.svg",
         "owner": "Jack",
         "color": "#ff9f1c",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Colombia",
@@ -7663,11 +7710,11 @@
         "crest": "https://crests.football-data.org/818.svg",
         "owner": "Htoo",
         "color": "#3da5ff",
-        "result": null
+        "result": "L"
       },
       "scoreHome": 4,
       "scoreAway": 3,
-      "penHome": 3,
+      "penHome": 4,
       "penAway": 3
     },
     {
@@ -7754,19 +7801,19 @@
       "utcDate": "2026-07-12T01:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "owner": "Marco",
+        "color": "#18c6b8",
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg",
+        "owner": "Jack",
+        "color": "#ff9f1c",
         "result": null
       },
       "scoreHome": null,
@@ -7880,6 +7927,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537382,
+      "utcDate": "2026-07-07T20:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg"
+      },
+      "away": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "scoreHome": 4,
+      "scoreAway": 3,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "PENALTY_SHOOTOUT",
+      "penHome": 4,
+      "penAway": 3,
+      "referee": {
+        "name": "Ivan Barton",
+        "nationality": null
+      },
+      "stakes": [
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Switzerland",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        },
+        {
+          "player": "Htoo",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537381,
       "utcDate": "2026-07-07T16:00:00Z",
@@ -12374,6 +12467,49 @@
           "points": 0
         }
       ]
+    },
+    {
+      "id": 537386,
+      "utcDate": "2026-07-12T01:00:00Z",
+      "status": "TIMED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Marco",
+          "color": "#18c6b8",
+          "team": "Argentina",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Switzerland",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
     }
   ],
   "scorers": [
@@ -12767,12 +12903,12 @@
     {
       "icon": "👑",
       "label": "Leading manager",
-      "value": "Jack (+30)"
+      "value": "Jack (+33)"
     },
     {
       "icon": "🎯",
       "label": "Most goals (manager)",
-      "value": "Jack · 37"
+      "value": "Jack · 41"
     },
     {
       "icon": "⭐",
