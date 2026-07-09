@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T21:27:12Z",
+  "updatedAt": "2026-07-09T23:18:02Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -394,7 +394,7 @@
         }
       ],
       "alive": 1,
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Herlyn",
@@ -1125,19 +1125,19 @@
         }
       ],
       "alive": 0,
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Jack",
       "color": "#ff9f1c",
       "total": 33,
       "agg": {
-        "played": 17,
+        "played": 18,
         "w": 10,
         "d": 3,
-        "l": 4,
+        "l": 5,
         "gf": 41,
-        "ga": 28
+        "ga": 30
       },
       "teams": [
         {
@@ -1222,7 +1222,7 @@
           "points": 13,
           "w": 4,
           "d": 1,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 2,
             "played": 3,
@@ -1320,18 +1320,18 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-07-09T20:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "QUARTER_FINALS",
               "group": null,
               "isHome": false,
               "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 8601,
@@ -1542,7 +1542,7 @@
           "status": "in"
         }
       ],
-      "alive": 2,
+      "alive": 1,
       "rank": 1
     },
     {
@@ -3080,7 +3080,7 @@
         }
       ],
       "alive": 1,
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Max",
@@ -4226,18 +4226,18 @@
         }
       ],
       "alive": 1,
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Will",
       "color": "#4fd0e1",
-      "total": 22,
+      "total": 25,
       "agg": {
-        "played": 15,
-        "w": 6,
+        "played": 16,
+        "w": 7,
         "d": 4,
         "l": 5,
-        "gf": 22,
+        "gf": 24,
         "ga": 17
       },
       "teams": [
@@ -4246,8 +4246,8 @@
           "name": "France",
           "tla": "FRA",
           "crest": "https://crests.football-data.org/773.svg",
-          "points": 15,
-          "w": 5,
+          "points": 18,
+          "w": 6,
           "d": 0,
           "l": 0,
           "group": {
@@ -4347,15 +4347,15 @@
               "opponentTla": "MAR",
               "opponentCrest": "https://crests.football-data.org/morocco.svg",
               "utcDate": "2026-07-09T20:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "QUARTER_FINALS",
               "group": null,
               "isHome": true,
-              "goalsFor": 0,
+              "goalsFor": 2,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -4596,7 +4596,7 @@
         }
       ],
       "alive": 1,
-      "rank": 7
+      "rank": 3
     }
   ],
   "groups": [
@@ -7090,6 +7090,23 @@
         "Seth": 24,
         "Will": 22
       }
+    },
+    {
+      "date": "2026-07-09T20:00:00Z",
+      "totals": {
+        "Daniele": 24,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 33,
+        "Jeff": 21,
+        "Kate": 21,
+        "Ken": 18,
+        "Marco": 22,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 24,
+        "Will": 25
+      }
     }
   ],
   "knockout": [
@@ -7721,14 +7738,14 @@
       "stage": "QUARTER_FINALS",
       "order": 3,
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg",
         "owner": "Will",
         "color": "#4fd0e1",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Morocco",
@@ -7736,9 +7753,9 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "owner": "Jack",
         "color": "#ff9f1c",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 0,
+      "scoreHome": 2,
       "scoreAway": 0,
       "penHome": null,
       "penAway": null
@@ -7930,7 +7947,7 @@
     {
       "id": 537383,
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "QUARTER_FINALS",
       "group": null,
       "home": {
@@ -7943,7 +7960,7 @@
         "tla": "MAR",
         "crest": "https://crests.football-data.org/morocco.svg"
       },
-      "scoreHome": 0,
+      "scoreHome": 2,
       "scoreAway": 0,
       "htHome": 0,
       "htAway": 0,
@@ -7960,15 +7977,15 @@
           "color": "#4fd0e1",
           "team": "France",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Jack",
           "color": "#ff9f1c",
           "team": "Morocco",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -12553,6 +12570,15 @@
       "color": "#a06bff"
     },
     {
+      "name": "Ousmane Dembélé",
+      "goals": 5,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": "Will",
+      "color": "#4fd0e1"
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 4,
       "team": "Mexico",
@@ -12587,15 +12613,6 @@
       "teamCrest": "https://crests.football-data.org/760.svg",
       "owner": "Seth",
       "color": "#b5e853"
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "goals": 4,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": "Will",
-      "color": "#4fd0e1"
     },
     {
       "name": "Ismaïla Sarr",
@@ -12881,7 +12898,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "305 in 96 games"
+      "value": "307 in 97 games"
     },
     {
       "icon": "📊",
@@ -12916,7 +12933,7 @@
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "France (Will, +15)"
+      "value": "France (Will, +18)"
     }
   ]
 }
