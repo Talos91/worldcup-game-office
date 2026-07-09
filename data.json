@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T18:02:37Z",
+  "updatedAt": "2026-07-09T21:27:12Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1320,12 +1320,12 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-07-09T20:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "QUARTER_FINALS",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -4347,12 +4347,12 @@
               "opponentTla": "MAR",
               "opponentCrest": "https://crests.football-data.org/morocco.svg",
               "utcDate": "2026-07-09T20:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "QUARTER_FINALS",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -7721,7 +7721,7 @@
       "stage": "QUARTER_FINALS",
       "order": 3,
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "France",
         "tla": "FRA",
@@ -7738,8 +7738,8 @@
         "color": "#ff9f1c",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -7927,6 +7927,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537383,
+      "utcDate": "2026-07-09T20:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "home": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "name": "Morocco",
+        "tla": "MAR",
+        "crest": "https://crests.football-data.org/morocco.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Facundo Tello",
+        "nationality": "Argentina"
+      },
+      "stakes": [
+        {
+          "player": "Will",
+          "color": "#4fd0e1",
+          "team": "France",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Jack",
+          "color": "#ff9f1c",
+          "team": "Morocco",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537382,
       "utcDate": "2026-07-07T20:00:00Z",
@@ -12340,52 +12386,6 @@
   ],
   "upcoming": [
     {
-      "id": 537383,
-      "utcDate": "2026-07-09T20:00:00Z",
-      "status": "TIMED",
-      "stage": "QUARTER_FINALS",
-      "group": null,
-      "home": {
-        "name": "France",
-        "tla": "FRA",
-        "crest": "https://crests.football-data.org/773.svg"
-      },
-      "away": {
-        "name": "Morocco",
-        "tla": "MAR",
-        "crest": "https://crests.football-data.org/morocco.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Facundo Tello",
-        "nationality": "Argentina"
-      },
-      "stakes": [
-        {
-          "player": "Will",
-          "color": "#4fd0e1",
-          "team": "France",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jack",
-          "color": "#ff9f1c",
-          "team": "Morocco",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537384,
       "utcDate": "2026-07-10T19:00:00Z",
       "status": "TIMED",
@@ -12517,6 +12517,15 @@
   ],
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "goals": 8,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": "Will",
+      "color": "#4fd0e1"
+    },
+    {
       "name": "Lionel Messi",
       "goals": 8,
       "team": "Argentina",
@@ -12524,15 +12533,6 @@
       "teamCrest": "https://crests.football-data.org/762.png",
       "owner": "Marco",
       "color": "#18c6b8"
-    },
-    {
-      "name": "Kylian Mbappé",
-      "goals": 7,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": "Will",
-      "color": "#4fd0e1"
     },
     {
       "name": "Erling Haaland",
