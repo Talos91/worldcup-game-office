@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T06:33:47Z",
+  "updatedAt": "2026-07-09T18:02:37Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -12362,7 +12362,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Facundo Tello",
+        "nationality": "Argentina"
+      },
       "stakes": [
         {
           "player": "Will",
