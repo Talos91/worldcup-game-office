@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T21:11:42Z",
+  "updatedAt": "2026-07-11T06:19:50Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -4131,6 +4131,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "France",
+              "opponentTla": "FRA",
+              "opponentCrest": "https://crests.football-data.org/773.svg",
+              "utcDate": "2026-07-14T19:00:00Z",
+              "status": "TIMED",
+              "stage": "SEMI_FINALS",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -4358,9 +4373,9 @@
               "counted": true
             },
             {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
+              "opponent": "Spain",
+              "opponentTla": "ESP",
+              "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-07-14T19:00:00Z",
               "status": "TIMED",
               "stage": "SEMI_FINALS",
@@ -7884,11 +7899,11 @@
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "owner": "Seth",
+        "color": "#b5e853",
         "result": null
       },
       "scoreHome": null,
@@ -12578,9 +12593,9 @@
         "crest": "https://crests.football-data.org/773.svg"
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
       },
       "scoreHome": null,
       "scoreAway": null,
@@ -12596,6 +12611,14 @@
           "color": "#4fd0e1",
           "team": "France",
           "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Spain",
+          "isHome": false,
           "result": null,
           "points": 0
         }
