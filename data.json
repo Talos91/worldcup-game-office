@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T03:32:33Z",
+  "updatedAt": "2026-07-12T06:40:05Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -394,7 +394,7 @@
         }
       ],
       "alive": 0,
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Herlyn",
@@ -1125,19 +1125,19 @@
         }
       ],
       "alive": 0,
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Jack",
       "color": "#ff9f1c",
       "total": 33,
       "agg": {
-        "played": 18,
+        "played": 19,
         "w": 10,
         "d": 3,
-        "l": 5,
-        "gf": 41,
-        "ga": 30
+        "l": 6,
+        "gf": 42,
+        "ga": 33
       },
       "teams": [
         {
@@ -1430,7 +1430,7 @@
           "points": 13,
           "w": 4,
           "d": 1,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 1,
             "played": 3,
@@ -1528,34 +1528,34 @@
               "opponentTla": "ARG",
               "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-07-12T01:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "QUARTER_FINALS",
               "group": null,
               "isHome": false,
               "goalsFor": 1,
-              "goalsAgainst": 1,
-              "result": null,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 1,
+      "alive": 0,
       "rank": 1
     },
     {
       "name": "Jeff",
       "color": "#a06bff",
-      "total": 21,
+      "total": 24,
       "agg": {
-        "played": 16,
-        "w": 6,
+        "played": 17,
+        "w": 7,
         "d": 3,
         "l": 7,
-        "gf": 19,
-        "ga": 27
+        "gf": 22,
+        "ga": 29
       },
       "teams": [
         {
@@ -1652,8 +1652,8 @@
           "name": "England",
           "tla": "ENG",
           "crest": "https://crests.football-data.org/770.svg",
-          "points": 13,
-          "w": 4,
+          "points": 16,
+          "w": 5,
           "d": 1,
           "l": 0,
           "group": {
@@ -1738,15 +1738,15 @@
               "opponentTla": "MEX",
               "opponentCrest": "https://crests.football-data.org/769.svg",
               "utcDate": "2026-07-06T01:00:00Z",
-              "status": "2026-07-06 01:00:00Z",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
               "goalsFor": 3,
               "goalsAgainst": 2,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Norway",
@@ -1762,6 +1762,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Argentina",
+              "opponentTla": "ARG",
+              "opponentCrest": "https://crests.football-data.org/762.png",
+              "utcDate": "2026-07-15T19:00:00Z",
+              "status": "TIMED",
+              "stage": "SEMI_FINALS",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -1931,7 +1946,7 @@
         }
       ],
       "alive": 1,
-      "rank": 10
+      "rank": 8
     },
     {
       "name": "Kate",
@@ -2319,7 +2334,7 @@
         }
       ],
       "alive": 0,
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Ken",
@@ -2697,14 +2712,14 @@
     {
       "name": "Marco",
       "color": "#18c6b8",
-      "total": 22,
+      "total": 25,
       "agg": {
-        "played": 16,
-        "w": 7,
+        "played": 17,
+        "w": 8,
         "d": 1,
         "l": 8,
-        "gf": 23,
-        "ga": 29
+        "gf": 26,
+        "ga": 30
       },
       "teams": [
         {
@@ -2712,8 +2727,8 @@
           "name": "Argentina",
           "tla": "ARG",
           "crest": "https://crests.football-data.org/762.png",
-          "points": 15,
-          "w": 5,
+          "points": 18,
+          "w": 6,
           "d": 0,
           "l": 0,
           "group": {
@@ -2813,12 +2828,27 @@
               "opponentTla": "SUI",
               "opponentCrest": "https://crests.football-data.org/788.svg",
               "utcDate": "2026-07-12T01:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "QUARTER_FINALS",
               "group": null,
               "isHome": true,
-              "goalsFor": 1,
+              "goalsFor": 3,
               "goalsAgainst": 1,
+              "result": "W",
+              "points": 3,
+              "counted": true
+            },
+            {
+              "opponent": "England",
+              "opponentTla": "ENG",
+              "opponentCrest": "https://crests.football-data.org/770.svg",
+              "utcDate": "2026-07-15T19:00:00Z",
+              "status": "TIMED",
+              "stage": "SEMI_FINALS",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
               "result": null,
               "points": 0,
               "counted": false
@@ -3080,7 +3110,7 @@
         }
       ],
       "alive": 1,
-      "rank": 7
+      "rank": 3
     },
     {
       "name": "Max",
@@ -3450,19 +3480,19 @@
         }
       ],
       "alive": 0,
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Nisha",
       "color": "#ff7a3d",
       "total": 25,
       "agg": {
-        "played": 16,
+        "played": 17,
         "w": 7,
         "d": 4,
-        "l": 5,
-        "gf": 23,
-        "ga": 16
+        "l": 6,
+        "gf": 25,
+        "ga": 19
       },
       "teams": [
         {
@@ -3740,7 +3770,7 @@
           "points": 12,
           "w": 4,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 1,
             "played": 3,
@@ -3823,21 +3853,21 @@
               "opponentTla": "ENG",
               "opponentCrest": "https://crests.football-data.org/770.svg",
               "utcDate": "2026-07-06T01:00:00Z",
-              "status": "2026-07-06 01:00:00Z",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
               "goalsFor": 2,
               "goalsAgainst": 3,
-              "result": null,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 1,
+      "alive": 0,
       "rank": 4
     },
     {
@@ -4626,7 +4656,7 @@
         }
       ],
       "alive": 1,
-      "rank": 3
+      "rank": 5
     }
   ],
   "groups": [
@@ -7037,13 +7067,30 @@
       }
     },
     {
+      "date": "2026-07-06T01:00:00Z",
+      "totals": {
+        "Daniele": 24,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 30,
+        "Jeff": 21,
+        "Kate": 18,
+        "Ken": 18,
+        "Marco": 19,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 21,
+        "Will": 22
+      }
+    },
+    {
       "date": "2026-07-06T19:00:00Z",
       "totals": {
         "Daniele": 24,
         "Herlyn": 13,
         "Htoo": 24,
         "Jack": 30,
-        "Jeff": 18,
+        "Jeff": 21,
         "Kate": 18,
         "Ken": 18,
         "Marco": 19,
@@ -7060,7 +7107,7 @@
         "Herlyn": 13,
         "Htoo": 24,
         "Jack": 30,
-        "Jeff": 18,
+        "Jeff": 21,
         "Kate": 21,
         "Ken": 18,
         "Marco": 19,
@@ -7077,7 +7124,7 @@
         "Herlyn": 13,
         "Htoo": 24,
         "Jack": 30,
-        "Jeff": 18,
+        "Jeff": 21,
         "Kate": 21,
         "Ken": 18,
         "Marco": 22,
@@ -7094,7 +7141,7 @@
         "Herlyn": 13,
         "Htoo": 24,
         "Jack": 33,
-        "Jeff": 18,
+        "Jeff": 21,
         "Kate": 21,
         "Ken": 18,
         "Marco": 22,
@@ -7111,7 +7158,7 @@
         "Herlyn": 13,
         "Htoo": 24,
         "Jack": 33,
-        "Jeff": 18,
+        "Jeff": 21,
         "Kate": 21,
         "Ken": 18,
         "Marco": 22,
@@ -7128,7 +7175,7 @@
         "Herlyn": 13,
         "Htoo": 24,
         "Jack": 33,
-        "Jeff": 18,
+        "Jeff": 21,
         "Kate": 21,
         "Ken": 18,
         "Marco": 22,
@@ -7145,10 +7192,27 @@
         "Herlyn": 13,
         "Htoo": 24,
         "Jack": 33,
-        "Jeff": 21,
+        "Jeff": 24,
         "Kate": 21,
         "Ken": 18,
         "Marco": 22,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 27,
+        "Will": 25
+      }
+    },
+    {
+      "date": "2026-07-12T01:00:00Z",
+      "totals": {
+        "Daniele": 24,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 33,
+        "Jeff": 24,
+        "Kate": 21,
+        "Ken": 18,
+        "Marco": 25,
         "Max": 21,
         "Nisha": 25,
         "Seth": 27,
@@ -7655,14 +7719,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-06T01:00:00Z",
-      "status": "2026-07-06 01:00:00Z",
+      "status": "FINISHED",
       "home": {
         "name": "Mexico",
         "tla": "MEX",
         "crest": "https://crests.football-data.org/769.svg",
         "owner": "Nisha",
         "color": "#ff7a3d",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "England",
@@ -7670,7 +7734,7 @@
         "crest": "https://crests.football-data.org/770.svg",
         "owner": "Jeff",
         "color": "#a06bff",
-        "result": null
+        "result": "W"
       },
       "scoreHome": 2,
       "scoreAway": 3,
@@ -7863,14 +7927,14 @@
       "stage": "QUARTER_FINALS",
       "order": 3,
       "utcDate": "2026-07-12T01:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Argentina",
         "tla": "ARG",
         "crest": "https://crests.football-data.org/762.png",
         "owner": "Marco",
         "color": "#18c6b8",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Switzerland",
@@ -7878,9 +7942,9 @@
         "crest": "https://crests.football-data.org/788.svg",
         "owner": "Jack",
         "color": "#ff9f1c",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 1,
+      "scoreHome": 3,
       "scoreAway": 1,
       "penHome": null,
       "penAway": null
@@ -7917,19 +7981,19 @@
       "utcDate": "2026-07-15T19:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg",
+        "owner": "Jeff",
+        "color": "#a06bff",
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "owner": "Marco",
+        "color": "#18c6b8",
         "result": null
       },
       "scoreHome": null,
@@ -7994,7 +8058,7 @@
     {
       "id": 537386,
       "utcDate": "2026-07-12T01:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "QUARTER_FINALS",
       "group": null,
       "home": {
@@ -8007,7 +8071,7 @@
         "tla": "SUI",
         "crest": "https://crests.football-data.org/788.svg"
       },
-      "scoreHome": 1,
+      "scoreHome": 3,
       "scoreAway": 1,
       "htHome": 1,
       "htAway": 0,
@@ -8024,15 +8088,15 @@
           "color": "#18c6b8",
           "team": "Argentina",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Jack",
           "color": "#ff9f1c",
           "team": "Switzerland",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ]
@@ -8353,6 +8417,52 @@
           "player": "Seth",
           "color": "#b5e853",
           "team": "Spain",
+          "isHome": false,
+          "result": "W",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "id": 537378,
+      "utcDate": "2026-07-06T01:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "away": {
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 3,
+      "htHome": 1,
+      "htAway": 2,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Alireza Faghani",
+        "nationality": "Iran"
+      },
+      "stakes": [
+        {
+          "player": "Nisha",
+          "color": "#ff7a3d",
+          "team": "Mexico",
+          "isHome": true,
+          "result": "L",
+          "points": 0
+        },
+        {
+          "player": "Jeff",
+          "color": "#a06bff",
+          "team": "England",
           "isHome": false,
           "result": "W",
           "points": 3
@@ -12583,6 +12693,49 @@
           "points": 0
         }
       ]
+    },
+    {
+      "id": 537388,
+      "utcDate": "2026-07-15T19:00:00Z",
+      "status": "TIMED",
+      "stage": "SEMI_FINALS",
+      "group": null,
+      "home": {
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg"
+      },
+      "away": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Jeff",
+          "color": "#a06bff",
+          "team": "England",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Marco",
+          "color": "#18c6b8",
+          "team": "Argentina",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
     }
   ],
   "scorers": [
@@ -12951,12 +13104,12 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "308 in 98 games"
+      "value": "317 in 100 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.1"
+      "value": "3.2"
     },
     {
       "icon": "💥",
@@ -12981,7 +13134,7 @@
     {
       "icon": "🎯",
       "label": "Most goals (manager)",
-      "value": "Jack · 41"
+      "value": "Jack · 42"
     },
     {
       "icon": "⭐",
