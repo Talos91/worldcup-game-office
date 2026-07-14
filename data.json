@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T17:20:31Z",
+  "updatedAt": "2026-07-14T19:34:59Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -4167,12 +4167,12 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-07-14T19:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "SEMI_FINALS",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -4407,12 +4407,12 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-07-14T19:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "SEMI_FINALS",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -7953,7 +7953,7 @@
       "stage": "SEMI_FINALS",
       "order": 4,
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "France",
         "tla": "FRA",
@@ -7970,8 +7970,8 @@
         "color": "#b5e853",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -8055,6 +8055,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537387,
+      "utcDate": "2026-07-14T19:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "SEMI_FINALS",
+      "group": null,
+      "home": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Ivan Barton",
+        "nationality": null
+      },
+      "stakes": [
+        {
+          "player": "Will",
+          "color": "#4fd0e1",
+          "team": "France",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Spain",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537386,
       "utcDate": "2026-07-12T01:00:00Z",
@@ -12652,52 +12698,6 @@
   ],
   "upcoming": [
     {
-      "id": 537387,
-      "utcDate": "2026-07-14T19:00:00Z",
-      "status": "TIMED",
-      "stage": "SEMI_FINALS",
-      "group": null,
-      "home": {
-        "name": "France",
-        "tla": "FRA",
-        "crest": "https://crests.football-data.org/773.svg"
-      },
-      "away": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Ivan Barton",
-        "nationality": null
-      },
-      "stakes": [
-        {
-          "player": "Will",
-          "color": "#4fd0e1",
-          "team": "France",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Seth",
-          "color": "#b5e853",
-          "team": "Spain",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537388,
       "utcDate": "2026-07-15T19:00:00Z",
       "status": "TIMED",
@@ -12788,6 +12788,15 @@
       "color": "#a06bff"
     },
     {
+      "name": "Mikel Oyarzabal",
+      "goals": 5,
+      "team": "Spain",
+      "teamTla": "ESP",
+      "teamCrest": "https://crests.football-data.org/760.svg",
+      "owner": "Seth",
+      "color": "#b5e853"
+    },
+    {
       "name": "Ousmane Dembélé",
       "goals": 5,
       "team": "France",
@@ -12813,15 +12822,6 @@
       "teamCrest": "https://crests.football-data.org/764.svg",
       "owner": "Daniele",
       "color": "#2ee06a"
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "goals": 4,
-      "team": "Spain",
-      "teamTla": "ESP",
-      "teamCrest": "https://crests.football-data.org/760.svg",
-      "owner": "Seth",
-      "color": "#b5e853"
     },
     {
       "name": "Ismaïla Sarr",
