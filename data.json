@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T19:34:59Z",
+  "updatedAt": "2026-07-14T21:05:20Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -3873,13 +3873,13 @@
     {
       "name": "Seth",
       "color": "#b5e853",
-      "total": 27,
+      "total": 30,
       "agg": {
-        "played": 17,
-        "w": 8,
+        "played": 18,
+        "w": 9,
         "d": 3,
         "l": 6,
-        "gf": 24,
+        "gf": 26,
         "ga": 24
       },
       "teams": [
@@ -4051,8 +4051,8 @@
           "name": "Spain",
           "tla": "ESP",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 16,
-          "w": 5,
+          "points": 19,
+          "w": 6,
           "d": 1,
           "l": 0,
           "group": {
@@ -4167,15 +4167,15 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-07-14T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "SEMI_FINALS",
               "group": null,
               "isHome": false,
-              "goalsFor": 1,
+              "goalsFor": 2,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -4278,12 +4278,12 @@
       "color": "#4fd0e1",
       "total": 25,
       "agg": {
-        "played": 16,
+        "played": 17,
         "w": 7,
         "d": 4,
-        "l": 5,
+        "l": 6,
         "gf": 24,
-        "ga": 17
+        "ga": 19
       },
       "teams": [
         {
@@ -4294,7 +4294,7 @@
           "points": 18,
           "w": 6,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 1,
             "played": 3,
@@ -4407,18 +4407,18 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-07-14T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "SEMI_FINALS",
               "group": null,
               "isHome": true,
               "goalsFor": 0,
-              "goalsAgainst": 1,
-              "result": null,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 840,
@@ -4655,7 +4655,7 @@
           "status": "out"
         }
       ],
-      "alive": 1,
+      "alive": 0,
       "rank": 5
     }
   ],
@@ -7218,6 +7218,23 @@
         "Seth": 27,
         "Will": 25
       }
+    },
+    {
+      "date": "2026-07-14T19:00:00Z",
+      "totals": {
+        "Daniele": 24,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 33,
+        "Jeff": 24,
+        "Kate": 21,
+        "Ken": 18,
+        "Marco": 25,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 30,
+        "Will": 25
+      }
     }
   ],
   "knockout": [
@@ -7953,14 +7970,14 @@
       "stage": "SEMI_FINALS",
       "order": 4,
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg",
         "owner": "Will",
         "color": "#4fd0e1",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Spain",
@@ -7968,10 +7985,10 @@
         "crest": "https://crests.football-data.org/760.svg",
         "owner": "Seth",
         "color": "#b5e853",
-        "result": null
+        "result": "W"
       },
       "scoreHome": 0,
-      "scoreAway": 1,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -8058,7 +8075,7 @@
     {
       "id": 537387,
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "SEMI_FINALS",
       "group": null,
       "home": {
@@ -8072,9 +8089,9 @@
         "crest": "https://crests.football-data.org/760.svg"
       },
       "scoreHome": 0,
-      "scoreAway": 1,
-      "htHome": null,
-      "htAway": null,
+      "scoreAway": 2,
+      "htHome": 0,
+      "htAway": 1,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -8088,7 +8105,7 @@
           "color": "#4fd0e1",
           "team": "France",
           "isHome": true,
-          "result": null,
+          "result": "L",
           "points": 0
         },
         {
@@ -8096,8 +8113,8 @@
           "color": "#b5e853",
           "team": "Spain",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ]
     },
@@ -13107,7 +13124,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "317 in 100 games"
+      "value": "319 in 101 games"
     },
     {
       "icon": "📊",
@@ -13142,7 +13159,7 @@
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "France (Will, +18)"
+      "value": "Spain (Seth, +19)"
     }
   ]
 }
