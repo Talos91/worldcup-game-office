@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T06:40:05Z",
+  "updatedAt": "2026-07-14T17:20:31Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -12674,7 +12674,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Ivan Barton",
+        "nationality": null
+      },
       "stakes": [
         {
           "player": "Will",
