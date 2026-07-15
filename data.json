@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T06:21:00Z",
+  "updatedAt": "2026-07-15T17:23:14Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -12767,7 +12767,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Ismail Elfath",
+        "nationality": "United States"
+      },
       "stakes": [
         {
           "player": "Jeff",
