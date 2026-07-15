@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T19:20:45Z",
+  "updatedAt": "2026-07-15T21:06:24Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1772,8 +1772,8 @@
               "stage": "SEMI_FINALS",
               "group": null,
               "isHome": true,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
+              "goalsFor": 1,
+              "goalsAgainst": 2,
               "result": null,
               "points": 0,
               "counted": false
@@ -2847,8 +2847,8 @@
               "stage": "SEMI_FINALS",
               "group": null,
               "isHome": false,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
+              "goalsFor": 2,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -8043,8 +8043,8 @@
         "color": "#18c6b8",
         "result": null
       },
-      "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreHome": 1,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -8118,10 +8118,10 @@
         "tla": "ARG",
         "crest": "https://crests.football-data.org/762.png"
       },
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "htHome": null,
-      "htAway": null,
+      "scoreHome": 1,
+      "scoreAway": 2,
+      "htHome": 0,
+      "htAway": 0,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -13079,6 +13079,15 @@
       "color": "#ff6fc8"
     },
     {
+      "name": "Lautaro Martínez",
+      "goals": 3,
+      "team": "Argentina",
+      "teamTla": "ARG",
+      "teamCrest": "https://crests.football-data.org/762.png",
+      "owner": "Marco",
+      "color": "#18c6b8"
+    },
+    {
       "name": "Charles De Ketelaere",
       "goals": 3,
       "team": "Belgium",
@@ -13212,15 +13221,6 @@
       "teamCrest": "https://crests.football-data.org/bosnia.svg",
       "owner": "Jeff",
       "color": "#a06bff"
-    },
-    {
-      "name": "Anthony Elanga",
-      "goals": 2,
-      "team": "Sweden",
-      "teamTla": "SWE",
-      "teamCrest": "https://crests.football-data.org/792.svg",
-      "owner": "Seth",
-      "color": "#b5e853"
     }
   ],
   "curiosities": [
