@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T21:05:20Z",
+  "updatedAt": "2026-07-15T06:21:00Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -4176,6 +4176,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": null,
+              "opponentTla": null,
+              "opponentCrest": null,
+              "utcDate": "2026-07-19T19:00:00Z",
+              "status": "TIMED",
+              "stage": "FINAL",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -4416,9 +4431,24 @@
               "result": "L",
               "points": 0,
               "counted": true
+            },
+            {
+              "opponent": null,
+              "opponentTla": null,
+              "opponentCrest": null,
+              "utcDate": "2026-07-18T21:00:00Z",
+              "status": "TIMED",
+              "stage": "THIRD_PLACE",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
-          "status": "out"
+          "status": "in"
         },
         {
           "id": 840,
@@ -4655,7 +4685,7 @@
           "status": "out"
         }
       ],
-      "alive": 0,
+      "alive": 1,
       "rank": 5
     }
   ],
@@ -8024,11 +8054,11 @@
       "utcDate": "2026-07-18T21:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
+        "owner": "Will",
+        "color": "#4fd0e1",
         "result": null
       },
       "away": {
@@ -8050,11 +8080,11 @@
       "utcDate": "2026-07-19T19:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "owner": "Seth",
+        "color": "#b5e853",
         "result": null
       },
       "away": {
@@ -12752,6 +12782,76 @@
           "color": "#18c6b8",
           "team": "Argentina",
           "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537389,
+      "utcDate": "2026-07-18T21:00:00Z",
+      "status": "TIMED",
+      "stage": "THIRD_PLACE",
+      "group": null,
+      "home": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "name": null,
+        "tla": null,
+        "crest": null
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Will",
+          "color": "#4fd0e1",
+          "team": "France",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "id": 537390,
+      "utcDate": "2026-07-19T19:00:00Z",
+      "status": "TIMED",
+      "stage": "FINAL",
+      "group": null,
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": null,
+        "tla": null,
+        "crest": null
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Spain",
+          "isHome": true,
           "result": null,
           "points": 0
         }
