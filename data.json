@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T23:02:26Z",
+  "updatedAt": "2026-07-16T06:24:36Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1777,9 +1777,24 @@
               "result": "L",
               "points": 0,
               "counted": true
+            },
+            {
+              "opponent": "France",
+              "opponentTla": "FRA",
+              "opponentCrest": "https://crests.football-data.org/773.svg",
+              "utcDate": "2026-07-18T21:00:00Z",
+              "status": "TIMED",
+              "stage": "THIRD_PLACE",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
-          "status": "out"
+          "status": "in"
         },
         {
           "id": 763,
@@ -1945,7 +1960,7 @@
           "status": "out"
         }
       ],
-      "alive": 0,
+      "alive": 1,
       "rank": 7
     },
     {
@@ -2852,6 +2867,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Spain",
+              "opponentTla": "ESP",
+              "opponentCrest": "https://crests.football-data.org/760.svg",
+              "utcDate": "2026-07-19T19:00:00Z",
+              "status": "TIMED",
+              "stage": "FINAL",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -4178,9 +4208,9 @@
               "counted": true
             },
             {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
+              "opponent": "Argentina",
+              "opponentTla": "ARG",
+              "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-07-19T19:00:00Z",
               "status": "TIMED",
               "stage": "FINAL",
@@ -4433,9 +4463,9 @@
               "counted": true
             },
             {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
+              "opponent": "England",
+              "opponentTla": "ENG",
+              "opponentCrest": "https://crests.football-data.org/770.svg",
               "utcDate": "2026-07-18T21:00:00Z",
               "status": "TIMED",
               "stage": "THIRD_PLACE",
@@ -8079,11 +8109,11 @@
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg",
+        "owner": "Jeff",
+        "color": "#a06bff",
         "result": null
       },
       "scoreHome": null,
@@ -8105,11 +8135,11 @@
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "owner": "Marco",
+        "color": "#18c6b8",
         "result": null
       },
       "scoreHome": null,
@@ -12819,9 +12849,9 @@
         "crest": "https://crests.football-data.org/773.svg"
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg"
       },
       "scoreHome": null,
       "scoreAway": null,
@@ -12839,6 +12869,14 @@
           "isHome": true,
           "result": null,
           "points": 0
+        },
+        {
+          "player": "Jeff",
+          "color": "#a06bff",
+          "team": "England",
+          "isHome": false,
+          "result": null,
+          "points": 0
         }
       ]
     },
@@ -12854,9 +12892,9 @@
         "crest": "https://crests.football-data.org/760.svg"
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
       },
       "scoreHome": null,
       "scoreAway": null,
@@ -12872,6 +12910,14 @@
           "color": "#b5e853",
           "team": "Spain",
           "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Marco",
+          "color": "#18c6b8",
+          "team": "Argentina",
+          "isHome": false,
           "result": null,
           "points": 0
         }
