@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T19:12:35Z",
+  "updatedAt": "2026-07-18T22:56:16Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1783,12 +1783,12 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-07-18T21:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "THIRD_PLACE",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 5,
+              "goalsAgainst": 3,
               "result": null,
               "points": 0,
               "counted": false
@@ -4467,12 +4467,12 @@
               "opponentTla": "ENG",
               "opponentCrest": "https://crests.football-data.org/770.svg",
               "utcDate": "2026-07-18T21:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "THIRD_PLACE",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 3,
+              "goalsAgainst": 5,
               "result": null,
               "points": 0,
               "counted": false
@@ -8099,7 +8099,7 @@
       "stage": "THIRD_PLACE",
       "order": 5,
       "utcDate": "2026-07-18T21:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "France",
         "tla": "FRA",
@@ -8116,8 +8116,8 @@
         "color": "#a06bff",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 3,
+      "scoreAway": 5,
       "penHome": null,
       "penAway": null
     },
@@ -8149,6 +8149,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537389,
+      "utcDate": "2026-07-18T21:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "THIRD_PLACE",
+      "group": null,
+      "home": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg"
+      },
+      "scoreHome": 3,
+      "scoreAway": 5,
+      "htHome": 0,
+      "htAway": 4,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Jesús Valenzuela",
+        "nationality": "Venezuela"
+      },
+      "stakes": [
+        {
+          "player": "Will",
+          "color": "#4fd0e1",
+          "team": "France",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Jeff",
+          "color": "#a06bff",
+          "team": "England",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537388,
       "utcDate": "2026-07-15T19:00:00Z",
@@ -12838,52 +12884,6 @@
   ],
   "upcoming": [
     {
-      "id": 537389,
-      "utcDate": "2026-07-18T21:00:00Z",
-      "status": "TIMED",
-      "stage": "THIRD_PLACE",
-      "group": null,
-      "home": {
-        "name": "France",
-        "tla": "FRA",
-        "crest": "https://crests.football-data.org/773.svg"
-      },
-      "away": {
-        "name": "England",
-        "tla": "ENG",
-        "crest": "https://crests.football-data.org/770.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Jesús Valenzuela",
-        "nationality": "Venezuela"
-      },
-      "stakes": [
-        {
-          "player": "Will",
-          "color": "#4fd0e1",
-          "team": "France",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Jeff",
-          "color": "#a06bff",
-          "team": "England",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    },
-    {
       "id": 537390,
       "utcDate": "2026-07-19T19:00:00Z",
       "status": "TIMED",
@@ -12930,7 +12930,7 @@
   "scorers": [
     {
       "name": "Kylian Mbappé",
-      "goals": 8,
+      "goals": 10,
       "team": "France",
       "teamTla": "FRA",
       "teamCrest": "https://crests.football-data.org/773.svg",
@@ -13073,6 +13073,15 @@
       "color": "#2ee06a"
     },
     {
+      "name": "Bradley Barcola",
+      "goals": 3,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": "Will",
+      "color": "#4fd0e1"
+    },
+    {
       "name": "Yoane Wissa",
       "goals": 3,
       "team": "Congo DR",
@@ -13163,6 +13172,15 @@
       "color": "#ff6fc8"
     },
     {
+      "name": "Bukayo Saka",
+      "goals": 3,
+      "team": "England",
+      "teamTla": "ENG",
+      "teamCrest": "https://crests.football-data.org/770.svg",
+      "owner": "Jeff",
+      "color": "#a06bff"
+    },
+    {
       "name": "Cyle Larin",
       "goals": 2,
       "team": "Canada",
@@ -13244,15 +13262,6 @@
       "color": "#4fd0e1"
     },
     {
-      "name": "Bradley Barcola",
-      "goals": 2,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": "Will",
-      "color": "#4fd0e1"
-    },
-    {
       "name": "Marko Arnautovic",
       "goals": 2,
       "team": "Austria",
@@ -13278,15 +13287,6 @@
       "teamCrest": "https://crests.football-data.org/788.svg",
       "owner": "Jack",
       "color": "#ff9f1c"
-    },
-    {
-      "name": "Ermin Mahmic",
-      "goals": 2,
-      "team": "Bosnia-Herzegovina",
-      "teamTla": "BIH",
-      "teamCrest": "https://crests.football-data.org/bosnia.svg",
-      "owner": "Jeff",
-      "color": "#a06bff"
     }
   ],
   "curiosities": [
