@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T19:14:08Z",
+  "updatedAt": "2026-07-19T20:58:16Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2873,7 +2873,7 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-07-19T19:00:00Z",
-              "status": "LIVE",
+              "status": "IN_PLAY",
               "stage": "FINAL",
               "group": null,
               "isHome": false,
@@ -4212,7 +4212,7 @@
               "opponentTla": "ARG",
               "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-07-19T19:00:00Z",
-              "status": "LIVE",
+              "status": "IN_PLAY",
               "stage": "FINAL",
               "group": null,
               "isHome": true,
@@ -8142,7 +8142,7 @@
       "stage": "FINAL",
       "order": 6,
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "LIVE",
+      "status": "IN_PLAY",
       "home": {
         "name": "Spain",
         "tla": "ESP",
@@ -8166,6 +8166,52 @@
     }
   ],
   "recent": [
+    {
+      "id": 537390,
+      "utcDate": "2026-07-19T19:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "FINAL",
+      "group": null,
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Slavko Vinčič",
+        "nationality": "Slovenia"
+      },
+      "stakes": [
+        {
+          "player": "Seth",
+          "color": "#b5e853",
+          "team": "Spain",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Marco",
+          "color": "#18c6b8",
+          "team": "Argentina",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ]
+    },
     {
       "id": 537389,
       "utcDate": "2026-07-18T21:00:00Z",
