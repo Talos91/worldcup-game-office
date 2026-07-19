@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T22:56:16Z",
+  "updatedAt": "2026-07-19T03:28:55Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -394,7 +394,7 @@
         }
       ],
       "alive": 0,
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Herlyn",
@@ -1548,14 +1548,14 @@
     {
       "name": "Jeff",
       "color": "#a06bff",
-      "total": 24,
+      "total": 27,
       "agg": {
-        "played": 18,
-        "w": 7,
+        "played": 19,
+        "w": 8,
         "d": 3,
         "l": 8,
-        "gf": 23,
-        "ga": 31
+        "gf": 29,
+        "ga": 35
       },
       "teams": [
         {
@@ -1652,8 +1652,8 @@
           "name": "England",
           "tla": "ENG",
           "crest": "https://crests.football-data.org/770.svg",
-          "points": 16,
-          "w": 5,
+          "points": 19,
+          "w": 6,
           "d": 1,
           "l": 1,
           "group": {
@@ -1783,15 +1783,15 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-07-18T21:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "THIRD_PLACE",
               "group": null,
               "isHome": false,
-              "goalsFor": 5,
-              "goalsAgainst": 3,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 6,
+              "goalsAgainst": 4,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1961,7 +1961,7 @@
         }
       ],
       "alive": 1,
-      "rank": 7
+      "rank": 4
     },
     {
       "name": "Kate",
@@ -3898,7 +3898,7 @@
         }
       ],
       "alive": 0,
-      "rank": 4
+      "rank": 6
     },
     {
       "name": "Seth",
@@ -4323,12 +4323,12 @@
       "color": "#4fd0e1",
       "total": 25,
       "agg": {
-        "played": 17,
+        "played": 18,
         "w": 7,
         "d": 4,
-        "l": 6,
-        "gf": 24,
-        "ga": 19
+        "l": 7,
+        "gf": 28,
+        "ga": 25
       },
       "teams": [
         {
@@ -4339,7 +4339,7 @@
           "points": 18,
           "w": 6,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 1,
             "played": 3,
@@ -4467,18 +4467,18 @@
               "opponentTla": "ENG",
               "opponentCrest": "https://crests.football-data.org/770.svg",
               "utcDate": "2026-07-18T21:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "THIRD_PLACE",
               "group": null,
               "isHome": true,
-              "goalsFor": 3,
-              "goalsAgainst": 5,
-              "result": null,
+              "goalsFor": 4,
+              "goalsAgainst": 6,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 840,
@@ -4715,7 +4715,7 @@
           "status": "out"
         }
       ],
-      "alive": 1,
+      "alive": 0,
       "rank": 5
     }
   ],
@@ -7312,6 +7312,23 @@
         "Seth": 30,
         "Will": 25
       }
+    },
+    {
+      "date": "2026-07-18T21:00:00Z",
+      "totals": {
+        "Daniele": 24,
+        "Herlyn": 13,
+        "Htoo": 24,
+        "Jack": 33,
+        "Jeff": 27,
+        "Kate": 21,
+        "Ken": 18,
+        "Marco": 28,
+        "Max": 21,
+        "Nisha": 25,
+        "Seth": 30,
+        "Will": 25
+      }
     }
   ],
   "knockout": [
@@ -8099,14 +8116,14 @@
       "stage": "THIRD_PLACE",
       "order": 5,
       "utcDate": "2026-07-18T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg",
         "owner": "Will",
         "color": "#4fd0e1",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "England",
@@ -8114,10 +8131,10 @@
         "crest": "https://crests.football-data.org/770.svg",
         "owner": "Jeff",
         "color": "#a06bff",
-        "result": null
+        "result": "W"
       },
-      "scoreHome": 3,
-      "scoreAway": 5,
+      "scoreHome": 4,
+      "scoreAway": 6,
       "penHome": null,
       "penAway": null
     },
@@ -8152,7 +8169,7 @@
     {
       "id": 537389,
       "utcDate": "2026-07-18T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "THIRD_PLACE",
       "group": null,
       "home": {
@@ -8165,8 +8182,8 @@
         "tla": "ENG",
         "crest": "https://crests.football-data.org/770.svg"
       },
-      "scoreHome": 3,
-      "scoreAway": 5,
+      "scoreHome": 4,
+      "scoreAway": 6,
       "htHome": 0,
       "htAway": 4,
       "duration": "REGULAR",
@@ -8182,7 +8199,7 @@
           "color": "#4fd0e1",
           "team": "France",
           "isHome": true,
-          "result": null,
+          "result": "L",
           "points": 0
         },
         {
@@ -8190,8 +8207,8 @@
           "color": "#a06bff",
           "team": "England",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ]
     },
@@ -12956,6 +12973,15 @@
       "color": "#2ee06a"
     },
     {
+      "name": "Jude Bellingham",
+      "goals": 7,
+      "team": "England",
+      "teamTla": "ENG",
+      "teamCrest": "https://crests.football-data.org/770.svg",
+      "owner": "Jeff",
+      "color": "#a06bff"
+    },
+    {
       "name": "Harry Kane",
       "goals": 6,
       "team": "England",
@@ -12965,13 +12991,13 @@
       "color": "#a06bff"
     },
     {
-      "name": "Jude Bellingham",
+      "name": "Ousmane Dembélé",
       "goals": 6,
-      "team": "England",
-      "teamTla": "ENG",
-      "teamCrest": "https://crests.football-data.org/770.svg",
-      "owner": "Jeff",
-      "color": "#a06bff"
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": "Will",
+      "color": "#4fd0e1"
     },
     {
       "name": "Mikel Oyarzabal",
@@ -12981,15 +13007,6 @@
       "teamCrest": "https://crests.football-data.org/760.svg",
       "owner": "Seth",
       "color": "#b5e853"
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "goals": 5,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": "Will",
-      "color": "#4fd0e1"
     },
     {
       "name": "Julián Quiñones",
@@ -13293,7 +13310,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "322 in 102 games"
+      "value": "332 in 103 games"
     },
     {
       "icon": "📊",
@@ -13308,7 +13325,7 @@
     {
       "icon": "🔥",
       "label": "Wildest game",
-      "value": "GER 4–5 PAR"
+      "value": "FRA 4–6 ENG"
     },
     {
       "icon": "🤝",
