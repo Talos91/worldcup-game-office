@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T17:04:33Z",
+  "updatedAt": "2026-07-19T19:14:08Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2873,12 +2873,12 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-07-19T19:00:00Z",
-              "status": "TIMED",
+              "status": "LIVE",
               "stage": "FINAL",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -4212,12 +4212,12 @@
               "opponentTla": "ARG",
               "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-07-19T19:00:00Z",
-              "status": "TIMED",
+              "status": "LIVE",
               "stage": "FINAL",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -8142,7 +8142,7 @@
       "stage": "FINAL",
       "order": 6,
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "home": {
         "name": "Spain",
         "tla": "ESP",
@@ -8159,8 +8159,8 @@
         "color": "#18c6b8",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     }
@@ -12899,54 +12899,7 @@
       ]
     }
   ],
-  "upcoming": [
-    {
-      "id": 537390,
-      "utcDate": "2026-07-19T19:00:00Z",
-      "status": "TIMED",
-      "stage": "FINAL",
-      "group": null,
-      "home": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "away": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Slavko Vinčič",
-        "nationality": "Slovenia"
-      },
-      "stakes": [
-        {
-          "player": "Seth",
-          "color": "#b5e853",
-          "team": "Spain",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Marco",
-          "color": "#18c6b8",
-          "team": "Argentina",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ]
-    }
-  ],
+  "upcoming": [],
   "scorers": [
     {
       "name": "Kylian Mbappé",
