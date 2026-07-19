@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T03:28:55Z",
+  "updatedAt": "2026-07-19T17:04:33Z",
   "version": "2.0",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -12923,7 +12923,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Slavko Vinčič",
+        "nationality": "Slovenia"
+      },
       "stakes": [
         {
           "player": "Seth",
